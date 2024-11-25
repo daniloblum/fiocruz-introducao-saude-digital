@@ -1,0 +1,196 @@
+/* TYPOGRAPHY */
+
+body {
+	color: var(--fio-sys-color-text-dark);
+	font-family: var(--fio-sys-typography-family-primary-medium);
+	/* font-size: var(--fio-sys-typography-paragraph-size); */
+}
+/* @media (min-width: 992px) {
+	html {
+		font-size: calc(var(--fio-ref-typography-size-base) * 1.25);
+	}
+} */
+
+a,
+a:visited {
+	background-color:var(--fio-sys-color-accent-medium);
+	color: var(--fio-sys-color-accent-medium-contrast);
+	text-decoration: none;
+	text-transform: none;
+	overflow-wrap: anywhere;
+}
+
+a[role='button'] {
+	cursor: pointer;
+}
+
+a:hover {
+	background-color:var(--fio-sys-color-accent-light);
+	color: var(--fio-sys-color-accent-light-contrast);
+	text-decoration: underline;
+}
+
+a:focus {
+	outline: var(--fio-sys-color-accent-dark);
+}
+a:active {
+	color: var(--fio-sys-color-accent-light);
+}
+a[target='_blank']:not(.no-after):after {
+	font-family: 'Material Symbols Rounded';
+	content: 'open_in_new';
+	vertical-align: text-bottom;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-size: 80%;
+	text-decoration: none;
+}
+a[target='_blank']:after :hover {
+	text-decoration: none;
+}
+
+figure a[target='_blank']:not(.no-after):after {
+	content:'';
+}
+
+figure a[target='_blank']:not(.no-after) { 
+	transition: .5s;
+	opacity: 1;
+}
+
+figure a[target='_blank']:not(.no-after):hover{
+	opacity:.7;
+}
+
+/* LINKS QUE ESTIVEREM EM TEXTO CORRIDO */
+#page-content p > a,
+#page-content p > a:visited {
+	background-color:var(--fio-sys-color-accent-medium);
+	color: var(--fio-sys-color-accent-medium-contrast);
+	padding: 0 10px;
+}
+
+#page-content p > a:hover {
+	background-color:var(--fio-sys-color-accent-light);
+	color: var(--fio-sys-color-accent-light-contrast);
+	text-decoration: none;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+	color: var(--fio-sys-color-primary-extra-dark);
+	font-family: var(--fio-sys-typography-family-primary-bold);
+	line-height: var(--fio-sys-typography-height-125);
+}
+h1,
+.h1 {
+	/* font-size: calc(var(--fio-sys-typography-head-xxl-size) * 0.8); */
+	font-size: var(--fio-sys-typography-size-6);
+}
+h2,
+.h2 {
+	/* font-size: calc(var(--fio-sys-typography-head-xl-size) * 0.8); */
+	font-size: var(--fio-sys-typography-size-5);
+}
+h3,
+.h3 {
+	/* font-size: calc(var(--fio-sys-typography-head-lg-size) * 0.8); */
+	font-size: var(--fio-sys-typography-size-4);
+}
+h4,
+.h4 {
+	/* font-size: calc(var(--fio-sys-typography-head-md-size) * 0.8); */
+	font-size: var(--fio-sys-typography-size-3);
+}
+h5,
+.h5 {
+	/* font-size: calc(var(--fio-sys-typography-head-sm-size) * 0.8); */
+	font-size: var(--fio-sys-typography-size-2);
+}
+h6,
+.h6 {
+	/* font-size: calc(var(--fio-sys-typography-head-xs-size) * 0.8); */
+	font-size: var(--fio-sys-typography-size-1);
+}
+
+.label {
+	font-size: var(--fio-sys-typography-size-0);
+	font-family: var(--fio-sys-typography-family-primary-bold);
+	color: var(--fio-sys-color-primary-dark);
+}
+
+p {
+	color: var(--fio-sys-color-neutral-extra-dark);
+	font-family: var(--fio-sys-typography-family-primary-regular);
+	font-size: var(--fio-sys-typography-size-0);
+	font-weight: var(--fio-sys-typography-weight-normal);
+	letter-spacing: var(--fio-sys-typography-spacing-normal);
+	line-height: var(--fio-sys-typography-height-150);
+	margin-bottom: var(--fio-sys-size-margin-lg);
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+
+small,
+.small {
+	display: block;
+	font-size: var(--fio-sys-typography-size--1) !important;
+	line-height: var(--fio-sys-typography-spacing-normal) !important;
+}
+
+.extra-small {
+	display: block;
+	font-size: var(--fio-sys-typography-size--2) !important;
+	line-height: var(--fio-sys-typography-spacing-normal) !important;
+}
+
+blockquote {
+	font-family: var(--fio-sys-typography-quotation-family);
+}
+
+.heading__block span {
+    font-family: var(--fio-sys-typography-family-secondary-regular);
+    display: block;
+    font-size: var(--fio-sys-typography-size-1) !important;
+    color: var(--fio-sys-color-tertiary-dark);
+	margin-bottom: var(--fio-sys-size-margin-sm);
+}
+
+/* @media (min-width: 992px) {
+	h1,
+	.h1 {
+		font-size: var(--fio-sys-typography-head-xxl-size);
+	}
+	h2,
+	.h2 {
+		font-size: var(--fio-sys-typography-head-xl-size);
+	}
+	h3,
+	.h3 {
+		font-size: var(--fio-sys-typography-head-lg-size);
+	}
+	h4,
+	.h4 {
+		font-size: var(--fio-sys-typography-head-md-size);
+	}
+	h5,
+	.h5 {
+		font-size: var(--fio-sys-typography-head-sm-size);
+	}
+	h6,
+	.h6 {
+		font-size: var(--fio-sys-typography-head-xs-size);
+	}
+} */

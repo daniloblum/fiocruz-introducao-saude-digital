@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150.24 150">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke-linecap: round;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #ee9211;
+        stroke-miterlimit: 13.33;
+        stroke-width: 6px;
+      }
+    </style>
+  </defs>
+  <g id="img4">
+    <rect class="cls-1" x=".24" y="0" width="150" height="150"/>
+    <g>
+      <rect class="cls-1" width="150" height="150"/>
+      <g id="g547">
+        <path id="path549" class="cls-3" d="M55.79,70.28c0,11.87-9.6,21.49-21.45,21.49s-21.45-9.62-21.45-21.49,9.6-21.49,21.45-21.49,21.45,9.62,21.45,21.49Z"/>
+      </g>
+      <g id="g551">
+        <path id="path553" class="cls-2" d="M39.89,70.28h91.48"/>
+      </g>
+      <g id="g555">
+        <path id="path557" class="cls-2" d="M118.37,57.91l12.42,11.09c.77.69.77,1.89,0,2.57l-12.42,11.09"/>
+      </g>
+      <g id="g559">
+        <path id="path561" class="cls-2" d="M126.97,40.59h-40.11"/>
+      </g>
+      <g id="g563">
+        <path id="path565" class="cls-2" d="M60.18,28.3h31.09"/>
+      </g>
+      <g id="g567">
+        <path id="path569" class="cls-2" d="M103.49,28.3h5.75"/>
+      </g>
+      <g id="g571">
+        <path id="path573" class="cls-2" d="M61.89,47.72h5.75"/>
+      </g>
+      <g id="g575">
+        <path id="path577" class="cls-2" d="M66.81,84.58h5.75"/>
+      </g>
+      <g id="g579">
+        <path id="path581" class="cls-2" d="M32.54,114.57h40.03"/>
+      </g>
+      <g id="g583">
+        <path id="path585" class="cls-2" d="M99.33,102.28h-31.09"/>
+      </g>
+      <g id="g587">
+        <path id="path589" class="cls-2" d="M56.01,102.28h-5.75"/>
+      </g>
+      <g id="g591">
+        <path id="path593" class="cls-2" d="M97.62,121.7h-5.75"/>
+      </g>
+    </g>
+  </g>
+</svg>

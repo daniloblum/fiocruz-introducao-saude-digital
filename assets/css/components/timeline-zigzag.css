@@ -1,0 +1,119 @@
+/* --- TIMELINE ZIGZAG --- */
+
+.timeline-zigzag .row > div:last-child {
+	margin-bottom:0;
+}
+
+.timeline-zigzag p.figure-caption {
+	font-size: 75%;
+	color: #6c757d;
+	text-align: center;
+}
+
+.timeline-zigzag h5 {
+	margin-bottom: 1rem;
+}
+.circle-timeline-z {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50px;
+	height: 50px;
+	font-family: var(--fio-sys-typography-family-primary-bold);
+	font-weight: bold;
+	padding: 15px 20px;
+	border-radius: 50%;
+	background-color: var(--fio-sys-color-tertiary-medium);
+	color: #fff;
+	/* max-height: 50px; */
+	z-index: 2;
+}
+
+.timeline-z-estrutura.row {
+	display: flex;
+}
+
+.timeline-z-estrutura.row .col-2 {
+	display: inline-flex;
+	align-self: stretch;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.timeline-z-estrutura.row .col-2::after {
+	content: '';
+	position: absolute;
+	border-left: 3px solid var(--fio-sys-color-primary-dark);
+	z-index: 1;
+	opacity: 1;
+}
+
+.timeline-z-estrutura.row .col-2.bottom::after {
+	height: 50%;
+	left: calc(50% - 2px);
+	top: 50%;
+}
+
+.timeline-z-estrutura.row .col-2.full::after {
+	height: 100%;
+	left: calc(50% - 2px);
+}
+
+.timeline-z-estrutura.row.justify-content-end .col-2.full::after {
+    height: 100%;
+    left: calc(50% - 1px);
+}
+
+.timeline-z-estrutura.row .col-2.top::after {
+	height: 50%;
+	left: calc(50% - 1px);
+	bottom: 50%;
+}
+
+.timeline-z div {
+	padding: 0;
+	height: 40px;
+}
+
+.timeline-z hr {
+	border-top: 3px solid var(--fio-sys-color-primary-dark);
+	margin: 0;
+	top: 17px;
+	position: relative;
+	opacity: 1;
+}
+
+.timeline-z .col-2 {
+	display: flex;
+	overflow: hidden;
+}
+
+.timeline-z .corner {
+	border: 3px solid var(--fio-sys-color-primary-dark);
+	width: 100%;
+	position: relative;
+	border-radius: 15px;
+	opacity: 1;
+}
+
+.timeline-z .top-right {
+	left: calc(50% - 2px);
+	top: -50%;
+	opacity: 1;
+}
+
+.timeline-z .left-bottom {
+	left: calc(-50% + 2px);
+	top: calc(50% - 3px);
+}
+
+.timeline-z .top-left {
+	left: calc(-50% + 2px);
+	top: -50%;
+}
+
+.timeline-z .right-bottom {
+	left: calc(50% - 2px);
+	top: calc(50% - 3px);
+}

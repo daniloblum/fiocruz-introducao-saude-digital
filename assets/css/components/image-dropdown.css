@@ -1,0 +1,125 @@
+/* --- IMAGE DROPDOWN --- */
+
+.image-dropdown {
+
+	--_image-dropdown-button-image: url(../../../media/templates/image-dropdown--hover.png);
+	--_image-dropdown-button-image-border-radius: var(--fio-sys-size-radius-md);
+	--_image-dropdown-button-label-text-color: var(--fio-sys-color-primary-dark);
+	--_image-dropdown-button-label-background: transparent;
+
+	--_image-dropdown-content-border: var(--fio-sys-color-primary-medium-contrast);
+	--_image-dropdown-content-border-width: var(--fio-sys-color-primary-dark);
+	--_image-dropdown-content-border-radius: var(--fio-sys-size-radius-xs);
+	--_image-dropdown-content-background: var(--fio-ref-color-primary-99);
+	--_image-dropdown-content-text-color: var(--fio-sys-color-tertiary-dark);
+	--_image-dropdown-content-text-size: var(--fio-sys-typography-size-0);
+
+	--_image-dropdown-header-family: var(--fio-sys-typography-family-primary-bold);
+}
+
+.image-dropdown .image-button {
+	margin-bottom: var(--fio-sys-size-margin-md);
+	display: block;
+}
+.image-dropdown .image-button img {
+	border-radius: var(--_image-dropdown-button-image-border-radius);
+}
+.image-dropdown .image-button:hover {
+	text-decoration: none;
+}
+.image-dropdown .image-button .image-button-thumb {
+	position: relative;
+    margin-bottom: var(--fio-sys-size-margin-md);
+}
+.image-dropdown .image-button:hover .image-button-thumb img {
+	box-shadow: var(--fio-sys-size-shadow-lg);
+	transform: scale(1.03);
+	transition: .5s ease-out;
+}
+.image-dropdown .image-button .image-button-thumb .pic-behind {
+	position: absolute;
+	background-image: var(--_image-dropdown-button-image);
+	background-position: center;
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	/* border-radius: 50%; */
+	z-index: -1;
+	-webkit-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+}
+.image-dropdown .image-button .image-button-thumb .pic--1 {
+	z-index: -1;
+	/* background-color: var(--primary-color); */
+	opacity: 1;
+}
+.image-dropdown .image-button .image-button-thumb .pic--2 {
+	z-index: -1;
+	/* background-color: var(--primary-color); */
+	opacity: 1;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}
+.image-dropdown .image-button:hover .image-button-thumb .pic--1 {
+	-webkit-transform: scale(1.20);
+	transform: scale(1.20);
+	-webkit-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+}
+.image-dropdown .image-button:hover .image-button-thumb .pic--2 {
+	-webkit-transform: rotate(180deg) scale(1.25);
+	transform: rotate(180deg) scale(1.25);
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.image-dropdown .image-button .image-button-label {
+	font-family:var(--_image-dropdown-header-family);
+	font-size: var(--fio-sys-typography-size-0);
+	color: var(--fio-sys-color-accent-medium);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	text-align:center;
+	font-weight: 600;
+}
+
+.image-dropdown .image-button[aria-expanded='true'] .image-button-label::after {
+    transform: rotate(-180deg);
+}
+
+.image-dropdown .image-button .image-button-label::after {
+	content: 'keyboard_arrow_down';
+	font-family: 'Material Symbols Rounded';
+	width: auto;
+	height: auto;
+	font-size: var(--fio-sys-typography-size-2);
+	line-height: 0;
+	margin-left: 10px;
+	
+	transition: transform 0.2s ease-in-out;
+}
+.image-dropdown .image-content {
+    background-color: var(--_image-dropdown-content-background);
+    border-color: var(--_image-dropdown-content-border);
+    border-width: var(--_image-dropdown-content-border-width);
+    border-style: solid;
+    border-radius: var(--_image-dropdown-content-border-radius);
+	/* font-family: var(--_image-dropdown-text-family); */
+	font-size: var(--_image-dropdown-content-text-size);
+    padding: var(--fio-sys-size-padding-md);
+	color: var(--_image-dropdown-content-text-color);
+} 
+
+.image-dropdown .image-content p {
+	font-size: var(--_image-dropdown-content-text-size);
+}
+/* 
+.image-dropdown .image-button .image-button-label .material-symbols-rounded {
+	transition: 0.5s ease-out;
+	transform: rotate(180deg);
+}

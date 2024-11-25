@@ -1,0 +1,68 @@
+/* --- MODAL --- */
+
+.modal {
+	--_modal-header-background: var(--fio-sys-color-primary-extra-light);
+	--_modal-color: var(--fio-sys-color-primary-dark);
+	--_modal-header-padding: var(--fio-sys-size-padding-lg);
+	--_modal-border-color: var(--fio-sys-color-primary-dark);
+	--_modal-border-width: var(--fio-sys-size-stroke-md);
+	--_modal-border-radius: var(--fio-sys-size-radius-lg);
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1055;
+	display: none;
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	outline: 0;
+}
+
+.modal .modal-content {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	pointer-events: auto;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: none;
+	border-radius: var(--_modal-border-radius);
+	outline: 0;
+}
+
+.modal .modal-header {
+	background-color: var(--_modal-header-background);
+	color: var(--_modal-color);
+	font-family: var(--fio-sys-typography-head-family);
+	font-size: var(--fio-sys-typography-head-xs-size);
+	font-weight: var(--fio-sys-typography-head-weight);
+	letter-spacing: var(--fio-sys-typography-head-tracking);
+	line-height: var(--fio-sys-typography-head-xs-line-height);
+	margin: 0;
+	padding: var(--_modal-header-padding);
+	border-top-left-radius: var(--_modal-border-radius);
+	border-top-right-radius: var(--_modal-border-radius);
+}
+
+.modal .modal-header .btn-close{
+	color:var(--_modal-color);
+} 
+
+/* LIGHTBOX IMAGE */
+.lightbox__image {
+    position: fixed;
+    padding: 30px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: auto;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.85);
+    text-align: center;
+    cursor: zoom-out;
+    object-fit: contains;
+}

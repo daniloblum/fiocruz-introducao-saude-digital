@@ -1,0 +1,139 @@
+/* --- MÍDIAS --- */
+
+/* Iframe e Vídeos */
+
+.video {
+	position: relative;
+}
+.video .ratio {
+	margin-bottom: var(--fio-sys-spacing-margin-md);
+}
+.video iframe,
+.video video {
+	/* border: 1px solid #999ea5 !important;
+	border-radius: 0.75rem;
+	background-color: #999ea5;
+	z-index: 1; */
+
+	border: 1px solid #fff !important;
+    border-radius: 0.75rem;
+    background-color: #fff;
+    z-index: 1;
+}
+
+/* .video::before {
+	content: url(../../../media/images/recursos-visuais/image-dropdown--hover.png);
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 0;
+	display: none;
+}
+.video::after {
+	content: url(../../../media/images/recursos-visuais/image-dropdown--hover.png);
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 0;
+	display: none;
+} */
+
+@media (min-width: 768px) {
+	.video::before {
+		display: block;
+		left: -10%;
+		top: 20px;
+	}
+	.video::after {
+		display: block;
+		right: -10%;
+		top: 50px;
+	}
+}
+
+.video .video-caption {
+	font-size: 75%;
+	color: var(--fio-sys-color-text-light);
+	text-align: right;
+	margin-top: var(--fio-sys-spacing-margin-sm);
+}
+
+/* Áudio */
+
+.audio audio {
+	border-radius: var(--fio-sys-size-radius-lg);
+	width: 100%;
+}
+
+audio::-webkit-media-controls-panel {
+	background-color: var(--fio-sys-color-accent-light);
+	border: 1px solid var(--fio-sys-color-primary-dark);
+	color: var(--fio-sys-color-accent);
+}
+
+.audio audio::-webkit-media-controls-play-button {
+	background-color: var(--fio-sys-color-secondary-medium);
+	border-radius: var(--fio-sys-size-radius-full);
+	border-color: var(--fio-sys-color-secondary-medium);
+}
+
+.audio audio::-webkit-media-controls-play-button:hover {
+	background-color: var(--fio-sys-color-secondary-light);
+}
+
+/* transcription */
+
+.media .media__transcription .transcription-button {
+	margin-right: auto;
+	/* margin-left: auto; */
+	margin-bottom: var(--fio-sys-spacing-margin-md);
+}
+
+.box .card .media .media__transcription {
+	text-align: start;
+}
+
+.media .media__transcription .transcription-button .transcription-button-label {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.media .media__transcription .transcription-button[aria-expanded='true'] .transcription-button-label::after {
+	/* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23C70596'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e"); */
+	background-image: url(../../../media/templates/accordion-icon.svg);
+	transform: rotate(-180deg);
+}
+
+.media .media__transcription .transcription-button .transcription-button-label::after {
+	background-color: var(--fio-sys-color-accent-medium);
+	border-radius: var(--fio-sys-size-radius-full);
+	content: 'keyboard_arrow_down';
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Material Symbols Rounded';
+	line-height: 1;
+	font-weight: 600;
+	height: 1rem;
+	margin-left: 10px;
+	padding: var(--fio-sys-size-padding-sm);
+	transition: transform 0.2s ease-in-out;
+	width: 1rem;
+}
+
+.media .media__transcription .transcription-button:hover .transcription-button-label::after{
+	color: var(--_button-color);
+	background-color:var(--fio-sys-color-accent-light);
+}
+
+.media .media__transcription .transcription-content {
+	background-color: var(--fio-sys-color-primary-extra-light);
+	padding: var(--fio-sys-size-padding-md);
+}
+
+.box .card .media .media__transcription .transcription-content {
+	text-align: start;
+}

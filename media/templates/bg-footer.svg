@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 1920 275.7">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-4 {
+        fill: url(#radial-gradient-2);
+      }
+
+      .cls-5 {
+        fill: #251d92;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" x="-440" y="-484.3" width="2436.9" height="1107.8"/>
+    </clipPath>
+    <radialGradient id="radial-gradient" cx="451.4" cy="590.6" fx="451.4" fy="590.6" r="1" gradientTransform="translate(82896.4 -109670.4) rotate(-180) scale(185 -185)" gradientUnits="userSpaceOnUse">
+      <stop offset=".2" stop-color="#001a5c" stop-opacity="0"/>
+      <stop offset=".3" stop-color="#0e1d6c" stop-opacity="0"/>
+      <stop offset=".8" stop-color="#442aab" stop-opacity=".6"/>
+      <stop offset="1" stop-color="#5a30c5"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="446.6" cy="587.7" fx="446.6" fy="587.7" r="1" gradientTransform="translate(-139929.6 192274.2) rotate(-.8) scale(323.6 -323.6)" gradientUnits="userSpaceOnUse">
+      <stop offset=".4" stop-color="#ff9801"/>
+      <stop offset="1" stop-color="#001a5c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g class="cls-1">
+    <g>
+      <path class="cls-5" d="M1996.9,395.7H-20.1v-130l2017-50v180Z"/>
+      <path class="cls-3" d="M-392.7,123.2H34.7c92,0,166.9,74.9,166.9,166.9v280.5h57.2v-280.5c0-123.6-100.5-224.1-224.1-224.1h-427.4c-92,0-166.9-74.8-166.9-166.9v-331.9l-57.2,71.7V-100.9c0,123.6,100.5,224.1,224.1,224.1Z"/>
+      <path class="cls-4" d="M1779.5,622.7l-4.5-327.4c-1.3-92,72.5-167.9,164.5-169.1,15.1-.2,19.5-57.5-.8-57.2-123.6,1.7-222.7,103.6-221,227.2l4.5,327.4,57.2-.8h0Z"/>
+    </g>
+  </g>
+</svg>

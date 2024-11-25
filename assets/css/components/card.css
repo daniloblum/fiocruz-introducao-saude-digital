@@ -1,0 +1,134 @@
+/* --- CARD --- */
+
+.card {
+	/* Card - base */
+	--_card-background: var(--fio-sys-color-neutral-white);
+	--_card-border-color: none;
+	--_card-border-width: var(--fio-sys-size-stroke-0);
+	--_card-border-radius: var(--fio-sys-size-radius-sm);
+	--_card-shadow: var(--fio-sys-size-shadow-lg);
+
+	/* Card - thumb */
+	--_card-thumb-border-radius: var(--_card-border-radius);
+
+	/* Card - header */
+	--_card-header-padding-y: var(--fio-sys-size-padding-sm);
+	--_card-header-padding-x: var(--fio-sys-size-padding-sm);
+
+	--_card-header-background: var(--fio-sys-color-primary-extra-dark);
+	--_card-header-family: var(--fio-sys-typography-family-primary-semi-bold);
+	--_card-header-tracking: var(--fio-sys-typography-spacing-normal);
+	--_card-header-line-height: var(--fio-sys-typography-height-125);
+	--_card-header-size: var(--fio-sys-typography-size-0);
+	--_card-header-color: var(--fio-sys-color-neutral-white);
+	--_card-header-border-color: var(--fio-sys-color-tertiary-light);
+	--_card-header-border-width: var(--fio-sys-size-stroke-xl);
+
+	/* Card - body */
+	--_card-body-padding-y: var(--fio-sys-size-padding-md);
+	--_card-body-padding-x: var(--fio-sys-size-padding-sm);
+
+	/* Card - footer */
+	--_card-footer-padding-y: var(--fio-sys-size-padding-md);
+	--_card-footer-padding-x: var(--fio-sys-size-padding-sm);
+
+	background-color: var(--_card-background);
+	border-color: var(--_card-border-color);
+	border-width: var(--_card-border-width);
+	border-radius: var(--_card-border-radius);
+	overflow: hidden;
+	transition: ease-out;
+	transition-duration: 0.5s;
+	box-shadow: var(--_card-shadow);
+}
+
+.card.card-primary {
+	background-color: var(--_card-background-primary);
+	border-color: var(--_card-border-color-primary);
+}
+
+.card .card-thumb {
+	padding: 0;
+	margin: 0;
+	border-radius: var(--_card-thumb-border-radius);
+}
+.card .card-thumb img {
+	height: auto;
+	max-width: 100%;
+}
+/* .card > div:first-of-type,
+.card > .card-thumb:first-of-type img {
+	border-top-left-radius: var(--_card-border-radius);
+	border-top-right-radius: var(--_card-border-radius);
+}
+.card > div:last-of-type,
+.card > .card-thumb:last-of-type img {
+	border-bottom-left-radius: var(--_card-border-radius);
+	border-bottom-right-radius: var(--_card-border-radius);
+} */
+.card .card-header {
+	background-color: var(--_card-header-background);
+	color: var(--_card-header-color);
+	font-family: var(--_card-header-family);
+	font-size: var(--_card-header-size);
+	letter-spacing: var(--_card-header-tracking);
+	line-height: var(--_card-header-line-height);
+	margin: 0;
+	padding: var(--_card-header-padding-y) var(--_card-header-padding-x);
+	border-bottom-width: var(--_card-header-border-width);
+	border-bottom-color: var(--_card-header-border-color);
+	border-bottom-style: solid;
+}
+
+.card .card-header span {
+	color: var(--_card-header-color);
+}
+
+/* .card .card-body,
+.card .card-footer {
+	background-color: var(--_card-background);
+} */
+
+.card .card-body {
+	padding: var(--_card-body-padding-y) var(--_card-body-padding-x);
+}
+.card .card-body :last-child {
+	margin-bottom: 0;
+}
+.card .card-footer {
+	border-bottom-left-radius: var(--_card-border-radius);
+	border-bottom-right-radius: var(--_card-border-radius);
+	padding: var(--_card-footer-padding-y) var(--_card-footer-padding-x);
+	background-color: var(--fio-sys-color-neutral-white);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: var(--fio-sys-size-padding-sm);
+	justify-content: space-around;
+}
+
+/* Compare cards */
+.compare-symbol span {
+	color: var(--fio-sys-color-primary-dark);
+	font-family: var(--fio-sys-typography-family-primary-regular);
+	font-size: var(--fio-sys-typography-size-5);
+}
+
+.compare-symbol.different span {
+	font-weight: 700;
+	font-size: var(--fio-sys-typography-size-6);
+}
+
+.compare-symbol span.material-symbols-rounded {
+	font-size: 4rem;
+	font-weight: 600;
+}
+
+/*Desktop from 992px and above*/
+/* @media (min-width: 992px) {
+	.card .card-footer {
+		flex-direction: row;
+		gap: 0;
+		padding: var(--_card-footer-padding-y) var(--fio-sys-size-padding-xs);
+	}
+} */

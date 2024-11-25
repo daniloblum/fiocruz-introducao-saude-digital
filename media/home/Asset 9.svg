@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1981.04 1068.46">
+  <defs>
+    <style>
+      .cls-1 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        fill: #251d92;
+        mix-blend-mode: screen;
+        opacity: .3;
+      }
+    </style>
+  </defs>
+  <g class="cls-1">
+    <g id="Layer_2">
+      <g id="Camada_1">
+        <polyline class="cls-2" points="10 1068.46 0 119.67 1981.04 0"/>
+      </g>
+    </g>
+  </g>
+</svg>

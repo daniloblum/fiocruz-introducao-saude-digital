@@ -1,0 +1,186 @@
+/* --- TABELA --- */
+
+.table {
+	background-color: var(--fio-sys-color-primary-extra-light);
+	font-family: var(--fio-sys-typography-family-primary-medium);
+	color:var(--fio-sys-color-primary-extra-dark);
+	/* border: var(--fio-sys-size-stroke-md) solid var(--fio-sys-color-primary-dark);
+	border-radius: var(--fio-sys-size-radius-lg); */
+}
+
+/* .table > :not(:first-child) {
+	border-top: none;
+}
+
+.table-responsive.table-bordered {
+	border: none;
+} */
+
+.table-responsive .table-bordered {
+	border: var(--fio-sys-size-stroke-xs) solid var(--fio-sys-color-primary-dark);
+	border-spacing: 0;
+	border-collapse: separate;
+    border-radius: var(--fio-sys-size-radius-sm);
+	overflow: hidden;
+}
+
+.table-responsive table thead th {
+	vertical-align: middle;
+	border: none;
+}
+
+/* .table-responsive thead tr:last-child::after{
+	content: '';
+    top: 0;
+    left: 0;
+    background: red;
+    position: relative;
+    height: 30px;
+    display: block;
+} */
+
+.table-responsive table thead tr th.table-border {
+	background-image: url(../../../media/templates/border.png);
+    height: 35px;
+    background-repeat: repeat-x;
+    background-color: transparent;
+}
+
+.table-responsive table thead th:not(:last-child),
+.table-responsive table thead td:not(:last-child) {
+ border-right: 1px solid var(--fio-sys-color-primary-extra-light);
+ border-bottom: 1px solid var(--fio-sys-color-primary-extra-light);
+}
+
+.table-responsive table thead th:last-child,
+.table-responsive table thead td:last-child {
+ border-bottom: 1px solid var(--fio-sys-color-primary-extra-light);
+}
+
+.table-responsive th {
+	background-color: var(--fio-sys-color-primary-extra-dark);
+	font-family: var(--fio-sys-typography-family-primary-semibold);
+	font-size:var(--fio-sys-typography-size-0);
+	color: var(--fio-sys-color-neutral-white);
+	border: 1px solid var(--fio-sys-color-primary-light);
+}
+
+.table-responsive th a {
+	color: var(--fio-sys-color-neutral-white);
+}
+
+.table-responsive td,
+.table-responsive tr {
+	/* border: 1px solid var(--fio-sys-color-primary-light); */
+	border:none;
+	vertical-align: middle;
+	/* text-align: left; */
+	padding:var(--fio-sys-size-padding-sm);
+}
+
+/* .table .table-responsive tbody tr:last-child {
+	box-shadow: var(--fio-sys-size-shadow-lg);
+} */
+
+.table-responsive tr:nth-of-type(odd) {
+	background-color: var(--fio-sys-color-primary-background-light);
+}
+
+.table ul li {
+	margin-bottom: 10px;
+}
+
+/* .table td,
+.table th {
+  vertical-align: middle;
+}
+
+.table thead th {
+  vertical-align: middle;
+} */
+
+@media (max-width: 767px) {
+	.table {
+		font-size: 16px;
+	}
+
+	.table thead th {
+		padding: 0;
+	}
+}
+
+/* --------------------------------
+
+Tabela em mobile (colunas viram linhas, em blocos de informação)
+
+---------------------------------*/
+
+@media only screen and (max-width: 800px) {
+	/* Força a tabela a não se comportar como uma tabela*/
+	.no-more-tables table,
+	.no-more-tables thead,
+	.no-more-tables tbody,
+	.no-more-tables th,
+	.no-more-tables td,
+	.no-more-tables tr {
+		display: block;
+	}
+
+	/* Zebra striping */
+	.no-more-tables tr:nth-of-type(odd) {
+		background-color: var(--fio-sys-color-primary-background-light);
+	}
+	.no-more-tables tr {
+		border: 1px solid var(--fio-sys-color-primary-medium);
+		margin-bottom: 20px;
+	}
+
+	/* Esconde o header da tabela (mas não usa display:none; por causa da acessibilidade) */
+	.no-more-tables thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+
+	.no-more-tables td {
+		/* Faz a td se comportar como uma "row" */
+		border: none;
+		border-bottom: 1px solid var(--secondary-color-extra-light);
+		position: relative;
+		padding-left: 50%;
+		white-space: normal;
+		text-align: left;
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.no-more-tables tr:nth-of-type(odd) td {
+		border-bottom: 1px solid var(--fio-sys-color-neutral-white);
+	}
+
+	.no-more-tables td:before {
+		/* Faz a td:before se comportar como um header da tabela*/
+		position: absolute;
+		/* Top/left values mimic padding */
+		/* top: 6px; */
+		/* left: 5px; */
+		left: 20px;
+		width: 30%;
+		padding-right: 10px;
+		/* white-space: nowrap; */
+		white-space: normal;
+		text-align: center;
+		font-weight: 700;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		align-self: center;
+	}
+
+	/*Pega o atributo passado via data-nome-do-atributo*/
+	.no-more-tables td:before {
+		content: attr(data-title);
+	}
+}

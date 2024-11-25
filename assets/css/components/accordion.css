@@ -1,0 +1,103 @@
+/* --- ACCORDION --- */
+
+.accordion {
+	--_accordion-button-background: transparent;
+	--_accordion-button-background-active: var(--fio-sys-color-tertiary-light);
+	--_accordion-button-border: transparent;
+	--_accordion-button-border-active: var(--fio-sys-color-tertiary-medium);
+	--_accordion-button-border-width: var(--fio-sys-size-stroke-sm);
+	--_accordion-button-border-radius: var(--fio-sys-size-radius-sm);
+	--_accordion-button-text-color: var(--fio-sys-size-radius-sm);
+
+	--_accordion-colapse-item-background: var(--fio-ref-color-primary-99);
+	--_accordion-colapse-item-border: var(--fio-sys-color-primary-dark);
+	--_accordion-colapse-item-border-width: var(--fio-sys-size-stroke-sm);
+	--_accordion-colapse-item-border-radius: var(--fio-sys-size-radius-sm);
+	--_accordion-colapse-item-text-color: var(--fio-sys-color-tertiary-dark);
+}
+
+.accordion-item .accordion-button {
+	border-top-left-radius: var(--_accordion-button-border-radius);
+	border-top-right-radius: var(--_accordion-button-border-radius);
+	border-color: var(--_accordion-button-border);
+	border-width: var(--_accordion-button-border-width);
+	border-style: solid;
+	background-color: var(--_accordion-button-background);
+	color: var(--_accordion-button-text-color);
+
+	font-size: var(--fio-sys-typography-size-1);
+}
+
+.accordion-item .accordion-button:hover,
+.accordion-button:not(.collapsed) {
+	border-color: var(--_accordion-button-border-active);
+	background-color: var(--_accordion-button-background-active);
+	color: var(--_accordion-button-text-color);
+}
+
+.accordion-item:first-of-type .accordion-button {
+	border-top-left-radius: var(--_accordion-button-border-radius);
+	border-top-right-radius: var(--_accordion-button-border-radius);
+}
+.accordion-item:last-of-type .accordion-button.collapsed {
+	border-bottom-right-radius: var(--_accordion-button-border-radius);
+	border-bottom-left-radius: var(--_accordion-button-border-radius);
+}
+.accordion-button::after {
+	content: 'keyboard_arrow_down';
+    font-family: 'Material Symbols Rounded';
+    width: 2rem;
+    height: 2rem;
+    margin-left: auto;
+    background: var(--fio-sys-color-accent-medium);
+    transition: transform 0.2s ease-in-out;
+    border-radius: var(--fio-sys-size-radius-full);
+    text-align: center;
+    top: 50%;
+    position: relative;
+	line-height: 1.3;
+}
+
+.accordion-button:hover::after{
+	background: var(--fio-sys-color-accent-light);
+} 
+
+.accordion-button:not(.collapsed)::after {
+	background: none;
+	transform: rotate(-180deg);
+	background: var(--fio-sys-color-accent-medium);
+}
+.accordion .accordion-item .accordion-collapse {
+	border-color: var(--_accordion-colapse-item-border);
+	border-width: var(--_accordion-colapse-item-border-width);
+	border-bottom-right-radius: var(--_accordion-colapse-item-border-radius);
+	border-bottom-left-radius: var(--_accordion-colapse-item-border-radius);
+	border-style: solid;
+	border-top: 0;
+	background-color: var(--_accordion-colapse-item-background);
+	color: var(--_accordion-colapse-item-text-color);
+}
+.accordion .accordion-item:not(:last-child) .accordion-collapse {
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.accordion .accordion-item .accordion-collapse .accordion-body {
+	overflow: hidden;
+}
+
+.accordion .accordion-item .accordion-collapse .accordion-body > :last-child {
+	margin-bottom: var(--fio-sys-size-padding-xl);
+}
+
+/* .accordion .accordion-item:last-of-type .accordion-collapse {
+	border-bottom-right-radius: var(--_accordion-border-radius);
+	border-bottom-left-radius: var(--_accordion-border-radius);
+} */
+
+.accordion .accordion-item .accordion-collapse .accordion-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
+	padding: 0 1rem;
+}

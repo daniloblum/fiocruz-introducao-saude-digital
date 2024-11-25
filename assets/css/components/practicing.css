@@ -1,0 +1,41 @@
+/*--- PRACTICING (na prática) ---*/
+
+.napratica .napratica__base {
+	background-color: var(--fio-sys-color-primary-medium-contrast);
+	padding: var(--fio-sys-spacing-padding-xl);
+	border-radius: var(--fio-sys-spacing-border-radius-xl);
+	border: none;
+}
+
+.napratica .base-header {
+	font-size: var(--fio-sys-typography-head-xs-size);
+	border-bottom-width: var(--fio-sys-spacing-border-width-sm);
+	border-bottom-style: solid;
+	border-color: var(--fio-sys-color-neutral-light);
+	padding-bottom: var(--fio-sys-spacing-padding-lg);
+}
+.napratica .base-header p {
+	color: var(--fio-sys-color-primary-dark);
+}
+
+.napratica .base-body {
+	padding: var(--fio-sys-spacing-padding-lg) 0;
+}
+
+.napratica .base-footer {
+	gap: 30px;
+}
+.napratica .base-footer button {
+	width: 100%;
+}
+.napratica .base-footer button[aria-expanded='true'] {
+	background-color: var(--fio-sys-color-accent-medium);
+	color: var(--fio-sys-color-primary-medium-contrast);
+}
+
+@media (min-width: 768px) {
+	.napratica .base-footer button {
+		width: 100%;
+		max-width: 200px;
+	}
+}

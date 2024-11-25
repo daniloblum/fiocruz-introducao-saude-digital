@@ -1,0 +1,145 @@
+/* --- LIST --- */
+
+.list {
+	margin-bottom: var(--fio-sys-size-margin-md);
+	font-family: var(--fio-sys-typography-family-primary-regular);
+	font-size:var(--fio-sys-typography-size-0);
+}
+
+.list:last-child {
+	margin-bottom: 0;
+}
+
+/* Unordered list */
+
+.list .list-group .list-group-item {
+	background: transparent;
+	border: none;
+	border-bottom-color: var(--fio-sys-color-neutral-light);
+	border-bottom-style: solid;
+	border-bottom-width: var(--fio-sys-size-stroke-xs);
+	border-radius: 0;
+	color:var(--fio-sys-color-neutral-dark);
+	display: block;
+	padding: var(--fio-sys-size-padding-md) var(--fio-sys-size-padding-sm);
+	padding-left: var(--fio-sys-size-padding-xl);
+}
+.list .list-group .list-group-item:last-child {
+	border-bottom: none;
+}
+
+.list .list-group .list-group-item::before {
+	color: var(--fio-sys-color-tertiary-dark);
+	content: 'label_important';
+	font-family: 'Material Symbols Rounded';
+	font-size: var(--fio-sys-typography-size-1);
+	left: 0;
+	line-height: var(--fio-sys-typography-height-125);
+	position: absolute;
+	text-shadow: 4px 4px 0px var(--fio-sys-color-tertiary-light);
+	vertical-align: middle;
+}
+
+.list .list-group .list-group-item[list-style='video']::before {
+	color: var(--fio-sys-color-tertiary-medium);
+	content: 'movie';
+	font-family: 'Material Symbols Rounded';
+	vertical-align: middle;
+}
+.list .list-group .list-group-item[list-style='audio']::before {
+	color: var(--fio-sys-color-primary-medium);
+	content: 'headphones';
+	font-family: 'Material Symbols Rounded';
+	vertical-align: middle;
+}
+.list .list-group .list-group-item[list-style='file']::before {
+	color: var(--fio-sys-color-primary-medium);
+	content: 'article';
+	font-family: 'Material Symbols Rounded';
+	vertical-align: middle;
+}
+.list .list-group .list-group-item[list-style='page']::before {
+	color: var(--fio-sys-color-primary-medium);
+	content: 'tab';
+	font-family: 'Material Symbols Rounded';
+	vertical-align: middle;
+}
+.list .list-group .list-group-item[list-style='none']::before {
+	content: '';
+	display: none;
+	/* list-style: none; */
+}
+
+/*Quando há lista dentro de lista:*/
+.list .list-group .list-group-item > .list-group .sub-item {
+	border: none;
+	display: list-item;
+	list-style: none;
+	padding: var(--fio-sys-size-padding-sm);
+	padding-left: var(--fio-sys-size-padding-xl);
+	/* margin-left: 2.2rem; */
+}
+.list .list-group .list-group-item > .list-group .sub-item:first-child {
+	padding-top: 24px;
+}
+.list .list-group .list-group-item > .list-group .sub-item::before {
+	color: var(--fio-sys-color-neutral-medium);
+	text-shadow: 4px 4px 0 var(--fio-sys-color-neutral-extra-light);
+	font-size: var(--fio-sys-typography-size-0);
+}
+
+/* Ordered list */
+
+.list .list-group.list-group-numbered {
+	list-style: none;
+	counter-reset: contador-ol;
+}
+.list .list-group.list-group-numbered .list-group-item {
+	padding-left: 20px;
+}
+.list .list-group.list-group-numbered .list-group-item > .list-group {
+	counter-reset: subcontador-ol;
+}
+.list .list-group.list-group-numbered > .list-group-item::before {
+	/* display: list-item; */
+	counter-increment: contador-ol;
+	content: counter(contador-ol);
+}
+.list .list-group.list-group-numbered[number-style='1'] > .list-group-item::before {
+	counter-increment: contador-ol;
+	content: counter(contador-ol, decimal);
+}
+.list .list-group.list-group-numbered[number-style='a'] > .list-group-item::before {
+	counter-increment: contador-ol;
+	content: counter(contador-ol, lower-alpha);
+}
+.list .list-group.list-group-numbered[number-style='I'] > .list-group-item::before {
+	counter-increment: contador-ol;
+	content: counter(contador-ol, upper-roman);
+}
+.list .list-group.list-group-numbered .list-group-item > .list-group.list-group-numbered > .list-group-item::before {
+	counter-increment: subcontador-ol;
+	content: counter(contador-ol) '.' counter(subcontador-ol);
+}
+.list .list-group.list-group-numbered[number-style='1'] .list-group-item > .list-group.list-group-numbered > .list-group-item::before {
+	counter-increment: subcontador-ol;
+	content: counter(contador-ol, decimal) '.' counter(subcontador-ol, decimal);
+}
+.list .list-group.list-group-numbered[number-style='a'] .list-group-item > .list-group.list-group-numbered > .list-group-item::before {
+	counter-increment: subcontador-ol;
+	content: counter(contador-ol, lower-alpha) '.' counter(subcontador-ol, lower-alpha);
+}
+.list .list-group.list-group-numbered[number-style='I'] .list-group-item > .list-group.list-group-numbered > .list-group-item::before {
+	counter-increment: subcontador-ol;
+	content: counter(contador-ol, upper-roman) '.' counter(subcontador-ol, upper-roman);
+}
+
+.list .list-group.list-group-numbered > .list-group-item {
+	padding-left: var(--fio-sys-size-padding-xl);
+}
+.list .list-group.list-group-numbered > .list-group-item.sub-item {
+	padding-left: calc(var(--fio-sys-size-padding-xl) * 1.5);
+}
+.list .list-group.list-group-numbered > .list-group-item::before {
+	font-family: var(--fio-sys-typography-family-secondary-regular);
+}

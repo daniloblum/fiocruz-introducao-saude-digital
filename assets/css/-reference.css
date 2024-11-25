@@ -1,0 +1,174 @@
+/* REFERENCE VARIABLES */
+
+:root {
+	/* --- KEY COLORS - HSL format --- */
+
+	--fio-ref-color-primary: 190, 92%; /* hue, saturation% */
+	--fio-ref-color-secondary: 164, 45%;
+	--fio-ref-color-tertiary: 14, 80%;
+	--fio-ref-color-tertiary2: 44, 100%;
+	--fio-ref-color-text: 222, 47%;
+	--fio-ref-color-neutral: 203, 10%;
+	--fio-ref-color-success: 80, 100%;
+	--fio-ref-color-warning: 50, 100%;
+	--fio-ref-color-error: 356, 75%;
+	--fio-ref-color-extra: 0, 0%;
+
+	/* Palettes */
+
+	--fio-ref-color-primary-0: hsl(190, 92%, 0%);
+	--fio-ref-color-primary-10: hsl(190, 92%, 10%);
+	--fio-ref-color-primary-20: hsl(190, 92%, 20%);
+	--fio-ref-color-primary-30: hsl(190, 92%, 28%);
+	--fio-ref-color-primary-40: hsl(190, 80%, 36%);
+	--fio-ref-color-primary-50: hsl(190, 80%, 45%);
+	--fio-ref-color-primary-60: hsl(190, 80%, 53%);
+	--fio-ref-color-primary-70: hsl(190, 80%, 63%);
+	--fio-ref-color-primary-80: hsl(190, 80%, 73%);
+	--fio-ref-color-primary-90: hsl(190, 80%, 83%);
+	--fio-ref-color-primary-95: hsl(190, 79%, 93%);
+	--fio-ref-color-primary-99: hsl(190, 78%, 98%);
+	--fio-ref-color-primary-100: hsl(0, 0%, 100%);
+
+	--fio-ref-color-secondary-0: hsl(var(--fio-ref-color-secondary), 0%);
+	--fio-ref-color-secondary-10: hsl(var(--fio-ref-color-secondary), 12%);
+	--fio-ref-color-secondary-20: hsl(var(--fio-ref-color-secondary), 18%);
+	--fio-ref-color-secondary-30: hsl(var(--fio-ref-color-secondary), 28%);
+	--fio-ref-color-secondary-40: hsl(var(--fio-ref-color-secondary), 38%);
+	--fio-ref-color-secondary-50: hsl(var(--fio-ref-color-secondary), 48%);
+	--fio-ref-color-secondary-60: hsl(var(--fio-ref-color-secondary), 58%);
+	--fio-ref-color-secondary-70: hsl(var(--fio-ref-color-secondary), 68%);
+	--fio-ref-color-secondary-80: hsl(var(--fio-ref-color-secondary), 78%);
+	--fio-ref-color-secondary-90: hsl(var(--fio-ref-color-secondary), 88%);
+	--fio-ref-color-secondary-95: hsl(var(--fio-ref-color-secondary), 94%);
+	--fio-ref-color-secondary-99: hsl(var(--fio-ref-color-secondary), 98%);
+	--fio-ref-color-secondary-100: hsl(var(--fio-ref-color-secondary), 100%);
+
+	--fio-ref-color-tertiary-0: hsl(14, 80%, 0%);
+	--fio-ref-color-tertiary-10: hsl(14, 80%, 15%);
+	--fio-ref-color-tertiary-20: hsl(14, 80%, 23%);
+	--fio-ref-color-tertiary-30: hsl(14, 80%, 30%);
+	--fio-ref-color-tertiary-40: hsl(14, 80%, 40%);
+	--fio-ref-color-tertiary-50: hsl(14, 80%, 59%);
+	--fio-ref-color-tertiary-60: hsl(14, 80%, 66%);
+	--fio-ref-color-tertiary-70: hsl(14, 80%, 71%);
+	--fio-ref-color-tertiary-80: hsl(14, 80%, 76%);
+	--fio-ref-color-tertiary-90: hsl(14, 80%, 86%);
+	--fio-ref-color-tertiary-95: hsl(14, 80%, 93%);
+	--fio-ref-color-tertiary-99: hsl(14, 80%, 98%);
+	--fio-ref-color-tertiary-100: hsl(0, 0%, 100%);
+
+	--fio-ref-color-tertiary2-0: hsl(44, 100%, 0%);
+	--fio-ref-color-tertiary2-10: hsl(44, 100%, 10%);
+	--fio-ref-color-tertiary2-20: hsl(44, 100%, 20%);
+	--fio-ref-color-tertiary2-30: hsl(44, 100%, 30%);
+	--fio-ref-color-tertiary2-40: hsl(44, 100%, 40%);
+	--fio-ref-color-tertiary2-50: hsl(44, 100%, 50%);
+	--fio-ref-color-tertiary2-60: hsl(44, 100%, 60%);
+	--fio-ref-color-tertiary2-70: hsl(44, 100%, 70%);
+	--fio-ref-color-tertiary2-80: hsl(44, 100%, 80%);
+	--fio-ref-color-tertiary2-90: hsl(44, 100%, 90%);
+	--fio-ref-color-tertiary2-95: hsl(44, 100%, 95%);
+	--fio-ref-color-tertiary2-99: hsl(44, 100%, 98%);
+	--fio-ref-color-tertiary2-100: hsl(0, 0%, 100%);
+
+	--fio-ref-color-neutral-0: hsl(203, 10%, 0%);
+	--fio-ref-color-neutral-10: hsl(203, 10%, 10%);
+	--fio-ref-color-neutral-20: hsl(203, 10%, 20%);
+	--fio-ref-color-neutral-30: hsl(203, 10%, 30%);
+	--fio-ref-color-neutral-40: hsl(203, 10%, 40%);
+	--fio-ref-color-neutral-50: hsl(203, 10%, 50%);
+	--fio-ref-color-neutral-60: hsl(203, 12%, 60%);
+	--fio-ref-color-neutral-70: hsl(203, 8%, 73%);
+	--fio-ref-color-neutral-80: hsl(203, 5%, 82%);
+	--fio-ref-color-neutral-90: hsl(203, 10%, 90%);
+	--fio-ref-color-neutral-95: hsl(203, 10%, 96%);
+	--fio-ref-color-neutral-99: hsl(203, 0%, 99%);
+	--fio-ref-color-neutral-100: hsl(203, 18%, 100%);
+
+	--fio-ref-color-text-0: var(--fio-ref-color-neutral-0);
+	--fio-ref-color-text-10: var(--fio-ref-color-neutral-10);
+	--fio-ref-color-text-20: var(--fio-ref-color-neutral-20);
+	--fio-ref-color-text-30: var(--fio-ref-color-neutral-30);
+	--fio-ref-color-text-40: var(--fio-ref-color-neutral-40);
+	--fio-ref-color-text-50: var(--fio-ref-color-neutral-50);
+	--fio-ref-color-text-60: var(--fio-ref-color-neutral-60);
+	--fio-ref-color-text-70: var(--fio-ref-color-neutral-70);
+	--fio-ref-color-text-80: var(--fio-ref-color-neutral-80);
+	--fio-ref-color-text-90: var(--fio-ref-color-neutral-90);
+	--fio-ref-color-text-95: var(--fio-ref-color-neutral-95);
+	--fio-ref-color-text-99: var(--fio-ref-color-neutral-99);
+	--fio-ref-color-text-100: var(--fio-ref-color-neutral-100);
+
+	--fio-ref-color-success-0: hsl(89, 100%, 0%);
+	--fio-ref-color-success-10: hsl(89, 100%, 10%);
+	--fio-ref-color-success-20: hsl(87, 100%, 16%);
+	--fio-ref-color-success-30: hsl(84, 100%, 22%);
+	--fio-ref-color-success-40: hsl(82, 100%, 25%);
+	--fio-ref-color-success-50: hsl(80, 100%, 27%);
+	--fio-ref-color-success-60: hsl(77, 90%, 35%);
+	--fio-ref-color-success-70: hsl(78, 56%, 49%);
+	--fio-ref-color-success-80: hsl(77, 70%, 67%);
+	--fio-ref-color-success-90: hsl(78, 66%, 88%);
+	--fio-ref-color-success-95: hsl(81, 68%, 95%);
+	--fio-ref-color-success-99: hsl(77, 64%, 98%);
+	--fio-ref-color-success-100: hsl(77, 64%, 100%);
+
+	--fio-ref-color-warning-0: hsl(var(--fio-ref-color-warning), 0%);
+	--fio-ref-color-warning-10: hsl(var(--fio-ref-color-warning), 10%);
+	--fio-ref-color-warning-20: hsl(var(--fio-ref-color-warning), 20%);
+	--fio-ref-color-warning-30: hsl(var(--fio-ref-color-warning), 30%);
+	--fio-ref-color-warning-40: hsl(var(--fio-ref-color-warning), 40%);
+	--fio-ref-color-warning-50: hsl(var(--fio-ref-color-warning), 50%);
+	--fio-ref-color-warning-60: hsl(var(--fio-ref-color-warning), 60%);
+	--fio-ref-color-warning-70: hsl(var(--fio-ref-color-warning), 70%);
+	--fio-ref-color-warning-80: hsl(var(--fio-ref-color-warning), 80%);
+	--fio-ref-color-warning-90: hsl(var(--fio-ref-color-warning), 90%);
+	--fio-ref-color-warning-95: hsl(var(--fio-ref-color-warning), 95%);
+	--fio-ref-color-warning-99: hsl(var(--fio-ref-color-warning), 99%);
+	--fio-ref-color-warning-100: hsl(var(--fio-ref-color-warning), 100%);
+
+	--fio-ref-color-error-0: hsl(var(--fio-ref-color-error), 0%);
+	--fio-ref-color-error-10: hsl(var(--fio-ref-color-error), 15%);
+	--fio-ref-color-error-20: hsl(var(--fio-ref-color-error), 25%);
+	--fio-ref-color-error-30: hsl(var(--fio-ref-color-error), 35%);
+	--fio-ref-color-error-40: hsl(var(--fio-ref-color-error), 45%);
+	--fio-ref-color-error-50: hsl(var(--fio-ref-color-error), 55%);
+	--fio-ref-color-error-60: hsl(var(--fio-ref-color-error), 62%);
+	--fio-ref-color-error-70: hsl(var(--fio-ref-color-error), 70%);
+	--fio-ref-color-error-80: hsl(var(--fio-ref-color-error), 80%);
+	--fio-ref-color-error-90: hsl(355, 73%, 90%);
+	--fio-ref-color-error-95: hsl(357, 73%, 96%);
+	--fio-ref-color-error-99: hsl(357, 73%, , 98%);
+	--fio-ref-color-error-100: hsl(var(--fio-ref-color-error), 100%);
+
+	/* --- SIZE --- */
+
+	--fio-ref-size-base: 16px;
+
+	--fio-ref-size-0: 0;
+	--fio-ref-size-1: calc(var(--fio-ref-size-base) * 0.0625); /* 1px */
+	--fio-ref-size-2: calc(var(--fio-ref-size-base) * 0.125); /* 2px */
+	--fio-ref-size-3: calc(var(--fio-ref-size-base) * 0.1875); /* 3px */
+	--fio-ref-size-4: calc(var(--fio-ref-size-base) * 0.25); /* 4px */
+	--fio-ref-size-8: calc(var(--fio-ref-size-base) * 0.5); /* 8px */
+	--fio-ref-size-12: calc(var(--fio-ref-size-base) * 0.75); /* 12px */
+	--fio-ref-size-16: calc(var(--fio-ref-size-base) * 1); /* 16px */
+	--fio-ref-size-20: calc(var(--fio-ref-size-base) * 1.25); /* 20px */
+	--fio-ref-size-24: calc(var(--fio-ref-size-base) * 1.5); /* 24px */
+	--fio-ref-size-28: calc(var(--fio-ref-size-base) * 1.75); /* 28px */
+	--fio-ref-size-32: calc(var(--fio-ref-size-base) * 2); /* 32px */
+	--fio-ref-size-36: calc(var(--fio-ref-size-base) * 2.25); /* 36px */
+	--fio-ref-size-40: calc(var(--fio-ref-size-base) * 2.5); /* 40px */
+	--fio-ref-size-48: calc(var(--fio-ref-size-base) * 3); /* 48px */
+	--fio-ref-size-64: calc(var(--fio-ref-size-base) * 4); /* 64px */
+	--fio-ref-size-80: calc(var(--fio-ref-size-base) * 5); /* 80px */
+	--fio-ref-size-96: calc(var(--fio-ref-size-base) * 6); /* 96px */
+	--fio-ref-size-128: calc(var(--fio-ref-size-base) * 8); /* 128px */
+	--fio-ref-size-160: calc(var(--fio-ref-size-base) * 10); /* 160px */
+
+	/* --- TYPOGRAPHY --- */
+
+	--fio-ref-typography-family-primary: WorkSans;
+	--fio-ref-typography-family-secondary: Abel;
+}
