@@ -71,7 +71,7 @@
 }
 
 /* Curiosidade */
-.box[data-box='Curiosidade'] .card .card-header .icone::before {
+.box[data-box='Você Sabia?'] .card .card-header .icone::before {
 	content: 'question_mark';
 }
 
