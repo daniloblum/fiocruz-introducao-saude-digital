@@ -85,7 +85,7 @@ footer .logos img.logo5 {
 	footer .logos.principais {
 		border: none;
 		/* border-left: 1px solid var(--fio-sys-color-neutral-light); */
-		padding-left: var(--logo-space);
+		/* padding-left: var(--logo-space); */
 		/* margin-left: var(--logo-space); */
 		margin-top: 0;
 	}
