@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no" />
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="robots" content="noindex" />
+		<meta name="author" content="Fiocruz, Campus Virtual" />
+		<meta name="description" content="Curso Implementação do Programa Nacional de Saneamento Rural." />
+		<meta name="keywords" content="Fiocruz Curso Implementação do Programa Nacional de Saneamento Rural" />
+
+		<!-- Facebook Open Graph -->
+		<meta property="og:url" content="https://mooc.campusvirtual.fiocruz.br/rea/etica-integridade-pesquisa" />
+		<meta property="og:title" content="Campus Virtual Fiocruz | Curso " />
+		<meta property="og:description" content="Curso Implementação do Programa Nacional de Saneamento Rural." />
+		<meta property="og:image" content="" />
+		<meta property="og:image:width" content="1080" />
+		<meta property="og:image:height" content="1080" />
+		<meta property="og:type" content="website" />
+
+		<!-- Twitter Cards -->
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="Campus Virtual Fiocruz | Curso Implementação do Programa Nacional de Saneamento Rural." />
+		<meta name="twitter:url" content="" />
+		<meta name="twitter:description" content="" />
+		<meta name="twitter:image:src" content="" />
+
+		<!-- Favicons and Touch Icons -->
+		<link rel="apple-touch-icon" sizes="57x57" href="../../media/icons/apple-icon-57x57.png" />
+		<link rel="apple-touch-icon" sizes="60x60" href="../../media/icons/apple-icon-60x60.png" />
+		<link rel="apple-touch-icon" sizes="72x72" href="../../media/icons/apple-icon-72x72.png" />
+		<link rel="apple-touch-icon" sizes="76x76" href="../../media/icons/apple-icon-76x76.png" />
+		<link rel="apple-touch-icon" sizes="114x114" href="../../media/icons/apple-icon-114x114.png" />
+		<link rel="apple-touch-icon" sizes="120x120" href="../../media/icons/apple-icon-120x120.png" />
+		<link rel="apple-touch-icon" sizes="144x144" href="../../media/icons/apple-icon-144x144.png" />
+		<link rel="apple-touch-icon" sizes="152x152" href="../../media/icons/apple-icon-152x152.png" />
+		<link rel="apple-touch-icon" sizes="180x180" href="../../media/icons/apple-icon-180x180.png" />
+
+		<link rel="icon" type="image/png" sizes="192x192" href="../../media/icons/android-icon-192x192.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="../../media/icons/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="96x96" href="../../media/icons/favicon-96x96.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="../../media/icons/favicon-16x16.png" />
+		<link rel="manifest" href="../media/icons/manifest.json" />
+
+		<meta name="msapplication-TileColor" content="#ffffff" />
+		<meta name="msapplication-TileImage" content="../../media/icons/ms-icon-144x144.png" />
+		<!-- <meta name="theme-color" content="#003066" /> -->
+		<meta name="theme-color" content="#001833" />
+
+		<title>Curso Introdução à Saúde Digital | Mod 1 | Aula 2</title>
+
+		<!-- Bootstrap CSS 5.1.3 -->
+		<link rel="stylesheet" href="../../source/bootstrap-5.1.3/css/bootstrap.min.css" />
+
+		<!-- Project CSS -->
+		<link rel="stylesheet" href="../../assets/css/style.css" />
+	</head>
+
+	<body>
+		<header class="header">
+			<div class="mobile-toggle-open">
+				<a class="mobile-toggle__button" tabindex="0" role="button">
+					<span class="icon material-symbols-rounded">read_more</span>
+				</a>
+			</div>
+			<div class="brand">
+				<img class="img-fluid logo-black" src="../../media/logos/header-fiocruz-campus-virtual.png" alt="Campus Virtual Fiocruz" />
+			</div>
+			<div class="title">
+				<h1>Introdução à Saúde Digital</h1>
+			</div>
+			<ul class="nav nav-pills">
+				<li class="nav-item"><a href="../index.html" class="nav-link">Início</a></li>
+				<li class="nav-item"><a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#modal-creditos">Créditos</a></li>
+			</ul>
+		</header>
+		<div class="main">
+			<div class="sidebar" role="navigation">
+				<div class="sidebar__inner">
+					<div class="sidebar__group d-lg-none">
+						<div class="sidebar__group-item">
+							<div class="sidebar__header">
+								<span>Curso</span>
+								<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
+							</div>
+						</div>
+						<div class="sidebar__group-item">
+							<div class="sidebar__title">
+								<h1>Introdução à Saúde Digital</h1>
+							</div>
+						</div>
+						<div class="sidebar__group-item">
+							<ul class="nav">
+								<li class="nav-item">
+									<a href="../../index.html" class="nav-link" tabindex="0"><span class="icon material-symbols-rounded" aria-hidden="true">home</span>Início</a>
+								</li>
+								<li class="nav-item">
+									<a href="#" class="nav-link" tabindex="0" data-bs-toggle="modal" data-bs-target="#modal-creditos"><span class="icon material-symbols-rounded" aria-hidden="true"> format_list_bulleted</span>Créditos</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="sidebar__group">
+						<div class="sidebar__group-item">
+							<div class="dropend">
+								<button id="dropdown-modulos" type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30">
+									<span class="icon material-symbols-rounded" aria-hidden="true">grid_view</span>
+									<span class="label">Módulos</span>
+								</button>
+								<ul class="dropdown-menu" aria-labelledby="dropdown-modulos">
+									<li class="d-lg-none dropdown-menu__header">
+										<a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
+										<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
+									</li>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo1/apresentacao.html"><strong>Módulo 1</strong><br />Contextualização sobre saneamento rural</a>
+									</li>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo2/apresentacao.html"><strong>Módulo 2</strong><br />Conhecendo o Programa Nacional de Saneamento Rural</a>
+									</li>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo3/apresentacao.html"><strong>Módulo 3</strong><br />Implementação do Programa Nacional de Saneamento Rural</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="divider">
+						<hr />
+					</div>
+					<div class="sidebar__group">
+						<div class="sidebar__group-item">
+							<span class="text module">Módulo <br class="d-none d-lg-block" /><span>1</span></span>
+						</div>
+						<div class="sidebar__group-item">
+							<div class="dropend">
+								<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30">
+									<span class="icon material-symbols-rounded" aria-hidden="true">apps</span>
+									<span class="label">Conteúdo</span>
+								</button>
+								<ul class="dropdown-menu">
+									<li class="d-lg-none dropdown-menu__header">
+										<a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
+										<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
+									</li>
+									<li class="dropdown-menu__title">
+										<span class="label">Módulo 1</span>
+										<span class="title">Contextualização sobre saneamento rural</span>
+									</li>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../aula1/apresentacao.html"><strong>Aula 1: </strong>Ruralidades no Brasil</a>
+									</li>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../aula2/apresentacao.html"><strong>Aula 2: </strong>Marcos referenciais do saneamento rural</a>
+									</li>
+                                    <li class="dropdown-menu__item">
+										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../aula2/apresentacao.html"><strong>Aula 3: </strong>Desafios e potencialidades do saneamento rural no Brasil</a>
+									</li>
+									<li class="dropdown-menu__item"><a class="dropdown-menu__item-link" tabindex="0" role="link" href="../atividade.html">Atividade de Fixação</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="divider">
+						<hr />
+					</div>
+					<div class="sidebar__group">
+						<div class="sidebar__group-item">
+							<span class="text class">Aula 2</span>
+						</div>
+						<div class="sidebar__group-item">
+							<div class="dropend">
+								<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="200,30">
+									<span class="icon material-symbols-rounded" aria-hidden="true"> format_list_bulleted</span>
+									<span class="label">Tópicos</span>
+								</button>
+								<ul class="dropdown-menu">
+									<li class="d-lg-none dropdown-menu__header">
+										<a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
+										<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
+									</li>
+									<li class="dropdown-menu__title">
+										<span class="label">Aula 2</span>
+										<span class="title">Transformação digital em saúde e no SUS</span>
+									</li>
+									<li class="dropdown-menu__item">
+										<nav class="topic-list">
+											<a href="topico1.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico concluído" status="visited"> <span class="material-symbols-rounded"></span>Introdução</a>
+
+											<a href="topico2.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico concluído" status="visited"> <span class="material-symbols-rounded"></span>Políticas e Programas de Saúde Digital no Mundo</a>
+
+											<a href="topico3.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico concluído" status="visited"><span class="material-symbols-rounded"></span>Marcos Legais em Saúde Digital no Brasil</a>
+
+											<a href="topico4.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído" status="visited"><span class="material-symbols-rounded"></span>O Programa SUS Digital</a>
+
+											<a href="topico5.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído"><span class="material-symbols-rounded"></span>Exercícios de Fixação</a>
+
+											<a href="topico6.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído"><span class="material-symbols-rounded"></span>Encerramento</a>
+										</nav>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="sidebar__group-item">
+							<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-autorMod1Aula1">
+								<span class="icon material-symbols-rounded" aria-hidden="true"> id_card</span>
+								<span class="label">Autores</span>
+							</button>
+						</div>
+					</div>
+					<div class="divider">
+						<hr />
+					</div>
+					<div class="sidebar__group extra">
+						<!-- <div class="sidebar__group-item">
+							<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-glossario">
+								<span class="icon material-symbols-rounded" aria-hidden="true"> dictionary</span>
+								<span class="label">Glossário</span>
+							</button>
+						</div> -->
+						<div class="sidebar__group-item">
+							<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-bibliografiaMod1">
+								<span class="icon material-symbols-rounded" aria-hidden="true"> menu_book</span>
+								<span class="label">Bibliografia</span>
+							</button>
+						</div>
+						<!-- <div class="sidebar__group-item">
+							<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-material-complementar">
+								<span class="icon material-symbols-rounded" aria-hidden="true"> library_books</span>
+								<span class="label">Material complementar</span>
+							</button>
+						</div> -->
+					</div>
+				</div>
+			</div>
+
+			<div class="content">
+				<div id="page-title">
+					<div class="container">
+						<div class="row align-items-center hstify-content-center justify-content-xxl-start ms-lg-5">
+							<div class="col-12 col-md-10 col-lg-9">
+								<h2 class="title">
+									<span class="label">Módulo 1 | Aula 2</span>
+                                    <br/>
+									Transformação digital em saúde e no SUS
+								</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="page-content" class="">
+					<!-- Inserir o conteúdo aqui -->
+					<section>
+						<div class="container">
+							<div class="row justify-content-center">
+								<div class="col-12 col-md-10 col-lg-8 mb-5">
+                                    <div class="heading__block">
+										<span class="small">Tópico 4</span>
+										<h3 class="heading__title">O Programa SUS Digital</h3>
+									</div>
+
+									<p>No seu município existem populações da floresta e das águas? Elas possuem diferenças entre as populações do campo? São exatamente essas diferenças que irão orientar as diferentes formas de se fazer o saneamento rural.</p>
+
+                                    <p>A ausência de acesso ao saneamento rural adequado e as condições precárias de vida nas diferentes ruralidades são fatores que estão intimamente ligados com o ambiente, ocasionando violação de direitos humanos, sacrifícios, contaminação ambiental, proliferação e transmissão de doenças. </p>
+
+                                    <p>As populações do Campo, da Floresta e das Águas têm características específicas e historicamente enfrentam condições desfavoráveis para acessarem políticas públicas. As desigualdades sociais geram doenças e agravos que devem ser enfrentadas por ação do Estado, como é o caso da implementação do saneamento rural, uma das principais demandas desses movimentos sociais. Para enfrentar as vulnerabilidades existentes, os movimentos sociais articularam a criação do Grupo da Terra.</p>
+
+									<!-- Saiba Mais -->
+									<div class="saiba-mais">
+										<div class="row">
+											<div class="col-12 col-md-6 col-lg-6">
+												<button class="saiba-mais fio-button button-sm fio-button-secondary collapsed" type="collapsed" data-bs-toggle="collapse" data-bs-target="#saiba-mais1" aria-expanded="false" aria-controls="saiba-mais1"><span class="icone material-symbols-rounded" aria-hidden="true"></span> Saiba mais</button>
+											</div>
+
+											<div class="col-12">
+												<div class="mt-3 collapse" id="saiba-mais1">
+													<p>O Grupo da Terra teve um papel fundamental como sujeito coletivo na construção do PNSR e no seu acompanhamento, e vem contribuindo para a institucionalização do programa nos municípios, estados, com a efetiva participação social e espaço de diálogo entre movimentos sociais e poder público a fim de buscar respostas para as demandas que surgem. Conheça agora um pouco da história desse Grupo. </p>
+
+                                                <div class="row justify-content-center align-items-center text-center text-md-start aos-animate aos-init">
+                                                    <div class="col-4 col-md-2 col-lg-2 mb-5" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="600">
+                                                        <figure>
+                                                            <img class="img-fluid mx-auto d-block mb-3" src="../../media/modulo1/aula1-img6.svg" alt="" title="Fonte: Freepik">
+                                                        </figure>
+                                                    </div>
+                                                    <div class="col-12 col-md-10 col-lg-10 mb-5" data-aos="fade-left" data-aos-easing="ease-out" data-aos-duration="600">
+                                                        <p>O Grupo da Terra foi instituído por meio da Portaria MS/GM nº 2.460/2005, que teve como objetivo elaborar a Política Nacional de  Política Nacional de Saúde Integral das Populações do Campo, da Floresta e das Águas (PNSIPCFA) e vem acumulando conhecimento e prática sobre a saúde e seus determinantes socioambientais, a exemplo do saneamento rural, uma das suas principais demandas.</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="row justify-content-center align-items-center text-center text-md-start aos-animate aos-init">
+                                                    <div class="col-4 col-md-2 col-lg-2 mb-5" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="600">
+                                                        <figure>
+                                                            <img class="img-fluid mx-auto d-block mb-3" src="../../media/modulo1/aula1-img7.svg" alt="" title="Fonte: Freepik">
+                                                        </figure>
+                                                    </div>
+                                                    <div class="col-12 col-md-10 col-lg-10 mb-5" data-aos="fade-left" data-aos-easing="ease-out" data-aos-duration="600">
+                                                        <p>Em 2018, o Grupo foi extinto, mas sua institucionalização foi retomada pela Portaria do Ministério da Saúde nº 1.120, de 15 de agosto de 2023.</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="row justify-content-center align-items-center text-center text-md-start aos-animate aos-init">
+                                                    <div class="col-4 col-md-2 col-lg-2 mb-5" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="600">
+                                                        <figure>
+                                                            <img class="img-fluid mx-auto d-block mb-3" src="../../media/modulo1/aula1-img8.svg" alt="" title="Fonte: Freepik">
+                                                        </figure>
+                                                    </div>
+                                                    <div class="col-12 col-md-10 col-lg-10 mb-5" data-aos="fade-left" data-aos-easing="ease-out" data-aos-duration="600">
+                                                        <p>O Grupo da Terra é um espaço de gestão participativa composto por 24 entidades da sociedade civil representantes das populações do campo, da floresta e das águas, tais como agricultores e agricultoras familiares, camponeses, pescadores, extrativistas e quilombolas. São membros também 20 representantes de todas as secretarias do Ministério da Saúde, o Conselho Nacional de Saúde, o Conselho de Desenvolvimento Rural Sustentável, a Fiocruz e, como convidados, representantes de outros órgãos do executivo federal.</p>
+                                                    </div>
+                                                </div>
+                                                
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- Fim do Saiba Mais -->
+								</div>
+							</div>
+
+                            <div class="row justify-content-center">
+								<div class="col-12 col-md-10 col-lg-8 mb-5">
+                                   <p>A comunicação deve ser feita por todos e todas. Após concluir esse curso você será um comunicador em saneamento rural. </p>
+
+                                   <p>Você sabia que a arte é um importante meio de comunicação em saneamento rural? É verdade! E os recursos gráficos são um bom exemplo disso. Você ainda precisará de mais informações para se tornar um bom comunicador ou uma boa comunicadora em saneamento rural. E não se preocupe, você verá esta e outras informações sobre comunicação na aula 3.1 do Módulo 3 deste curso. Nesta aula, há um tópico específico sobre Comunicação em saneamento rural, onde você poderá aprofundar ainda mais seu conhecimento neste tema.</p>
+
+								   <!-- Saiba Mais -->
+									<div class="saiba-mais">
+										<div class="row">
+											<div class="col-12 col-md-6 col-lg-6">
+												<button class="saiba-mais fio-button button-sm fio-button-secondary collapsed" type="collapsed" data-bs-toggle="collapse" data-bs-target="#saiba-mais2" aria-expanded="false" aria-controls="saiba-mais2"><span class="icone material-symbols-rounded" aria-hidden="true"></span> Saiba mais</button>
+											</div>
+
+											<div class="col-12">
+												<div class="mt-3 collapse" id="saiba-mais2">
+													<p>Quer saber mais sobre como a arte e recursos gráficos podem ser um veículo importante de comunicação em saneamento rural?</p>
+													<!-- Lista Não-Ordenada -->
+													<div class="list">
+														<ul class="list-group">
+															<li class="list-group-item aos-init aos-animate" list-style='pages' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"><a href='https://sanbas.eng.ufmg.br/wp-content/uploads/2022/05/Caderno-ilustrado-Saneamento-visual-como-direito.pdf' target='_blank'>Clique aqui</a> e veja o caderno ilustrado Saneamento visual como direito: caminhos para se pensar a elaboração participativa dos Planos Municipais de Saneamento Básico.</a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- Fim do Saiba Mais -->
+                                </div>
+                            </div>
+
+                            <div class="row justify-content-center">
+								<div class="col-12 col-md-10 col-lg-8">
+									<p>De acordo com o PNSR, as estratégias de comunicação e divulgação do programa implica em estabelecer articulação e integração com assessorias de comunicação de entidades da sociedade civil, que tenham correlação com o saneamento rural e com as populações do campo, da floresta e águas (Asa Brasil, Contag, Grupo da Terra, entre outras), para produção e difusão de conteúdo referente ao PNSR.</p>
+
+                                    <p>Em carta encaminhada pelo Grupo da Terra foi apontada a necessidade de o PNSR atentar-se para os sujeitos e territórios, saberes e práticas envolvidos no saneamento, sugeriu-se também que a construção do programa de saneamento previsse processos de formação e gestão que incluam movimentos sociais e sindicais organizados no Grupo da Terra, inclusive com condições adequadas para sua participação.</p>
+
+                                    <p>Entre as <a class="" tabindex="0" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="" data-bs-html='true' data-bs-content="<p>A PNSIPCFA define populações do campo, da floresta e das águas (PCFA) como os camponeses – sejam eles agricultores familiares, trabalhadores rurais assentados ou acampados, assalariados e temporários que residam ou não no campo, os povos e comunidades tradicionais e extrativistas, como os indígenas, quilombolas, pescadores artesanais, ribeirinhos, marisqueiros e caiçaras, e, ainda, as populações atingidas por barragens, entre outras. Essas populações compartilham saberes, produzem conhecimentos, culturas, tecnologias e saneamento por meio do manejo das águas e dos resíduos nas escalas domiciliares e comunitárias, associadas ao manejo agrícola, da floresta e dos caminhos das águas.</p>" data-bs-original-title="PCFAs">PCFAs</a> temos os <strong>Povos e Comunidades tradicionais</strong>. Em 2007, o Decreto Federal n.º 6.040 instituiu a Política Nacional de Desenvolvimento Sustentável e Comunidades Tradicionais (PNPCT) e decretou a Comissão Nacional de Povos e Comunidades Tradicionais (CNPCT) como responsável por coordenar sua implementação. </p>
+
+                                    <p>Dentro do conceito de comunidades tradicionais estabelecido, 29 categorias são representadas pela CNPCT: indígenas, quilombolas, povos e comunidades de terreiro e de matriz africana, ciganos, pescadores artesanais, extrativistas costeiros e marinhos, caiçaras, faxinalenses, benzedeiros, ilhéus, raizeiros, geraizeiros, catingueiros, vazanteiros, veredeiros, apanhadores de flores sempre vivas, pantaneiros, morroquianos, povo pomeranos, catadores de mangaba, quebradeiras de coco babaçu, retireiros do Araguaia, comunidades de fundos e fechos de pasto, ribeirinhos, cipozeiros, andirobeiros, caboclos e juventude de povos e comunidades tradicionais (BRASIL, 2016). Estas comunidades e povos tradicionais representam um conjunto diversificado de populações com hábitos e culturas diferentes e que ocupam territórios heterogêneos.</p>
+
+                                    <p>Portanto, é fundamental conhecer as comunidades e povos tradicionais que residem nas áreas rurais dos municípios e como elas se organizam, interagem e estabelecem estratégias para enfrentar seus desafios comunitários em conseguir água potável, em soluções individuais ou coletivas de abastecimento de água, de esgotamento sanitário, como realizam a gestão dos resíduos sólidos e do manejo das águas de chuva, auxilia a definir as tecnologias e ações adequadas em saneamento rural para melhoria da  saúde pública nesses territórios e no país.</p>
+								</div>
+							</div>
+                        </div>
+					</section>
+				</div>
+
+				<!-- Navegação da aula -->
+				<section>
+					<div class="container">
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8">
+								<div class="page-nav d-flex justify-content-evenly">
+									<a class="fio-button fio-button-primary" href="topico3.html" rel="prev"><span class="material-symbols-rounded">west</span> Tópico anterior</a>
+									<a class="fio-button fio-button-primary" href="topico5.html" rel="next">Próximo tópico <span class="material-symbols-rounded" aria-hidden="true">east</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+
+			<footer>
+				<div class="container-fluid">
+					<div class="row justify-content-center align-items-center linha-de-marcas">
+						<div class="col-12 col-md-auto">
+							<ul class="logos">
+								<!-- <li class="realizacao"> -->
+								<li>
+									<img class="img-fluid logo1" src="../../media/logos/bid.png" alt="Logo do Banco Internacional de Desenvolvimento" height=""/>
+								</li>
+
+								<li>
+									<img class="img-fluid logo1" src="../../media/logos/cosude.png" alt="Logo do Banco Internacional de Desenvolvimento" height=""/>
+								</li>
+
+								<li>
+									<img class="img-fluid logo2" src="../../media/logos/funasa.png" alt="Logo da Funasa" height=""/>
+								</li>
+
+								
+						</ul>
+						</div>
+						<div class="col-auto">
+							<span class="divider"></span>
+						</div>
+						<div class="col-12 col-md-auto">
+							<ul class="logos principais align-self-end">
+								<li>
+									<img class="img-fluid logo3" src="../../media/logos/epjv.png" alt="Logo da Escola Politécnica de Saúde Joaquim Venâncio" height=""/>
+								</li>
+
+								<li>
+									<img class="img-fluid logo4" src="../../media/logos/logo-campus-horizontal.png" alt="Logo do Campus Virtual Fiocruz" height=""/>
+								</li>
+
+								<li>
+									<img class="img-fluid logo5" src="../../media/logos/logo-fiocruz-horizontal-black.png" alt="Logo da Fiocruz" height=""/>
+								</li>
+                                
+								<img class="img-fluid logo6 d-none d-md-block" src="../../media/logos/ministerio-saude-gov-federal.png" alt="Logos do SUS, Ministério da Saúde e Governo Federal" height="" />
+								<img class="img-fluid logo6 d-block d-md-none" src="../../media/logos/ministerio-saude-gov-federal-mobile.png" alt="Logos do SUS, Ministério da Saúde e Governo Federal" height="" />
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+		<!--  Bootstrap JS and Popper -->
+		<script src="../../source/bootstrap-5.1.3/js/bootstrap.bundle.min.js"></script>
+
+		<!-- Sticky Sidebar -->
+		<script type="text/javascript" src="../../assets/js/ResizeSensor.js"></script>
+		<script type="text/javascript" src="../../assets/js/sticky-sidebar.js"></script>
+		<script type="text/javascript" src="../../assets/js/sidebar.js"></script>
+
+		<script type="text/javascript">
+			var sidebar = new StickySidebar('.sidebar', {
+				topSpacing: 0,
+				bottomSpacing: 0,
+				containerSelector: '.main',
+				innerWrapperSelector: '.sidebar__inner',
+				minWidth: 991,
+			});
+		</script>
+
+		<script>
+			$(function () {
+				// init zeynepjs side menu
+				var zeynep = $('.zeynep').zeynep({
+					opened: function () {
+						// log
+						console.log('the side menu opened');
+					},
+					closed: function () {
+						// log
+						console.log('the side menu closed');
+					},
+				});
+
+				// dynamically bind 'closing' event
+				zeynep.on('closing', function () {
+					// log
+					console.log('this event is dynamically binded');
+				});
+
+				// handle zeynepjs overlay click
+				// $('.zeynep-overlay').on('click', function () {
+				// 	zeynep.close();
+				// });
+
+				// open zeynepjs side menu
+				$('.btn-open').on('click', function () {
+					zeynep.open();
+				});
+			});
+		</script>
+
+		<script type="text/javascript" src="../../assets/js/scripts.js"></script>
+		<script type="text/javascript" src="../../assets/js/custom-anime.js"></script>
+		<script type="text/javascript" src="../../source/animate/aos/dist/aos.js"></script>
+
+		<!-- Timeline horizontal -->
+		<script src="../../assets/js/timeline-horizontal/util.js"></script>
+		<!-- util functions included in the CodyHouse framework -->
+		<script src="../../assets/js/timeline-horizontal/swipe-content.js"></script>
+		<!-- A Vanilla JavaScript plugin to detect touch interactions -->
+		<script src="../../assets/js/timeline-horizontal/main.js"></script>
+		<!-- Start the Timeline -->
+		<script>
+			document.getElementsByTagName('html')[0].className += ' js';
+		</script>
+
+		<script>
+			AOS.init();
+		</script>
+	</body>
+</html>
