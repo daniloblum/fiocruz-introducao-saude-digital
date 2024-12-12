@@ -26,12 +26,14 @@
 }
 
 .box .card .card-header {
-	--_box-header-color: var(--fio-sys-color-tertiary-light);
-	--_box-header-text-color: var(--fio-sys-color-primary-extra-dark);
+	--_box-header-color: var(--fio-sys-color-primary-medium);
+	--_box-header-text-color: var(--fio-sys-color-neutral-white);
+	--_box-header-text-font-family:var(--fio-sys-typography-family-primary-black);
+	--_box-header-border-color: var(--fio-sys-color-secondary-medium);
 
 	background-color: var(--_box-header-color);
 	border-radius: var(--_box-border-radius);
-    border-bottom: 6px solid var(--fio-sys-color-primary-extra-dark);
+    border-bottom: 6px solid var(--_box-header-border-color);
 	color: var(--_box-header-text-color);
 	font-family: var(--fio-sys-typography-family-primary-semi-bold);
 	font-size: var(--fio-sys-typography-size--1);
@@ -68,10 +70,79 @@
 .box[data-box='Atenção'] .card .card-header .icone::before {
 	/* content: 'priority_high'; */
 	content: 'crisis_alert';
+	font-size: var(--fio-sys-typography-size-6);
+	color:var(--fio-sys-color-primary-extra-dark);
 }
 
+.box[data-box='Atenção'] .card {
+	background-image:url(../../../media/templates/bg-box-atencao.svg);
+    border-width: 0;
+    border-color: transparent;
+	border-top-left-radius: var(--fio-sys-size-radius-md);
+    background-color: var(--fio-sys-color-primary-medium);
+    color: var(--fio-sys-color-neutral-white);
+    border-radius: var(--fio-sys-size-radius-sm);
+	box-shadow: none;
+	padding-right: 0;
+	overflow: hidden;
+}
+
+.box[data-box='Atenção'] .card .card-header {
+	border-bottom: none;
+	/* background:var(--fio-sys-color-secondary-medium); */
+	background:transparent;
+	padding:0;
+	top:var(--fio-sys-size-padding-xs);
+}
+
+.box[data-box='Atenção'] .card .card-header .label {
+    color: var(--fio-sys-color-primary-extra-dark);
+	font-family: var(--fio-sys-typography-family-primary-black);
+	padding-left:0;
+	font-size: var(--fio-sys-typography-size-1);
+    letter-spacing: normal;
+}
+
+.box[data-box='Atenção'] .card .card-header .icone::before {
+	border-right: none;
+	padding-right: 0;
+}
+
+.box[data-box='Atenção'] .card .card-body {
+	padding-top: 0;
+	padding-left: 0;
+	padding:0;
+}
+
+.box[data-box='Atenção'] .card .card-body p {
+	color: var(--fio-sys-color-neutral-white);
+}
+
+.box[data-box='Atenção'] .card .card-body .custom-shape-divider-top-1720289331 svg {
+    position: relative;
+    display: block;
+    width: calc(113% + 1.3px);
+    height: 100px;
+    transform: rotateY(180deg);
+    z-index: -1;
+    fill: var(--fio-sys-color-secondary-medium);
+}
+
+.box[data-box='Atenção'] .card .card-body div:nth-child(2) {
+	padding:var(--fio-sys-size-padding-xl);
+}
+
+.box[data-box='Atenção'] .card .card-body .custom-shape-divider-bottom-1720289984 {
+	background:var(--fio-sys-color-primary-medium-contrast);
+}
+
+.box[data-box='Atenção'] .card .card-body .custom-shape-divider-bottom-1720289984 .shape-fill {
+	fill: var(--fio-sys-color-primary-medium);
+}
+
+
 /* Curiosidade */
-.box[data-box='Você Sabia?'] .card .card-header .icone::before {
+.box[data-box='Curiosidade'] .card .card-header .icone::before {
 	content: 'question_mark';
 }
 
@@ -112,6 +183,12 @@
 .box[data-box='Para Escutar'] .card .card-header .icone::before {
 	content: 'headphones';
 }
+
+/* .box[data-box='Para Escutar'] .card {
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+} */
 
 /* Para ler */
 .box[data-box='Para Ler'] .card .card-header .icone::before {
@@ -164,12 +241,16 @@ audio {
 
 /* Saiba Mais Toggle */
 
-.saiba-mais {
+/* .saiba-mais {
 	padding-bottom: var(--fio-sys-size-margin-md);
-}
+} */
 
 #page-content section .container:first-child .row .saiba-mais > .row {
-	padding-top:0;
+	padding: var(--fio-sys-size-padding-sm);
+    background-color: var(--fio-sys-color-primary-extra-light);
+	background-image:url(../../../media/templates/tabs-footer.svg);
+	background-repeat: no-repeat;
+    border-radius: var(--fio-sys-size-radius-md);
 }
 
 .saiba-mais > .row div:nth-child(2) {
@@ -182,19 +263,33 @@ audio {
 
 .saiba-mais button.saiba-mais.fio-button {
 	align-items: center;
-	display: flex;
-	justify-content: center;
+    display: flex;
+    justify-content: center;
+    background-color: var(--fio-sys-color-primary-extra-light);
+    /* padding-left: var(--fio-sys-size-margin-xl); */
+    padding-left: 0;
+    padding-right: var(--fio-sys-size-margin-xl);
+    font-family: var(--fio-sys-typography-family-primary-black);
+    text-transform: uppercase;
+}
+
+.saiba-mais button.saiba-mais.fio-button:hover {
+	background-color: var(--fio-sys-color-primary-light);
 }
 
 .saiba-mais button.saiba-mais.fio-button .icone::before {
-	content:'touch_app';
-	--_box-icone-width: var(--fio-sys-typography-size-5);
-	border-right-style: solid;
-	border-right-width: var(--fio-sys-size-stroke-sm);
-	display: block;
-	font-size: var(--fio-sys-typography-size-1);
-	padding-right: var(--fio-sys-size-padding-xs);
-	margin-right: var(--fio-sys-size-padding-xs);
+	/* content: 'touch_app'; */
+	content: url(../../../media/templates/ic-saiba-mais.svg);
+    --_box-icone-width: var(--fio-sys-typography-size-6);
+    /* border-right-style: solid; */
+    /* border-right-width: var(--fio-sys-size-stroke-sm); */
+    display: block;
+    font-size: var(--fio-sys-typography-size-1);
+    margin-right: var(--fio-sys-size-padding-xs);
+    /* background-color: var(--fio-sys-color-tertiary-extra-dark-contrast);
+    border-radius: var(--fio-sys-size-radius-full); 
+    padding: var(--fio-sys-size-padding-sm);*/
+	width: var( --_box-icone-width);
 }
 
 /* Legenda de Vídeo */

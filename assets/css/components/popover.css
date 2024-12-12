@@ -32,8 +32,8 @@ a[data-bs-toggle="popover"]:not([href]):not([class]):hover {
 }
 
 .popover-header {
-    background-color: var(--fio-sys-color-primary-extra-dark);
-    border-bottom: var(--fio-sys-size-stroke-xl) solid var(--fio-sys-color-tertiary-light);
+    background-color: var(--fio-sys-color-primary-medium);
+    border-bottom: var(--fio-sys-size-stroke-xl) solid var(--fio-sys-color-secondary-medium);
     border-top-left-radius: var(--fio-sys-size-radius-lg);
     border-top-right-radius: var(--fio-sys-size-radius-lg);
     color:var(--fio-sys-color-neutral-white);
@@ -47,7 +47,7 @@ a[data-bs-toggle="popover"]:not([href]):not([class]):hover {
 .bs-popover-top>.popover-arrow::after {
     bottom: 1px;
     border-width: 0.5rem 0.5rem 0;
-    border-top-color: var(--fio-sys-color-primary-extra-dark);
+    border-top-color: var(--fio-sys-color-primary-medium);
 }
 
 .bs-popover-auto[data-popper-placement^=right]>.popover-arrow::after, 

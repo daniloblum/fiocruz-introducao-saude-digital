@@ -14,13 +14,13 @@
 /* Base button */
 button,
 .fio-button {
-	--_button-family: var(--fio-sys-typography-family-primary-semi-bold);
+	--_button-family: var(--fio-sys-typography-family-primary-bold);
 	--_button-size: var(--fio-sys-typography-size-0);
 	--_button-decoration: none;
 	--_button-transform: none;
-	--_button-color: var(--fio-sys-color-primary-extra-dark);
+	--_button-color: var(--fio-sys-color-neutral-white);
 
-	--_button-border-radius: var(--fio-sys-size-radius-md);
+	--_button-border-radius: var(--fio-sys-size-radius-xs);
 	--_button-border-width: var(--fio-sys-size-stroke-md);
 
 	/* --_button-padding-x: var(--fio-sys-size-padding-lg); */
@@ -149,9 +149,9 @@ button,
 /* Secondary button */
 .fio-button-secondary {
 	--_button-color-secondary: transparent;
-	--_button-color-secondary--hover: var(--fio-sys-color-primary-dark-contrast);
+	--_button-color-secondary--hover: var(--fio-sys-color-accent-light);
 	--_button-text-color-secondary:var(--_button-color);
-	--_button-text-color-secondary--hover: var(--fio-sys-color-primary-dark-contrast);
+	--_button-text-color-secondary--hover: var(--fio-sys-color-primary-light);
 	--_button-outline-color-secondary: var(--fio-sys-color-primary-extra-dark);
 	--_button-outline-color-secondary--hover: var(--fio-sys-color-primary-dark);
 	--_button-color-secondary--active: var(--fio-sys-color-primary-dark);
@@ -163,7 +163,7 @@ button,
 }
 .fio-button-secondary:hover {
 	background-color: var(--_button-color-secondary--hover);
-	color:var(--_button-outline-color-secondary);
+	color:var(--_button-text-color-secondary);
 }
 
 .fio-button-secondary:visited {

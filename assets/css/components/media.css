@@ -99,6 +99,7 @@ audio::-webkit-media-controls-panel {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	color:var(--fio-sys-color-primary-medium);
 }
 
 .media .media__transcription .transcription-button[aria-expanded='true'] .transcription-button-label::after {
@@ -111,6 +112,7 @@ audio::-webkit-media-controls-panel {
 	background-color: var(--fio-sys-color-accent-medium);
 	border-radius: var(--fio-sys-size-radius-full);
 	content: 'keyboard_arrow_down';
+	color:var(--fio-sys-color-neutral-white);
 	display: flex;
 	justify-content: center;
 	align-items: center;

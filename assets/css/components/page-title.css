@@ -9,15 +9,16 @@
 } */
 
 #page-title {
-	--_background-color: var(--fio-sys-color-neutral-white);
+	--_background-color: rgba(255, 255, 255, .7);/*var(--fio-sys-color-neutral-white);*/
 	--_background-color2: var(--fio-sys-color-tertiary-light);
-	--_text-color: var(--fio-sys-color-primary-extra-dark);
+	--_text-color: var(--fio-sys-color-primary-extra-light-contrast);
+	--_label-color: var(--fio-sys-color-primary-medium);
 
 	height: 100svh;
 	max-width: 100%;
 	padding-top: 0px;
 	overflow: hidden;
-	background-image: url('../../../media/templates/page-title-background-mobile.png'), linear-gradient(var(--fio-sys-color-primary-medium), var(--fio-sys-color-primary-medium));
+	background-image: url('../../../media/templates/page-title-background-mobile.jpg'), linear-gradient(var(--fio-sys-color-primary-medium), var(--fio-sys-color-primary-medium));
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -29,6 +30,7 @@
 
 #page-title .container .row  div {
 	background-color:var(--_background-color);
+	border-top: var(--fio-sys-size-stroke-xl) solid var(--fio-sys-color-primary-medium);
 }
 
 #page-title span {
@@ -37,7 +39,7 @@
 
 #page-title .title {
     color: var(--_text-color);
-    font-family: var(--fio-sys-typography-family-primary-bold);
+    font-family: var(--fio-sys-typography-family-primary-black);
     line-height: var(--fio-sys-typography-height-100);
     text-align: left;
     text-transform: uppercase;
@@ -47,10 +49,9 @@
 
 
 #page-title .title .label {
-	background-color:var(--_background-color2);
-	color: var(--_text-color);
+	color: var(--_label-color);
 	display: inline-block;
-	font-family: var(--fio-sys-typography-family-secondary-regular);
+	font-family: var(--fio-sys-typography-family-primary-bold);
 	font-size: var(--fio-sys-typography-size-1);
 	line-height: var(--fio-sys-typography-height-110);
 	margin-bottom: var(--fio-sys-size-margin-sm);
@@ -59,7 +60,7 @@
 
 @media (min-width: 992px) {
 	#page-content section:first-child {
-		padding:0;
+		padding: calc(var(--fio-sys-size-padding-xl)*2) 0 0 0;
 	}
 
 	#page-title {
@@ -68,7 +69,7 @@
 		max-width: 100%;
 		padding: 80px 0;
 		overflow: hidden;
-		background-image: url('../../../media/templates/page-title-background.png'), linear-gradient(var(--fio-sys-color-neutral-white), var(--fio-sys-color-neutral-white));
+		background-image: url('../../../media/templates/page-title-background.jpg'), linear-gradient(var(--fio-sys-color-neutral-white), var(--fio-sys-color-neutral-white));
 		background-position: center 0;
 		background-repeat: no-repeat;
 		background-size: cover;

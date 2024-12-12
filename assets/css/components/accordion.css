@@ -1,16 +1,20 @@
 /* --- ACCORDION --- */
 
 .accordion {
-	--_accordion-button-background: transparent;
-	--_accordion-button-background-active: var(--fio-sys-color-tertiary-light);
+	--_accordion-item-border-color: var(--fio-sys-color-secondary-medium);
+	--_accordion-item-border-width: 1px;
+
+	--_accordion-button-background: var(--fio-sys-color-primary-medium-contrast);
+	--_accordion-button-background-active: var(--fio-sys-color-primary-extra-light);
 	--_accordion-button-border: transparent;
-	--_accordion-button-border-active: var(--fio-sys-color-tertiary-medium);
+	--_accordion-button-border-active: var(--fio-sys-color-secondary-medium);
 	--_accordion-button-border-width: var(--fio-sys-size-stroke-sm);
 	--_accordion-button-border-radius: var(--fio-sys-size-radius-sm);
-	--_accordion-button-text-color: var(--fio-sys-size-radius-sm);
+	--_accordion-button-text-color: var(--fio-sys-colorprimary-extra-dark);
+	--_accordion-button-font-family: var(--fio-sys-typography-family-primary-black);
 
-	--_accordion-colapse-item-background: var(--fio-ref-color-primary-99);
-	--_accordion-colapse-item-border: var(--fio-sys-color-primary-dark);
+	--_accordion-colapse-item-background: var(--fio-sys-color-tertiary-extra-light);
+	--_accordion-colapse-item-border: transparent;
 	--_accordion-colapse-item-border-width: var(--fio-sys-size-stroke-sm);
 	--_accordion-colapse-item-border-radius: var(--fio-sys-size-radius-sm);
 	--_accordion-colapse-item-text-color: var(--fio-sys-color-tertiary-dark);
@@ -26,6 +30,11 @@
 	color: var(--_accordion-button-text-color);
 
 	font-size: var(--fio-sys-typography-size-1);
+	font-family: var(--_accordion-button-font-family);
+}
+
+.accordion-item {
+	border-bottom:var(--_accordion-item-border-width) solid var(--_accordion-item-border-color);
 }
 
 .accordion-item .accordion-button:hover,
@@ -46,6 +55,7 @@
 .accordion-button::after {
 	content: 'keyboard_arrow_down';
     font-family: 'Material Symbols Rounded';
+	color: var(--fio-sys-color-neutral-white);
     width: 2rem;
     height: 2rem;
     margin-left: auto;

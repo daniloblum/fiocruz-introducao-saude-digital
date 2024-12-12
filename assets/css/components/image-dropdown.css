@@ -14,10 +14,11 @@
 	--_image-dropdown-content-text-color: var(--fio-sys-color-tertiary-dark);
 	--_image-dropdown-content-text-size: var(--fio-sys-typography-size-0);
 
-	--_image-dropdown-header-family: var(--fio-sys-typography-family-primary-bold);
+	--_image-dropdown-header-family: var(--fio-sys-typography-family-primary-extra-bold);
 }
 
 .image-dropdown .image-button {
+	background: transparent;
 	margin-bottom: var(--fio-sys-size-margin-md);
 	display: block;
 }

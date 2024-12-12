@@ -43,9 +43,9 @@
 	--_quotation-body-border-color: var(--fio-sys-color-primary-medium);
 	--_quotation-body-border-width: var(--fio-sys-size-stroke-0);
 	--_quotation-body-text-color: var(--fio-sys-color-secondary-light);
-	--_quotation-body-background: var(--fio-sys-color-primary-extra-light);
+	--_quotation-body-background: var(--fio-sys-color-tertiary-extra-light);
 
-	--_quotation-lines-border-color: var(--fio-sys-color-primary-extra-dark);
+	--_quotation-lines-border-color: var(--fio-sys-color-primary-dark);
 	--_quotation-lines-border-width: calc(var(--fio-sys-size-stroke-xl)* 1.5);
 	--_quotation-lines-border-radius: var(--fio-sys-size-radius-md);
 

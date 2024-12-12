@@ -57,7 +57,7 @@
 	left: 18px;
 	height: 100%;
 	width: var(--fio-sys-size-stroke-sm);
-	background: var(--fio-sys-color-secondary-medium);
+	background: var(--fio-sys-color-primary-medium);
 	opacity: 1;
 }
 
@@ -165,7 +165,7 @@
 }
 
 .cd-timeline__img.cd-timeline__option1 {
-	background: var(--fio-sys-color-tertiary-light);
+	background: var(--fio-sys-color-secondary-medium);
     box-shadow: none;
     border: none;
     color: var(--fio-sys-color-primary-extra-dark);

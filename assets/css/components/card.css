@@ -15,13 +15,13 @@
 	--_card-header-padding-y: var(--fio-sys-size-padding-sm);
 	--_card-header-padding-x: var(--fio-sys-size-padding-sm);
 
-	--_card-header-background: var(--fio-sys-color-primary-extra-dark);
-	--_card-header-family: var(--fio-sys-typography-family-primary-semi-bold);
+	--_card-header-background: var(--fio-sys-color-primary-dark);
+	--_card-header-family: var(--fio-sys-typography-family-primary-black);
 	--_card-header-tracking: var(--fio-sys-typography-spacing-normal);
 	--_card-header-line-height: var(--fio-sys-typography-height-125);
 	--_card-header-size: var(--fio-sys-typography-size-0);
 	--_card-header-color: var(--fio-sys-color-neutral-white);
-	--_card-header-border-color: var(--fio-sys-color-tertiary-light);
+	--_card-header-border-color: var(--fio-sys-color-secondary-medium);
 	--_card-header-border-width: var(--fio-sys-size-stroke-xl);
 
 	/* Card - body */

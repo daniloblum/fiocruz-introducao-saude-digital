@@ -28,10 +28,10 @@
 }
 
 .olho-de-texto p {
-	font-family: var(--fio-sys-typography-family-primary-light);
+	font-family: var(--fio-sys-typography-family-primary-medium);
 	font-size: var(--fio-sys-typography-size-2);
 	line-height: var(--fio-sys-typography-height-125);
-	color: var(--fio-sys-color-tertiary-dark);
+	color: var(--fio-sys-color-primary-medium);
 }
 
 @media (min-width: 768px) {
@@ -46,6 +46,7 @@
 .box-cor .box-cor__base {
 	background-color: var(--fio-sys-color-primary-extra-light);
 	background-image: url(../../../media/templates/bg-box.svg);
+	background-image: none;
     background-repeat: no-repeat;
     background-position: 20% 0;
     background-size: 250%;
@@ -97,7 +98,7 @@
 /*** Destaque Parallax - Alta ênfase ***/
 
 .destaque-parallax {
-	--_destaque-divisor-background: var(--fio-sys-color-neutral-white);
+	--_destaque-divisor-background: var(--fio-sys-color-primary-medium-contrast);
 
 	/* background: linear-gradient(0deg, rgba(0, 48, 102, 0.7), rgba(0, 48, 102, 0.7)), url('../../../media/templates/bg-destaque.jpg'); */
 	background: url('../../../media/templates/bg-destaque.jpg');

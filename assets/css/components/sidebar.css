@@ -1,8 +1,9 @@
 .sidebar {
-	--_color-background: var(--fio-sys-color-primary-extra-dark);
+	--_color-background: var(--fio-sys-color-accent-medium);
 	--_color-font: var(--fio-sys-color-primary-extra-light);
-	--_color-details: var(--fio-sys-color-tertiary-extra-dark-contrast);
-	--_color-accent: var(--fio-sys-color-accent-medium);
+	--_color-details: var(--fio-sys-color-secondary-medium);
+	--_color-accent: var(--_color-details);
+	--_color-accent-hover: var(--fio-sys-color-primary-light-contrast);
 	--_color-topic: var(--fio-sys-color-primary-light);
 	--_color-topic-accent: var(--fio-sys-color-accent-medium);
 	--_mobile-button-border-color: var(--fio-sys-color-primary-light);
@@ -348,7 +349,7 @@
 
 .sidebar .sidebar__group .sidebar__group-item span.text {
 	display: block;
-	color: var(--_color-details);
+	color: var(--_color-font);
 	font-family: var(--fio-sys-typography-family-primary-bold);
 	text-align: left;
 }
@@ -380,7 +381,7 @@
 		padding: 92px 0 12px;
 	}
 	.sidebar .divider hr {
-		background-color: var(--_color-font);
+		background-color: var(--_color-details);
 		height: 1px;
 		margin: 16px 12px;
 		opacity: 1;
@@ -467,8 +468,8 @@
 	.sidebar .sidebar__group .sidebar__group-item button:hover .icon,
 	.sidebar .sidebar__group .sidebar__group-item button:focus .icon,
 	.sidebar .sidebar__group .sidebar__group-item button.show .icon {
-		background-color: var(--_color-details);
-		color: var(--_color-background);
+		background-color: var(--_color-accent);
+		color: var(--_color-accent-hover);
 		transition: 0.25s;
 	}
 	.sidebar .sidebar__group .sidebar__group-item button ~ .dropdown-menu {

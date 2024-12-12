@@ -15,7 +15,7 @@
 .list .list-group .list-group-item {
 	background: transparent;
 	border: none;
-	border-bottom-color: var(--fio-sys-color-neutral-light);
+	border-bottom-color: var(--fio-sys-color-secondary-medium);
 	border-bottom-style: solid;
 	border-bottom-width: var(--fio-sys-size-stroke-xs);
 	border-radius: 0;
@@ -29,19 +29,19 @@
 }
 
 .list .list-group .list-group-item::before {
-	color: var(--fio-sys-color-tertiary-dark);
+	color: var(--fio-sys-color-primary-dark);
 	content: 'label_important';
 	font-family: 'Material Symbols Rounded';
 	font-size: var(--fio-sys-typography-size-1);
 	left: 0;
 	line-height: var(--fio-sys-typography-height-125);
 	position: absolute;
-	text-shadow: 4px 4px 0px var(--fio-sys-color-tertiary-light);
+	text-shadow: 4px 4px 0px var(--fio-sys-color-primary-light);
 	vertical-align: middle;
 }
 
 .list .list-group .list-group-item[list-style='video']::before {
-	color: var(--fio-sys-color-tertiary-medium);
+	color: var(--fio-sys-color-primary-medium);
 	content: 'movie';
 	font-family: 'Material Symbols Rounded';
 	vertical-align: middle;

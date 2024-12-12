@@ -58,7 +58,7 @@
 }
 
 .table-responsive th {
-	background-color: var(--fio-sys-color-primary-extra-dark);
+	background-color: var(--fio-sys-color-primary-medium);
 	font-family: var(--fio-sys-typography-family-primary-semibold);
 	font-size:var(--fio-sys-typography-size-0);
 	color: var(--fio-sys-color-neutral-white);

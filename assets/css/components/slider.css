@@ -194,7 +194,7 @@
 @media (min-width: 768px) {
 
 	.slider .card .card-thumb figure .figure-caption {
-		background-color: var(--fio-sys-color-primary-extra-dark);
+		background-color: var(--fio-sys-color-primary-dark);
 		padding: var(--fio-sys-size-padding-md) var(--fio-sys-size-padding-xxl);
 	}
 	

@@ -104,7 +104,7 @@ figcaption.figure-caption {
 /* --- LAYOUT INTERNAL PAGES --- */
 
 body {
-	background-color: var(--fio-sys-color-primary-background-light);
+	background-color: var(--fio-sys-color-primary-medium-contrast);
 }
 
 .main {
@@ -226,7 +226,7 @@ section {
 }
 
 .heading__block .heading__before {
-	color: var(--fio-sys-color-primary-dark);
+	color: var(--fio-sys-color-primary-medium);
 	display: block;
 	font-family: var(--fio-sys-typography-label-family);
 	font-size: var(--fio-sys-typography-label-sm-size);
@@ -239,10 +239,10 @@ section {
 
 .heading__title {
 	display: inline-block;
-	text-decoration: underline var(--fio-sys-color-tertiary-light);
+	/* text-decoration: underline var(--fio-sys-color-secondary-medium);
 	text-decoration-thickness: 10px;
 	text-decoration-skip-ink: none;
-	text-underline-offset: -4px;
+	text-underline-offset: -4px; */
 }
 
 /* .heading__title::after {

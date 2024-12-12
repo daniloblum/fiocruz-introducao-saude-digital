@@ -5,53 +5,53 @@
 :root {
 	/* ---------- COLORS ---------- */
 
-	/* Primary - 60% layout*/
-	--fio-sys-color-primary-extra-light: var(--fio-ref-color-primary-99);
-	--fio-sys-color-primary-extra-light-contrast: var(--fio-ref-color-primary-30);
-	--fio-sys-color-primary-light: var(--fio-ref-color-primary-90);
+	/* Primary (Azul) - 60% layout*/
+	--fio-sys-color-primary-extra-light: var(--fio-ref-color-primary-95);
+	--fio-sys-color-primary-extra-light-contrast: var(--fio-ref-color-primary-10);
+	--fio-sys-color-primary-light: var(--fio-ref-color-primary-70);
 	--fio-sys-color-primary-light-contrast: var(--fio-ref-color-primary-20);
-	--fio-sys-color-primary-medium: var(--fio-ref-color-primary-60);
-	--fio-sys-color-primary-medium-contrast: var(--fio-ref-color-primary-10);
+	--fio-sys-color-primary-medium: var(--fio-ref-color-primary-50);
+	--fio-sys-color-primary-medium-contrast: var(--fio-ref-color-primary-99);
 	--fio-sys-color-primary-dark: var(--fio-ref-color-primary-40);
-	--fio-sys-color-primary-dark-contrast: var(--fio-ref-color-primary-95);
-	--fio-sys-color-primary-extra-dark: var(--fio-ref-color-primary-20);
-	--fio-sys-color-primary-extra-dark-contrast: var(--fio-ref-color-primary-90);
+	--fio-sys-color-primary-dark-contrast: var(--fio-ref-color-primary-90);
+	--fio-sys-color-primary-extra-dark: var(--fio-ref-color-primary-30);
+	--fio-sys-color-primary-extra-dark-contrast: var(--fio-ref-color-primary-80);
 
-	/* Secondary - 30% layout*/
+	/* Secondary (Verde) - 30% layout*/
 	--fio-sys-color-secondary-extra-light: var(--fio-ref-color-secondary-99);
 	--fio-sys-color-secondary-extra-light-contrast: var(--fio-ref-color-secondary-30);
-	--fio-sys-color-secondary-light: var(--fio-ref-color-secondary-90);
+	--fio-sys-color-secondary-light: var(--fio-ref-color-secondary-80);
 	--fio-sys-color-secondary-light-contrast: var(--fio-ref-color-secondary-20);
 	--fio-sys-color-secondary-medium: var(--fio-ref-color-secondary-60);
 	--fio-sys-color-secondary-medium-contrast: var(--fio-ref-color-secondary-10);
 	--fio-sys-color-secondary-dark: var(--fio-ref-color-secondary-40);
-	--fio-sys-color-secondary-dark-contrast: var(--fio-ref-color-secondary-95);
-	--fio-sys-color-secondary-extra-dark: var(--fio-ref-color-secondary-20);
-	--fio-sys-color-secondary-extra-dark-contrast: var(--fio-ref-color-secondary-90);
+	--fio-sys-color-secondary-dark-contrast: var(--fio-ref-color-secondary-10);
+	--fio-sys-color-secondary-extra-dark: var(--fio-ref-color-secondary-30);
+	--fio-sys-color-secondary-extra-dark-contrast: var(--fio-ref-color-secondary-95);
 
-	/* Tertiary - 10% layout */
-	--fio-sys-color-tertiary-extra-light: var(--fio-ref-color-tertiary-99);
-	--fio-sys-color-tertiary-extra-light-contrast: var(--fio-ref-color-tertiary-30);
+	/* Tertiary (roxo) - 10% layout */
+	--fio-sys-color-tertiary-extra-light: var(--fio-ref-color-tertiary-95);
+	--fio-sys-color-tertiary-extra-light-contrast: var(--fio-ref-color-tertiary-40);
 	--fio-sys-color-tertiary-light: var(--fio-ref-color-tertiary-80);
 	--fio-sys-color-tertiary-light-contrast: var(--fio-ref-color-tertiary-20);
-	--fio-sys-color-tertiary-medium: var(--fio-ref-color-tertiary-60);
-	--fio-sys-color-tertiary-medium-contrast: var(--fio-ref-color-tertiary-10);
-	--fio-sys-color-tertiary-dark: var(--fio-ref-color-tertiary-40);
-	--fio-sys-color-tertiary-dark-contrast: var(--fio-ref-color-tertiary-95);
-	--fio-sys-color-tertiary-extra-dark: var(--fio-ref-color-tertiary-20);
-	--fio-sys-color-tertiary-extra-dark-contrast: var(--fio-ref-color-tertiary-90);
+	--fio-sys-color-tertiary-medium: var(--fio-ref-color-tertiary-70);
+	--fio-sys-color-tertiary-medium-contrast: var(--fio-ref-color-tertiary-99);
+	--fio-sys-color-tertiary-dark: var(--fio-ref-color-tertiary-50);
+	--fio-sys-color-tertiary-dark-contrast: var(--fio-ref-color-tertiary-90);
+	--fio-sys-color-tertiary-extra-dark: var(--fio-ref-color-tertiary-30);
+	--fio-sys-color-tertiary-extra-dark-contrast: var(--fio-ref-color-tertiary-80);
 
 	/* Accent (cor de interação) */
-	--fio-sys-color-accent-extra-light: var(--fio-ref-color-tertiary2-99);
-	--fio-sys-color-accent-extra-light-contrast: var(--fio-ref-color-tertiary2-30);
-	--fio-sys-color-accent-light: var(--fio-ref-color-tertiary2-90);
-	--fio-sys-color-accent-light-contrast: var(--fio-ref-color-tertiary2-20);
-	--fio-sys-color-accent-medium: var(--fio-ref-color-tertiary2-60);
-	--fio-sys-color-accent-medium-contrast: var(--fio-ref-color-tertiary2-10);
-	--fio-sys-color-accent-dark: var(--fio-ref-color-tertiary2-40);
-	--fio-sys-color-accent-dark-contrast: var(--fio-ref-color-tertiary2-10);
-	--fio-sys-color-accent-extra-dark: var(--fio-ref-color-tertiary2-20);
-	--fio-sys-color-accent-extra-dark-contrast: var(--fio-ref-color-tertiary2-80);
+	--fio-sys-color-accent-extra-light: var(--fio-sys-color-primary-extra-light);
+	--fio-sys-color-accent-extra-light-contrast: var(--fio-sys-color-primary-extra-light-contrast);
+	--fio-sys-color-accent-light: var(--fio-sys-color-primary-light);
+	--fio-sys-color-accent-light-contrast: var(--fio-sys-color-primary-light-contrast);
+	--fio-sys-color-accent-medium: var(--fio-sys-color-primary-medium);
+	--fio-sys-color-accent-medium-contrast: var(--fio-sys-color-primary-medium-contrast);
+	--fio-sys-color-accent-dark: var(--fio-sys-color-primary-dark);
+	--fio-sys-color-accent-dark-contrast: var(--fio-sys-color-primary-dark-contrast);
+	--fio-sys-color-accent-extra-dark: var(--fio-sys-color-primary-extra-dark);
+	--fio-sys-color-accent-extra-dark-contrast: var(--fio-sys-color-primary-extra-dark-contrast);
 
 	/* Neutral */
 	--fio-sys-color-neutral-extra-light: var(--fio-ref-color-neutral-99);
@@ -178,6 +178,8 @@
 	--fio-sys-typography-family-primary-bold-italic: var(--fio-ref-typography-family-primary) Bold Italic, sans-serif;
 	--fio-sys-typography-family-primary-extra-bold: var(--fio-ref-typography-family-primary) ExtraBold, sans-serif;
 	--fio-sys-typography-family-primary-extra-bold-italic: var(--fio-ref-typography-family-primary) ExtraBold Italic, sans-serif;
+	--fio-sys-typography-family-primary-black: var(--fio-ref-typography-family-primary) Black, sans-serif;
+	--fio-sys-typography-family-primary-black-italic: var(--fio-ref-typography-family-primary) Black Italic, sans-serif;
 
 	--fio-sys-typography-family-secondary-regular: var(--fio-ref-typography-family-secondary) Regular, sans-serif;
 
