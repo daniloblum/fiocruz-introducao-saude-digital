@@ -46,7 +46,7 @@
 .box-cor .box-cor__base {
 	background-color: var(--fio-sys-color-primary-extra-light);
 	background-image: url(../../../media/templates/bg-box.svg);
-	background-image: none;
+	/* background-image: none; */
     background-repeat: no-repeat;
     background-position: 20% 0;
     background-size: 250%;

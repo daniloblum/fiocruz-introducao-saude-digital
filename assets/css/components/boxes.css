@@ -249,7 +249,9 @@ audio {
 	padding: var(--fio-sys-size-padding-sm);
     background-color: var(--fio-sys-color-primary-extra-light);
 	background-image:url(../../../media/templates/tabs-footer.svg);
+	/* background-image:url(../../../media/templates/bg-saiba-mais.svg); */
 	background-repeat: no-repeat;
+	background-position: 0px 30px;
     border-radius: var(--fio-sys-size-radius-md);
 }
 
@@ -278,17 +280,17 @@ audio {
 }
 
 .saiba-mais button.saiba-mais.fio-button .icone::before {
-	/* content: 'touch_app'; */
-	content: url(../../../media/templates/ic-saiba-mais.svg);
+	content: 'touch_app';
+	/* content: url(../../../media/templates/ic-saiba-mais.svg); */
     --_box-icone-width: var(--fio-sys-typography-size-6);
-    /* border-right-style: solid; */
-    /* border-right-width: var(--fio-sys-size-stroke-sm); */
+    border-right-style: solid;
+    border-right-width: var(--fio-sys-size-stroke-sm);
     display: block;
-    font-size: var(--fio-sys-typography-size-1);
-    margin-right: var(--fio-sys-size-padding-xs);
+    font-size: var(--fio-sys-typography-size-4);
+    margin-right: var(--fio-sys-size-padding-sm);
     /* background-color: var(--fio-sys-color-tertiary-extra-dark-contrast);
-    border-radius: var(--fio-sys-size-radius-full); 
-    padding: var(--fio-sys-size-padding-sm);*/
+    border-radius: var(--fio-sys-size-radius-full); */
+    padding: var(--fio-sys-size-padding-sm);
 	width: var( --_box-icone-width);
 }
 

@@ -59,34 +59,12 @@ footer .logos img {
 	height: var(--_footer-logos-size-default);
 }
 
-footer .logos img.logo2,
-footer .logos img.logo3 {
-	height: 140px;
-}
-
-footer .logos .logo4{
-	height: 70px;
-}
-
-footer .logos img.logo6 {
+footer .logos img.logo5 {
     height: 350px;
 }
 
 
 @media (min-width: 768px) {
-	footer .logos .logo4{
-		height: var(--_footer-logos-size-default);
-	}
-
-	footer .logos img.logo2,
-	footer .logos img.logo3 {
-		height: 120px;
-	}
-
-
-	footer .logos img.logo6 {
-		height: 150px;
-	}
 
 	footer .col-auto {
 		width: auto;
@@ -102,11 +80,6 @@ footer .logos img.logo6 {
 
 	footer .logos img {
 		height: 60px;
-	}
-
-	footer .logos img.logo2,
-	footer .logos img.logo3 {
-		height: 120px;
 	}
 
 	footer .logos.principais {
@@ -132,10 +105,9 @@ footer .logos img.logo6 {
 		height: 40px;
 	}
 
-	footer .logos img.logo2,
-	footer .logos img.logo3 {
-		height: 90px;
-	}
+	footer .logos img.logo5 {
+        height: 180px;
+    }
 }
 @media (min-width: 1200px) {
 	footer {
@@ -143,13 +115,9 @@ footer .logos img.logo6 {
 	}
 
 	footer .logos img {
-		height: 50px;
+		height: 60px;
 	}
 
-	footer .logos img.logo2,
-	footer .logos img.logo3 {
-		height: 100px;
-	}
 }
 @media (min-width: 1320px) {
 	:root {
