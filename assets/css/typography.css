@@ -160,10 +160,27 @@ blockquote {
 	font-family: var(--fio-sys-typography-quotation-family);
 }
 
-.heading__block span {
+.heading__block .heading__before {
 	font-family: var(--fio-sys-typography-family-primary-medium);
     display: block;
     font-size: var(--fio-sys-typography-size-0) !important;
+    color: var(--fio-sys-color-primary-medium);
+    margin-bottom: var(--fio-sys-size-margin-sm);
+}
+
+.heading__block span {
+    font-family: var(--fio-sys-typography-family-primary-medium);
+    display: block;
+    font-size: var(--fio-sys-typography-size-0) !important;
+    color: var(--fio-sys-color-primary-medium);
+    margin-bottom: var(--fio-sys-size-margin-sm);
+}
+
+
+.heading__block .heading__subtitle {
+	font-family: var(--fio-sys-typography-family-primary-medium);
+	font-size: var(--fio-sys-typography-size-1) !important;
+    display: block;
     color: var(--fio-sys-color-primary-medium);
     margin-bottom: var(--fio-sys-size-margin-sm);
 }

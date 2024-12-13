@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no" />
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="robots" content="noindex" />
+		<meta name="author" content="Fiocruz, Campus Virtual" />
+		<meta name="description" content="Curso Introdução à Saúde Digital" />
+		<meta name="keywords" content="Fiocruz Curso Introdução à Saúde Digital" />
+
+		<!-- Facebook Open Graph -->
+		<meta property="og:url" content="https://mooc.campusvirtual.fiocruz.br/rea/etica-integridade-pesquisa" />
+		<meta property="og:title" content="Campus Virtual Fiocruz | Curso Introdução à Saúde Digital" />
+		<meta property="og:description" content="Curso Introdução à Saúde Digital" />
+		<meta property="og:image" content="" />
+		<meta property="og:image:width" content="1080" />
+		<meta property="og:image:height" content="1080" />
+		<meta property="og:type" content="website" />
+
+		<!-- Twitter Cards -->
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="Campus Virtual Fiocruz | Curso Introdução à Saúde Digital" />
+		<meta name="twitter:url" content="" />
+		<meta name="twitter:description" content="" />
+		<meta name="twitter:image:src" content="" />
+
+		<!-- Favicons and Touch Icons -->
+		<link rel="apple-touch-icon" sizes="57x57" href="../../media/icons/apple-icon-57x57.png" />
+		<link rel="apple-touch-icon" sizes="60x60" href="../../media/icons/apple-icon-60x60.png" />
+		<link rel="apple-touch-icon" sizes="72x72" href="../../media/icons/apple-icon-72x72.png" />
+		<link rel="apple-touch-icon" sizes="76x76" href="../../media/icons/apple-icon-76x76.png" />
+		<link rel="apple-touch-icon" sizes="114x114" href="../../media/icons/apple-icon-114x114.png" />
+		<link rel="apple-touch-icon" sizes="120x120" href="../../media/icons/apple-icon-120x120.png" />
+		<link rel="apple-touch-icon" sizes="144x144" href="../../media/icons/apple-icon-144x144.png" />
+		<link rel="apple-touch-icon" sizes="152x152" href="../../media/icons/apple-icon-152x152.png" />
+		<link rel="apple-touch-icon" sizes="180x180" href="../../media/icons/apple-icon-180x180.png" />
+
+		<link rel="icon" type="image/png" sizes="192x192" href="../../media/icons/android-icon-192x192.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="../../media/icons/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="96x96" href="../../media/icons/favicon-96x96.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="../../media/icons/favicon-16x16.png" />
+		<link rel="manifest" href="../media/icons/manifest.json" />
+
+		<meta name="msapplication-TileColor" content="#ffffff" />
+		<meta name="msapplication-TileImage" content="../../media/icons/ms-icon-144x144.png" />
+		<!-- <meta name="theme-color" content="#003066" /> -->
+		<meta name="theme-color" content="#001833" />
+
+		<title>Curso Introdução à Saúde Digital | Mod 1 | Aula 3 </title>
+
+		<!-- Bootstrap CSS 5.1.3 -->
+		<link rel="stylesheet" href="../../source/bootstrap-5.1.3/css/bootstrap.min.css" />
+
+		<!-- Project CSS -->
+		<link rel="stylesheet" href="../../assets/css/style.css" />
+	</head>
+
+	<body>
+		<header class="header">
+			<div class="mobile-toggle-open">
+				<a class="mobile-toggle__button" tabindex="0" role="button">
+					<span class="icon material-symbols-rounded">read_more</span>
+				</a>
+			</div>
+			<div class="brand">
+				<img class="img-fluid logo-black" src="../../media/logos/header-fiocruz-campus-virtual.png" alt="Campus Virtual Fiocruz" />
+			</div>
+			<div class="title">
+				<h1>Introdução à Saúde Digital</h1>
+			</div>
+			<ul class="nav nav-pills">
+				<li class="nav-item"><a href="../../index.html" class="nav-link">Início</a></li>
+				<li class="nav-item"><a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#modal-creditos">Créditos</a></li>
+			</ul>
+		</header>
+		<div class="main">
+			<div class="sidebar" role="navigation">
+				<div class="sidebar__inner" style="position: relative;">
+					<div class="sidebar__group d-lg-none">
+						<div class="sidebar__group-item">
+							<div class="sidebar__header">
+								<span>Curso</span>
+								<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
+							</div>
+						</div>
+						<div class="sidebar__group-item">
+							<div class="sidebar__title">
+								<h1>Introdução à Saúde Digital</h1>
+							</div>
+						</div>
+						<div class="sidebar__group-item">
+							<ul class="nav">
+								<li class="nav-item">
+									<a href="../../index.html" class="nav-link" tabindex="0"><span class="icon material-symbols-rounded" aria-hidden="true">home</span>Início</a>
+								</li>
+								<li class="nav-item">
+									<a href="#" class="nav-link" tabindex="0" data-bs-toggle="modal" data-bs-target="#modal-creditos"><span class="icon material-symbols-rounded" aria-hidden="true"> format_list_bulleted</span>Créditos</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="sidebar__group">
+						<div class="sidebar__group-item">
+							<div class=" dropend">
+								<button id="dropdown-modulos" type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30">
+									<span class="icon material-symbols-rounded" aria-hidden="true">grid_view</span>
+									<span class="label">Módulos</span>
+								</button>
+								<ul class="dropdown-menu" aria-labelledby="dropdown-modulos">
+									<li class="d-lg-none dropdown-menu__header">
+										<a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
+										<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
+									</li>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo1/apresentacao.html"><strong>Módulo 1</strong><br />Fundamentos de Saúde Digital e Tecnologia da Informação em Saúde</a>
+									</li>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo2/apresentacao.html"><strong>Módulo 2</strong><br />Sistemas de informação em saúde e gestão de dados eletrônicos</a>
+									</li>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo3/apresentacao.html"><strong>Módulo 3</strong><br />Segurança da informação e proteção de dados pessoais</a>
+									</li>
+
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo3/apresentacao.html"><strong>Módulo 4</strong><br />Inovação em Saúde Digital</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="divider">
+						<hr>
+					</div>
+					<div class="sidebar__group">
+						<div class="sidebar__group-item">
+							<span class="text module">Módulo <br class="d-none d-lg-block"><span>1</span></span>
+						</div>
+						<div class="sidebar__group-item">
+							<div class=" dropend">
+								<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30">
+									<span class="icon material-symbols-rounded" aria-hidden="true">apps</span>
+									<span class="label">Conteúdo</span>
+								</button>
+								<ul class="dropdown-menu">
+									<li class="d-lg-none dropdown-menu__header">
+										<a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
+										<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
+									</li>
+									<li class="dropdown-menu__title">
+										<span class="label">Módulo 1</span>
+										<span class="title">Fundamentos de Saúde Digital e Tecnologia da Informação em Saúde</span>
+									</li>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../apresentacao.html"><strong>Apresentação do módulo</strong></a>
+									</li>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../aula1/topico1.html"><strong>Aula 1: </strong>Introdução à saúde digital: conceitos e aplicações</a>
+									</li>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../aula2/topico1.html"><strong>Aula 2: </strong>Transformação digital em saúde e no SUS</a>
+									</li>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../aula3/topico1.html"><strong>Aula 3: </strong>Saúde digital, Telessaúde e Telemedicina</a>
+									</li>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../aula4/topico1.html"><strong>Aula 4: </strong>Introdução à inteligência artificial na saúde</a>
+									</li>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../encerramento.html"><strong>Encerramento do módulo</strong></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="divider">
+						<hr>
+					</div>
+					<div class="sidebar__group">
+						<div class="sidebar__group-item">
+							<span class="text class">Aula 3</span>
+						</div>
+						<div class="sidebar__group-item">
+							<div class="dropend">
+								<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="200,30">
+									<span class="icon material-symbols-rounded" aria-hidden="true"> format_list_bulleted</span>
+									<span class="label">Tópicos</span>
+								</button>
+								<ul class="dropdown-menu">
+									<li class="d-lg-none dropdown-menu__header">
+										<a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
+										<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
+									</li>
+									<li class="dropdown-menu__title">
+										<span class="label">Aula 3</span>
+										<span class="title">Saúde digital, Telessaúde e Telemedicina</span>
+									</li>
+									<li class="dropdown-menu__item">
+										<nav class="topic-list">
+											<a href="topico1.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico concluído" status="visited"> <span class="material-symbols-rounded"></span>Introdução</a>
+
+											<a href="topico2.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico concluído" status="visited"> <span class="material-symbols-rounded"></span>Mercado de Saúde Digital: expansão e aplicação </a>
+
+											<a href="topico3.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído"><span class="material-symbols-rounded"></span>Telessaúde e Telemedicina no Brasil</a>
+										</nav>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="sidebar__group-item">
+							<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-autorMod1Aula1">
+								<span class="icon material-symbols-rounded" aria-hidden="true"> id_card</span>
+								<span class="label">Autores</span>
+							</button>
+						</div>
+					</div>
+					<div class="divider">
+						<hr>
+					</div>
+					<div class="sidebar__group extra">
+						<div class="sidebar__group-item">
+							<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-glossario">
+								<span class="icon material-symbols-rounded" aria-hidden="true"> dictionary</span>
+								<span class="label">Glossário</span>
+							</button>
+						</div>
+						<div class="sidebar__group-item">
+							<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-bibliografiaMod1">
+								<span class="icon material-symbols-rounded" aria-hidden="true"> menu_book</span>
+								<span class="label">Bibliografia</span>
+							</button>
+						</div>
+						<div class="sidebar__group-item">
+							<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-material-complementar">
+								<span class="icon material-symbols-rounded" aria-hidden="true"> library_books</span>
+								<span class="label">Material complementar</span>
+							</button>
+						</div>
+					</div>
+				<div dir="ltr" class="resize-sensor" style="pointer-events: none; position: absolute; inset: 0px; overflow: hidden; z-index: -1; visibility: hidden; max-width: 100%;"><div class="resize-sensor-expand" style="pointer-events: none; position: absolute; inset: 0px; overflow: hidden; z-index: -1; visibility: hidden; max-width: 100%;"><div style="position: absolute; left: 0px; top: 0px; transition: all; width: 130px; height: 921px;"></div></div><div class="resize-sensor-shrink" style="pointer-events: none; position: absolute; inset: 0px; overflow: hidden; z-index: -1; visibility: hidden; max-width: 100%;"><div style="position: absolute; left: 0px; top: 0px; transition: all; width: 200%; height: 200%;"></div></div></div></div>
+			</div>
+
+			<div class="content">
+				<div id="page-title">
+					<div class="container">
+						<div class="row align-items-center hstify-content-center justify-content-xxl-start ms-lg-5">
+							<div class="col-12 col-md-10 col-lg-9">
+								<h2 class="title">
+									<span class="label">Módulo 1 | Aula 3</span>
+                                    <br/>
+									Saúde digital, Telessaúde e Telemedicina
+								</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="page-content" class="">
+					<!-- Inserir o conteúdo aqui -->
+					<section>
+						<div class="container">
+							<div class="row justify-content-center">
+								<div class="col-12 col-md-10 col-lg-8 mb-5">
+                                    <div class="heading__block">
+										<span class="small">Tópico 2</span>
+										<h3 class="heading__title">Mercado de Saúde Digital: expansão e aplicação</h3>
+									</div>
+
+									<p>Como já abordamos aqui, o mercado de saúde digital está em rápida expansão, introduzindo inovações que prometem transformar a forma como os cuidados de saúde são prestados, ao mesmo tempo em que apresentam desafios que precisam ser abordados para garantir que esses benefícios sejam acessíveis, seguros e eficazes para todos.</p>
+
+                                    <p>Alguns exemplos de aplicações em saúde digital incluem a telemedicina e a telessaúde. 
+										Elas estão presentes ao longo do tempo como estratégia de resposta aos problemas de saúde. Desde o surgimento das primeiras práticas do uso da tecnologia aplicadas à saúde, as experiências se multiplicaram em diferentes arranjos e em diferentes setores, trazendo para o cenário, novas práticas de cuidado e novos processos de trabalho, desencadeando assim, importantes processos de construção de políticas públicas no decorrer deste percurso.
+										</p>
+
+									<p>É dentro desse contexto de inovação tecnológica que a Telemedicina/Telessaúde se constitui, emergindo como ferramenta que se utiliza da tecnologia da informação e comunicação para prestar serviços de saúde à distância, inovando a prática do cuidado. Essas inovações podem ser observadas a partir das transformações que ocorreram com o advento da internet e o desenvolvimento das telecomunicações, onde os primeiros registros de experiências envolvendo o uso do telefone na prática médica, datam do século XIX. (MELO e SILVA, 2006)</p>
+
+									<p>Fazendo um breve histórico desse processo, destacamos alguns marcos importantes na origem e finalidade da telemedicina e telessaúde. Você pode acompanhar a seguir, uma linha do tempo, sintetizando os principais pontos no curso de evolução das práticas médicas à distância; nela é possível identificar algumas referências, como o uso de telégrafo no século XIX, evoluindo para o uso da telefonia, seguido do uso da televisão no século XX, onde o avanço das telecomunicações marcou uma expansão naquele momento histórico. </p>
+								</div>
+							</div>
+						</div>
+
+						<div class="container-fluid timeline-horizontal mb-5 aos-animate aos-init" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="600">
+							<div class="row justify-content-center pt-0">
+								<div class="col">
+									<!-- Timeline Horizontal -->
+									<div class="cd-h-timeline js-cd-h-timeline cd-h-timeline--loaded">
+										<div class="container" style="min-height:800px;">
+											<div class="row justify-content-center">
+												<div class="col-12">
+													<div class="cd-h-timeline__container">
+														<div class="cd-h-timeline__dates">
+															<div class="cd-h-timeline__line">
+																<ol>
+																	<li><a href="#0" data-date="01/01/1890" class="cd-h-timeline__date cd-h-timeline__date--selected">Séc. XIX</a></li>
+																	<li><a href="#0" data-date="01/01/1940" class="cd-h-timeline__date">Séc. XX</a></li>
+																	<li><a href="#0" data-date="01/01/1950" class="cd-h-timeline__date" >Séc. XX<br/>Anos 1950</a></li>
+																	<li><a href="#0" data-date="01/01/1980" class="cd-h-timeline__date" >Séc. XX<br/>Anos 1970/1980</a></li>
+																	<li><a href="#0" data-date="01/01/1990" class="cd-h-timeline__date">Séc. XX<br/>Anos 1990</a></li>
+																	<li><a href="#0" data-date="01/01/2000" class="cd-h-timeline__date">Séc. XX<br/>Anos 2000</a></li>
+																</ol>
+
+																<span class="cd-h-timeline__filling-line" aria-hidden="true"></span>
+															</div>
+														</div>
+
+														<ul>
+															<li><a href="#0" class="text-replace cd-h-timeline__navigation cd-h-timeline__navigation--prev">Prev</a></li>
+															<li><a href="#0" class="text-replace cd-h-timeline__navigation cd-h-timeline__navigation--next">Next</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="row justify-content-center">
+												<div class="col-12">
+													<div class="cd-h-timeline__events">
+														<ol>
+															<li class="cd-h-timeline__event cd-h-timeline__event--selected text-component">
+																<div class="heading__block">
+																	<span class="heading__before">Séc. XIX</span>
+																	<h4 class="heading__title">Uso do telégrafo</h4>
+																	<span class="heading__subtitle h6">Consultas médicas</span>
+																</div>
+
+																<!-- Texto à direita com Imagem  -->
+																<div class="row justify-content-center d-lg-block">
+																	<!-- Imagem -->
+																	<div class="col-md-3 col-lg-3 float-lg-start me-lg-4 px-0 order-1 order-lg-2">
+																		<figure>
+																			<img class="img-fluid mx-auto d-block mb-3" src="https://via.placeholder.com/720x720" alt="Imagem aleatória de exmplo" title="Fonte: unsplash.com">
+																			<figcaption class="figure-caption">Imagem com tamanho 720x720</figcaption>
+																			<figcaption class="figure-caption fonte">Fonte: unsplash.com</figcaption>
+																		</figure>
+																	</div>
+									
+																	<!-- Texto -->
+																	<div class="order-2 order-lg-1">
+																		<p>O primeiro marco, século XIX, pode ser caracterizado pela evolução dos serviços postais, onde o telégrafo era utilizado para transmitir informações durante a guerra civil americana. Nesse período, (1861-1865), suprimentos médicos eram solicitados por telégrafo, além de registros que indicam que nas primeiras décadas de sua invenção o telégrafo era utilizado em consultas médicas. (ZUNDEL, 1996)</p>
+																	</div>
+																</div>
+																<!-- Fim de texto e imagem à direita-->
+																
+															</li>
+
+															<li class="cd-h-timeline__event text-component">
+																<div class="heading__block">
+																	<span class="heading__before">Séc. XX</span>
+																	<h4 class="heading__title">Desenvolvimento da radiocomunicação</h4>
+																	<span class="heading__subtitle h6">Experiências Telediagnóstico (ECG) e Rx</span>
+																</div>
+																<!-- Texto à direita com Imagem  -->
+																<div class="row justify-content-center d-lg-block">
+																	<!-- Imagem -->
+																	<div class="col-md-3 col-lg-3 float-lg-start me-lg-4 px-0 order-1 order-lg-2">
+																		<figure>
+																			<img class="img-fluid mx-auto d-block mb-3" src="https://via.placeholder.com/720x720" alt="Imagem aleatória de exmplo" title="Fonte: unsplash.com">
+																			<figcaption class="figure-caption">Imagem com tamanho 720x720</figcaption>
+																			<figcaption class="figure-caption fonte">Fonte: unsplash.com</figcaption>
+																		</figure>
+																	</div>
+									
+																	<!-- Texto -->
+																	<div class="order-2 order-lg-1">
+																		<p>Outro marco relevante no que se refere às consultas médicas à distância pode ser observado com o uso do telefone. Os primeiros usos do telefone estão associados à teleconsulta e a teleconsultoria, sendo inicialmente utilizados em vários países da Europa e nos EUA, facilitando a troca de informações e a divulgação das práticas médicas. (MELO e SILVA, 2006)</p>
+
+																		<p>No século XX o uso de tecnologias eletrônicas para provimento de serviço de saúde é impulsionado pelo desenvolvimento da radiocomunicação. Neste aspecto, pode-se destacar o serviço do <em>Italian International Radio Medicine Centre</em>, com atividades a partir de 1935. Um serviço para tripulações marinhas objetivando o atendimento médico e orientações de saúde. Ainda nesse contexto, cabe destacar a transmissão de dados de eletrocardiograma por fio caracterizando também um marco no desenvolvimento da telemedicina. </p>
+																	</div>
+																</div>
+																<!-- Fim de texto e imagem à direita-->
+															</li>
+
+															<li class="cd-h-timeline__event text-component">
+																<div class="heading__block">
+																	<span class="heading__before">Século XX (Anos 1950)</span>
+																	<h4 class="heading__title">Advento da televisão</h4>
+																	<span class="heading__subtitle h6">Teleconsultas Telecirurgia</span>
+																</div>
+																<!-- Texto à direita com Imagem  -->
+																<div class="row justify-content-center d-lg-block">
+																	<!-- Imagem -->
+																	<div class="col-md-3 col-lg-3 float-lg-start me-lg-4 px-0 order-1 order-lg-2">
+																		<figure>
+																			<img class="img-fluid mx-auto d-block mb-3" src="https://via.placeholder.com/720x720" alt="Imagem aleatória de exmplo" title="Fonte: unsplash.com">
+																			<figcaption class="figure-caption">Imagem com tamanho 720x720</figcaption>
+																			<figcaption class="figure-caption fonte">Fonte: unsplash.com</figcaption>
+																		</figure>
+																	</div>
+									
+																	<!-- Texto -->
+																	<div class="order-2 order-lg-1">
+																		<p>Com advento da televisão nos anos 50, a capacidade de transmitir imagem e som a longas distâncias é incorporada à prática da telemedicina.  Nesse cenário, a transmissão de imagens radiológicas é integrada à comunicação por vídeo, eletrocardiogramas e radiografias são avaliados por especialistas a longas distâncias, facilitando assim a comunicação entre os médicos. Encontramos na literatura, registros de teleconsultas, telecirurgias, como prática comum no contexto mundial. (ZUNDEL, 1996).</p>
+																	</div>
+																</div>
+																<!-- Fim de texto e imagem à direita-->
+															</li>
+
+															<li class="cd-h-timeline__event text-component">
+																<div class="heading__block">
+																	<span class="heading__before">Século XX (Anos 1970/1980)</span>
+																	<h4 class="heading__title">Transmissão via satélite </h4>
+																	<span class="heading__subtitle h6">Expansão do campo de atuação clínica</span>
+																</div>
+																<!-- Texto à direita com Imagem  -->
+																<div class="row justify-content-center d-lg-block">
+																	<!-- Imagem -->
+																	<div class="col-md-3 col-lg-3 float-lg-start me-lg-4 px-0 order-1 order-lg-2">
+																		<figure>
+																			<img class="img-fluid mx-auto d-block mb-3" src="https://via.placeholder.com/720x720" alt="Imagem aleatória de exmplo" title="Fonte: unsplash.com">
+																			<figcaption class="figure-caption">Imagem com tamanho 720x720</figcaption>
+																			<figcaption class="figure-caption fonte">Fonte: unsplash.com</figcaption>
+																		</figure>
+																	</div>
+									
+																	<!-- Texto -->
+																	<div class="order-2 order-lg-1">
+																		<p>Na década de 1970/1980, serviços de captura de imagens e transmissão de dados recebem investimentos. Nesse sentido, do ponto de vista global, a transmissão via satélite expande o campo da atuação clínica.</p>
+																	</div>
+																</div>
+																<!-- Fim de texto e imagem à direita-->
+															</li>
+
+															<li class="cd-h-timeline__event text-component">
+																<div class="heading__block">
+																	<span class="heading__before">Século XX (Anos 1990)</span>
+																	<h4 class="heading__title">Banda Larga (Internet)</h4>
+																	<span class="heading__subtitle h6">Integração das telecomunicações com as necessidades da saúde</span>
+																</div>
+																<!-- Texto à direita com Imagem  -->
+																<div class="row justify-content-center d-lg-block">
+																	<!-- Imagem -->
+																	<div class="col-md-3 col-lg-3 float-lg-start me-lg-4 px-0 order-1 order-lg-2">
+																		<figure>
+																			<img class="img-fluid mx-auto d-block mb-3" src="https://via.placeholder.com/720x720" alt="Imagem aleatória de exmplo" title="Fonte: unsplash.com">
+																			<figcaption class="figure-caption">Imagem com tamanho 720x720</figcaption>
+																			<figcaption class="figure-caption fonte">Fonte: unsplash.com</figcaption>
+																		</figure>
+																	</div>
+									
+																	<!-- Texto -->
+																	<div class="order-2 order-lg-1">
+																		<p>Na década de 1990, a telemedicina ganha um novo impulso com o advento das linhas de transmissão de dados de ampla distribuição, a internet promove um grande desenvolvimento na área. (SABBATINI, 2012). Neste período, pode-se observar a crescente integração da telecomunicação às necessidades de saúde. Ainda nos anos 90, destaca-se a banda larga da internet para telefonia, aplicativos de redes sociais, smartphones, os bancos de dados em nuvem, são exemplos da transformação digital. Essas transformações não são exclusivas do campo médico, abrangem também outras áreas da saúde e cada vez mais impactam no nosso cotidiano. </p>
+																	</div>
+																</div>
+																<!-- Fim de texto e imagem à direita-->
+															</li>
+
+															<li class="cd-h-timeline__event text-component">
+																<div class="heading__block">
+																	<span class="heading__before">Século XX (Anos 2000)</span>
+																	<h4 class="heading__title">eSaúde incorpora telemedicina e telessaúde</h4>
+																	<span class="heading__subtitle h6">OMS incorpora o termo em suas diretrizes</span>
+																</div>
+																<!-- Texto à direita com Imagem  -->
+																<div class="row justify-content-center d-lg-block">
+																	<!-- Imagem -->
+																	<div class="col-md-3 col-lg-3 float-lg-start me-lg-4 px-0 order-1 order-lg-2">
+																		<figure>
+																			<img class="img-fluid mx-auto d-block mb-3" src="https://via.placeholder.com/720x720" alt="Imagem aleatória de exmplo" title="Fonte: unsplash.com">
+																			<figcaption class="figure-caption">Imagem com tamanho 720x720</figcaption>
+																			<figcaption class="figure-caption fonte">Fonte: unsplash.com</figcaption>
+																		</figure>
+																	</div>
+									
+																	<!-- Texto -->
+																	<div class="order-2 order-lg-1">
+																		<p>Com relação ao conceito de telemedicina, podemos dizer que na literatura surge associado às práticas de assistência à saúde realizadas à distância. O termo refere-se ao cuidado prestado ao paciente pelo médico, sendo mais tarde incorporado também o processo de transferência de dados por meio eletrônico. Desse modo, o uso de tecnologias de informação e telecomunicações são empregadas para transferir informações médicas para diagnóstico, terapia e educação, incluindo dessa forma, outras finalidades, não só assistenciais, mas também formativas e diagnósticas, como podemos observar na definição da Organização Mundial da Saúde (OMS) através do Observatório Global da Saúde- (Goe). “Oferta de serviços de atenção à saúde nas situações em que a distância é um fator crítico, por profissionais de saúde, utilizando tecnologias de informação e comunicação, para a troca de informações necessárias para o diagnóstico, tratamento e prevenção de doenças, para pesquisas e avaliações e para a educação continuada dos provedores e profissionais da saúde, com o objetivo maior de promover a melhoria da saúde dos indivíduos e das comunidades”. (WORLD HEALTH ORGANIZATION, 2010).</p>
+																	</div>
+																</div>
+																<!-- Fim de texto e imagem à direita-->
+															</li>
+														</ol>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row px-0 background-tertiary-extra-light ">
+								<img src="../../media/templates/bg-timeline-horizontal-bottom.svg"/>
+							</div>
+						</div>
+
+						<div class="container">
+                            <div class="row justify-content-center">
+								<div class="col-12 col-md-10 col-lg-8 mb-5 pb-5">
+									<p>Com a evolução da telemedicina, o escopo de sua funcionalidade e aplicações são alargados, surgindo outros termos e definições correlatas que se sobrepõem ao longo da história, dificultando o desenvolvimento conceitual no campo e os limites precisos entre os conceitos. (BASHSHUR, 2011).</p>
+
+									<p>Nesta perspectiva, podemos observar que outros termos foram sendo incluídos posteriormente, como: <strong>telessaúde, saúde eletrônica, saúde móvel e saúde digital.</strong></p>
+								</div>
+							</div>
+
+							<div class="row justify-content-center">
+								<div class="col-12 col-md-10 col-lg-8 mb-5">
+									<figure class="lightbox aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="600">
+										<img class="img-fluid mx-auto d-block mb-3" src="../../media/modulo1/aula3-img1.png" alt="" title="Fonte: Campus Virtual Fiocruz, a partir de Van Dyk (2014)">
+										<figcaption class="figure-caption fonte">Fonte: Campus Virtual Fiocruz, a partir de Van Dyk (2014)</figcaption>
+									</figure>
+								</div>
+							</div>
+
+							<div class="row justify-content-center">
+								<div class="col-12 col-md-10 col-lg-11 mb-5">
+									<p>O termo telessaúde ganha força na literatura no final dos anos 1980 e início de 1990, sendo considerado como uma ampliação do termo telemedicina e frequentemente usado de forma mais abrangente, incluindo não só os profissionais médicos, mas também outras categorias profissionais da saúde. As definições englobam o uso das tecnologias de informação e comunicação para transferir informações de saúde para a prestação de serviços clínicos, administrativos e educacionais. Telessaúde, dessa forma, passa a compor um escopo maior, envolvendo a promoção de saúde e prevenção de doenças. A transferência de informações demográficas, operacionais está também associada à terminologia. (SILVA 2014). </p>
+
+									<p>O termo eSaúde começou a ser utilizado na década de 2000. Na literatura, o termo aparece algumas vezes como sinônimo e abarca a telemedicina e a telessaúde, podendo ser caracterizado como uma “solução eletrônica para apoiar a saúde”, refere-se à transmissão de serviços e informações em saúde utilizando a tecnologia da informação e comunicação. (MELO e SILVA 2006). Nesta perspectiva, o conceito abrange todas as formas de uso das tecnologias da informação e comunicação na saúde, englobando todos os níveis e organizações, incluindo o intercâmbio de informações, sistemas de gestão e apoio à decisão. (SABBATINI, 2012). </p>
+
+									<p>Em 2004, a Organização Mundial de Saúde (OMS) incorpora o termo em sua estratégia para os países membros. Por conseguinte, é criado em 2005 o Global Observatory for eHealth (GOe) com objetivo de monitorar e analisar o desenvolvimento da eSaúde, promovendo a disseminação de informações estratégicas e parâmetros no apoio às ações globais de eSaúde.</p>
+
+									<p>O termo mSaúde ou Saúde Móvel surge na literatura em 2003, está relacionado à utilização de dispositivos móveis de monitoramento sem fio, agrega o registro de informações de saúde, coleta de dados, por meio de aplicativos complexos e interativos, sendo utilizado como suporte clínico. </p>
+
+									<p>Por último, outro termo associado à área de desenvolvimento da telemedicina e telessaúde diz respeito a Saúde Digital. O termo despontou mais recentemente como resposta aos desafios dos sistemas de saúde, fortalecendo o uso das tecnologias como suporte ao contexto de crise sanitária. (FORNAZIN <em>et al.</em>, 2022).</p>
+										
+								</div>
+							</div>
+
+							<div class="row justify-content-center">
+								<div class="col-12 col-md-10 col-lg-8 mb-5">
+									<!-- Olho de texto -->
+									<div class="olho-de-texto my-5">
+										<p>A saúde digital é um termo amplo que abrange telessaúde, telemedicina, eSaúde, saúde móvel e outras áreas da computação, como por exemplo: big data, bioinformática e inteligência artificial. Está relacionado ao uso das TICs na saúde para gerir as doenças e riscos à saúde, bem como a promoção do bem-estar. (SILVA et al., 2023).</p>
+									</div>
+									<!--Fim de Olho de texto -->
+								</div>
+							</div>
+
+							<div class="row justify-content-center">
+								<div class="col-12 col-md-10 col-lg-8 mb-5">
+									<p>Atualmente em curso no país, temos o documento Estratégia de Saúde Digital para o Brasil 2020-2028 (ESD2028) (BRASIL, 2020), que sistematiza e consolida o trabalho já realizado na última década e propõe estratégias para a transformação digital no país, incluindo a Visão de Saúde Digital, o Plano de Ação e as prioridades para alcançá-lo, bem como o Plano de Monitoramento e Avaliação, com objetivo de nortear e alinhar as ações.</p>
+
+									<p>Podemos dizer que a delimitação e a definição dos conceitos associados à telemedicina/telessaúde é uma tarefa complexa, os termos apresentam características em comum e muitas vezes são tratados de forma intercambiável. Através das definições apresentadas, é possível observar o crescimento expressivo das TICs na saúde, vários são os atributos e modalidades que foram sendo incorporados ao campo. Os últimos 30 anos impactaram e expandiram os sistemas de saúde à medida que novos recursos e rede se tornaram possíveis. Temos, então, no campo da saúde, um exemplo de como: dados, textos, sons, imagens, produzidos sob forma digital, vem se constituindo como um novo construto, na prática desse campo, contribuindo para modificação do cuidado em saúde. </p>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+
+				<!-- Navegação da aula -->
+				<section>
+					<div class="container">
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8">
+								<div class="page-nav d-flex justify-content-evenly">
+									<a class="fio-button fio-button-primary" href="topico1.html" rel="prev"><span class="material-symbols-rounded" aria-hidden="true">west</span> Tópico Anterior</a>
+									<a class="fio-button fio-button-primary" href="topico3.html" rel="next">Próximo tópico <span class="material-symbols-rounded" aria-hidden="true">east</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+
+			<footer>
+				<div class="container-fluid">
+					<div class="row justify-content-center align-items-center linha-de-marcas">
+						<div class="col-12 col-md-auto">
+							<ul class="logos">
+								<!-- <li class="realizacao"> -->
+								<li>
+									<img class="img-fluid logo1" src="../../media/logos/logo-icict-vertical.svg" alt="Logo do ICICT" height=""/>
+								</li>
+
+								<li>
+									<img class="img-fluid logo2" src="../../media/logos/logo-campus-horizontal.png" alt="Logo do Campus Virtual Fiocruz" height=""/>
+								</li>
+
+								<li>
+									<img class="img-fluid logo3" src="../../media/logos/logo-fiocruz-horizontal-black.png" alt="Logo da Fiocruz" height=""/>
+								</li>
+							</ul>
+						</div>
+
+						<div class="col-12 col-md-auto">
+							<ul class="logos principais align-self-end">
+								<li>
+									<img class="img-fluid logo4" src="../../media/logos/logo-sus-digital-cor.png" alt="Logo do SUS Digital" height=""/>
+								</li>
+
+								<li>
+									<img class="img-fluid logo5 d-none d-md-block" src="../../media/logos/ministerio-saude-gov-federal.png" alt="Logos do SUS, Ministério da Saúde e Governo Federal" height="" />
+								</li>
+
+								<li>
+									<img class="img-fluid logo6 d-block d-md-none" src="../../media/logos/ministerio-saude-gov-federal-mobile.png" alt="Logos do SUS, Ministério da Saúde e Governo Federal" height="" />
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+		<!--  Bootstrap JS and Popper -->
+		<script src="../../source/bootstrap-5.1.3/js/bootstrap.bundle.min.js"></script>
+
+		<!-- Sticky Sidebar -->
+		<script type="text/javascript" src="../../assets/js/ResizeSensor.js"></script>
+		<script type="text/javascript" src="../../assets/js/sticky-sidebar.js"></script>
+		<script type="text/javascript" src="../../assets/js/sidebar.js"></script>
+
+		<script type="text/javascript">
+			var sidebar = new StickySidebar('.sidebar', {
+				topSpacing: 0,
+				bottomSpacing: 0,
+				containerSelector: '.main',
+				innerWrapperSelector: '.sidebar__inner',
+				minWidth: 991,
+			});
+		</script>
+
+		<script>
+			$(function () {
+				// init zeynepjs side menu
+				var zeynep = $('.zeynep').zeynep({
+					opened: function () {
+						// log
+						console.log('the side menu opened');
+					},
+					closed: function () {
+						// log
+						console.log('the side menu closed');
+					},
+				});
+
+				// dynamically bind 'closing' event
+				zeynep.on('closing', function () {
+					// log
+					console.log('this event is dynamically binded');
+				});
+
+				// handle zeynepjs overlay click
+				// $('.zeynep-overlay').on('click', function () {
+				// 	zeynep.close();
+				// });
+
+				// open zeynepjs side menu
+				$('.btn-open').on('click', function () {
+					zeynep.open();
+				});
+			});
+		</script>
+
+		<script type="text/javascript" src="../../assets/js/scripts.js"></script>
+		<script type="text/javascript" src="../../assets/js/custom-anime.js"></script>
+		<script type="text/javascript" src="../../source/animate/aos/dist/aos.js"></script>
+
+		<!-- Timeline horizontal -->
+		<script src="../../assets/js/timeline-horizontal/util.js"></script>
+		<!-- util functions included in the CodyHouse framework -->
+		<script src="../../assets/js/timeline-horizontal/swipe-content.js"></script>
+		<!-- A Vanilla JavaScript plugin to detect touch interactions -->
+		<script src="../../assets/js/timeline-horizontal/main.js"></script>
+		<!-- Start the Timeline -->
+		<script>
+			document.getElementsByTagName('html')[0].className += ' js';
+		</script>
+
+		<script>
+			AOS.init();
+		</script>
+	</body>
+</html>

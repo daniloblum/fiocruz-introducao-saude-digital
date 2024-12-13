@@ -122,6 +122,10 @@
 }
 
 /* Tertiary Background */
+.background-tertiary-extra-light {
+	background-color: var(--fio-sys-color-tertiary-extra-light) !important;
+}
+
 .background-tertiary-light {
 	background-color: var(--fio-sys-color-tertiary-light) !important;
 }

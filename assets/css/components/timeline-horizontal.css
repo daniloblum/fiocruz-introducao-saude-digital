@@ -1,5 +1,19 @@
 /* --- TIMELINE HORIZONTAL --- */
 
+
+.timeline-horizontal {
+	background-color: var(--fio-sys-color-tertiary-extra-light);
+	background-image: url(../../../media/templates/bg-timeline-horizontal.svg); 
+	background-repeat: no-repeat; 
+	background-position: 0 top; 
+	background-size: 100%;
+}
+
+.timeline-horizontal .cd-h-timeline > .container {
+	background: linear-gradient(to bottom, rgba(255,255,255,.4) 40%, var(--fio-sys-color-tertiary-extra-light) 75%);
+	/* background:rgba(255,255,255, .4); */
+}
+
 .js .cd-h-timeline {
 	opacity: 0;
 	transition: opacity 0.2s;
@@ -62,10 +76,20 @@
 	left: 0;
 	top: 49px;
 	height: 2px;
-	background-color: var(--fio-sys-color-neutral-light);
+	background-color: var(--fio-sys-color-neutral-medium);
 	transition: -webkit-transform 0.4s;
 	transition: transform 0.4s;
 	transition: transform 0.4s, -webkit-transform 0.4s;
+}
+
+.js .cd-h-timeline__line a {
+	background:transparent;
+}
+
+.js a.cd-h-timeline__date--selected{
+	background:var(--fio-sys-color-primary-medium);
+	color:var(--fio-sys-color-neutral-white);
+	padding: 5px 15px 5px;
 }
 
 .js .cd-h-timeline__filling-line {
@@ -75,7 +99,7 @@
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-color: var(--fio-sys-color-accent-medium);
+	background-color: var(--fio-sys-color-secondary-medium);
 	-webkit-transform: scaleX(0);
 	-ms-transform: scaleX(0);
 	transform: scaleX(0);
@@ -92,13 +116,16 @@
 	bottom: 0;
 	z-index: 2;
 	text-align: center;
-	padding-bottom: var(--fio-sys-spacing-padding-sm);
-	color: var(--fio-sys-color-primary-dark);
+	padding-bottom: var(--fio-sys-size-padding-xs);
+	padding-left: var(--fio-sys-size-padding-xs);
+    padding-right: var(--fio-sys-size-padding-xs);
+    color: var(--fio-sys-color-primary-medium);
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
 	text-decoration: none;
+	font-family: var(--fio-sys-typography-family-primary-extra-bold);
 }
 
 .js .cd-h-timeline__date::after {
@@ -120,8 +147,8 @@
 }
 
 .js .cd-h-timeline__date:hover::after {
-	background-color: var(--fio-sys-color-accent-medium);
-	border-color: var(--fio-sys-color-accent-medium);
+	background-color: var(--fio-sys-color-secondary-medium);
+	border-color: var(--fio-sys-color-secondary-medium);
 }
 
 .js .cd-h-timeline__date--selected {
@@ -129,13 +156,13 @@
 }
 
 .js .cd-h-timeline__date--selected::after {
-	background-color: var(--fio-sys-color-accent-medium);
-	border-color: var(--fio-sys-color-accent-medium);
+	background-color: var(--fio-sys-color-secondary-medium);
+	border-color: var(--fio-sys-color-secondary-medium);
 }
 
 .js .cd-h-timeline__date--older-event::after {
-	border-color: var(--fio-sys-color-accent-medium);
-	background-color: var(--fio-sys-color-accent-medium);
+	border-color: var(--fio-sys-color-secondary-medium);
+	background-color: var(--fio-sys-color-secondary-medium);
 }
 
 .js .cd-h-timeline__navigation {
@@ -181,14 +208,14 @@
 }
 
 .js .cd-h-timeline__navigation--inactive {
-	border-color: var(--fio-sys-color-neutral-light);
-	background-color: var(--fio-sys-color-neutral-light);
+	border-color: var(--fio-sys-color-neutral-medium);
+	background-color: var(--fio-sys-color-neutral-medium);
 	cursor: not-allowed;
 }
 
 .js .cd-h-timeline__navigation--inactive:hover {
-	border-color: var(--fio-sys-color-neutral-light);
-	background-color: var(--fio-sys-color-neutral-light);
+	border-color: var(--fio-sys-color-neutral-medium);
+	background-color: var(--fio-sys-color-neutral-medium);
 }
 
 .js .cd-h-timeline__events {

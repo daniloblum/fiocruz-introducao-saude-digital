@@ -245,7 +245,7 @@ audio {
 	padding-bottom: var(--fio-sys-size-margin-md);
 } */
 
-#page-content section .container:first-child .row .saiba-mais > .row {
+#page-content .saiba-mais > .row {
 	padding: var(--fio-sys-size-padding-sm);
     background-color: var(--fio-sys-color-primary-extra-light);
 	background-image:url(../../../media/templates/tabs-footer.svg);

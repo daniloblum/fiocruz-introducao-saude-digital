@@ -10,7 +10,7 @@
 	--_accordion-button-border-active: var(--fio-sys-color-secondary-medium);
 	--_accordion-button-border-width: var(--fio-sys-size-stroke-sm);
 	--_accordion-button-border-radius: var(--fio-sys-size-radius-sm);
-	--_accordion-button-text-color: var(--fio-sys-colorprimary-extra-dark);
+	--_accordion-button-text-color: var(--fio-sys-color-primary-dark);
 	--_accordion-button-font-family: var(--fio-sys-typography-family-primary-black);
 
 	--_accordion-colapse-item-background: var(--fio-sys-color-tertiary-extra-light);
