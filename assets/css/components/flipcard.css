@@ -165,7 +165,7 @@
 
 /*Fundos para flipcard*/
 .flipcard .flip-card .fundo1 {
-	background-image: url(../../../media/templates/fundo-flipcard.svg);
+	background-image: url(../../../media/templates/fundo-flipcard.jpg);
 	background-size: cover;
 	background-color: var(--_flipcard-color);
 	border-color: var(--_flipcard-border-color);

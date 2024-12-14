@@ -133,51 +133,194 @@ const modalInfos = {
 		modalTitle: 'Bibliografia Módulo 1',
 		modalBody: `
 			<div class="row justify-content-center pt-5">
-				<div class="col-12 col-md-10 col-lg-10">
+				<div class="col-12">
 					<div class="mb-5">
-						<p>ACADEMIA BRASILEIRA DE CIÊNCIAS. <strong>Rigor e Integridade na condução da pesquisa científica</strong>. Guia de recomendações de práticas responsáveis. ABC, 2013. Disponível em: <a href='http://www.abc.org.br/IMG/pdf/doc-4311.pdf' target='_blank'>http://www.abc.org.br/IMG/pdf/doc-4311.pdf</a>. Acesso em: 20 maio 2024.</p>
+						<!-- Accordion -->
+						<div class="accordion accordion-flush" id="accordionExample2">
+							<div class="accordion-item">
+								<h5 class="accordion-header" id="heading1-item1">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item1" aria-expanded="true" aria-controls="collapse1-item1">Aula 1</button>
+								</h5>
+								<div id="collapse1-item1" class="accordion-collapse collapse" aria-labelledby="heading1-item1" data-bs-parent="">
+									<div class="accordion-body">
+										<div class="list">
+											<ul class="list-group">
+												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">De Boni RB de, Falcão MZ, Murtinho R. Debatendo a saúde digital no Brasil. Revista Eletrônica de Comunicação, Informação & Inovação em Saúde [Internet]. 2023 Sep 29;17(3). Available from: <a href='https://www.reciis.icict.fiocruz.br/index.php/reciis/article/view/3979' target='_blank'>https://www.reciis.icict.fiocruz.br/index.php/reciis/article/view/3979</a></li>
 
-						<p>ALL EUROPEAN ACADEMIES. T<strong>he European code of conduct for research integrity</strong>. Berlin: ALLEA, 2017. Disponível em: <a href='https://www.allea.org/wp-content/uploads/2017/05/ALLEA-European-Code-of-Conduct-for-Research-Integrity-2017.pdf' target='_blank'>https://www.allea.org/wp-content/uploads/2017/05/ALLEA-European-Code-of-Conduct-for-Research-Integrity-2017.pdf</a>. Acesso em: 20 maio 2024.</p>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Fatehi F, Samadbeik M, Kazemi A. What is Digital Health? Review of Definitions. Stud Health Technol Inform [Internet]. 2020 Nov 23;(275):67–71. Available from: <a href='http://ebooks.iospress.nl/doi/10.3233/SHTI200696' target='_blank'>http://ebooks.iospress.nl/doi/10.3233/SHTI200696</a></li>
 
-						<p>BAKER, Monya. Is There a Reproducibility Crisis? <strong>Nature</strong>, v. 533, 26 maio 2016. Disponível em: <a href='https://www.nature.com/news/polopoly_fs/1.19970!/menu/main/topColumns/topLeftColumn/pdf/533452a.pdf' target='_blank'>https://www.nature.com/news/polopoly_fs/1.19970!/menu/main/topColumns/topLeftColumn/pdf/533452a.pdf</a>. Acesso em: 20 maio 2024.</p>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Ministério da Saúde-Gabinete da Ministra. GM/MS no 3.232, de 1º de março de 2024. 2024. </li>
 
-						<p>DORA. Declaração de São Francisco sobre Avaliação de Pesquisa. Disponível em: <a href='https://sfdora.org/wp-content/uploads/2020/12/DORA_Brazilian-Portuguese.pdf' target='_blank'>https://sfdora.org/wp-content/uploads/2020/12/DORA_Brazilian-Portuguese.pdf</a>.  Acesso em: 20 maio 2024.</p>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" data-aos-delay="300">Turcios Y. Digital access: a super determinant of health [Internet]. 2023. Available from: https://www.samhsa.gov/blog/digital-access-super-determinant-health#:~:text=Internet access is increasingly recognized,%2C employment%2C and healthcare access.</li>
 
-						<p>INSTITUTE OF MEDICINE NATIONAL RESEARCH COUNCL. <strong>Integrity in Scientific Research:</strong> creating an environment that promotes responsible conduct. Washington, D. C., 2002. The National Academic Press, 2002. Disponível em: <a href='https://nap.nationalacademies.org/read/10430/chapter/1#ii' target='_blank'>https://nap.nationalacademies.org/read/10430/chapter/1#ii</a>. Acesso em: 20 maio 2024.</p>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" data-aos-delay="400">Van Kessel R, Hrzic R, O’Nuallain E, Weir E, Wong BLH, Anderson M, et al. Digital Health Paradox: International Policy Perspectives to Address Increased Health Inequalities for People Living With Disabilities. J Med Internet Res [Internet]. 2022 Feb 22;24(2):e33819. Available from: https://www.jmir.org/2022/2/e33819</li>
 
-						<p>IOANNIDIS, John P. A. Why Most Published Research Findings are False. <strong>Plos Medicine</strong>, v. 19, n. 8, 2005. Disponível em: <a href='https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124' target='_blank'>https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124</a>. Acesso em: 20 maio 2024.</p>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">WHO. Classification of digital interventions, services and applications in health - second edition [Internet]. Genebra; 2023. Available from: https://www.who.int/publications/i/item/9789240081949</li>
 
-						<p>GLOBAL RESEARCH COUNCIL. <strong>Statement of Principles for Research Integrity</strong>. Disponível em: h<a href='ttps://www.globalresearchcouncil.org/fileadmin/documents/GRC_Publications/grc_statement_principles_research_integrity_FINAL.pdf' target='_blank'>ttps://www.globalresearchcouncil.org/fileadmin/documents/GRC_Publications/grc_statement_principles_research_integrity_FINAL.pdf</a>. Acesso em: 20 maio 2024.</p>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">WHO. Global strategy on digital health 2020-2025. Genebra. 2021</li>
 
-						<p>KALICHMAN, M.W. A Modest Proposal to Move RCR Education Out of the Classroom and into Research. <strong>J Microbiol Biol Educ</strong>, v. 15, n. 2, p. 93-5, 15 Dez. 2014. Doi: 10.1128/jmbe.v15i2.866. Disponível em: h<a href='ttps://pubmed.ncbi.nlm.nih.gov/25574254/' target='_blank'>ttps://pubmed.ncbi.nlm.nih.gov/25574254/</a>. Acesso em: 15 jul. 2022.</p>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Wienert J, Jahnel T, Maaß L. What are Digital Public Health Interventions? First Steps Toward a Definition and an Intervention Classification Framework. J Med Internet Res. 2022 Jun;24(6):e31921.</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
 
-						<p>KRIMSKY, S. Conflito de interesses na universidade pós-acadêmica. <strong>Folha de São Paulo</strong>, São Paulo, 28 set. 2003. Disponível em <a href='https://www1.folha.uol.com.br/fsp/ciencia/fe2809200301.htm' target='_blank'>https://www1.folha.uol.com.br/fsp/ciencia/fe2809200301.htm</a> Acesso em: 20 maio 2024.</p>
+							<div class="accordion-item">
+								<h5 class="accordion-header" id="heading1-item2">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item2" aria-expanded="false" aria-controls="collapse1-item2">Aula 2</button>
+								</h5>
+								<div id="collapse1-item2" class="accordion-collapse collapse" aria-labelledby="heading1-item2" data-bs-parent="">
+									<div class="accordion-body">
+										<div class="list">
+											<ul class="list-group">
+												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">ADHA. <strong>Australian Digital Health Agency - ADHA</strong>. Disponível em: <a href='https://www.digitalhealth.gov.au/australian-digital-health-agency' target='_blank'>https://www.digitalhealth.gov.au/australian-digital-health-agency</a>. Acesso em: 22 jul. 2024.</li>
+												
+												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Marco Civil da Internet. LEI No 12.965, 23 de abril de 2014. Secretaria Geral da República. Brasil. 2014. </li>
 
-						<p>OFFICE OF SCIENCE AND TECHNOLOGY POLICY. Federal Research Misconduct Policy, <strong>Federal Register</strong>, v. 65, n. 235, p. 76260-76264, 06 dez. 2000. Disponível em: <a href='https://ori.hhs.gov/federal-research-misconduct-policy' target='_blank'>https://ori.hhs.gov/federal-research-misconduct-policy</a>. Acesso em: 20 maio 2024.</p>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Portaria No 589, de 20 de maio de 2015. Institui a Política Nacional de Informação e Informática em Saúde (PNIIS). Ministério da Saúde do Brasil. 2015. </li>
 
-						<p>PALÁCIOS, M.; REGO, S. E.; LINO, M. H. Promoção e propaganda de medicamentos em ambientes de ensino: elementos para o debate. <strong>Interface Comunicação Saúde Educação</strong>, v. 12, n. 27, p.893-905, dez. 2008. </p>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. <strong>Plano de Ação, Monitoramento e Avaliação (PAM&A) para a ESD28</strong>. 2016.</li>
 
-						<p>REGO, S. O processo de socialização profissional na medicina). In: MACHADO, M. H. (org). <strong>Profissões de saúde:</strong> uma abordagem sociológica. Rio de Janeiro: Editora FIOCRUZ, 1995. p. 119-132. Disponível em: <a href='http://books.scielo.org/id/t4ksj/epub/machado-9788575416075.epub' target='_blank'>http://books.scielo.org/id/t4ksj/epub/machado-9788575416075.epub</a> . Acesso em: 20 maio 2024.</p>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" data-aos-delay="300">BRASIL. <strong>Lei no 13.787 2018. Dispõe sobre a digitalização e a utilização de sistemas informatizados para a guarda, o armazenamento e o manuseio de prontuário de paciente.</strong> Disponível em: <a href='https://legis.senado.leg.br/norma/30763714' target='_blank'>https://legis.senado.leg.br/norma/30763714</a>. Acesso em: 23 jul. 2024a. </li>
 
-						<p>REGO, S. Escola não é lugar de propaganda. Editorial. <strong>Rev. bras. educ. med.</strong>, v. 28 n. 01, 2004. Disponível em: https://www.scielo.br/j/rbem/a/N6pBtXMkmqfkVKfV96vQZRK/?format=pdf&lang=pt. Acesso em: 20 maio 2024.</p>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" data-aos-delay="400">BRASIL. <strong>Lei No 13.709, de 14 de agosto de 2018 -   Lei Geral de Proteção de Dados Pessoais (LGPD)</strong>. Ministério da Saúde, 14 ago. 2018b. Disponível em: <a href='http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/L13709compilado.htm' target='_blank'>http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/L13709compilado.htm</a>. Acesso em: 31 maio. 2022</li>
 
-						<p>SILVA, R., et al. Perfil e financiamento da pesquisa em saúde desencadeada pela pandemia da COVID-19 no Brasil. <strong>Vigilância Sanitária Em Debate: Sociedade, Ciência & Tecnologia</strong>, v. 8, n. 2, p. 28-38, 2020. </p>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. <strong>Estratégia de Saúde Digital para o Brasil 2020-2028</strong>. 1. ed. Brasília: Ministério da Saúde, 2020. </li>
 
-						<p>SIS Net Policy brief in research Integrity, nov. 2018 <a href='https://www.sisnetwork.eu/about/news/policy-brief-on-research-integrity' target='_blank'>https://www.sisnetwork.eu/about/news/policy-brief-on-research-integrity</a>. Acesso em: 20 maio 2024.</p>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. <strong>Lançado o Conecte-SUS Profissional</strong>. Disponível em: <a href='https://www.gov.br/pt-br/noticias/saude-e-vigilancia-sanitaria/2021/07/lancado-o-conecte-sus-profissional' target='_blank'>https://www.gov.br/pt-br/noticias/saude-e-vigilancia-sanitaria/2021/07/lancado-o-conecte-sus-profissional</a>. Acesso em: 23 jul. 2024. </li>
 
-						<p>SOMERVILLE, M. A postmodern moral tale: the ethics of research relationships. <strong>Nat Rev Drug Disco</strong>, v. 1, p. 316-320, 2002. Disponível em: https://doi.org/10.1038/nrd774. Acesso em: 20 maio 2024</p>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. <strong>RESOLUÇÃO CFM No 2.314, de 20 de abril de 2022 - Define e regulamenta a telemedicina, como forma de serviços médicos mediados por tecnologias de comunicação</strong>. Disponível em: <a href='https://www.in.gov.br/web/dou' target='_blank'>https://www.in.gov.br/web/dou</a>. Acesso em: 12 maio. 2022. </li>
 
-						<p>STEINMAN, M. A.; SHLIPAK, M. G.; MCPHEE, S. J. Of principles and pens: attitudes and practices of medicine housestaff toward pharmaceutical industry promotions. <strong>Am J Med</strong>., v. 110, n. 7, p. 551-7, May 2001.</p>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Secretaria de Informação e Saúde Digital - SEIDIGI. Disponível em: <a href='https://www.gov.br/saude/pt-br/composicao/seidigi/secretaria-de-informacao-e-saude-digital' target='_blank'>https://www.gov.br/saude/pt-br/composicao/seidigi/secretaria-de-informacao-e-saude-digital</a>. Acesso em: 20 maio. 2023. </li>
 
-						<p>STERNECK, Nicholas H. <strong>Introduction to the Responsible Conduct of Research (ORI</strong>). Washington, D.C.: U.S. Department of Health and Human Services, 2007. Disponível em: https://ori.hhs.gov/sites/default/files/2018-04/rcrintro.pdf. Acesso  em: 20 maio 2024. </p>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. <strong>Manual instrutivo do Programa SUS Digital</strong>. Ministério da Saúde. Secretaria de Informação e Saúde Digital. [s.l.] Ministério da Saúde, 2024a. </li>
 
-						<p>THOMPSON, D. Understanding financial conflicts of interest. <strong>N Engl J Med.</strong>, v. 329, n. 8, p. 573-576, 1993.</p>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. <strong>Portaria GM/MS No 3.232, de 1o de março de 2024. Ministério da Saúde do Brasil. Institui o Programa SUS Digital</strong>. Disponível em: <a href='https://www.in.gov.br/en/web/dou/-/portaria-gm/ms-n-3.232-de-1-de-marco-de-2024-546278935' target='_blank'>https://www.in.gov.br/en/web/dou/-/portaria-gm/ms-n-3.232-de-1-de-marco-de-2024-546278935</a>. Acesso em: 31 jul. 2024b. </li>
 
-						<p>WORLD CONFERENCES ON RESEARCH INTEGRITY. The Hong Kong Principles. Disponível em: <a href='https://www.wcrif.org/hong-kong-principles' target='_blank'>https://www.wcrif.org/hong-kong-principles</a></p>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">CERRI, G. et al. A Transformação Digital na Saúde no Futuro Pós-Pandemia. <strong>ANAIS DA ACADEMIA NACIONAL DE MEDICINA</strong>, v. 193, n. 2, p. 21–48, 2022.</li>
 
-						<p>WARDE, I. L’université américaine vampirisée par les marchands. <strong>Le Monde Diplomatique</strong>, mars 2001. Disponível em: <a href='https://www.monde-diplomatique.fr/2001/03/WARDE/1839' target='_blank'>https://www.monde-diplomatique.fr/2001/03/WARDE/1839</a>. Acesso em: 20 maio 2024.</p>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">CHI. <strong>Canada Health Infoway</strong>. Disponível em: <https://www.infoway-inforoute.ca/en/>. Acesso em: 22 jul. 2024.</li>
 
-						<p></p>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">HADDAD, A. E. <strong>Manual instrutivo do Programa SUS Digital. SEIDIGI - Secretaria de Informação e Saúde Digital. Ministério da Saúde do Brasil</strong>. 2024. Disponível em: <a href='https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/guias-e-manuais/2024/manual-instrutivo-do-programa-sus-digital' target='_blank'>https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/guias-e-manuais/2024/manual-instrutivo-do-programa-sus-digital</a></li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">KSA. <strong>Vision 30 - Health Sector Transformation Program</strong>. Disponível em: <a href='http://www.vision2030.gov.sa/en/vision-2030/vrp/health-sector-transformation-program/' target='_blank'>http://www.vision2030.gov.sa/en/vision-2030/vrp/health-sector-transformation-program/</a>. Acesso em: 22 jul. 2024. </li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">MOH. <strong>Ministry Of Health Saudi Arabia</strong>. Disponível em: <a href='https://www.moh.gov.sa/en/Pages/Default.aspx' target='_blank'>https://www.moh.gov.sa/en/Pages/Default.aspx</a>. Acesso em: 22 jul. 2024. </li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">NHS. <strong>NHS Digital - England</strong>. Disponível em: <a href='https://digital.nhs.uk/' target='_blank'>https://digital.nhs.uk/</a>. Acesso em: 22 jul. 2024. </li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">ONC. <strong>2020-2025 Federal Health IT Strategic Plan</strong>. 2020. Disponível em: <a href='https://www.healthit.gov/sites/default/files/page/2020-10/Federal%20Health%20IT%20Strategic%20Plan_2020_2025.pdf' target='_blank'>https://www.healthit.gov/sites/default/files/page/2020-10/Federal%20Health%20IT%20Strategic%20Plan_2020_2025.pdf</a>. Acesso em: 22 jul. 2022</li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">ONC. <strong>ONC | Office of the National Coordinator for Health Information Technology</strong>. Disponível em: <a href='https://www.healthit.gov/' target='_blank'>https://www.healthit.gov/</a>. Acesso em: 22 jul. 2024. </li>
+												
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">OPAS. <strong>Oito Princípios Orientadores da Transformação Digital do Setor da Saúde. Um apelo à ação pan-americana. Kit de ferramentas de transformação digital. Ferramentas de conhecimento</strong>. Washington, D.C. OPAS.  2021a. Disponível em: <a href='https://iris.paho.org/handle/10665.2/54669' target='_blank'>https://iris.paho.org/handle/10665.2/54669</a>. Acesso em: 20 jul. 2024.</li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">OPAS. <strong>Roteiro para a transformação digital do setor da saúde na Região das Américas. Organização Pan-Americana da Saúde - OPAS/OMS</strong>. 9 jul. 2021b. Disponível em: <a href='https://www.paho.org/pt/documentos/cd596-roteiro-para-transformacao-digital-do-setor-da-saude-na-regiao-das-americas' target='_blank'>https://www.paho.org/pt/documentos/cd596-roteiro-para-transformacao-digital-do-setor-da-saude-na-regiao-das-americas</a>. Acesso em: 20 jul. 2024</li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">SCHWALBE, N. WAHL, B. Artificial intelligence and the future of global health. <strong>The Lancet</strong>, v. 395, n. 10236, p. 1579–1586, 2020. </li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">SG. <strong>Ministry of Health of Singapore</strong>. Disponível em: <a href='https://www.moh.gov.sg/' target='_blank'>https://www.moh.gov.sg/</a>. Acesso em: 22 jul. 2024. </li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">SHCOLNIK, W. <strong>Tecnologias emergentes na saúde: oportunidades e desafios. ABRAMED</strong>. Disponível em: <a href='https://abramed.org.br/5071/tecnologias-emergentes-na-saude-oportunidades-e-desafios/' target='_blank'>https://abramed.org.br/5071/tecnologias-emergentes-na-saude-oportunidades-e-desafios/</a>. Acesso em: 21 jul. 2024. </li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">SUSDIGITAL. <strong>Suporte ao usuário. Atendimento SUS Digital</strong>. Disponível em: <a href='https://webatendimento.saude.gov.br/faq/susdigital' target='_blank'>https://webatendimento.saude.gov.br/faq/susdigital</a>. Acesso em: 31 jul. 2024. </li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">WHO. <strong>Global strategy on digital health 2020-2025</strong>. [s.l.] WHO, 2021. </li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">WHO. <strong>Emerging technologies and scientific innovations. A global public health perspective. World Health Organization</strong>. 2023. Disponível em: <a href='https://iris.who.int/bitstream/handle/10665/367116/WHO-SCI-RFH-2023.05-eng.pdf?sequence=1' target='_blank'>https://iris.who.int/bitstream/handle/10665/367116/WHO-SCI-RFH-2023.05-eng.pdf?sequence=1</a>. Acesso em: 21 jul. 2023</li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">WHO. <strong>Global Initiative on Digital Health</strong>. 2024. Disponível em: <a href='https://www.who.int/publications/m/item/global-initiative-on-digital-health' target='_blank'>https://www.who.int/publications/m/item/global-initiative-on-digital-health</a>. Acesso em: 21 jul. 2024</li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">ZARA, A. L. DE S. A. <em>et al</em>. <strong>Governança em saúde digital no mundo e no Brasil</strong>. [s.l.] Cegraf UFG, 2021. </li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="accordion-item">
+								<h5 class="accordion-header" id="heading1-item3">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item3" aria-expanded="false" aria-controls="collapse1-item3">Aula 3</button>
+								</h5>
+								<div id="collapse1-item3" class="accordion-collapse collapse" aria-labelledby="heading1-item3" data-bs-parent="">
+									<div class="accordion-body">
+										<div class="list">
+											<ul class="list-group">
+												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BASHSHUR, R. et al. The taxonomy of telemedicine. <strong>Telemedicine journal and e-health: the official journal of the American Telemedicine Association</strong>, 17(6), 484–494. Disponível em: <a href='https://doi.org/10.1089/tmj.2011.0103' target='_blank'>https://doi.org/10.1089/tmj.2011.0103</a>.</li>
+												
+												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Conselho Federal de Medicina (CFM). <strong>Resolução CFM nº 2.227/2018, de 13 de dezembro de 2018</strong>. Define e disciplina a telemedicina como forma de prestação de serviços médicos mediados por tecnologias. Disponível em: <a href='https://abmes.org.br/legislacoes/detalhe/2694' target='_blank'>https://abmes.org.br/legislacoes/detalhe/2694</a>. </li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Conselho Federal de Medicina (CFM). <strong>Resolução CFM nº 2.314/2022, de 05 de maio de 2022</strong>. Define e regulamenta a telemedicina, como forma de serviços médicos mediados por tecnologias de comunicação. Disponível em: <a href='https://sistemas.cfm.org.br/normas/arquivos/resolucoes/BR/2022/2314_2022.pdf' target='_blank'>https://sistemas.cfm.org.br/normas/arquivos/resolucoes/BR/2022/2314_2022.pdf</a>.</li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. <strong>Lei nº 13.989/2020</strong>, de 15 de abril de 2020. Dispõe sobre o uso da telemedicina durante a crise causada pelo coronavírus (SARS-CoV-2). Disponível em: <a href='https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/Lei/L13989.htm' target='_blank'>https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/Lei/L13989.htm</a>. </li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" data-aos-delay="300">BRASIL. Lei nº 14.510, de  27 de dezembro de 2022. 
+													Altera a Lei nº 8.080, de 19 de setembro de 1990, para autorizar e disciplinar a prática da telessaúde em todo o território nacional, e a Lei nº 13.146, de 6 de julho de 2015; e revoga a Lei nº 13.989, de 15 de abril de 2020. Disponível em:<a href=' https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/L14510.htm#:~:text=LEI%20N%C2%BA%2014.510%2C%20DE%2027,15%20de%20abril%20de%202020' target='_blank'> https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/L14510.htm#:~:text=LEI%20N%C2%BA%2014.510%2C%20DE%2027,15%20de%20abril%20de%202020</a></li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" data-aos-delay="400">BRASIL. Ministério da Saúde. <strong>Portaria nº 2.546, de 27 de outubro de 2011</strong>. Redefine e amplia o Programa Telessaúde Brasil, que passa a ser denominado Programa Nacional Telessaúde Brasil Redes. Brasília, DF: Presidência da República, 2011. Disponível em: <a href='http://bvsms.saude.gov.br/bvs/saudelegis/gm/2011/prt2546_27_10_2011.html' target='_blank'>http://bvsms.saude.gov.br/bvs/saudelegis/gm/2011/prt2546_27_10_2011.html</a>. Acesso em: 11 abr. 2022.</li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. <strong>Portaria nº 35, de 4 de janeiro de 2007</strong>. Institui, no âmbito do Ministério da Saúde, o Programa Nacional de Telessaúde. Brasília, DF: Gabinete do Ministro da Saúde, 2007. Disponível em: <a href='http://bvsms.saude.gov.br/bvs/saudelegis/gm/2007/prt0035_04_01_2007.html' target='_blank'>http://bvsms.saude.gov.br/bvs/saudelegis/gm/2007/prt0035_04_01_2007.html</a>. Acesso em: 11 abr. 2022.</li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. Secretaria de Informação e Saúde Digital. <strong>Manual Instrutivo do Programa SUS Digital</strong> [recurso eletrônico] / Ministério da Saúde, Secretaria de Informação e Saúde Digital. – Brasília, DF: Ministério da Saúde, 2024. Disponível em: <a href='https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/guias-e-manuais/2024/manual-instrutivo-do-programa-sus-digital/view' target='_blank'>https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/guias-e-manuais/2024/manual-instrutivo-do-programa-sus-digital/view</a>. Acesso em: 23 jul. 2024.</li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. Secretaria-Executiva. Departamento de Informática do SUS. <strong>Estratégia de Saúde Digital para o Brasil 2020-2028</strong>. Brasília, DF: Ministério da Saúde, 2020. Disponível em: <a href='https://bvsms.saude.gov.br/bvs/publicacoes/estrategia_saude_digital_Brasil.pdf' target='_blank'>https://bvsms.saude.gov.br/bvs/publicacoes/estrategia_saude_digital_Brasil.pdf</a>. Acesso em: 13 dez. 2021.</li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">FORNAZIN, M.; RACHID, R. R.; COELHO NETO, G. C. A saúde digital nos últimos quatro anos e os desafios para o novo governo. R<strong>evista Eletrônica de Comunicação, Informação & Inovação em Saúde</strong>, [S. l.], v. 16, n. 4, p. 753–758, 2022. DOI: 10.29397/reciis.v16i4.3515. Disponível em: h<a href='ttps://www.reciis.icict.fiocruz.br/index.php/reciis/article/view/3515' target='_blank'>ttps://www.reciis.icict.fiocruz.br/index.php/reciis/article/view/3515</a>. </li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">MELO, M. C. B.; SIlVA, E. M. S. Aspectos Conceituais em Telessaúde. In: SANTOS, A. F. et al. <strong>Telessaúde Um Instrumento de Suporte Assistencial e Educação Permanente</strong>. Belo Horizonte: UFMG, 2006. p. 17-31</li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">MESSINA, L. A.; RIBEIRO FILHO, J. L. <strong>Impactos da Rede Universitária de Telemedicina</strong>: ações de educação contínua, pesquisa colaborativa, assistência, gestão e avaliação remota. Fase I- 2006/2009. Rio de Janeiro: E-papers, 2013.</li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Rede Universitária de Telemedicina (RUTE). <strong>Redes de Colaboração de Comunidades (RCC)</strong>. Disponível em: <a href='https://rcc.rnp.br/?rcc=RUTE' target='_blank'>https://rcc.rnp.br/?rcc=RUTE</a>. Acesso em: 23 jul. 2024.</li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">RIBEIRO FILHO, J. L.; MESSINA, L. A.; LOPES, P. R. L. <strong>As 100 primeiras unidades de telemedicina no Brasil e o impacto da Rede Universitária de Telemedicina (RUTE)</strong>. Rio de Janeiro: E-papers, 2014.</li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">SABBATINI, R. M. E. A telemedicina no Brasil: evolução e perspectivas. In: CAETANO, K. C.; MALAGUTTI, W. <strong>Informática em Saúde: uma perspectiva multiprofissional dos usos e possibilidades</strong>, 2012. p. 1-16</li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">SILVA, A. B. <strong>Telessaúde no Brasil: conceitos e aplicações</strong>. Rio de Janeiro: DOC, 2014.</li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">SILVA, A. B.; MORAES, I. H. S. O caso da Rede Universitária de Telemedicina: análise da entrada da telessaúde na agenda política brasileira. <strong>Physis</strong>, v. 22, n. 3, p.1211–1235, 2012.</li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Silva, A. B.; Pisa, I. T.; Oliveira, L. R. Declaração de Berlin sobre saúde digital. <strong>Revista de Saúde Digital e Tecnologias Educacionais. [online]</strong>, volume 8, n. 1. Disponível em: <a href='http://periodicos.ufc.br/resdite/index' target='_blank'>http://periodicos.ufc.br/resdite/index</a>. </li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">World Health Organization (WHO). <strong>mHealth: New horizons for health through mobile technologies</strong>. Genebra: WHO; 2011. Disponível em: <a href='http://www.who.int/goe/publications/goe_mhealth_web.pdf' target='_blank'>http://www.who.int/goe/publications/goe_mhealth_web.pdf</a>. Acesso em: 25 mai. 2022.</li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">World Health Organization. Telemedicine: Opportunities and developments in Member States - Introduction: Overview of telemedicine Report on the second global survey on eHealth. <strong>Global Observatory for eHealth series</strong>. [s.l: s.n.]. Disponível em: <a href='https://www.who.int/goe/publications/goe_telemedicine_2010.pdf' target='_blank'>https://www.who.int/goe/publications/goe_telemedicine_2010.pdf</a>. </li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">ZUNDEL, K. M. Telemedicine: history, applications, and impact on librarianship. <strong>Bulletin of the Medical Library Association</strong>, v. 84, n. 1, p. 71, 1996. Disponível em: <a href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC226126/' target='_blank'>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC226126/</a>.  </li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="accordion-item">
+								<h5 class="accordion-header" id="heading1-item4">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item4" aria-expanded="false" aria-controls="collapse1-item4">Aula 4</button>
+								</h5>
+								<div id="collapse1-item4" class="accordion-collapse collapse" aria-labelledby="heading1-item4" data-bs-parent="">
+									<div class="accordion-body">
+										<div class="list">
+											<ul class="list-group">
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">ABRÀMOFF, Michael D.; TOBEY, Danny; CHAR, Danton S. Lessons Learned About Autonomous AI: Finding a Safe, Efficacious, and Ethical Path Through the Development Process. <strong>American Journal of Ophthalmology</strong>, v. 214, p. 134–142, 2020.</li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">ALMEIDA, Nyara Rodrigues Conde de; PONTES, Giovana Fonseca; JACOB, Felipe Lima et al. Análise de tendência de mortalidade por sepse no Brasil e por regiões de 2010 a 2019. <strong>Revista de Saúde Pública</strong>, v. 56, p. 25, 2022.</li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BEEDE, Emma; BAYLOR, Elizabeth; HERSCH, Fred et al. A Human-Centered Evaluation of a Deep Learning System Deployed in Clinics for the Detection of Diabetic Retinopathy. In: <strong>Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems</strong>. New York, NY, USA: ACM, 2020. Disponível em: <a href='http://dx.doi.org/10.1145/3313831.3376718' target='_blank'>http://dx.doi.org/10.1145/3313831.3376718</a>. Acesso em: 15 jul. 2024.</li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">ESCARIÃO, Paulo Henrique Gonçalves; ARANTES, Tiago Eugênio Faria de; FIGUEIROA FILHO, Natanael Cavalcanti et al. Epidemiologia e diferenças regionais da retinopatia diabética em Pernambuco, Brasil. <strong>Arquivos Brasileiros de Oftalmologia</strong>, v. 71, n. 2, 2008.</li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">GOH, Kim Huat; WANG, Le; YEOW, Adrian Yong Kwang et al. Artificial intelligence in sepsis early prediction and diagnosis using unstructured data in healthcare. <strong>Nature Communications</strong>, v. 12, n. 1, 2021.</li>
+
+						<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">KALIL, Aline Junskowski; DIAS, Viviane Maria de Carvalho Hessel; ROCHA, Cristian da Costa et al. Sepsis risk assessment: a retrospective analysis after a cognitive risk management robot (Robot Laura®) implementation in a clinical-surgical unit. <strong>Research on Biomedical Engineering</strong>, v. 34, n. 4, p. 310–316, 2018.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Fim do Accordion -->
 					</div>
 					
 				</div>
