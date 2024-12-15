@@ -71,6 +71,10 @@
 	bottom: 50%;
 }
 
+.timeline-z-estrutura.row.justify-content-start .col-2.top::after {
+    left: calc(50% - 2px);
+}
+
 .timeline-z div {
 	padding: 0;
 	height: 40px;
