@@ -47,6 +47,11 @@
     font-size: var(--fio-sys-typography-size-3);
 }
 
+#page-title .title .subtitle {
+	display: block;
+	font-family: var(--fio-sys-typography-family-primary-regular);
+}
+
 
 #page-title .title .label {
 	color: var(--_label-color);
