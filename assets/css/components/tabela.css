@@ -82,8 +82,8 @@
 	box-shadow: var(--fio-sys-size-shadow-lg);
 } */
 
-.table-responsive tr:nth-of-type(odd) {
-	background-color: var(--fio-sys-color-primary-background-light);
+.table-responsive tr:nth-of-type(even) {
+	background-color: var(--fio-sys-color-primary-medium-contrast);
 }
 
 .table ul li {

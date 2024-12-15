@@ -69,6 +69,7 @@
 
 .aba .tab-content .tab-pane .tab-pane-content {
 	padding: var(--fio-sys-size-padding-lg);
+	overflow: hidden;
 }
 
 .aba .tab-content .tab-pane-footer {

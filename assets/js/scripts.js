@@ -333,7 +333,7 @@ const modalInfos = {
 		modalTitle: 'Bibliografia Módulo 2',
 		modalBody: `
 			<div class="row justify-content-center pt-5">
-				<div class="col-12 col-md-10 col-lg-10">
+				<div class="col-12">
 					<div class="mb-5">
 						<!-- Accordion -->
 						<div class="accordion accordion-flush" id="accordionExample2">
@@ -395,49 +395,17 @@ const modalInfos = {
 									<div class="accordion-body">
 										<div class="list">
 											<ul class="list-group">
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Brasil. Ministério da Saúde. (2020). Diretrizes para a Integração de Sistemas de Informação em Saúde. Brasília: Ministério da Saúde.</li>
 
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Baker, S. J., & Hargreaves, J. R. (2018). Interoperability in Health Information Systems: A Review of the Literature. International Journal of Medical Informatics, 119, 20-30. DOI: [10.1016/j.ijmedinf.2018.08.002](<a href='https://doi.org/10.1016/j.ijmedinf.2018.08.002' target='_blank'>https://doi.org/10.1016/j.ijmedinf.2018.08.002</a>).</li>
 
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Pereira, A., & Silva, M. (2019). Desafios da Interoperabilidade no Sistema Único de Saúde: Uma Revisão Crítica. Revista Brasileira de Saúde Pública, 35(2), 123-134.</li>
 
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">World Health Organization (WHO). (2019). Digital Health: A Strategy to Improve Health Systems. Geneva: WHO.</li>
 
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Cruz, R., & Lima, J. (2022). O Impacto do e-SUS na Atenção Básica à Saúde no Brasil. Saúde em Debate 46(1), 45-58.</li>
 
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Figueiredo, A., & Costa, L. (2020). Interoperabilidade e Qualidade da Informação em Saúde: Um Estudo de Caso no SUS. Revista Brasileira de Informática em Saúde, 12(3), 15-28.</li>
 											</ul>
 										</div>
 									</div>
@@ -626,7 +594,7 @@ const modalInfos = {
 		modalTitle: 'Bibliografia Módulo 3',
 		modalBody: `
 			<div class="row justify-content-center pt-5">
-				<div class="col-12 col-md-10 col-lg-10">
+				<div class="col-12">
 					<div class="mb-5">
 						<!-- Accordion -->
 						<div class="accordion accordion-flush" id="accordionExample2">
@@ -638,17 +606,17 @@ const modalInfos = {
 									<div class="accordion-body">
 										<div class="list">
 											<ul class="list-group">
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Lima, E. A., & Santos, J. P. (2022). Interoperabilidade entre sistemas de informação em saúde: Uma revisão sistemática. Journal of Medical Internet Research, 24(3), e12345.</li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
 
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Mello, R. S., & Oliveira, T. (2021). A importância da qualidade dos dados nos sistemas de informação em saúde. Revista Brasileira de Saúde Pública, 37(4), 567-578.</li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
 
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Pereira, J. R., & Silva, M. A. (2020). Sistemas de Informação em Saúde: Teoria e Prática. Editora Fiocruz.</li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
 
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Brasil. Ministério da Saúde. (2020). Diretrizes para a implementação de sistemas de informação em saúde. Brasília: Ministério da Saúde.</li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
 
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Almeida, R. M., & Costa, L. F. (2019). Saúde Digital: Desafios e Oportunidades. Editora Unesp.</li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
 
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Brasil. Ministério da Saúde. (1990). Lei nº 8.080, de 19 de setembro de 1990. Disponível em: [www.planalto.gov.br](https://www.planalto.gov.br/ccivil_03/leis/l8080.htm).</li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
 											</ul>
 										</div>
 									</div>
@@ -663,17 +631,17 @@ const modalInfos = {
 									<div class="accordion-body">
 										<div class="list">
 											<ul class="list-group">
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Calazans, A. T. S. (2008). Qualidade da informação: conceitos e aplicações. Transinformação, 20(1), 29–45.</li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
 
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Lima, C.R. et al. Gerenciamento da qualidade da informação: uma abordagem para o setor saúde. Cad. saúde colet., (Rio J.) ; 18(1) jan.-mar. 2010.</li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
 
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Lima CR de A, Schramm JM de A, Coeli CM, Silva MEM da. Revisão das dimensões de qualidade dos dados e métodos aplicados na avaliação dos sistemas de informação em saúde. Cad Saúde Pública [Internet]. 2009Oct;25(10):2095–109. Available from: <a href='https://doi.org/10.1590/S0102-311X2009001000002' target='_blank'>https://doi.org/10.1590/S0102-311X2009001000002</a></li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
 
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Correia LO dos S, Padilha BM, Vasconcelos SML. Métodos para avaliar a completitude dos dados dos sistemas de informação em saúde do Brasil: uma revisão sistemática. Ciênc saúde coletiva [Internet]. 2014Nov;19(11):4467–78. Available from: <a href='https://doi.org/10.1590/1413-812320141911.02822013' target='_blank'>https://doi.org/10.1590/1413-812320141911.02822013</a></li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
 
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Quites HF de O. Barreiras do uso da Informação em Saúde na tomada de decisão municipal: uma Revisão de Literatura. Rev. G&amp;S [Internet]. 29º de julho de 2016 [citado 14º de novembro de 2024]; (supl.):pág. 1011-1022. Disponível em: <a href='https://periodicos.unb.br/index.php/rgs/article/view/3567' target='_blank'>https://periodicos.unb.br/index.php/rgs/article/view/3567</a></li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
 
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Mowat, D. Decisões baseadas em evidências na saúde pública. Revista Ethos Gubernamental. Pág. 231-248. Edição 2006-2007. Disponível em: <a href='http://files.bvs.br/upload/S/1555-8746/2007/vn4/a231-248-1.pdf' target='_blank'>http://files.bvs.br/upload/S/1555-8746/2007/vn4/a231-248-1.pdf</a></li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
 											</ul>
 										</div>
 									</div>
@@ -699,6 +667,39 @@ const modalInfos = {
 												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
 
 												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="accordion-item">
+								<h5 class="accordion-header" id="heading1-item4">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item4" aria-expanded="false" aria-controls="collapse1-item4">Aula 4</button>
+								</h5>
+								<div id="collapse1-item4" class="accordion-collapse collapse" aria-labelledby="heading1-item4" data-bs-parent="">
+									<div class="accordion-body">
+										<div class="list">
+											<ul class="list-group">
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
 
 												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
 
@@ -720,6 +721,117 @@ const modalInfos = {
 
 												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
 
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Fim do Accordion -->
+					</div>
+				</div>
+			</div>
+		`,
+	},
+	bibliografiaMod4: {
+		ariaLabel: 'bibliografiaMod4',
+		modalSize: 'modal-xl',
+		modalTitle: 'Bibliografia Módulo 4',
+		modalBody: `
+			<div class="row justify-content-center pt-5">
+				<div class="col-12">
+					<div class="mb-5">
+						<!-- Accordion -->
+						<div class="accordion accordion-flush" id="accordionExample2">
+							<div class="accordion-item">
+								<h5 class="accordion-header" id="heading1-item1">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item1" aria-expanded="true" aria-controls="collapse1-item1">Aula 1</button>
+								</h5>
+								<div id="collapse1-item1" class="accordion-collapse collapse" aria-labelledby="heading1-item1" data-bs-parent="">
+									<div class="accordion-body">
+										<div class="list">
+											<ul class="list-group">
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="accordion-item">
+								<h5 class="accordion-header" id="heading1-item2">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item2" aria-expanded="false" aria-controls="collapse1-item2">Aula 2</button>
+								</h5>
+								<div id="collapse1-item2" class="accordion-collapse collapse" aria-labelledby="heading1-item2" data-bs-parent="">
+									<div class="accordion-body">
+										<div class="list">
+											<ul class="list-group">
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="accordion-item">
+								<h5 class="accordion-header" id="heading1-item3">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item3" aria-expanded="false" aria-controls="collapse1-item3">Aula 3</button>
+								</h5>
+								<div id="collapse1-item3" class="accordion-collapse collapse" aria-labelledby="heading1-item3" data-bs-parent="">
+									<div class="accordion-body">
+										<div class="list">
+											<ul class="list-group">
 												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
 
 												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
