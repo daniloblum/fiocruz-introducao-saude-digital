@@ -122,7 +122,160 @@ const modalInfos = {
 		modalBody: `
 			<div class="row justify-content-center pt-5">
 				<div class="col-12 col-md-10 col-lg-10">
-					<span class="h5 mb-3 d-block">Conteúdo a ser inserido</span>
+					<span class="h5 mb-3 d-block">Ministério da Saúde</span>
+
+					<div class="mb-5">
+						<p class="mb-1">Nísia Trindade Lima</p>
+						<p class="small text-muted"><em>Ministra</em></p>
+					</div>
+
+					<span class="h5 mb-3 d-block">Fundação Oswaldo Cruz – Fiocruz</span>
+					
+					<div class="mb-5">
+						<p class="mb-1">Mario Moreira</p>
+						<p class="small text-muted"><em>Presidente</em></p>
+						<p class="mb-1">Cristiani Vieira Machado</p>
+						<p class="small text-muted"><em>Vice-Presidência de Educação, Informação e Comunicação (VPEIC)</em></p>
+					</div>
+
+					<span class="h5 mb-3 d-block">Campus Virtual Fiocruz</span>
+
+					<div class="mb-5">
+
+						<p class="mb-1">Ana Cristina da Matta Furniel</p>
+						<p class="small text-muted"><em>Coordenadora-geral</em></p>
+
+						<p class="mb-1">Rosane Mendes</p>
+						<p class="small text-muted"><em>Coordenadora-adjunta e Coordenadora da Plataforma Educare</em></p>
+						
+						<p class="mb-1">Renata Bernardes David<</p>
+						<p class="small text-muted"><em>Coordenadora de produção</em></p>
+
+						<p class="mb-1">Juliana Dutra</p>
+						<p class="small text-muted"><em>Revisora técnica de conteúdo</em></p>
+
+						<p class="mb-1">Isabela Schincariol</p>
+						<p class="small text-muted"><em>Assessora de comunicação</em></p>
+					
+						<p class="mb-1">Roberta Saboya</p>
+						<p class="small text-muted"><em>Designer Educacional</em></p>
+					
+						<span class="h6 mb-3 d-block">Design de Interface</span>
+						
+						<p class="mb-1">Aline Polycarpo</p>
+						<p class="small text-muted"><em>UX/UI Designer</em></p>
+						<p class="mb-1">Danilo Blum</p>
+						<p class="small text-muted"><em>UX/UI Designer e Front-end</em></p>
+						<p class="mb-1">Luciana Nunes</p>
+						<p class="small text-muted"><em>UX/UI Designer</em></p>
+						
+						<span class="h6 mb-3 d-block">Recursos Audiovisuais</span>
+
+						<p class="mb-1">Bruno Athaydes</p>
+						<p class="small text-muted"><em>Editor audiovisual</em></p>
+			
+						<span class="h6 mb-3 d-block">Recursos Educacionais</span>
+						
+						<p class="mb-1">Carmélia Brito</p>
+						<p class="small text-muted"><em>Bibliotecária</em></p>
+
+						<p class="mb-1">Natália Rasina</p>
+						<p class="small text-muted"><em>Audiodescrição</em></p>
+
+						<p class="mb-1">Maria Angélica Marcondes Drska</p>
+						<p class="small text-muted"><em>Revisão de português</em></p>
+
+
+						<span class="h6 mb-3 d-block">Suporte Técnico de Tecnologia da Informação</span>
+					
+						<p class="mb-1">Bruno Alexandre de Oliveira</p>
+						<p class="small text-muted"><em>Desenvolvedor</em></p>
+
+						<p class="mb-1">Eduardo Xavier da Silva</p>
+						<p class="small text-muted"><em>Desenvolvedor</em></p>
+
+						<p class="mb-1">Adriano Lourenço</p>
+						<p class="small text-muted"><em>Analista de suporte</em></p>
+
+						<p class="mb-1">Orlando Terra</p>
+						<p class="small text-muted"><em>Analista de suporte</em></p>
+
+						<p class="mb-1">Fábio Carneiro</p>
+						<p class="small text-muted"><em>Designer gráfico e web designer</em></p>
+					</div>
+
+					<span class="h5 mb-3 d-block">Coordenação do Projeto</span>
+					
+					<div class="mb-5">
+						<p class="mb-1">Carolina de Campos Carvalho</p>
+						<p class="small text-muted"><em>Instituto de Comunicação e Informação Científica e Tecnológica em Saúde (Icict)/Fiocruz</em></p>
+
+						<p class="mb-1">Vanessa de Arruda Jorge </p>
+						<p class="small text-muted"><em>Coordenadora da Coordenação de Informação e Comunicação (Cinco)/Vice-Presidência de Educação, Informação e Comunicação (VPEIC)/Fiocruz</em></p>
+
+
+						<span class="h6 mb-3 d-block">Conteudistas</span>
+						
+						<p class="mb-1"><strong>Módulo 1:</strong></p>
+
+						<p class="mb-1">Raquel Brandini De Boni </p>
+						<p class="small text-muted"><em>Icict/Fiocruz</em></p>
+
+						<p class="mb-1">Juliano de Souza Gaspar</p>
+						<p class="small text-muted"><em>Universidade Federal de Minas Gerais (UFMG)</em></p>
+
+						<p class="mb-1">Ana Cristina Menezes Guedes </p>
+						<p class="small text-muted"><em>Ministério da Saúde (MS)</em></p>
+
+						<p class="mb-1">Jefferson da Costa Lima</p>
+						<p class="small text-muted"><em>Icict/Fiocruz</em></p>
+
+						<p class="mb-1"><strong>Módulo 2:</strong></p>
+
+						<p class="mb-1">Marcel de Moraes Pedroso </p>
+						<p class="small text-muted"><em>Icict/Fiocruz</em></p>
+
+						<p class="mb-1">Aline Pinto Marques </p>
+						<p class="small text-muted"><em>Icict/Fiocruz </em></p>
+
+						<p class="mb-1">Rebecca Lucena Theophilo</p>
+						<p class="small text-muted"><em>Fiocruz-CE</em></p>
+
+						<p class="mb-1">Ivana Cristina de Holanda Cunha Barreto </p>
+						<p class="small text-muted"><em>Fiocruz-CE</em></p>
+
+						<p class="mb-1">Luiz Odorico Monteiro de Andrade </p>
+						<p class="small text-muted"><em>Fiocruz-CE </em></p>
+
+						<p class="mb-1">Kamila Matos Albuquerque</p>
+						<p class="small text-muted"><em>Fiocruz-CE </em></p>
+
+						<p class="mb-1"><strong>Módulo 3:</strong></p>
+
+						<p class="mb-1">Lucas Zinato Carraro</p>
+						<p class="small text-muted"><em>Icict/Fiocruz</em></p>
+
+						<p class="mb-1">Laiza Daniele Nunes de Assumpção </p>
+						<p class="small text-muted"><em>FDiretoria Executiva/Fiocruz</em></p>
+
+						<p class="mb-1">Angela Cristina Volpini  </p>
+						<p class="small text-muted"><em>Diretoria Executiva/Fiocruz</em></p>
+
+						<p class="mb-1">Carlos Henrique Soares Carvalho </p>
+						<p class="small text-muted"><em>Diretoria Executiva/Fiocruz</em></p>
+
+						<p class="mb-1">Erika Sayume Ramos Hashimoto </p>
+						<p class="small text-muted"><em>Diretoria Executiva/Fiocruz</em></p>
+
+						<p class="mb-1">Rafael Pereira Barboza </p>
+						<p class="small text-muted"><em>Diretoria Executiva/Fiocruz</em></p>
+
+						<p class="mb-1"><strong>Módulo 4:</strong></p>
+
+						<p class="mb-1">Jonas Tadeu Cau Sertorio </p>
+						<p class="small text-muted"><em>FDiretoria Executiva/Fiocruz</em></p>
+					</div>
+					
 				</div>
 			</div>
 		`,
