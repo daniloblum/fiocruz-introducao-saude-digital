@@ -606,17 +606,17 @@ const modalInfos = {
 									<div class="accordion-body">
 										<div class="list">
 											<ul class="list-group">
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">ABNT. <strong>Tecnologia da informação – Código de prática para a gestão da segurança da informação (NBR ISO/IEC 17799)</strong>. Rio de Janeiro, RJ: 2001.</li>
 
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">ISO/IEC 27002 <strong>Establish, implement, and improve an Information Security Management System (ISMS) focused on cybersecurity 2022</strong></li>
 
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">MIRABILI, Renato.  <strong>Conheça os Pilares da Segurança da Informação</strong>, 2023. Disponível em <a href='https://www.protiviti.com.br/cybersecurity/pilares-seguranca-da-informacao/' target='_blank'>https://www.protiviti.com.br/cybersecurity/pilares-seguranca-da-informacao/</a> . Acesso em: 01 jul. 2024.</li>
 
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">FERREIRA, F. N. F.; ARAÚJO, M. T. D. <strong>Políticas de Segurança da Informação - Guia Prático para elaboração e implementação</strong>. Rio de Janeiro: Ciência Moderna, 2008.</li>
 
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">SÊMOLA, M. <strong>Gestão da Segurança da Informação - Uma Visão Executiva</strong> - 2 ed. São Paulo: Elsevier, 2014.</li>
 
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">AITH, Fernando, <strong>Dados sensíveis e vulnerabilidade digital em saúde</strong>, 2022 Disponível em  <a href='https://www.jota.info/opiniao-e-analise/colunas/coluna-fernando-aith/dados-sensiveis-e-vulnerabilidade-digital-em-saude-04112022' target='_blank'>https://www.jota.info/opiniao-e-analise/colunas/coluna-fernando-aith/dados-sensiveis-e-vulnerabilidade-digital-em-saude-04112022</a> . Acesso em: 02 jul. 2024.</li>
 											</ul>
 										</div>
 									</div>
