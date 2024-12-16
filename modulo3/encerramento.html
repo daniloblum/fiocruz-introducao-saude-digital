@@ -165,7 +165,6 @@
 									<li class="dropdown-menu__item">
 										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="aula3/topico1.html"><strong>Aula 3: </strong>Ética, segurança e privacidade de dados (políticas de uso)</a>
 									</li>
-									
 
 									<li class="dropdown-menu__item">
 										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="encerramento.html"><strong>Encerramento do módulo</strong></a>
@@ -198,7 +197,7 @@
 							<div class="col-12 col-md-10 col-lg-8">
 								<h2 class="title">
 									<span class="label">Módulo 3</span>
-									<br/>
+									<br />
 									Encerramento
 								</h2>
 							</div>
@@ -213,9 +212,9 @@
 							<div class="row justify-content-center">
 								<div class="col-12 col-md-10 col-lg-8 mb-5 pb-5">
 									<h3 class="heading__title">Resumo do módulo</h3>
-									<p>Nesse módulo você conheceu questões éticas, legais e de segurança da informação relacionadas ao campo da saúde digital e da transformação digital em saúde, com foco na proteção dos dados pessoais e na conformidade com as legislações e normativas vigentes. </p>
+									<p>Nesse módulo você conheceu questões éticas, legais e de segurança da informação relacionadas ao campo da saúde digital e da transformação digital em saúde, com foco na proteção dos dados pessoais e na conformidade com as legislações e normativas vigentes.</p>
 
-									<p>Conheceu também os princípios básicos da segurança da informação, incluindo confidencialidade, integridade, disponibilidade e autenticidade. </p>
+									<p>Conheceu também os princípios básicos da segurança da informação, incluindo confidencialidade, integridade, disponibilidade e autenticidade.</p>
 
 									<p>A partir desse conteúdo, você já consegue identificar as principais ameaças e vulnerabilidades que podem comprometer a segurança da informação e a proteção de dados pessoais. E refletir sobre as implicações éticas e sociais do uso de dados pessoais em diferentes contextos.</p>
 
@@ -255,15 +254,15 @@
 							<ul class="logos">
 								<!-- <li class="realizacao"> -->
 								<li>
-									<img class="img-fluid logo1" src="../media/logos/logo-icict-vertical.svg" alt="Logo do ICICT" height=""/>
+									<img class="img-fluid logo1" src="../media/logos/logo-icict-vertical.svg" alt="Logo do ICICT" height="" />
 								</li>
 
 								<li>
-									<img class="img-fluid logo2" src="../media/logos/logo-campus-horizontal.png" alt="Logo do Campus Virtual Fiocruz" height=""/>
+									<img class="img-fluid logo2" src="../media/logos/logo-campus-horizontal.png" alt="Logo do Campus Virtual Fiocruz" height="" />
 								</li>
 
 								<li>
-									<img class="img-fluid logo3" src="../media/logos/logo-fiocruz-horizontal-black.png" alt="Logo da Fiocruz" height=""/>
+									<img class="img-fluid logo3" src="../media/logos/logo-fiocruz-horizontal-black.png" alt="Logo da Fiocruz" height="" />
 								</li>
 							</ul>
 						</div>
@@ -271,7 +270,7 @@
 						<div class="col-12 col-md-auto">
 							<ul class="logos principais align-self-end">
 								<li>
-									<img class="img-fluid logo4" src="../media/logos/logo-sus-digital-cor.png" alt="Logo do SUS Digital" height=""/>
+									<img class="img-fluid logo4" src="../media/logos/logo-sus-digital-cor.png" alt="Logo do SUS Digital" height="" />
 								</li>
 
 								<li>
@@ -303,38 +302,6 @@
 				containerSelector: '.main',
 				innerWrapperSelector: '.sidebar__inner',
 				minWidth: 991,
-			});
-		</script>
-
-		<script>
-			$(function () {
-				// init zeynepjs side menu
-				var zeynep = $('.zeynep').zeynep({
-					opened: function () {
-						// log
-						console.log('the side menu opened');
-					},
-					closed: function () {
-						// log
-						console.log('the side menu closed');
-					},
-				});
-
-				// dynamically bind 'closing' event
-				zeynep.on('closing', function () {
-					// log
-					console.log('this event is dynamically binded');
-				});
-
-				// handle zeynepjs overlay click
-				// $('.zeynep-overlay').on('click', function () {
-				// 	zeynep.close();
-				// });
-
-				// open zeynepjs side menu
-				$('.btn-open').on('click', function () {
-					zeynep.open();
-				});
 			});
 		</script>
 
