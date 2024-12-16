@@ -165,13 +165,6 @@
 									<li class="dropdown-menu__item">
 										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="aula3/topico1.html"><strong>Aula 3: </strong>Padrões em Informática em Saúde e Interoperabilidade: Aplicações no Contexto do SUS</a>
 									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="aula4/topico1.html"><strong>Aula 4: </strong>Intervenções de Saúde Digital: Soluções Digitais</a>
-									</li>
-
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="aula5/topico1.html"><strong>Aula 5: </strong>Monitoramento e Avaliação de Intervenções em Saúde digital</a>
-									</li>
 
 									<li class="dropdown-menu__item">
 										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="encerramento.html"><strong>Encerramento do módulo</strong></a>
@@ -204,7 +197,7 @@
 							<div class="col-12 col-md-10 col-lg-8">
 								<h2 class="title">
 									<span class="label">Módulo 2</span>
-									<br/>
+									<br />
 									Encerramento
 								</h2>
 							</div>
@@ -221,9 +214,9 @@
 									<h3 class="heading__title">Resumo do módulo</h3>
 									<p>Neste módulo, você foi apresentado aos principais princípios e critérios de qualidade de dados em saúde, como completude, consistência, atualidade, relevância e integridade dos dados.</p>
 
-									<p>Você está qualificado em identificar os principais desafios e fontes de erro na coleta, armazenamento e análise de dados e conheceu os benefícios da adoção de sistemas de informação integrados e interoperáveis para a melhoria da eficiência e qualidade dos serviços de saúde no SUS. </p>
+									<p>Você está qualificado em identificar os principais desafios e fontes de erro na coleta, armazenamento e análise de dados e conheceu os benefícios da adoção de sistemas de informação integrados e interoperáveis para a melhoria da eficiência e qualidade dos serviços de saúde no SUS.</p>
 
-									<p>Volte a essas aulas sempre que quiser rever as questões relacionadas ao monitoramento e avaliação em saúde digital e os demais conteúdos. </p>
+									<p>Volte a essas aulas sempre que quiser rever as questões relacionadas ao monitoramento e avaliação em saúde digital e os demais conteúdos.</p>
 
 									<p>No próximo módulo, abordaremos o tema da segurança da informação e proteção de dados pessoais.</p>
 								</div>
@@ -261,15 +254,15 @@
 							<ul class="logos">
 								<!-- <li class="realizacao"> -->
 								<li>
-									<img class="img-fluid logo1" src="../media/logos/logo-icict-vertical.svg" alt="Logo do ICICT" height=""/>
+									<img class="img-fluid logo1" src="../media/logos/logo-icict-vertical.svg" alt="Logo do ICICT" height="" />
 								</li>
 
 								<li>
-									<img class="img-fluid logo2" src="../media/logos/logo-campus-horizontal.png" alt="Logo do Campus Virtual Fiocruz" height=""/>
+									<img class="img-fluid logo2" src="../media/logos/logo-campus-horizontal.png" alt="Logo do Campus Virtual Fiocruz" height="" />
 								</li>
 
 								<li>
-									<img class="img-fluid logo3" src="../media/logos/logo-fiocruz-horizontal-black.png" alt="Logo da Fiocruz" height=""/>
+									<img class="img-fluid logo3" src="../media/logos/logo-fiocruz-horizontal-black.png" alt="Logo da Fiocruz" height="" />
 								</li>
 							</ul>
 						</div>
@@ -277,7 +270,7 @@
 						<div class="col-12 col-md-auto">
 							<ul class="logos principais align-self-end">
 								<li>
-									<img class="img-fluid logo4" src="../media/logos/logo-sus-digital-cor.png" alt="Logo do SUS Digital" height=""/>
+									<img class="img-fluid logo4" src="../media/logos/logo-sus-digital-cor.png" alt="Logo do SUS Digital" height="" />
 								</li>
 
 								<li>
@@ -309,38 +302,6 @@
 				containerSelector: '.main',
 				innerWrapperSelector: '.sidebar__inner',
 				minWidth: 991,
-			});
-		</script>
-
-		<script>
-			$(function () {
-				// init zeynepjs side menu
-				var zeynep = $('.zeynep').zeynep({
-					opened: function () {
-						// log
-						console.log('the side menu opened');
-					},
-					closed: function () {
-						// log
-						console.log('the side menu closed');
-					},
-				});
-
-				// dynamically bind 'closing' event
-				zeynep.on('closing', function () {
-					// log
-					console.log('this event is dynamically binded');
-				});
-
-				// handle zeynepjs overlay click
-				// $('.zeynep-overlay').on('click', function () {
-				// 	zeynep.close();
-				// });
-
-				// open zeynepjs side menu
-				$('.btn-open').on('click', function () {
-					zeynep.open();
-				});
 			});
 		</script>
 

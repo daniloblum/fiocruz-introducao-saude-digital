@@ -122,7 +122,160 @@ const modalInfos = {
 		modalBody: `
 			<div class="row justify-content-center pt-5">
 				<div class="col-12 col-md-10 col-lg-10">
-					<span class="h5 mb-3 d-block">Conteúdo a ser inserido</span>
+					<span class="h5 mb-3 d-block">Ministério da Saúde</span>
+
+					<div class="mb-5">
+						<p class="mb-1">Nísia Trindade Lima</p>
+						<p class="small text-muted"><em>Ministra</em></p>
+					</div>
+
+					<span class="h5 mb-3 d-block">Fundação Oswaldo Cruz – Fiocruz</span>
+					
+					<div class="mb-5">
+						<p class="mb-1">Mario Moreira</p>
+						<p class="small text-muted"><em>Presidente</em></p>
+						<p class="mb-1">Cristiani Vieira Machado</p>
+						<p class="small text-muted"><em>Vice-Presidência de Educação, Informação e Comunicação (VPEIC)</em></p>
+					</div>
+
+					<span class="h5 mb-3 d-block">Campus Virtual Fiocruz</span>
+
+					<div class="mb-5">
+
+						<p class="mb-1">Ana Cristina da Matta Furniel</p>
+						<p class="small text-muted"><em>Coordenadora-geral</em></p>
+
+						<p class="mb-1">Rosane Mendes</p>
+						<p class="small text-muted"><em>Coordenadora-adjunta e Coordenadora da Plataforma Educare</em></p>
+						
+						<p class="mb-1">Renata Bernardes David<</p>
+						<p class="small text-muted"><em>Coordenadora de produção</em></p>
+
+						<p class="mb-1">Juliana Dutra</p>
+						<p class="small text-muted"><em>Revisora técnica de conteúdo</em></p>
+
+						<p class="mb-1">Isabela Schincariol</p>
+						<p class="small text-muted"><em>Assessora de comunicação</em></p>
+					
+						<p class="mb-1">Roberta Saboya</p>
+						<p class="small text-muted"><em>Designer Educacional</em></p>
+					
+						<span class="h6 mb-3 d-block">Design de Interface</span>
+						
+						<p class="mb-1">Aline Polycarpo</p>
+						<p class="small text-muted"><em>UX/UI Designer</em></p>
+						<p class="mb-1">Danilo Blum</p>
+						<p class="small text-muted"><em>UX/UI Designer e Front-end</em></p>
+						<p class="mb-1">Luciana Nunes</p>
+						<p class="small text-muted"><em>UX/UI Designer</em></p>
+						
+						<span class="h6 mb-3 d-block">Recursos Audiovisuais</span>
+
+						<p class="mb-1">Bruno Athaydes</p>
+						<p class="small text-muted"><em>Editor audiovisual</em></p>
+			
+						<span class="h6 mb-3 d-block">Recursos Educacionais</span>
+						
+						<p class="mb-1">Carmélia Brito</p>
+						<p class="small text-muted"><em>Bibliotecária</em></p>
+
+						<p class="mb-1">Natália Rasina</p>
+						<p class="small text-muted"><em>Audiodescrição</em></p>
+
+						<p class="mb-1">Maria Angélica Marcondes Drska</p>
+						<p class="small text-muted"><em>Revisão de português</em></p>
+
+
+						<span class="h6 mb-3 d-block">Suporte Técnico de Tecnologia da Informação</span>
+					
+						<p class="mb-1">Bruno Alexandre de Oliveira</p>
+						<p class="small text-muted"><em>Desenvolvedor</em></p>
+
+						<p class="mb-1">Eduardo Xavier da Silva</p>
+						<p class="small text-muted"><em>Desenvolvedor</em></p>
+
+						<p class="mb-1">Adriano Lourenço</p>
+						<p class="small text-muted"><em>Analista de suporte</em></p>
+
+						<p class="mb-1">Orlando Terra</p>
+						<p class="small text-muted"><em>Analista de suporte</em></p>
+
+						<p class="mb-1">Fábio Carneiro</p>
+						<p class="small text-muted"><em>Designer gráfico e web designer</em></p>
+					</div>
+
+					<span class="h5 mb-3 d-block">Coordenação do Projeto</span>
+					
+					<div class="mb-5">
+						<p class="mb-1">Carolina de Campos Carvalho</p>
+						<p class="small text-muted"><em>Instituto de Comunicação e Informação Científica e Tecnológica em Saúde (Icict)/Fiocruz</em></p>
+
+						<p class="mb-1">Vanessa de Arruda Jorge </p>
+						<p class="small text-muted"><em>Coordenadora da Coordenação de Informação e Comunicação (Cinco)/Vice-Presidência de Educação, Informação e Comunicação (VPEIC)/Fiocruz</em></p>
+
+
+						<span class="h6 mb-3 d-block">Conteudistas</span>
+						
+						<p class="mb-1"><strong>Módulo 1:</strong></p>
+
+						<p class="mb-1">Raquel Brandini De Boni </p>
+						<p class="small text-muted"><em>Icict/Fiocruz</em></p>
+
+						<p class="mb-1">Juliano de Souza Gaspar</p>
+						<p class="small text-muted"><em>Universidade Federal de Minas Gerais (UFMG)</em></p>
+
+						<p class="mb-1">Ana Cristina Menezes Guedes </p>
+						<p class="small text-muted"><em>Ministério da Saúde (MS)</em></p>
+
+						<p class="mb-1">Jefferson da Costa Lima</p>
+						<p class="small text-muted"><em>Icict/Fiocruz</em></p>
+
+						<p class="mb-1"><strong>Módulo 2:</strong></p>
+
+						<p class="mb-1">Marcel de Moraes Pedroso </p>
+						<p class="small text-muted"><em>Icict/Fiocruz</em></p>
+
+						<p class="mb-1">Aline Pinto Marques </p>
+						<p class="small text-muted"><em>Icict/Fiocruz </em></p>
+
+						<p class="mb-1">Rebecca Lucena Theophilo</p>
+						<p class="small text-muted"><em>Fiocruz-CE</em></p>
+
+						<p class="mb-1">Ivana Cristina de Holanda Cunha Barreto </p>
+						<p class="small text-muted"><em>Fiocruz-CE</em></p>
+
+						<p class="mb-1">Luiz Odorico Monteiro de Andrade </p>
+						<p class="small text-muted"><em>Fiocruz-CE </em></p>
+
+						<p class="mb-1">Kamila Matos Albuquerque</p>
+						<p class="small text-muted"><em>Fiocruz-CE </em></p>
+
+						<p class="mb-1"><strong>Módulo 3:</strong></p>
+
+						<p class="mb-1">Lucas Zinato Carraro</p>
+						<p class="small text-muted"><em>Icict/Fiocruz</em></p>
+
+						<p class="mb-1">Laiza Daniele Nunes de Assumpção </p>
+						<p class="small text-muted"><em>FDiretoria Executiva/Fiocruz</em></p>
+
+						<p class="mb-1">Angela Cristina Volpini  </p>
+						<p class="small text-muted"><em>Diretoria Executiva/Fiocruz</em></p>
+
+						<p class="mb-1">Carlos Henrique Soares Carvalho </p>
+						<p class="small text-muted"><em>Diretoria Executiva/Fiocruz</em></p>
+
+						<p class="mb-1">Erika Sayume Ramos Hashimoto </p>
+						<p class="small text-muted"><em>Diretoria Executiva/Fiocruz</em></p>
+
+						<p class="mb-1">Rafael Pereira Barboza </p>
+						<p class="small text-muted"><em>Diretoria Executiva/Fiocruz</em></p>
+
+						<p class="mb-1"><strong>Módulo 4:</strong></p>
+
+						<p class="mb-1">Jonas Tadeu Cau Sertorio </p>
+						<p class="small text-muted"><em>FDiretoria Executiva/Fiocruz</em></p>
+					</div>
+					
 				</div>
 			</div>
 		`,
@@ -606,17 +759,17 @@ const modalInfos = {
 									<div class="accordion-body">
 										<div class="list">
 											<ul class="list-group">
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">ABNT. <strong>Tecnologia da informação – Código de prática para a gestão da segurança da informação (NBR ISO/IEC 17799)</strong>. Rio de Janeiro, RJ: 2001.</li>
 
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">ISO/IEC 27002 <strong>Establish, implement, and improve an Information Security Management System (ISMS) focused on cybersecurity 2022</strong></li>
 
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">MIRABILI, Renato.  <strong>Conheça os Pilares da Segurança da Informação</strong>, 2023. Disponível em <a href='https://www.protiviti.com.br/cybersecurity/pilares-seguranca-da-informacao/' target='_blank'>https://www.protiviti.com.br/cybersecurity/pilares-seguranca-da-informacao/</a> . Acesso em: 01 jul. 2024.</li>
 
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">FERREIRA, F. N. F.; ARAÚJO, M. T. D. <strong>Políticas de Segurança da Informação - Guia Prático para elaboração e implementação</strong>. Rio de Janeiro: Ciência Moderna, 2008.</li>
 
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">SÊMOLA, M. <strong>Gestão da Segurança da Informação - Uma Visão Executiva</strong> - 2 ed. São Paulo: Elsevier, 2014.</li>
 
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">AITH, Fernando, <strong>Dados sensíveis e vulnerabilidade digital em saúde</strong>, 2022 Disponível em  <a href='https://www.jota.info/opiniao-e-analise/colunas/coluna-fernando-aith/dados-sensiveis-e-vulnerabilidade-digital-em-saude-04112022' target='_blank'>https://www.jota.info/opiniao-e-analise/colunas/coluna-fernando-aith/dados-sensiveis-e-vulnerabilidade-digital-em-saude-04112022</a> . Acesso em: 02 jul. 2024.</li>
 											</ul>
 										</div>
 									</div>
@@ -656,102 +809,21 @@ const modalInfos = {
 									<div class="accordion-body">
 										<div class="list">
 											<ul class="list-group">
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Lei Geral de Proteção de Dados Pessoais (LGPD), Lei nº 13.709/2018. Disponível em:<a href=' https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm' target='_blank'> https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm</a></li>
 
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">General Data Protection Regulation (GDPR), Regulation (EU) 2016/679. Disponível em: <a href='https://eur-lex.europa.eu/eli/reg/2016/679/oj' target='_blank'>https://eur-lex.europa.eu/eli/reg/2016/679/oj</a></li>
 
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Health Insurance Portability and Accountability Act (HIPAA), 1996. Disponível em: <a href='https://www.hhs.gov/hipaa/index.html' target='_blank'>https://www.hhs.gov/hipaa/index.html</a></li>
 
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Information Commissioner's Office (ICO). (2018). Guide to the General Data Protection Regulation (GDPR). Disponível em: <a href='https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/' target='_blank'>https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/</a></li>
 
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">CUNHA FILHO, Marcio Camargo; XAVIER, Vítor César Silva. Lei de acesso à informação: teoria e prática. 1. ed. Rio de Janeiro: Lumen Juris, 2014. 439 p. Disponível em: <a href='https://core.ac.uk/reader/79127740' target='_blank'>https://core.ac.uk/reader/79127740</a>.</li>
 
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">GARCIA, Lara Rocha <em>et al</em>. Lei Geral de Proteção de Dados (LGPD): guia de implantação. Editora Blucher, 2020.</li>
 
-							<div class="accordion-item">
-								<h5 class="accordion-header" id="heading1-item4">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item4" aria-expanded="false" aria-controls="collapse1-item4">Aula 4</button>
-								</h5>
-								<div id="collapse1-item4" class="accordion-collapse collapse" aria-labelledby="heading1-item4" data-bs-parent="">
-									<div class="accordion-body">
-										<div class="list">
-											<ul class="list-group">
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">DOURADO, Daniel de Araujo. Regulação da inteligência artificial na saúde. 2024. Tese de Doutorado. Universidade de São Paulo.</li>
 
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">DANTAS, Eduardo; NOGAROLI, Rafaella. Consentimento informado do paciente frente às novas tecnologias da saúde: telemedicina, cirurgia robótica e inteligência artificial. DIREITO, p. 13, 2020.</li>
 											</ul>
 										</div>
 									</div>
