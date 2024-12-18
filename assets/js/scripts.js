@@ -772,17 +772,21 @@ const modalInfos = {
 									<div class="accordion-body">
 										<div class="list">
 											<ul class="list-group">
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Aith, F. (2022). Fundamentos e Desafios da Regulação da Saúde Digital em Estados Democráticos de Direito. Em F. Aith, & A. B. Dallari, LGPD na Saúde Digital (pp. 41-59). São Paulo, SP, Brasil : Revista dos Tribunais .</li>
 
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Brasil. (14 de agosto de 2018). Lei 13.709/2018. Fonte: Presidência da República: <a href='https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm' target='_blank'>https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm</a></li>
 
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Datasus. (2012). Saúde Digital . Fonte: Datasus : <a href='https://datasus.saude.gov.br/saudedigital/' target='_blank'>https://datasus.saude.gov.br/saudedigital/</a></li>
 
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">European Union. (27 de april de 2016). General Data Protection Regulation (GDPR). Fonte: Intersoft Consulting: <a href='https://gdpr-info.eu/' target='_blank'>https://gdpr-info.eu/</a></li>
 
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Filho, A. D., & Ferrari, I. (2022). Uso de big data em saúde no Brasil: perspectivas e desafios de conformidade com a LGPD. Em F. Aith, & A. B. Dallari, LGPD na Saúde Digital (pp. 2013-229). São Paulo : Revista dos Tribunais .</li>
 
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">OMS, O. M. (16 de julho de 2024). World Health Organization. Fonte: Documentod da OMS: <a href='https://www.who.int/pt/publications/m' target='_blank'>https://www.who.int/pt/publications/m</a></li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Rivelli, F. (2022). Aplicação e Conformidade dos Dados Sensíveis na Saúde Digital e os Preceitos da LGPD. Em F. Aith, & A. B. Dallari, LGPD na Saúde Digital (pp. 183-198). São Paulo : Revista dos Tribunais .</li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">USA. (20 de aug de 1996). US Departemnet Of Health an Human Service. Fonte: Health Insurance Portability and Accountability Act of 1996: <a href='https://aspe.hhs.gov/reports/health-insurance-portability-accountability-act-1996' target='_blank'>https://aspe.hhs.gov/reports/health-insurance-portability-accountability-act-1996</a></li>
 											</ul>
 										</div>
 									</div>
