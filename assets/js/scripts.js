@@ -11,18 +11,6 @@ window.addEventListener('scroll', function () {
 	}
 });
 
-// (function () {
-// 	// Popover
-// 	$(function () {
-// 		$('[data-toggle="popover"]').popover(options);
-// 	});
-
-// 	// Tooltip
-// 	$(function () {
-// 		$('[data-toggle="tooltip"]').tooltip(options);
-// 	});
-// })();
-
 // Popover
 var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
 var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
