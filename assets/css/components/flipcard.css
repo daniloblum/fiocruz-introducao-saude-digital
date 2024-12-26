@@ -5,7 +5,7 @@
 	--_flipcard-color: var(--fio-sys-color-secondary-light);
 	--_flipcard-text-color: var(--fio-sys-color-neutral-white);
 	--_flipcard-line-height: var(--fio-sys-typography-height-150);
-	--_flipcard-padding: var(--fio-sys-size-padding-xl);
+	--_flipcard-padding: var(--fio-sys-size-padding-lg);
 	--_flipcard-border-color: var(--fio-sys-color-primary-dark);
 	
 

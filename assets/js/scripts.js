@@ -561,77 +561,17 @@ const modalInfos = {
 									<div class="accordion-body">
 										<div class="list">
 											<ul class="list-group">
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Classification of Digital Health Interventions v 1.0 [Internet]. Disponível em: <a href='http://who.int/reproductivehealth/topics/mhealth/en' target='_blank'>http://who.int/reproductivehealth/topics/mhealth/en</a>/.</li>
 
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">World Health Organization. Classification of digital interventions, services and applications in health [Internet]. 2023 [citado 9 de dezembro de 2023]. Disponível em: <a href='https://www.who.int/news/item/07-11-2023-who-publishes-the-second-edition-of-the-classification-of-digital-interventions--services-and-applications-in-health' target='_blank'>https://www.who.int/news/item/07-11-2023-who-publishes-the-second-edition-of-the-classification-of-digital-interventions--services-and-applications-in-health</a></li>
 
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Meu SUS Digital — Ministério da Saúde [Internet]. [citado 15 de julho de 2024]. Disponível em: <a href='https://www.gov.br/saude/pt-br/composicao/seidigi/meususdigital' target='_blank'>https://www.gov.br/saude/pt-br/composicao/seidigi/meususdigital</a></li>
 
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">e-SUS APS [Internet]. [citado 15 de julho de 2024]. Disponível em: <a href='https://sisaps.saude.gov.br/esus/' target='_blank'>https://sisaps.saude.gov.br/esus/</a></li>
 
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Apresentação - SINASC - CGIAE - DAENT - SVSA/MS [Internet]. [citado 15 de julho de 2024]. Disponível em: <a href='https://svs.aids.gov.br/daent/cgiae/sinasc/apresentacao/' target='_blank'>https://svs.aids.gov.br/daent/cgiae/sinasc/apresentacao/</a></li>
 
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Apresentação - SIM - CGIAE - DAENT - SVSA/MS [Internet]. [citado 15 de julho de 2024]. Disponível em: <a href='https://svs.aids.gov.br/daent/cgiae/sim/apresentacao/' target='_blank'>https://svs.aids.gov.br/daent/cgiae/sim/apresentacao/</a></li>
 											</ul>
 										</div>
 									</div>
