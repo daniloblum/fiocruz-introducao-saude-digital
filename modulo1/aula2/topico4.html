@@ -1,700 +1,970 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<!-- Required meta tags -->
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no" />
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="robots" content="noindex" />
-		<meta name="author" content="Fiocruz, Campus Virtual" />
-		<meta name="description" content="Curso Implementação do Programa Nacional de Saneamento Rural." />
-		<meta name="keywords" content="Fiocruz Curso Implementação do Programa Nacional de Saneamento Rural" />
 
-		<!-- Facebook Open Graph -->
-		<meta property="og:url" content="https://mooc.campusvirtual.fiocruz.br/rea/etica-integridade-pesquisa" />
-		<meta property="og:title" content="Campus Virtual Fiocruz | Curso " />
-		<meta property="og:description" content="Curso Implementação do Programa Nacional de Saneamento Rural." />
-		<meta property="og:image" content="" />
-		<meta property="og:image:width" content="1080" />
-		<meta property="og:image:height" content="1080" />
-		<meta property="og:type" content="website" />
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="robots" content="noindex" />
+	<meta name="author" content="Fiocruz, Campus Virtual" />
+	<meta name="description" content="Curso Implementação do Programa Nacional de Saneamento Rural." />
+	<meta name="keywords" content="Fiocruz Curso Implementação do Programa Nacional de Saneamento Rural" />
 
-		<!-- Twitter Cards -->
-		<meta name="twitter:card" content="summary_large_image" />
-		<meta name="twitter:title" content="Campus Virtual Fiocruz | Curso Implementação do Programa Nacional de Saneamento Rural." />
-		<meta name="twitter:url" content="" />
-		<meta name="twitter:description" content="" />
-		<meta name="twitter:image:src" content="" />
+	<!-- Facebook Open Graph -->
+	<meta property="og:url" content="https://mooc.campusvirtual.fiocruz.br/rea/etica-integridade-pesquisa" />
+	<meta property="og:title" content="Campus Virtual Fiocruz | Curso " />
+	<meta property="og:description" content="Curso Implementação do Programa Nacional de Saneamento Rural." />
+	<meta property="og:image" content="" />
+	<meta property="og:image:width" content="1080" />
+	<meta property="og:image:height" content="1080" />
+	<meta property="og:type" content="website" />
 
-		<!-- Favicons and Touch Icons -->
-		<link rel="apple-touch-icon" sizes="57x57" href="../../media/icons/apple-icon-57x57.png" />
-		<link rel="apple-touch-icon" sizes="60x60" href="../../media/icons/apple-icon-60x60.png" />
-		<link rel="apple-touch-icon" sizes="72x72" href="../../media/icons/apple-icon-72x72.png" />
-		<link rel="apple-touch-icon" sizes="76x76" href="../../media/icons/apple-icon-76x76.png" />
-		<link rel="apple-touch-icon" sizes="114x114" href="../../media/icons/apple-icon-114x114.png" />
-		<link rel="apple-touch-icon" sizes="120x120" href="../../media/icons/apple-icon-120x120.png" />
-		<link rel="apple-touch-icon" sizes="144x144" href="../../media/icons/apple-icon-144x144.png" />
-		<link rel="apple-touch-icon" sizes="152x152" href="../../media/icons/apple-icon-152x152.png" />
-		<link rel="apple-touch-icon" sizes="180x180" href="../../media/icons/apple-icon-180x180.png" />
+	<!-- Twitter Cards -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title"
+		content="Campus Virtual Fiocruz | Curso Implementação do Programa Nacional de Saneamento Rural." />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:description" content="" />
+	<meta name="twitter:image:src" content="" />
 
-		<link rel="icon" type="image/png" sizes="192x192" href="../../media/icons/android-icon-192x192.png" />
-		<link rel="icon" type="image/png" sizes="32x32" href="../../media/icons/favicon-32x32.png" />
-		<link rel="icon" type="image/png" sizes="96x96" href="../../media/icons/favicon-96x96.png" />
-		<link rel="icon" type="image/png" sizes="16x16" href="../../media/icons/favicon-16x16.png" />
-		<link rel="manifest" href="../media/icons/manifest.json" />
+	<!-- Favicons and Touch Icons -->
+	<link rel="apple-touch-icon" sizes="57x57" href="../../media/icons/apple-icon-57x57.png" />
+	<link rel="apple-touch-icon" sizes="60x60" href="../../media/icons/apple-icon-60x60.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="../../media/icons/apple-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="76x76" href="../../media/icons/apple-icon-76x76.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="../../media/icons/apple-icon-114x114.png" />
+	<link rel="apple-touch-icon" sizes="120x120" href="../../media/icons/apple-icon-120x120.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="../../media/icons/apple-icon-144x144.png" />
+	<link rel="apple-touch-icon" sizes="152x152" href="../../media/icons/apple-icon-152x152.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="../../media/icons/apple-icon-180x180.png" />
 
-		<meta name="msapplication-TileColor" content="#ffffff" />
-		<meta name="msapplication-TileImage" content="../../media/icons/ms-icon-144x144.png" />
-		<!-- <meta name="theme-color" content="#003066" /> -->
-		<meta name="theme-color" content="#001833" />
+	<link rel="icon" type="image/png" sizes="192x192" href="../../media/icons/android-icon-192x192.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="../../media/icons/favicon-32x32.png" />
+	<link rel="icon" type="image/png" sizes="96x96" href="../../media/icons/favicon-96x96.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="../../media/icons/favicon-16x16.png" />
+	<link rel="manifest" href="../media/icons/manifest.json" />
 
-		<title>Curso Introdução à Saúde Digital | Mod 1 | Aula 2</title>
+	<meta name="msapplication-TileColor" content="#ffffff" />
+	<meta name="msapplication-TileImage" content="../../media/icons/ms-icon-144x144.png" />
+	<!-- <meta name="theme-color" content="#003066" /> -->
+	<meta name="theme-color" content="#001833" />
 
-		<!-- Bootstrap CSS 5.1.3 -->
-		<link rel="stylesheet" href="../../source/bootstrap-5.1.3/css/bootstrap.min.css" />
+	<title>Curso Introdução à Saúde Digital | Mod 1 | Aula 2</title>
 
-		<!-- Project CSS -->
-		<link rel="stylesheet" href="../../assets/css/style.css" />
-	</head>
+	<!-- Bootstrap CSS 5.1.3 -->
+	<link rel="stylesheet" href="../../source/bootstrap-5.1.3/css/bootstrap.min.css" />
 
-	<body>
-		<header class="header">
-			<div class="mobile-toggle-open">
-				<a class="mobile-toggle__button" tabindex="0" role="button">
-					<span class="icon material-symbols-rounded">read_more</span>
-				</a>
-			</div>
-			<div class="brand">
-				<img class="img-fluid logo-black" src="../../media/logos/header-fiocruz-campus-virtual.png" alt="Campus Virtual Fiocruz" />
-			</div>
-			<div class="title">
-				<h1>Introdução à Saúde Digital</h1>
-			</div>
-			<ul class="nav nav-pills">
-				<li class="nav-item"><a href="../index.html" class="nav-link">Início</a></li>
-				<li class="nav-item"><a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#modal-creditos">Créditos</a></li>
-			</ul>
-		</header>
-		<div class="main">
-			<div class="sidebar" role="navigation">
-				<div class="sidebar__inner">
-					<div class="sidebar__group d-lg-none">
-						<div class="sidebar__group-item">
-							<div class="sidebar__header">
-								<span>Curso</span>
-								<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
-							</div>
+	<!-- Project CSS -->
+	<link rel="stylesheet" href="../../assets/css/style.css" />
+</head>
+
+<body>
+	<header class="header">
+		<div class="mobile-toggle-open">
+			<a class="mobile-toggle__button" tabindex="0" role="button">
+				<span class="icon material-symbols-rounded">read_more</span>
+			</a>
+		</div>
+		<div class="brand">
+			<img class="img-fluid logo-black" src="../../media/logos/header-fiocruz-campus-virtual.png"
+				alt="Campus Virtual Fiocruz" />
+		</div>
+		<div class="title">
+			<h1>Introdução à Saúde Digital</h1>
+		</div>
+		<ul class="nav nav-pills">
+			<li class="nav-item"><a href="../index.html" class="nav-link">Início</a></li>
+			<li class="nav-item"><a href="#" class="nav-link" data-bs-toggle="modal"
+					data-bs-target="#modal-creditos">Créditos</a></li>
+		</ul>
+	</header>
+	<div class="main">
+		<div class="sidebar" role="navigation">
+			<div class="sidebar__inner">
+				<div class="sidebar__group d-lg-none">
+					<div class="sidebar__group-item">
+						<div class="sidebar__header">
+							<span>Curso</span>
+							<a class="mobile-toggle-close" tabindex="0" role="button"><span
+									class="icon material-symbols-rounded">read_more</span></a>
 						</div>
-						<div class="sidebar__group-item">
-							<div class="sidebar__title">
-								<h1>Introdução à Saúde Digital</h1>
-							</div>
+					</div>
+					<div class="sidebar__group-item">
+						<div class="sidebar__title">
+							<h1>Introdução à Saúde Digital</h1>
 						</div>
-						<div class="sidebar__group-item">
-							<ul class="nav">
-								<li class="nav-item">
-									<a href="../../index.html" class="nav-link" tabindex="0"><span class="icon material-symbols-rounded" aria-hidden="true">home</span>Início</a>
+					</div>
+					<div class="sidebar__group-item">
+						<ul class="nav">
+							<li class="nav-item">
+								<a href="../../index.html" class="nav-link" tabindex="0"><span
+										class="icon material-symbols-rounded" aria-hidden="true">home</span>Início</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link" tabindex="0" data-bs-toggle="modal"
+									data-bs-target="#modal-creditos"><span class="icon material-symbols-rounded"
+										aria-hidden="true"> format_list_bulleted</span>Créditos</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="sidebar__group">
+					<div class="sidebar__group-item">
+						<div class="dropend">
+							<button id="dropdown-modulos" type="button" class="dropdown-toggle"
+								data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside"
+								data-bs-offset="0,30">
+								<span class="icon material-symbols-rounded" aria-hidden="true">grid_view</span>
+								<span class="label">Módulos</span>
+							</button>
+							<ul class="dropdown-menu" aria-labelledby="dropdown-modulos">
+								<li class="d-lg-none dropdown-menu__header">
+									<a class="dropdown-menu__back-button" tabindex="0" role="button"><span
+											class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
+									<a class="mobile-toggle-close" tabindex="0" role="button"><span
+											class="icon material-symbols-rounded">read_more</span></a>
 								</li>
-								<li class="nav-item">
-									<a href="#" class="nav-link" tabindex="0" data-bs-toggle="modal" data-bs-target="#modal-creditos"><span class="icon material-symbols-rounded" aria-hidden="true"> format_list_bulleted</span>Créditos</a>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../../modulo1/apresentacao.html"><strong>Módulo
+											1</strong><br />Contextualização sobre saneamento rural</a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../../modulo2/apresentacao.html"><strong>Módulo 2</strong><br />Conhecendo
+										o Programa Nacional de Saneamento Rural</a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../../modulo3/apresentacao.html"><strong>Módulo
+											3</strong><br />Implementação do Programa Nacional de Saneamento Rural</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="divider">
+					<hr />
+				</div>
+				<div class="sidebar__group">
+					<div class="sidebar__group-item">
+						<span class="text module">Módulo <br class="d-none d-lg-block" /><span>1</span></span>
+					</div>
+					<div class="sidebar__group-item">
+						<div class="dropend">
+							<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown"
+								aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30">
+								<span class="icon material-symbols-rounded" aria-hidden="true">apps</span>
+								<span class="label">Conteúdo</span>
+							</button>
+							<ul class="dropdown-menu">
+								<li class="d-lg-none dropdown-menu__header">
+									<a class="dropdown-menu__back-button" tabindex="0" role="button"><span
+											class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
+									<a class="mobile-toggle-close" tabindex="0" role="button"><span
+											class="icon material-symbols-rounded">read_more</span></a>
+								</li>
+								<li class="dropdown-menu__title">
+									<span class="label">Módulo 1</span>
+									<span class="title">Fundamentos de Saúde Digital e Tecnologia da Informação em
+										Saúde</span>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../apresentacao.html"><strong>Apresentação do módulo</strong></a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../aula1/topico1.html"><strong>Aula 1: </strong>Introdução à saúde
+										digital: conceitos e aplicações</a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../aula2/topico1.html"><strong>Aula 2: </strong>Transformação digital em
+										saúde e no SUS</a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../aula3/topico1.html"><strong>Aula 3: </strong>Saúde digital, Telessaúde
+										e Telemedicina</a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../aula4/topico1.html"><strong>Aula 4: </strong>Introdução à inteligência
+										artificial na saúde</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="divider">
+					<hr />
+				</div>
+				<div class="sidebar__group">
+					<div class="sidebar__group-item">
+						<span class="text class">Aula 2</span>
+					</div>
+					<div class="sidebar__group-item">
+						<div class="dropend">
+							<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown"
+								aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="200,30">
+								<span class="icon material-symbols-rounded" aria-hidden="true">
+									format_list_bulleted</span>
+								<span class="label">Tópicos</span>
+							</button>
+							<ul class="dropdown-menu">
+								<li class="d-lg-none dropdown-menu__header">
+									<a class="dropdown-menu__back-button" tabindex="0" role="button"><span
+											class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
+									<a class="mobile-toggle-close" tabindex="0" role="button"><span
+											class="icon material-symbols-rounded">read_more</span></a>
+								</li>
+								<li class="dropdown-menu__title">
+									<span class="label">Aula 2</span>
+									<span class="title">Transformação digital em saúde e no SUS</span>
+								</li>
+								<li class="dropdown-menu__item">
+									<nav class="topic-list">
+										<a href="topico1.html" tabindex="0" role="link" class="topic-list__item"
+											aria-label="Tópico concluído" status="visited"> <span
+												class="material-symbols-rounded"></span>Introdução</a>
+
+										<a href="topico2.html" tabindex="0" role="link" class="topic-list__item"
+											aria-label="Tópico concluído" status="visited"> <span
+												class="material-symbols-rounded"></span>Políticas e Programas de Saúde
+											Digital no Mundo</a>
+
+										<a href="topico3.html" tabindex="0" role="link" class="topic-list__item"
+											aria-label="Tópico concluído" status="visited"><span
+												class="material-symbols-rounded"></span>Marcos Legais em Saúde Digital
+											no Brasil</a>
+
+										<a href="topico4.html" tabindex="0" role="link" class="topic-list__item"
+											aria-label="Tópico não concluído" status="visited"><span
+												class="material-symbols-rounded"></span>O Programa SUS Digital</a>
+
+										<!--a href="topico5.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído"><span class="material-symbols-rounded"></span>Exercícios de Fixação</a>
+
+											<a href="topico6.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído"><span class="material-symbols-rounded"></span>Encerramento</a-->
+									</nav>
 								</li>
 							</ul>
 						</div>
 					</div>
 
-					<div class="sidebar__group">
-						<div class="sidebar__group-item">
-							<div class="dropend">
-								<button id="dropdown-modulos" type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30">
-									<span class="icon material-symbols-rounded" aria-hidden="true">grid_view</span>
-									<span class="label">Módulos</span>
-								</button>
-								<ul class="dropdown-menu" aria-labelledby="dropdown-modulos">
-									<li class="d-lg-none dropdown-menu__header">
-										<a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
-										<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo1/apresentacao.html"><strong>Módulo 1</strong><br />Contextualização sobre saneamento rural</a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo2/apresentacao.html"><strong>Módulo 2</strong><br />Conhecendo o Programa Nacional de Saneamento Rural</a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo3/apresentacao.html"><strong>Módulo 3</strong><br />Implementação do Programa Nacional de Saneamento Rural</a>
-									</li>
-								</ul>
-							</div>
-						</div>
+					<div class="sidebar__group-item">
+						<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-autorMod1Aula1">
+							<span class="icon material-symbols-rounded" aria-hidden="true"> id_card</span>
+							<span class="label">Autores</span>
+						</button>
 					</div>
-					<div class="divider">
-						<hr />
-					</div>
-					<div class="sidebar__group">
-						<div class="sidebar__group-item">
-							<span class="text module">Módulo <br class="d-none d-lg-block" /><span>1</span></span>
-						</div>
-						<div class="sidebar__group-item">
-							<div class="dropend">
-								<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30">
-									<span class="icon material-symbols-rounded" aria-hidden="true">apps</span>
-									<span class="label">Conteúdo</span>
-								</button>
-								<ul class="dropdown-menu">
-									<li class="d-lg-none dropdown-menu__header">
-										<a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
-										<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
-									</li>
-									<li class="dropdown-menu__title">
-										<span class="label">Módulo 1</span>
-										<span class="title">Fundamentos de Saúde Digital e Tecnologia da Informação em Saúde</span>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../apresentacao.html"><strong>Apresentação do módulo</strong></a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../aula1/topico1.html"><strong>Aula 1: </strong>Introdução à saúde digital: conceitos e aplicações</a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../aula2/topico1.html"><strong>Aula 2: </strong>Transformação digital em saúde e no SUS</a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../aula3/topico1.html"><strong>Aula 3: </strong>Saúde digital, Telessaúde e Telemedicina</a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../aula4/topico1.html"><strong>Aula 4: </strong>Introdução à inteligência artificial na saúde</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="divider">
-						<hr />
-					</div>
-					<div class="sidebar__group">
-						<div class="sidebar__group-item">
-							<span class="text class">Aula 2</span>
-						</div>
-						<div class="sidebar__group-item">
-							<div class="dropend">
-								<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="200,30">
-									<span class="icon material-symbols-rounded" aria-hidden="true"> format_list_bulleted</span>
-									<span class="label">Tópicos</span>
-								</button>
-								<ul class="dropdown-menu">
-									<li class="d-lg-none dropdown-menu__header">
-										<a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
-										<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
-									</li>
-									<li class="dropdown-menu__title">
-										<span class="label">Aula 2</span>
-										<span class="title">Transformação digital em saúde e no SUS</span>
-									</li>
-									<li class="dropdown-menu__item">
-										<nav class="topic-list">
-											<a href="topico1.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico concluído" status="visited"> <span class="material-symbols-rounded"></span>Introdução</a>
-
-											<a href="topico2.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico concluído" status="visited"> <span class="material-symbols-rounded"></span>Políticas e Programas de Saúde Digital no Mundo</a>
-
-											<a href="topico3.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico concluído" status="visited"><span class="material-symbols-rounded"></span>Marcos Legais em Saúde Digital no Brasil</a>
-
-											<a href="topico4.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído" status="visited"><span class="material-symbols-rounded"></span>O Programa SUS Digital</a>
-
-										<!--a href="topico5.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído"><span class="material-symbols-rounded"></span>Exercícios de Fixação</a>
-
-											<a href="topico6.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído"><span class="material-symbols-rounded"></span>Encerramento</a-->
-										</nav>
-									</li>
-								</ul>
-							</div>
-						</div>
-
-						<div class="sidebar__group-item">
-							<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-autorMod1Aula1">
-								<span class="icon material-symbols-rounded" aria-hidden="true"> id_card</span>
-								<span class="label">Autores</span>
-							</button>
-						</div>
-					</div>
-					<div class="divider">
-						<hr />
-					</div>
-					<div class="sidebar__group extra">
-						<!-- <div class="sidebar__group-item">
+				</div>
+				<div class="divider">
+					<hr />
+				</div>
+				<div class="sidebar__group extra">
+					<!-- <div class="sidebar__group-item">
 							<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-glossario">
 								<span class="icon material-symbols-rounded" aria-hidden="true"> dictionary</span>
 								<span class="label">Glossário</span>
 							</button>
 						</div> -->
-						<div class="sidebar__group-item">
-							<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-bibliografiaMod1">
-								<span class="icon material-symbols-rounded" aria-hidden="true"> menu_book</span>
-								<span class="label">Bibliografia</span>
-							</button>
-						</div>
-						<!-- <div class="sidebar__group-item">
+					<div class="sidebar__group-item">
+						<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-bibliografiaMod1">
+							<span class="icon material-symbols-rounded" aria-hidden="true"> menu_book</span>
+							<span class="label">Bibliografia</span>
+						</button>
+					</div>
+					<!-- <div class="sidebar__group-item">
 							<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-material-complementar">
 								<span class="icon material-symbols-rounded" aria-hidden="true"> library_books</span>
 								<span class="label">Material complementar</span>
 							</button>
 						</div> -->
+				</div>
+			</div>
+		</div>
+
+		<div class="content">
+			<div id="page-title">
+				<div class="container">
+					<div class="row align-items-center hstify-content-center justify-content-xxl-start ms-lg-5">
+						<div class="col-12 col-md-10 col-lg-11">
+							<h2 class="title">
+								<span class="label">Módulo 1 | Aula 2</span>
+								<br />
+								Transformação digital em saúde e no SUS
+							</h2>
+						</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="content">
-				<div id="page-title">
-					<div class="container">
-						<div class="row align-items-center hstify-content-center justify-content-xxl-start ms-lg-5">
-							<div class="col-12 col-md-10 col-lg-11">
-								<h2 class="title">
-									<span class="label">Módulo 1 | Aula 2</span>
-                                    <br/>
-									Transformação digital em saúde e no SUS
-								</h2>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div id="page-content" class="">
-					<!-- Inserir o conteúdo aqui -->
-					<section>
-						<div class="container">
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8 mb-5">
-                                    <div class="heading__block">
-										<span class="small">Tópico 4</span>
-										<h3 class="heading__title">O Programa SUS Digital</h3>
-									</div>
-
-									<p>O Programa SUS Digital é uma iniciativa estratégica do Ministério da Saúde que visa modernizar e integrar os sistemas de informação em saúde no Brasil. Este programa aborda a saúde digital de forma multidisciplinar, abrangendo a interseção entre tecnologia, informação e saúde. Inclui a utilização de software, hardware e serviços para transformar digitalmente o setor de saúde. O conceito de saúde digital no contexto do SUS Digital engloba uma ampla gama de tecnologias e práticas, como sistemas de informação interoperáveis, registros eletrônicos de saúde, ciência de dados, inteligência artificial, telessaúde, aplicações móveis de saúde, dispositivos vestíveis, robótica aplicada, medicina personalizada e a internet das coisas (IoT). Esses componentes são essenciais para melhorar a eficiência, a segurança e a acessibilidade dos serviços de saúde no Brasil (HADDAD, 2024).</p>
-									
-									<p>O Programa é organizado em três eixos principais, cada um dos quais estrutura as ações e estratégias propostas nos planos de ação de transformação digital. As iniciativas em cada eixo são projetadas para abordar diferentes aspectos da saúde digital, garantindo uma abordagem abrangente e coerente para a transformação do sistema de saúde (BRASIL, 2024b).</p>
-
-									
-								</div>
-							</div>
-
-                            <div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8 mb-5">
-                                   <!-- Accordion -->
-												<div class="accordion accordion-flush" id="accordionExample2">
-													<div class="accordion-item">
-														<h5 class="accordion-header" id="heading1-item1">
-															<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item1" aria-expanded="true" aria-controls="collapse1-item1">Cultura de Saúde Digital, Formação e Educação Permanente em Saúde</button>
-														</h5>
-														<div id="collapse1-item1" class="accordion-collapse collapse" aria-labelledby="heading1-item1" data-bs-parent="">
-															<div class="accordion-body">
-																
-																<p>Este eixo enfatiza a importância de desenvolver uma cultura de saúde digital e capacitar profissionais de saúde para utilizarem tecnologias digitais de maneira eficaz. As iniciativas incluem:</p>
-
-																<div class="list">
-																			<ul class="list-group">
-																				<li class="list-group-item aos-init aos-animate" list-style='pages' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Formação e educação permanente em Saúde Digital.</li>
-																				<li class="list-group-item aos-init aos-animate" list-style='pages' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Fortalecimento do ecossistema de Saúde Digital.</li>
-																				<li class="list-group-item aos-init aos-animate" list-style='pages' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Uso de estudos e evidências para a incorporação de tecnologias digitais.</li>
-																				<li class="list-group-item aos-init aos-animate" list-style='pages' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Fomento à cultura da proteção de dados pessoais e sensíveis de saúde.</li>
-																				<li class="list-group-item aos-init aos-animate" list-style='pages' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Qualificação dos registros em saúde.</li>
-																			</ul>
-																		</div>
-
-																
-															</div>
-														</div>
-													</div>
-
-													<div class="accordion-item">
-														<h5 class="accordion-header" id="heading1-item2">
-															<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item2" aria-expanded="false" aria-controls="collapse1-item2">Soluções Tecnológicas e Serviços de Saúde Digital no Âmbito do SUS</button>
-														</h5>
-														<div id="collapse1-item2" class="accordion-collapse collapse" aria-labelledby="heading1-item2" data-bs-parent="">
-															<div class="accordion-body">
-																<p>O segundo eixo foca na implementação de soluções tecnológicas que melhorem a infraestrutura e os serviços de saúde digital. As principais iniciativas incluem:</p>
-
-																<div class="list">
-																			<ul class="list-group">
-																				<li class="list-group-item aos-init aos-animate" list-style='pages' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Informatização do SUS e adoção de prontuários eletrônicos em conformidade com os padrões de interoperabilidade da RNDS.</li>
-																				<li class="list-group-item aos-init aos-animate" list-style='pages' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Melhoria da infraestrutura e conectividade para suportar sistemas de saúde digitais.</li>
-																				<li class="list-group-item aos-init aos-animate" list-style='pages' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Fortalecimento dos mecanismos de segurança de acesso aos sistemas de saúde.</li>
-																				<li class="list-group-item aos-init aos-animate" list-style='pages' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Implementação de soluções tecnológicas e serviços de saúde digital.</li>
-																				<li class="list-group-item aos-init aos-animate" list-style='pages' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Soluções de Saúde Digital para atendimento de populações negligenciadas, vulneráveis e isoladas</li> geograficamente, incluindo povos originários.</li>
-																				<li class="list-group-item aos-init aos-animate" list-style='pages' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Ampliação da telemedicina e telessaúde no âmbito do SUS em território nacional.</li>
-																			</ul>
-																		</div>
-															</div>
-														</div>
-													</div>
-
-													<div class="accordion-item">
-														<h5 class="accordion-header" id="heading1-item3">
-															<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item3" aria-expanded="false" aria-controls="collapse1-item3">Interoperabilidade, Análise e Disseminação de Dados e Informações de Saúde</button>
-														</h5>
-														<div id="collapse1-item3" class="accordion-collapse collapse" aria-labelledby="heading1-item3" data-bs-parent="">
-															<div class="accordion-body">
-																<p>O terceiro eixo do Programa SUS Digital é fundamental para garantir a integração e a eficiência dos sistemas de informação em saúde, promovendo o uso seguro e eficaz dos dados de saúde. As iniciativas deste eixo incluem:</p>
-
-																<div class="list">
-																			<ul class="list-group">
-																				<li class="list-group-item aos-init aos-animate" list-style='pages' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Promoção da interoperabilidade de dados de saúde com a RNDS.
-																				<li class="list-group-item aos-init aos-animate" list-style='pages' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Gestão e governança no compartilhamento de dados de saúde.</li>
-																				<li class="list-group-item aos-init aos-animate" list-style='pages' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Elaboração de estudos técnicos, diretrizes e protocolos, análise e disseminação de dados para subsidiar estratégias de saúde digital e inovações no setor de saúde.</li>
-																				<li class="list-group-item aos-init aos-animate" list-style='pages' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Padronização dos modelos de informação nacionais, bem como dos vocabulários e terminologias em saúde.</li>
-																				<li class="list-group-item aos-init aos-animate" list-style='pages' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Promoção da disseminação de dados e informações em saúde, mantendo a confidencialidade, privacidade e proteção dos dados pessoais, além de garantir a segurança das informações.</li>
-																				<li class="list-group-item aos-init aos-animate" list-style='pages' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Preservação da autenticidade, integridade, rastreabilidade e qualidade da informação em saúde.</li>
-																			</ul>
-																		</div>
-															</div>
-														</div>
-													</div>
-												</div>
-												<!-- Fim do Accordion -->
-                                </div>
-                            </div>
-
-                            <div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-									<p>Essas iniciativas visam criar um ambiente de saúde digital mais integrado e eficiente, facilitando a tomada de decisões informadas e o desenvolvimento de novas tecnologias e práticas no setor de saúde.</p>
-								</div>
-							</div>
-
-
-							 <div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-
-									<h4>Objetivo do Programa</h4>
-
-									<p>De acordo com o art. 1º da Portaria GM/MS nº 3.232, de 1º de março de 2024, que institui o Programa SUS Digital, o objetivo do programa parte da premissa do uso apropriado, ético e crítico de novas tecnologias digitais, proposição de soluções digitais colaborativas e livres, formação e educação permanente, protagonismo do cidadão, interoperabilidade e proteção de dados. O Programa SUS Digital possui como objetivo promover a transformação digital no Sistema Único de Saúde (SUS), para favorecer o acesso universal e equitativo às ações e aos serviços de saúde do SUS, a integralidade e a resolubilidade das redes de atenção à saúde, por meio do acesso a bens e serviços de saúde digital e de inovação aplicável à saúde (BRASIL, 2024b).</p>
-									
-									
-								</div>
-							</div>
-
-							 <div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-
-									<p>Os objetivos específicos almejados com o programa são (BRASIL, 2024b):</p>
-
-									<!--Slider-->
-														<div class="slider">
-															<div class="card ">
-																<div class="card-body">
-																	<div id="carousel-texto" class="carousel slide" data-bs-interval="false">
-																		<div class="carousel-indicators">
-																			<button type="button" data-bs-target="#carousel-texto" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
-																			<button type="button" data-bs-target="#carousel-texto" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
-
-																			<button type="button" data-bs-target="#carousel-texto" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
-
-																			<button type="button" data-bs-target="#carousel-texto" data-bs-slide-to="3" aria-label="Slide 4" class=""></button>
-
-																			<button type="button" data-bs-target="#carousel-texto" data-bs-slide-to="4" aria-label="Slide 5" class=""></button>
-
-																			<button type="button" data-bs-target="#carousel-texto" data-bs-slide-to="5" aria-label="Slide 6" class=""></button>
-
-																			<button type="button" data-bs-target="#carousel-texto" data-bs-slide-to="6" aria-label="Slide 7" class=""></button>
-
-																			<button type="button" data-bs-target="#carousel-texto" data-bs-slide-to="7" aria-label="Slide 8" class=""></button>
-
-																			<button type="button" data-bs-target="#carousel-texto" data-bs-slide-to="8" aria-label="Slide 9" class=""></button>
-
-																			<button type="button" data-bs-target="#carousel-texto" data-bs-slide-to="9" aria-label="Slide 10" class=""></button>
-																		</div>
-																		<div class="carousel-inner">
-																			<div class="carousel-item active">
-																				<span class="slide-title">Objetivo 1:</span>
-																				<p>Fomentar o uso apropriado, ético e crítico de novas tecnologias digitais no âmbito do SUS.</p>
-																			</div>
-					
-																			<div class="carousel-item">
-																				<span class="slide-title">Objetivo 2:</span>
-																				<p>Induzir a proposição de soluções digitais colaborativas e livres que melhorem a oferta de serviços, a gestão do cuidado pelos profissionais de saúde e a qualidade da atenção.</p>
-																			</div>
-
-																			<div class="carousel-item">
-																				<span class="slide-title">Objetivo 3:</span>
-																				<p> Induzir a formação e educação permanente em saúde digital.</p>
-																			</div>
-
-
-																			<div class="carousel-item">
-																				<span class="slide-title">Objetivo 4:</span>
-																				<p>Promover a sensibilização, conscientização e engajamento para uso das tecnologias digitais e tratamento adequado de dados pelos atores do SUS, fomentando o letramento digital, a cultura da saúde digital e da proteção de dados pessoais.</p>
-																			</div>
-
-
-																			<div class="carousel-item">
-																				<span class="slide-title">Objetivo 5:</span>
-																				<p>V. Ampliar a maturidade digital no âmbito do SUS.</p>
-																			</div>
-
-
-																			<div class="carousel-item">
-																				<span class="slide-title">Objetivo 6:</span>
-																				
-																				<p>Fortalecer a participação social e o protagonismo do cidadão na criação de soluções inovadoras no campo da saúde.</p>
-																			</div>
-
-
-																			<div class="carousel-item">
-
-																				<span class="slide-title">Objetivo 7:</span>
-																				
-																				<p>Fortalecer o ecossistema de saúde digital.</p>
-																			</div>
-
-																			<div class="carousel-item">
-																				<span class="slide-title">Objetivo 8:</span>
-																				
-																				<p>Contribuir para o desenvolvimento de um ambiente de colaboração para o aprimoramento da gestão do SUS, por meio da transformação digital.</p>
-																			</div>
-
-																			<div class="carousel-item">
-
-																				<span class="slide-title">Objetivo 9:</span>
-																				
-																				<p>Promover a interoperabilidade de dados em saúde.</p>
-																			</div>
-
-																			<div class="carousel-item">
-
-																				<span class="slide-title">Objetivo 10:</span>
-																				
-																				<p>Reduzir a iniquidade no acesso às soluções e serviços de saúde digital nas diferentes regiões do país.</p>
-																			</div>
-
-																		</div>
-					
-																		<button class="carousel-control-prev" type="button" data-bs-target="#carousel-texto" data-bs-slide="prev">
-																			<span class="carousel-control-prev-icon white-arrow" aria-hidden="true"></span>
-																			<span class="visually-hidden">Previous</span>
-																		</button>
-					
-																		<button class="carousel-control-next" type="button" data-bs-target="#carousel-texto" data-bs-slide="next">
-																			<span class="carousel-control-next-icon white-arrow" aria-hidden="true"></span>
-																			<span class="visually-hidden">Next</span>
-																		</button>
-																	</div>
-																</div>
-															</div>
-														</div>
-
-								</div>
-							</div>
-
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-
-									<p>O Programa SUS Digital tem como objetivo promover a transformação digital no sistema de saúde brasileiro, abrangendo uma ampla gama de ações e tecnologias disruptivas. Estas ações visam melhorar a qualidade e a segurança da atenção à saúde, fortalecendo a interseção entre tecnologia, informação e saúde. A abordagem multidisciplinar do programa busca incorporar software, hardware e serviços, como parte do processo de transformação digital em nível nacional. Para tanto, estados e municípios são incentivados a desenvolver Planos de Ação de Transformação para a Saúde Digital, que definem estratégias específicas para a adoção de novas tecnologias e práticas digitais (HADDAD, 2024).</p>
-
-									<p>As aplicações do Programa SUS Digital são vastas e incluem todas as áreas do sistema de saúde. Desde a atenção integral à saúde e vigilância em saúde até a formação e educação permanente dos profissionais de saúde, o programa abrange a gestão do SUS em todos os níveis e esferas. Ele também inclui o planejamento, monitoramento e avaliação de políticas e ações de saúde, além de fomentar a pesquisa, desenvolvimento e inovação na área. O Brasil, com sua infraestrutura de sistemas de saúde digital, é um exemplo para outros países da América Latina, especialmente por programas como o Telessaúde Brasil Redes, que desde 2007 tem levado serviços de telessaúde a regiões remotas (BRASIL, 2024b).</p>
-
-									<p>Os beneficiados pelo Programa SUS Digital incluem estados, o Distrito Federal e os municípios, que recebem apoio financeiro para desenvolver seus Planos de Ação de Transformação para a Saúde Digital. Este suporte permite a implementação de projetos, ações e serviços de saúde digital que visam aproximar os serviços de saúde das pessoas, promovendo inclusão e respeito à diversidade cultural. O programa contribui significativamente para a expansão do acesso aos serviços de saúde, promovendo a integralidade e eficácia no cuidado, com o objetivo final de transformar vidas através da inovação e do cuidado humanizado no SUS (BRASIL, 2024b).</p>
-
-								</div>
-							</div>
-
-
-							
-							
-
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-
-									<h4>Operacionalização e Adesão do Programa SUS Digital</h4>
-
-									<p>O Programa SUS Digital será operacionalizado por meio de uma colaboração entre a União, Estados, Distrito Federal e Municípios, com o apoio de instituições de ensino superior, institutos tecnológicos e instituições de pesquisa. O processo de implementação do programa é estruturado em três etapas distintas, cada uma com objetivos e atividades específicas (BRASIL, 2024b).</p>
-
-									<!-- Abas -->
-												<div class="aba">
-													<ul class="nav nav-pills nav-fill" id="pills-tab" role="tablist">
-														<li class="nav-item" role="presentation">
-															<button class="nav-link active" id="pills-atores-tab" data-bs-toggle="pill" data-bs-target="#pills-atores" type="button" role="tab" aria-controls="pills-atores" aria-selected="true">Etapa 1:</button>
-														</li>
-														<li class="nav-item" role="presentation">
-															<button class="nav-link" id="pills-seguranca-tab" data-bs-toggle="pill" data-bs-target="#pills-seguranca" type="button" role="tab" aria-controls="pills-seguranca" aria-selected="false">Etapa 2</button>
-														</li>
-														<li class="nav-item" role="presentation">
-															<button class="nav-link" id="pills-processos-tab" data-bs-toggle="pill" data-bs-target="#pills-processos" type="button" role="tab" aria-controls="pills-processos" aria-selected="false">Etapa 3</button>
-														</li>
-													</ul>
-													<div class="tab-content p-0" id="pills-tabContent">
-														<!-- Aba 1 -->
-														<div class="tab-pane fade show active" id="pills-atores" role="tabpanel" aria-labelledby="pills-atores-tab">
-															<div class="tab-pane-content">
-																<p class="h6">Planejamento</p>
-
-																<p>Nesta etapa inicial, os estados, Distrito Federal e municípios interessados em participar do Programa SUS Digital devem manifestar seu interesse e participar da elaboração do Plano de Ação (PA) Saúde Digital. Este plano é desenvolvido a partir de um diagnóstico situacional e da aplicação do <strong>Índice Nacional de Maturidade em Saúde Digital (INMSD)</strong>. O objetivo é mapear o nível de maturidade digital das diversas regiões de saúde e identificar as necessidades específicas de cada área. A etapa culmina com a entrega dos PAs Saúde Digital pelas Secretarias Estaduais de Saúde, que delineiam as estratégias e ações para a transformação digital em cada macrorregião.</p>
-															</div>
-														</div>
-														<!-- Aba 2-->
-														<div class="tab-pane fade" id="pills-seguranca" role="tabpanel" aria-labelledby="pills-seguranca-tab">
-															<div class="tab-pane-content">
-
-																<p class="h6">Implementação</p>
-																<p>Após o planejamento, a segunda etapa foca na implementação das ações definidas nos PAs Saúde Digital. Estas ações incluem a adoção de novas tecnologias, a digitalização de processos e a melhoria da infraestrutura digital nos serviços de saúde. A implementação é guiada pelos objetivos traçados no planejamento, com a participação ativa de todas as esferas de governo e das instituições parceiras. </p>
-															</div>
-														</div>
-														<!-- Aba 3 -->
-														<div class="tab-pane fade" id="pills-processos" role="tabpanel" aria-labelledby="pills-processos-tab">
-															<div class="tab-pane-content">
-																<p class="h6">Avaliação</p>
-																<p>A terceira e última etapa envolve a avaliação das ações implementadas e do progresso alcançado em termos de transformação digital na saúde. Esta avaliação é baseada no INMSD e visa medir o impacto das ações do Programa SUS Digital, identificar áreas de sucesso e apontar aspectos que necessitam de melhorias. A avaliação é essencial para assegurar a eficácia do programa e ajustar as estratégias conforme necessário.</p>
-															</div>
-														</div>
-													</div>
-												</div>
-												<!-- Fim de Abas -->
-
-
-									</div>
-							</div>
-
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-
-									<p>As etapas 2 e 3 serão iniciadas e regulamentadas por Portarias específicas do Ministério da Saúde, que também estabelecerão regras de financiamento, acompanhamento, avaliação e prestação de contas. Este processo estruturado visa garantir que o Programa SUS Digital seja implementado de maneira eficaz e transparente, promovendo uma transformação digital abrangente e sustentável no sistema de saúde brasileiro (BRASIL, 2024b).</p>
-
-									<p>Todos os municípios, o Distrito Federal e os estados podem manifestar interesse em aderir ao Programa SUS Digital por meio da plataforma InvestSUS, dentro de 30 dias após a publicação da portaria do programa. Para receber o incentivo financeiro, os gestores devem manifestar interesse e aceitar o termo de compromisso disponível na plataforma (SUSDIGITAL, 2024). Ao aderir à etapa de planejamento do programa, os gestores se comprometem a cumprir três fases principais:</p>
-
-									<p>
-										<div class="list">
-										<ol class="list-group list-group-numbered">
-											<li class="list-group-item sub-item">Realização do Diagnóstico Situacional do território, considerando a macrorregião de saúde relevante para o plano.</li>
-											<li class="list-group-item sub-item">Estabelecimento do grau de maturidade digital com base no Índice Nacional de Maturidade em Saúde Digital (INMSD).</li>
-											<li class="list-group-item sub-item">Análise dos resultados do diagnóstico situacional e das ações recomendadas a partir do INMSD.</li>
-										</ol>
-									</div>
-
-										Realização do Diagnóstico Situacional do território, considerando a macrorregião de saúde relevante para o plano.
-										Estabelecimento do grau de maturidade digital com base no Índice Nacional de Maturidade em Saúde Digital (INMSD).
-										Análise dos resultados do diagnóstico situacional e das ações recomendadas a partir do INMSD.
-
-									</p>
-
-
-							<div id="box-complementary-material" class="row justify-content-center mb-5">
-									<div class="col-12">
-
-									<!-- Box de Leitura Complementar -->
-														<div class="box" data-box="Leitura Complementar">
-
-															<div class="card ">
-																<div class="card-header">
-																	<span class="icone material-symbols-rounded" aria-hidden="true"></span>
-																	<span class="label">Leitura<br/>Complementar</span>
-																</div>
-																<div class="card-body">
-																	<p>No Manual instrutivo do Programa SUS Digital (BRASIL, 2024b) é possível encontrar mais informações detalhadas sobre o programa como os critérios para distribuição dos recursos financeiros, como serão as parcelas de financiamento, cronograma proposto, bem como informações sobre o diagnóstico situacional, sobre o Índice Nacional de Maturidade em Saúde Digital e o desenvolvimento do Plano de Ação de Transformação para a Saúde Digital. </p>
-																	<a href="https://datasus.saude.gov.br/wp-content/uploads/2024/04/Manual-Instrutivo-Sus-Digital-Versao-Preliminar-Atualizada.pdf" target="">No Manual instrutivo do Programa SUS Digital</a>
-																</div>
-															</div>
-
-														</div>
-														<!-- Fim do Box de Leitura Complementar -->
-
-
-								</div>
-							</div>
-
-
-
-                        </div>
-					</section>
-				</div>
-
-				<!-- Navegação da aula -->
+			<div id="page-content" class="">
+				<!-- Inserir o conteúdo aqui -->
 				<section>
 					<div class="container">
 						<div class="row justify-content-center">
-							<div class="col-12 col-md-10 col-lg-8">
-								<div class="page-nav d-flex justify-content-evenly">
-									<a class="fio-button fio-button-primary" href="topico3.html" rel="prev"><span class="material-symbols-rounded">west</span> Tópico anterior</a>
-									<a class="fio-button fio-button-primary" href="topico5.html" rel="next">Próximo tópico <span class="material-symbols-rounded" aria-hidden="true">east</span></a>
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+								<div class="heading__block">
+									<span class="small">Tópico 4</span>
+									<h3 class="heading__title">O Programa SUS Digital</h3>
+								</div>
+
+								<p>O Programa SUS Digital é uma iniciativa estratégica do Ministério da Saúde que visa
+									modernizar e integrar os sistemas de informação em saúde no Brasil. Este programa
+									aborda a saúde digital de forma multidisciplinar, abrangendo a interseção entre
+									tecnologia, informação e saúde. Inclui a utilização de software, hardware e serviços
+									para transformar digitalmente o setor de saúde. O conceito de saúde digital no
+									contexto do SUS Digital engloba uma ampla gama de tecnologias e práticas, como
+									sistemas de informação interoperáveis, registros eletrônicos de saúde, ciência de
+									dados, inteligência artificial, telessaúde, aplicações móveis de saúde, dispositivos
+									vestíveis, robótica aplicada, medicina personalizada e a internet das coisas (IoT).
+									Esses componentes são essenciais para melhorar a eficiência, a segurança e a
+									acessibilidade dos serviços de saúde no Brasil (HADDAD, 2024).</p>
+
+								<p>O Programa é organizado em três eixos principais, cada um dos quais estrutura as
+									ações e estratégias propostas nos planos de ação de transformação digital. As
+									iniciativas em cada eixo são projetadas para abordar diferentes aspectos da saúde
+									digital, garantindo uma abordagem abrangente e coerente para a transformação do
+									sistema de saúde (BRASIL, 2024b).</p>
+
+
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 py-5 mb-5">
+								<!-- Accordion -->
+								<div class="accordion accordion-flush aos-init aos-animate" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="800" id="accordion1">
+									<div class="accordion-item">
+										<h5 class="accordion-header" id="heading1-item1">
+											<button class="accordion-button collapsed" type="button"
+												data-bs-toggle="collapse" data-bs-target="#collapse1-item1"
+												aria-expanded="true" aria-controls="collapse1-item1">Cultura de Saúde
+												Digital, Formação e Educação Permanente em Saúde</button>
+										</h5>
+										<div id="collapse1-item1" class="accordion-collapse collapse"
+											aria-labelledby="heading1-item1" data-bs-parent="">
+											<div class="accordion-body">
+
+												<p>Este eixo enfatiza a importância de desenvolver uma cultura de saúde
+													digital e capacitar profissionais de saúde para utilizarem
+													tecnologias digitais de maneira eficaz. As iniciativas incluem:</p>
+
+												<div class="list">
+													<ul class="list-group">
+														<li class="list-group-item aos-init aos-animate" list-style='pages' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Formação e educação permanente em Saúde Digital.</li>
+
+														<li class="list-group-item aos-init aos-animate" list-style='pages' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" data-aos-delay="100">
+															Fortalecimento do ecossistema de Saúde Digital.</li>
+
+														<li class="list-group-item aos-init aos-animate"
+															list-style='pages' data-aos="fade-right"
+															data-aos-easing="ease-out" data-aos-duration="1200"data-aos-delay="200">Uso de
+															estudos e evidências para a incorporação de tecnologias
+															digitais.</li>
+
+														<li class="list-group-item aos-init aos-animate"
+															list-style='pages' data-aos="fade-right"
+															data-aos-easing="ease-out" data-aos-duration="1200" data-aos-delay="300">Fomento
+															à cultura da proteção de dados pessoais e sensíveis de
+															saúde.</li>
+
+														<li class="list-group-item aos-init aos-animate"
+															list-style='pages' data-aos="fade-right"
+															data-aos-easing="ease-out" data-aos-duration="1200" data-aos-delay="400">
+															Qualificação dos registros em saúde.</li>
+													</ul>
+												</div>
+
+
+											</div>
+										</div>
+									</div>
+
+									<div class="accordion-item">
+										<h5 class="accordion-header" id="heading1-item2">
+											<button class="accordion-button collapsed" type="button"
+												data-bs-toggle="collapse" data-bs-target="#collapse1-item2"
+												aria-expanded="false" aria-controls="collapse1-item2">Soluções
+												Tecnológicas e Serviços de Saúde Digital no Âmbito do SUS</button>
+										</h5>
+										<div id="collapse1-item2" class="accordion-collapse collapse"
+											aria-labelledby="heading1-item2" data-bs-parent="">
+											<div class="accordion-body">
+												<p>O segundo eixo foca na implementação de soluções tecnológicas que
+													melhorem a infraestrutura e os serviços de saúde digital. As
+													principais iniciativas incluem:</p>
+
+												<div class="list">
+													<ul class="list-group">
+														<li class="list-group-item aos-init aos-animate"
+															list-style='pages' data-aos="fade-right"
+															data-aos-easing="ease-out" data-aos-duration="1200">
+															Informatização do SUS e adoção de prontuários eletrônicos em
+															conformidade com os padrões de interoperabilidade da RNDS.
+														</li>
+
+														<li class="list-group-item aos-init aos-animate"
+															list-style='pages' data-aos="fade-right"
+															data-aos-easing="ease-out" data-aos-duration="1200">Melhoria
+															da infraestrutura e conectividade para suportar sistemas de
+															saúde digitais.</li>
+
+														<li class="list-group-item aos-init aos-animate"
+															list-style='pages' data-aos="fade-right"
+															data-aos-easing="ease-out" data-aos-duration="1200">
+															Fortalecimento dos mecanismos de segurança de acesso aos
+															sistemas de saúde.</li>
+
+														<li class="list-group-item aos-init aos-animate"
+															list-style='pages' data-aos="fade-right"
+															data-aos-easing="ease-out" data-aos-duration="1200">
+															Implementação de soluções tecnológicas e serviços de saúde
+															digital.</li>
+
+														<li class="list-group-item aos-init aos-animate"
+															list-style='pages' data-aos="fade-right"
+															data-aos-easing="ease-out" data-aos-duration="1200">Soluções
+															de Saúde Digital para atendimento de populações
+															negligenciadas, vulneráveis e isoladas geograficamente,
+															incluindo povos originários.</li>
+
+														<li class="list-group-item aos-init aos-animate"
+															list-style='pages' data-aos="fade-right"
+															data-aos-easing="ease-out" data-aos-duration="1200">
+															Ampliação da telemedicina e telessaúde no âmbito do SUS em
+															território nacional.</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="accordion-item">
+										<h5 class="accordion-header" id="heading1-item3">
+											<button class="accordion-button collapsed" type="button"
+												data-bs-toggle="collapse" data-bs-target="#collapse1-item3"
+												aria-expanded="false"
+												aria-controls="collapse1-item3">Interoperabilidade, Análise e
+												Disseminação de Dados e Informações de Saúde</button>
+										</h5>
+										<div id="collapse1-item3" class="accordion-collapse collapse"
+											aria-labelledby="heading1-item3" data-bs-parent="">
+											<div class="accordion-body">
+												<p>O terceiro eixo do Programa SUS Digital é fundamental para garantir a
+													integração e a eficiência dos sistemas de informação em saúde,
+													promovendo o uso seguro e eficaz dos dados de saúde. As iniciativas
+													deste eixo incluem:</p>
+
+												<div class="list">
+													<ul class="list-group">
+														<li class="list-group-item aos-init aos-animate"
+															list-style='pages' data-aos="fade-right"
+															data-aos-easing="ease-out" data-aos-duration="1200">Promoção
+															da interoperabilidade de dados de saúde com a RNDS.
+														<li class="list-group-item aos-init aos-animate"
+															list-style='pages' data-aos="fade-right"
+															data-aos-easing="ease-out" data-aos-duration="1200">Gestão e
+															governança no compartilhamento de dados de saúde.</li>
+														<li class="list-group-item aos-init aos-animate"
+															list-style='pages' data-aos="fade-right"
+															data-aos-easing="ease-out" data-aos-duration="1200">
+															Elaboração de estudos técnicos, diretrizes e protocolos,
+															análise e disseminação de dados para subsidiar estratégias
+															de saúde digital e inovações no setor de saúde.</li>
+														<li class="list-group-item aos-init aos-animate"
+															list-style='pages' data-aos="fade-right"
+															data-aos-easing="ease-out" data-aos-duration="1200">
+															Padronização dos modelos de informação nacionais, bem como
+															dos vocabulários e terminologias em saúde.</li>
+														<li class="list-group-item aos-init aos-animate"
+															list-style='pages' data-aos="fade-right"
+															data-aos-easing="ease-out" data-aos-duration="1200">Promoção
+															da disseminação de dados e informações em saúde, mantendo a
+															confidencialidade, privacidade e proteção dos dados
+															pessoais, além de garantir a segurança das informações.</li>
+														<li class="list-group-item aos-init aos-animate"
+															list-style='pages' data-aos="fade-right"
+															data-aos-easing="ease-out" data-aos-duration="1200">
+															Preservação da autenticidade, integridade, rastreabilidade e
+															qualidade da informação em saúde.</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Fim do Accordion -->
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+								<p>Essas iniciativas visam criar um ambiente de saúde digital mais integrado e
+									eficiente, facilitando a tomada de decisões informadas e o desenvolvimento de novas
+									tecnologias e práticas no setor de saúde.</p>
+							</div>
+						</div>
+
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5 pt-5">
+								<div class="heading__block">
+									<h4 class="heading__title">O Programa SUS Digital</h4>
+								</div>
+								<p>De acordo com o art. 1º da Portaria GM/MS nº 3.232, de 1º de março de 2024, que
+									institui o Programa SUS Digital, o objetivo do programa parte da premissa do uso
+									apropriado, ético e crítico de novas tecnologias digitais, proposição de soluções
+									digitais colaborativas e livres, formação e educação permanente, protagonismo do
+									cidadão, interoperabilidade e proteção de dados. O Programa SUS Digital possui como
+									objetivo promover a transformação digital no Sistema Único de Saúde (SUS), para
+									favorecer o acesso universal e equitativo às ações e aos serviços de saúde do SUS, a
+									integralidade e a resolubilidade das redes de atenção à saúde, por meio do acesso a
+									bens e serviços de saúde digital e de inovação aplicável à saúde (BRASIL, 2024b).
+								</p>
+
+
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+								<p>Os objetivos específicos almejados com o programa são (BRASIL, 2024b):</p>
+
+								<!--Slider-->
+								<div class="slider">
+									<div class="card ">
+										<div class="card-body">
+											<div id="carousel-texto" class="carousel slide" data-bs-interval="false">
+												<div class="carousel-indicators">
+													<button type="button" data-bs-target="#carousel-texto"
+														data-bs-slide-to="0" class="active" aria-label="Slide 1"
+														aria-current="true"></button>
+													<button type="button" data-bs-target="#carousel-texto"
+														data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+
+													<button type="button" data-bs-target="#carousel-texto"
+														data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+
+													<button type="button" data-bs-target="#carousel-texto"
+														data-bs-slide-to="3" aria-label="Slide 4" class=""></button>
+
+													<button type="button" data-bs-target="#carousel-texto"
+														data-bs-slide-to="4" aria-label="Slide 5" class=""></button>
+
+													<button type="button" data-bs-target="#carousel-texto"
+														data-bs-slide-to="5" aria-label="Slide 6" class=""></button>
+
+													<button type="button" data-bs-target="#carousel-texto"
+														data-bs-slide-to="6" aria-label="Slide 7" class=""></button>
+
+													<button type="button" data-bs-target="#carousel-texto"
+														data-bs-slide-to="7" aria-label="Slide 8" class=""></button>
+
+													<button type="button" data-bs-target="#carousel-texto"
+														data-bs-slide-to="8" aria-label="Slide 9" class=""></button>
+
+													<button type="button" data-bs-target="#carousel-texto"
+														data-bs-slide-to="9" aria-label="Slide 10" class=""></button>
+												</div>
+												<div class="carousel-inner">
+													<div class="carousel-item active">
+														<span class="slide-title">Objetivo 1:</span>
+														<p>Fomentar o uso apropriado, ético e crítico de novas
+															tecnologias digitais no âmbito do SUS.</p>
+													</div>
+
+													<div class="carousel-item">
+														<span class="slide-title">Objetivo 2:</span>
+														<p>Induzir a proposição de soluções digitais colaborativas e
+															livres que melhorem a oferta de serviços, a gestão do
+															cuidado pelos profissionais de saúde e a qualidade da
+															atenção.</p>
+													</div>
+
+													<div class="carousel-item">
+														<span class="slide-title">Objetivo 3:</span>
+														<p> Induzir a formação e educação permanente em saúde digital.
+														</p>
+													</div>
+
+
+													<div class="carousel-item">
+														<span class="slide-title">Objetivo 4:</span>
+														<p>Promover a sensibilização, conscientização e engajamento para
+															uso das tecnologias digitais e tratamento adequado de dados
+															pelos atores do SUS, fomentando o letramento digital, a
+															cultura da saúde digital e da proteção de dados pessoais.
+														</p>
+													</div>
+
+
+													<div class="carousel-item">
+														<span class="slide-title">Objetivo 5:</span>
+														<p>V. Ampliar a maturidade digital no âmbito do SUS.</p>
+													</div>
+
+
+													<div class="carousel-item">
+														<span class="slide-title">Objetivo 6:</span>
+
+														<p>Fortalecer a participação social e o protagonismo do cidadão
+															na criação de soluções inovadoras no campo da saúde.</p>
+													</div>
+
+
+													<div class="carousel-item">
+
+														<span class="slide-title">Objetivo 7:</span>
+
+														<p>Fortalecer o ecossistema de saúde digital.</p>
+													</div>
+
+													<div class="carousel-item">
+														<span class="slide-title">Objetivo 8:</span>
+
+														<p>Contribuir para o desenvolvimento de um ambiente de
+															colaboração para o aprimoramento da gestão do SUS, por meio
+															da transformação digital.</p>
+													</div>
+
+													<div class="carousel-item">
+
+														<span class="slide-title">Objetivo 9:</span>
+
+														<p>Promover a interoperabilidade de dados em saúde.</p>
+													</div>
+
+													<div class="carousel-item">
+
+														<span class="slide-title">Objetivo 10:</span>
+
+														<p>Reduzir a iniquidade no acesso às soluções e serviços de
+															saúde digital nas diferentes regiões do país.</p>
+													</div>
+
+												</div>
+
+												<button class="carousel-control-prev" type="button"
+													data-bs-target="#carousel-texto" data-bs-slide="prev">
+													<span class="carousel-control-prev-icon white-arrow"
+														aria-hidden="true"></span>
+													<span class="visually-hidden">Previous</span>
+												</button>
+
+												<button class="carousel-control-next" type="button"
+													data-bs-target="#carousel-texto" data-bs-slide="next">
+													<span class="carousel-control-next-icon white-arrow"
+														aria-hidden="true"></span>
+													<span class="visually-hidden">Next</span>
+												</button>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+								<p>O Programa SUS Digital tem como objetivo promover a transformação digital no sistema
+									de saúde brasileiro, abrangendo uma ampla gama de ações e tecnologias disruptivas.
+									Estas ações visam melhorar a qualidade e a segurança da atenção à saúde,
+									fortalecendo a interseção entre tecnologia, informação e saúde. A abordagem
+									multidisciplinar do programa busca incorporar software, hardware e serviços, como
+									parte do processo de transformação digital em nível nacional. Para tanto, estados e
+									municípios são incentivados a desenvolver Planos de Ação de Transformação para a
+									Saúde Digital, que definem estratégias específicas para a adoção de novas
+									tecnologias e práticas digitais (HADDAD, 2024).</p>
+
+								<p>As aplicações do Programa SUS Digital são vastas e incluem todas as áreas do sistema
+									de saúde. Desde a atenção integral à saúde e vigilância em saúde até a formação e
+									educação permanente dos profissionais de saúde, o programa abrange a gestão do SUS
+									em todos os níveis e esferas. Ele também inclui o planejamento, monitoramento e
+									avaliação de políticas e ações de saúde, além de fomentar a pesquisa,
+									desenvolvimento e inovação na área. O Brasil, com sua infraestrutura de sistemas de
+									saúde digital, é um exemplo para outros países da América Latina, especialmente por
+									programas como o Telessaúde Brasil Redes, que desde 2007 tem levado serviços de
+									telessaúde a regiões remotas (BRASIL, 2024b).</p>
+
+								<p>Os beneficiados pelo Programa SUS Digital incluem estados, o Distrito Federal e os
+									municípios, que recebem apoio financeiro para desenvolver seus Planos de Ação de
+									Transformação para a Saúde Digital. Este suporte permite a implementação de
+									projetos, ações e serviços de saúde digital que visam aproximar os serviços de saúde
+									das pessoas, promovendo inclusão e respeito à diversidade cultural. O programa
+									contribui significativamente para a expansão do acesso aos serviços de saúde,
+									promovendo a integralidade e eficácia no cuidado, com o objetivo final de
+									transformar vidas através da inovação e do cuidado humanizado no SUS (BRASIL,
+									2024b).</p>
+
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5 pt-5">
+								<div class="heading__block">
+									<h4 class="heading__title">Operacionalização e Adesão do Programa SUS Digital</h4>
+								</div>
+								<p>O Programa SUS Digital será operacionalizado por meio de uma colaboração entre a
+									União, Estados, Distrito Federal e Municípios, com o apoio de instituições de ensino
+									superior, institutos tecnológicos e instituições de pesquisa. O processo de
+									implementação do programa é estruturado em três etapas distintas, cada uma com
+									objetivos e atividades específicas (BRASIL, 2024b).</p>
+
+								<!-- Abas -->
+								<div class="aba">
+									<ul class="nav nav-pills nav-fill" id="pills-tab" role="tablist">
+										<li class="nav-item" role="presentation">
+											<button class="nav-link active" id="pills-atores-tab" data-bs-toggle="pill"
+												data-bs-target="#pills-atores" type="button" role="tab"
+												aria-controls="pills-atores" aria-selected="true">Etapa 1:</button>
+										</li>
+										<li class="nav-item" role="presentation">
+											<button class="nav-link" id="pills-seguranca-tab" data-bs-toggle="pill"
+												data-bs-target="#pills-seguranca" type="button" role="tab"
+												aria-controls="pills-seguranca" aria-selected="false">Etapa 2</button>
+										</li>
+										<li class="nav-item" role="presentation">
+											<button class="nav-link" id="pills-processos-tab" data-bs-toggle="pill"
+												data-bs-target="#pills-processos" type="button" role="tab"
+												aria-controls="pills-processos" aria-selected="false">Etapa 3</button>
+										</li>
+									</ul>
+									<div class="tab-content p-0" id="pills-tabContent">
+										<!-- Aba 1 -->
+										<div class="tab-pane fade show active" id="pills-atores" role="tabpanel"
+											aria-labelledby="pills-atores-tab">
+											<div class="tab-pane-content">
+												<p class="h6">Planejamento</p>
+
+												<p>Nesta etapa inicial, os estados, Distrito Federal e municípios
+													interessados em participar do Programa SUS Digital devem manifestar
+													seu interesse e participar da elaboração do Plano de Ação (PA) Saúde
+													Digital. Este plano é desenvolvido a partir de um diagnóstico
+													situacional e da aplicação do <strong>Índice Nacional de Maturidade
+														em Saúde Digital (INMSD)</strong>. O objetivo é mapear o nível
+													de maturidade digital das diversas regiões de saúde e identificar as
+													necessidades específicas de cada área. A etapa culmina com a entrega
+													dos PAs Saúde Digital pelas Secretarias Estaduais de Saúde, que
+													delineiam as estratégias e ações para a transformação digital em
+													cada macrorregião.</p>
+											</div>
+										</div>
+										<!-- Aba 2-->
+										<div class="tab-pane fade" id="pills-seguranca" role="tabpanel"
+											aria-labelledby="pills-seguranca-tab">
+											<div class="tab-pane-content">
+
+												<p class="h6">Implementação</p>
+												<p>Após o planejamento, a segunda etapa foca na implementação das ações
+													definidas nos PAs Saúde Digital. Estas ações incluem a adoção de
+													novas tecnologias, a digitalização de processos e a melhoria da
+													infraestrutura digital nos serviços de saúde. A implementação é
+													guiada pelos objetivos traçados no planejamento, com a participação
+													ativa de todas as esferas de governo e das instituições parceiras.
+												</p>
+											</div>
+										</div>
+										<!-- Aba 3 -->
+										<div class="tab-pane fade" id="pills-processos" role="tabpanel"
+											aria-labelledby="pills-processos-tab">
+											<div class="tab-pane-content">
+												<p class="h6">Avaliação</p>
+												<p>A terceira e última etapa envolve a avaliação das ações implementadas
+													e do progresso alcançado em termos de transformação digital na
+													saúde. Esta avaliação é baseada no INMSD e visa medir o impacto das
+													ações do Programa SUS Digital, identificar áreas de sucesso e
+													apontar aspectos que necessitam de melhorias. A avaliação é
+													essencial para assegurar a eficácia do programa e ajustar as
+													estratégias conforme necessário.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Fim de Abas -->
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+								<p>As etapas 2 e 3 serão iniciadas e regulamentadas por Portarias específicas do
+									Ministério da Saúde, que também estabelecerão regras de financiamento,
+									acompanhamento, avaliação e prestação de contas. Este processo estruturado visa
+									garantir que o Programa SUS Digital seja implementado de maneira eficaz e
+									transparente, promovendo uma transformação digital abrangente e sustentável no
+									sistema de saúde brasileiro (BRASIL, 2024b).</p>
+
+								<p>Todos os municípios, o Distrito Federal e os estados podem manifestar interesse em
+									aderir ao Programa SUS Digital por meio da plataforma InvestSUS, dentro de 30 dias
+									após a publicação da portaria do programa. Para receber o incentivo financeiro, os
+									gestores devem manifestar interesse e aceitar o termo de compromisso disponível na
+									plataforma (SUSDIGITAL, 2024). Ao aderir à etapa de planejamento do programa, os
+									gestores se comprometem a cumprir três fases principais:</p>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+								<div class="list">
+									<ol class="list-group list-group-numbered">
+										<li class="list-group-item aos-init aos-animate" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Realização do Diagnóstico Situacional do
+											território, considerando a macrorregião de saúde relevante para o plano.</li>
+
+										<li class="list-group-item aos-init aos-animate" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" data-aos-delay="100">Estabelecimento do grau de maturidade digital com base no Índice Nacional de Maturidade em Saúde Digital (INMSD).</li>
+
+										<li class="list-group-item aos-init aos-animate" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" data-aos-delay="200">Análise dos resultados do diagnóstico situacional e das ações recomendadas a partir do INMSD.</li>
+									</ol>
 								</div>
 							</div>
 						</div>
-					</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5">	
+								<p>Realização do Diagnóstico Situacional do território, considerando a macrorregião de
+								saúde relevante para o plano.
+								Estabelecimento do grau de maturidade digital com base no Índice Nacional de Maturidade
+								em Saúde Digital (INMSD).
+								Análise dos resultados do diagnóstico situacional e das ações recomendadas a partir do
+								INMSD.</p>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8">
+								<!-- Box de Leitura Complementar -->
+								<div class="box" data-box="Leitura Complementar">
+									<div class="card ">
+										<div class="card-header">
+											<span class="icone material-symbols-rounded"
+												aria-hidden="true"></span>
+											<span class="label">Leitura<br />Complementar</span>
+										</div>
+										<div class="card-body">
+											<p>No <a href='https://datasus.saude.gov.br/wp-content/uploads/2024/04/Manual-Instrutivo-Sus-Digital-Versao-Preliminar-Atualizada.pdf' target='_blank'>Manual instrutivo do Programa SUS Digital</a> (BRASIL, 2024b) é
+												possível encontrar mais informações detalhadas sobre o programa
+												como os critérios para distribuição dos recursos financeiros,
+												como serão as parcelas de financiamento, cronograma proposto,
+												bem como informações sobre o diagnóstico situacional, sobre o
+												Índice Nacional de Maturidade em Saúde Digital e o
+												desenvolvimento do Plano de Ação de Transformação para a Saúde
+												Digital. </p>
+										</div>
+									</div>
+								</div>
+								<!-- Fim do Box de Leitura Complementar -->
+							</div>
+						</div>
 				</section>
 			</div>
 
-			<footer>
-				<div class="container-fluid">
-					<div class="row justify-content-center align-items-center linha-de-marcas">
-						<div class="col-12 col-md-auto">
-							<ul class="logos">
-								<!-- <li class="realizacao"> -->
-								<li>
-									<img class="img-fluid logo1" src="../../media/logos/logo-icict-vertical.svg" alt="Logo do ICICT" height=""/>
-								</li>
-
-								<li>
-									<img class="img-fluid logo2" src="../../media/logos/logo-campus-horizontal.png" alt="Logo do Campus Virtual Fiocruz" height=""/>
-								</li>
-
-								<li>
-									<img class="img-fluid logo3" src="../../media/logos/logo-fiocruz-horizontal-black.png" alt="Logo da Fiocruz" height=""/>
-								</li>
-							</ul>
-						</div>
-
-						<div class="col-12 col-md-auto">
-							<ul class="logos principais align-self-end">
-								<li>
-									<img class="img-fluid logo4" src="../../media/logos/logo-sus-digital-cor.png" alt="Logo do SUS Digital" height=""/>
-								</li>
-
-								<li>
-									<img class="img-fluid logo5 d-none d-md-block" src="../../media/logos/ministerio-saude-gov-federal.png" alt="Logos do SUS, Ministério da Saúde e Governo Federal" height="" />
-								</li>
-
-								<li>
-									<img class="img-fluid logo6 d-block d-md-none" src="../../media/logos/ministerio-saude-gov-federal-mobile.png" alt="Logos do SUS, Ministério da Saúde e Governo Federal" height="" />
-								</li>
-							</ul>
+			<!-- Navegação da aula -->
+			<section>
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-12 col-md-10 col-lg-8">
+							<div class="page-nav d-flex justify-content-evenly">
+								<a class="fio-button fio-button-primary" href="topico3.html" rel="prev"><span
+										class="material-symbols-rounded">west</span> Tópico anterior</a>
+								<a class="fio-button fio-button-primary" href="../aula3/topico1.html" rel="next">Aula 3
+									<span class="material-symbols-rounded" aria-hidden="true">east</span></a>
+							</div>
 						</div>
 					</div>
 				</div>
-			</footer>
+			</section>
 		</div>
 
-		<!--  Bootstrap JS and Popper -->
-		<script src="../../source/bootstrap-5.1.3/js/bootstrap.bundle.min.js"></script>
+		<footer>
+			<div class="container-fluid">
+				<div class="row justify-content-center align-items-center linha-de-marcas">
+					<div class="col-12 col-md-auto">
+						<ul class="logos">
+							<!-- <li class="realizacao"> -->
+							<li>
+								<img class="img-fluid logo1" src="../../media/logos/logo-icict-vertical.svg"
+									alt="Logo do ICICT" height="" />
+							</li>
 
-		<!-- Sticky Sidebar -->
-		<script type="text/javascript" src="../../assets/js/ResizeSensor.js"></script>
-		<script type="text/javascript" src="../../assets/js/sticky-sidebar.js"></script>
-		<script type="text/javascript" src="../../assets/js/sidebar.js"></script>
+							<li>
+								<img class="img-fluid logo2" src="../../media/logos/logo-campus-horizontal.png"
+									alt="Logo do Campus Virtual Fiocruz" height="" />
+							</li>
 
-		<script type="text/javascript">
-			var sidebar = new StickySidebar('.sidebar', {
-				topSpacing: 0,
-				bottomSpacing: 0,
-				containerSelector: '.main',
-				innerWrapperSelector: '.sidebar__inner',
-				minWidth: 991,
-			});
-		</script>
+							<li>
+								<img class="img-fluid logo3" src="../../media/logos/logo-fiocruz-horizontal-black.png"
+									alt="Logo da Fiocruz" height="" />
+							</li>
+						</ul>
+					</div>
 
-		
+					<div class="col-12 col-md-auto">
+						<ul class="logos principais align-self-end">
+							<li>
+								<img class="img-fluid logo4" src="../../media/logos/logo-sus-digital-cor.png"
+									alt="Logo do SUS Digital" height="" />
+							</li>
 
-		<script type="text/javascript" src="../../assets/js/scripts.js"></script>
-		<script type="text/javascript" src="../../assets/js/custom-anime.js"></script>
-		<script type="text/javascript" src="../../source/animate/aos/dist/aos.js"></script>
+							<li>
+								<img class="img-fluid logo5 d-none d-md-block"
+									src="../../media/logos/ministerio-saude-gov-federal.png"
+									alt="Logos do SUS, Ministério da Saúde e Governo Federal" height="" />
+							</li>
 
-		<!-- Timeline horizontal -->
-		<script src="../../assets/js/timeline-horizontal/util.js"></script>
-		<!-- util functions included in the CodyHouse framework -->
-		<script src="../../assets/js/timeline-horizontal/swipe-content.js"></script>
-		<!-- A Vanilla JavaScript plugin to detect touch interactions -->
-		<script src="../../assets/js/timeline-horizontal/main.js"></script>
-		<!-- Start the Timeline -->
-		<script>
-			document.getElementsByTagName('html')[0].className += ' js';
-		</script>
+							<li>
+								<img class="img-fluid logo6 d-block d-md-none"
+									src="../../media/logos/ministerio-saude-gov-federal-mobile.png"
+									alt="Logos do SUS, Ministério da Saúde e Governo Federal" height="" />
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
 
-		<script>
-			AOS.init();
-		</script>
-	</body>
+	<!--  Bootstrap JS and Popper -->
+	<script src="../../source/bootstrap-5.1.3/js/bootstrap.bundle.min.js"></script>
+
+	<!-- Sticky Sidebar -->
+	<script type="text/javascript" src="../../assets/js/ResizeSensor.js"></script>
+	<script type="text/javascript" src="../../assets/js/sticky-sidebar.js"></script>
+	<script type="text/javascript" src="../../assets/js/sidebar.js"></script>
+
+	<script type="text/javascript">
+		var sidebar = new StickySidebar('.sidebar', {
+			topSpacing: 0,
+			bottomSpacing: 0,
+			containerSelector: '.main',
+			innerWrapperSelector: '.sidebar__inner',
+			minWidth: 991,
+		});
+	</script>
+
+
+
+	<script type="text/javascript" src="../../assets/js/scripts.js"></script>
+	<script type="text/javascript" src="../../assets/js/custom-anime.js"></script>
+	<script type="text/javascript" src="../../source/animate/aos/dist/aos.js"></script>
+
+	<!-- Timeline horizontal -->
+	<script src="../../assets/js/timeline-horizontal/util.js"></script>
+	<!-- util functions included in the CodyHouse framework -->
+	<script src="../../assets/js/timeline-horizontal/swipe-content.js"></script>
+	<!-- A Vanilla JavaScript plugin to detect touch interactions -->
+	<script src="../../assets/js/timeline-horizontal/main.js"></script>
+	<!-- Start the Timeline -->
+	<script>
+		document.getElementsByTagName('html')[0].className += ' js';
+	</script>
+
+	<script>
+		AOS.init();
+	</script>
+</body>
+
 </html>
