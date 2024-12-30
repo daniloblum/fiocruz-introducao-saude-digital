@@ -57,8 +57,7 @@
 
 .box-cor .box-cor__base .base-body p.olho-texto {
 	font-family: var(--fio-sys-typography-family-primary-medium);
-    font-size: var(--fio-sys-typography-size-2);
-    line-height: var(--fio-sys-typography-height-125);
+    font-size: var(--fio-sys-typography-size-1);
     color: var(--fio-sys-color-primary-medium);
 }
 
