@@ -47,22 +47,26 @@
 	border-top-right-radius: var(--_modal-border-radius);
 }
 
-.modal .modal-header .btn-close{
-	color:var(--_modal-color);
-} 
+.modal .modal-body {
+	padding: var(--fio-sys-size-padding-lg);
+}
+
+.modal .modal-header .btn-close {
+	color: var(--_modal-color);
+}
 
 /* LIGHTBOX IMAGE */
 .lightbox__image {
-    position: fixed;
-    padding: 30px;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: auto;
-    z-index: 999;
-    background-color: rgba(0, 0, 0, 0.85);
-    text-align: center;
-    cursor: zoom-out;
-    object-fit: contains;
+	position: fixed;
+	padding: 30px;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: auto;
+	z-index: 999;
+	background-color: rgba(0, 0, 0, 0.85);
+	text-align: center;
+	cursor: zoom-out;
+	object-fit: contains;
 }

@@ -181,8 +181,6 @@
 	--fio-sys-typography-family-primary-black: var(--fio-ref-typography-family-primary) Black, sans-serif;
 	--fio-sys-typography-family-primary-black-italic: var(--fio-ref-typography-family-primary) Black Italic, sans-serif;
 
-	--fio-sys-typography-family-secondary-regular: var(--fio-ref-typography-family-secondary) Regular, sans-serif;
-
 	/* Size */
 	--fio-sys-typography-multiplier: 1; /* Caso necessário */
 
@@ -235,7 +233,6 @@
 	--fio-sys-typography-size-: calc(var(--fio-ref-typography-size-base) * 3.5);
 	--fio-sys-typography-size-: calc(var(--fio-ref-typography-size-base) * 4);
 	--fio-sys-typography-size-: calc(var(--fio-ref-typography-size-base) * 5);
-	
 
 	/* ELEMENTS */
 
