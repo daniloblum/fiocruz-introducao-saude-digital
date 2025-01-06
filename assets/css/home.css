@@ -319,14 +319,10 @@ section {
 	#course-program::after {
 		clip-path: polygon(0% 55%, 100% 45%, 100% 46%, 0% 95%);
 	}
-	#course-program .card .aba {
-		flex-direction: row;
-	}
-	#course-program .card .aba .nav {
-		flex-direction: column;
-	}
-	#course-program .card .aba .tab-content .tab-pane-content .tab-pane-header {
-		gap: 20px;
+
+	#course-program .card .card-header h6 .modulo {
+		font-size: var(--fio-sys-typography-size-0);
+		text-transform: uppercase;
 	}
 }
 
