@@ -1,596 +1,824 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<!-- Required meta tags -->
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no" />
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="robots" content="noindex" />
-		<meta name="author" content="Fiocruz, Campus Virtual" />
-		<meta name="description" content="Curso Introdução à Saúde Digital" />
-		<meta name="keywords" content="Fiocruz Curso Introdução à Saúde Digital" />
 
-		<!-- Facebook Open Graph -->
-		<meta property="og:url" content="https://mooc.campusvirtual.fiocruz.br/rea/etica-integridade-pesquisa" />
-		<meta property="og:title" content="Campus Virtual Fiocruz | Curso Introdução à Saúde Digital" />
-		<meta property="og:description" content="Curso Introdução à Saúde Digital" />
-		<meta property="og:image" content="" />
-		<meta property="og:image:width" content="1080" />
-		<meta property="og:image:height" content="1080" />
-		<meta property="og:type" content="website" />
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="robots" content="noindex" />
+	<meta name="author" content="Fiocruz, Campus Virtual" />
+	<meta name="description" content="Curso Introdução à Saúde Digital" />
+	<meta name="keywords" content="Fiocruz Curso Introdução à Saúde Digital" />
 
-		<!-- Twitter Cards -->
-		<meta name="twitter:card" content="summary_large_image" />
-		<meta name="twitter:title" content="Campus Virtual Fiocruz | Curso Introdução à Saúde Digital" />
-		<meta name="twitter:url" content="" />
-		<meta name="twitter:description" content="" />
-		<meta name="twitter:image:src" content="" />
+	<!-- Facebook Open Graph -->
+	<meta property="og:url" content="https://mooc.campusvirtual.fiocruz.br/rea/etica-integridade-pesquisa" />
+	<meta property="og:title" content="Campus Virtual Fiocruz | Curso Introdução à Saúde Digital" />
+	<meta property="og:description" content="Curso Introdução à Saúde Digital" />
+	<meta property="og:image" content="" />
+	<meta property="og:image:width" content="1080" />
+	<meta property="og:image:height" content="1080" />
+	<meta property="og:type" content="website" />
 
-		<!-- Favicons and Touch Icons -->
-		<link rel="apple-touch-icon" sizes="57x57" href="../../media/icons/apple-icon-57x57.png" />
-		<link rel="apple-touch-icon" sizes="60x60" href="../../media/icons/apple-icon-60x60.png" />
-		<link rel="apple-touch-icon" sizes="72x72" href="../../media/icons/apple-icon-72x72.png" />
-		<link rel="apple-touch-icon" sizes="76x76" href="../../media/icons/apple-icon-76x76.png" />
-		<link rel="apple-touch-icon" sizes="114x114" href="../../media/icons/apple-icon-114x114.png" />
-		<link rel="apple-touch-icon" sizes="120x120" href="../../media/icons/apple-icon-120x120.png" />
-		<link rel="apple-touch-icon" sizes="144x144" href="../../media/icons/apple-icon-144x144.png" />
-		<link rel="apple-touch-icon" sizes="152x152" href="../../media/icons/apple-icon-152x152.png" />
-		<link rel="apple-touch-icon" sizes="180x180" href="../../media/icons/apple-icon-180x180.png" />
+	<!-- Twitter Cards -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Campus Virtual Fiocruz | Curso Introdução à Saúde Digital" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:description" content="" />
+	<meta name="twitter:image:src" content="" />
 
-		<link rel="icon" type="image/png" sizes="192x192" href="../../media/icons/android-icon-192x192.png" />
-		<link rel="icon" type="image/png" sizes="32x32" href="../../media/icons/favicon-32x32.png" />
-		<link rel="icon" type="image/png" sizes="96x96" href="../../media/icons/favicon-96x96.png" />
-		<link rel="icon" type="image/png" sizes="16x16" href="../../media/icons/favicon-16x16.png" />
-		<link rel="manifest" href="../media/icons/manifest.json" />
+	<!-- Favicons and Touch Icons -->
+	<link rel="apple-touch-icon" sizes="57x57" href="../../media/icons/apple-icon-57x57.png" />
+	<link rel="apple-touch-icon" sizes="60x60" href="../../media/icons/apple-icon-60x60.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="../../media/icons/apple-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="76x76" href="../../media/icons/apple-icon-76x76.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="../../media/icons/apple-icon-114x114.png" />
+	<link rel="apple-touch-icon" sizes="120x120" href="../../media/icons/apple-icon-120x120.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="../../media/icons/apple-icon-144x144.png" />
+	<link rel="apple-touch-icon" sizes="152x152" href="../../media/icons/apple-icon-152x152.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="../../media/icons/apple-icon-180x180.png" />
 
-		<meta name="msapplication-TileColor" content="#ffffff" />
-		<meta name="msapplication-TileImage" content="../../media/icons/ms-icon-144x144.png" />
-		<!-- <meta name="theme-color" content="#003066" /> -->
-		<meta name="theme-color" content="#001833" />
+	<link rel="icon" type="image/png" sizes="192x192" href="../../media/icons/android-icon-192x192.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="../../media/icons/favicon-32x32.png" />
+	<link rel="icon" type="image/png" sizes="96x96" href="../../media/icons/favicon-96x96.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="../../media/icons/favicon-16x16.png" />
+	<link rel="manifest" href="../media/icons/manifest.json" />
 
-		<title>Curso Introdução à Saúde Digital | Mod 2 | Aula 5</title>
+	<meta name="msapplication-TileColor" content="#ffffff" />
+	<meta name="msapplication-TileImage" content="../../media/icons/ms-icon-144x144.png" />
+	<!-- <meta name="theme-color" content="#003066" /> -->
+	<meta name="theme-color" content="#001833" />
 
-		<!-- Bootstrap CSS 5.1.3 -->
-		<link rel="stylesheet" href="../../source/bootstrap-5.1.3/css/bootstrap.min.css" />
+	<title>Curso Introdução à Saúde Digital | Mod 2 | Aula 5</title>
 
-		<!-- Project CSS -->
-		<link rel="stylesheet" href="../../assets/css/style.css" />
-	</head>
+	<!-- Bootstrap CSS 5.1.3 -->
+	<link rel="stylesheet" href="../../source/bootstrap-5.1.3/css/bootstrap.min.css" />
 
-	<body>
-		<header class="header">
-			<div class="mobile-toggle-open">
-				<a class="mobile-toggle__button" tabindex="0" role="button">
-					<span class="icon material-symbols-rounded">read_more</span>
-				</a>
-			</div>
-			<div class="brand">
-				<img class="img-fluid logo-black" src="../../media/logos/header-fiocruz-campus-virtual.png" alt="Campus Virtual Fiocruz" />
-			</div>
-			<div class="title">
-				<h1>Introdução à Saúde Digital</h1>
-			</div>
-			<ul class="nav nav-pills">
-				<li class="nav-item"><a href="../../index.html" class="nav-link">Início</a></li>
-				<li class="nav-item"><a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#modal-creditos">Créditos</a></li>
-			</ul>
-		</header>
-		<div class="main">
-			<div class="sidebar" role="navigation">
-				<div class="sidebar__inner" style="position: relative">
-					<div class="sidebar__group d-lg-none">
-						<div class="sidebar__group-item">
-							<div class="sidebar__header">
-								<span>Curso</span>
-								<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
-							</div>
+	<!-- Project CSS -->
+	<link rel="stylesheet" href="../../assets/css/style.css" />
+</head>
+
+<body>
+	<header class="header">
+		<div class="mobile-toggle-open">
+			<a class="mobile-toggle__button" tabindex="0" role="button">
+				<span class="icon material-symbols-rounded">read_more</span>
+			</a>
+		</div>
+		<div class="brand">
+			<img class="img-fluid logo-black" src="../../media/logos/header-fiocruz-campus-virtual.png"
+				alt="Campus Virtual Fiocruz" />
+		</div>
+		<div class="title">
+			<h1>Introdução à Saúde Digital</h1>
+		</div>
+		<ul class="nav nav-pills">
+			<li class="nav-item"><a href="../../index.html" class="nav-link">Início</a></li>
+			<li class="nav-item"><a href="#" class="nav-link" data-bs-toggle="modal"
+					data-bs-target="#modal-creditos">Créditos</a></li>
+		</ul>
+	</header>
+	<div class="main">
+		<div class="sidebar" role="navigation">
+			<div class="sidebar__inner" style="position: relative">
+				<div class="sidebar__group d-lg-none">
+					<div class="sidebar__group-item">
+						<div class="sidebar__header">
+							<span>Curso</span>
+							<a class="mobile-toggle-close" tabindex="0" role="button"><span
+									class="icon material-symbols-rounded">read_more</span></a>
 						</div>
-						<div class="sidebar__group-item">
-							<div class="sidebar__title">
-								<h1>Introdução à Saúde Digital</h1>
-							</div>
+					</div>
+					<div class="sidebar__group-item">
+						<div class="sidebar__title">
+							<h1>Introdução à Saúde Digital</h1>
 						</div>
-						<div class="sidebar__group-item">
-							<ul class="nav">
-								<li class="nav-item">
-									<a href="../../index.html" class="nav-link" tabindex="0"><span class="icon material-symbols-rounded" aria-hidden="true">home</span>Início</a>
+					</div>
+					<div class="sidebar__group-item">
+						<ul class="nav">
+							<li class="nav-item">
+								<a href="../../index.html" class="nav-link" tabindex="0"><span
+										class="icon material-symbols-rounded" aria-hidden="true">home</span>Início</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link" tabindex="0" data-bs-toggle="modal"
+									data-bs-target="#modal-creditos"><span class="icon material-symbols-rounded"
+										aria-hidden="true"> format_list_bulleted</span>Créditos</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="sidebar__group">
+					<div class="sidebar__group-item">
+						<div class="dropend">
+							<button id="dropdown-modulos" type="button" class="dropdown-toggle"
+								data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside"
+								data-bs-offset="0,30">
+								<span class="icon material-symbols-rounded" aria-hidden="true">grid_view</span>
+								<span class="label">Módulos</span>
+							</button>
+							<ul class="dropdown-menu" aria-labelledby="dropdown-modulos">
+								<li class="d-lg-none dropdown-menu__header">
+									<a class="dropdown-menu__back-button" tabindex="0" role="button"><span
+											class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
+									<a class="mobile-toggle-close" tabindex="0" role="button"><span
+											class="icon material-symbols-rounded">read_more</span></a>
 								</li>
-								<li class="nav-item">
-									<a href="#" class="nav-link" tabindex="0" data-bs-toggle="modal" data-bs-target="#modal-creditos"><span class="icon material-symbols-rounded" aria-hidden="true"> format_list_bulleted</span>Créditos</a>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../../modulo1/apresentacao.html"><strong>Módulo
+											1</strong><br />Fundamentos de Saúde Digital e Tecnologia da Informação em
+										Saúde</a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../../modulo2/apresentacao.html"><strong>Módulo 2</strong><br />Sistemas
+										de informação em saúde e gestão de dados eletrônicos</a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../../modulo3/apresentacao.html"><strong>Módulo 3</strong><br />Segurança
+										da informação e proteção de dados pessoais</a>
+								</li>
+
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../../modulo4/apresentacao.html"><strong>Módulo 4</strong><br />Inovação
+										em Saúde Digital</a>
 								</li>
 							</ul>
 						</div>
 					</div>
-
-					<div class="sidebar__group">
-						<div class="sidebar__group-item">
-							<div class="dropend">
-								<button id="dropdown-modulos" type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30">
-									<span class="icon material-symbols-rounded" aria-hidden="true">grid_view</span>
-									<span class="label">Módulos</span>
-								</button>
-								<ul class="dropdown-menu" aria-labelledby="dropdown-modulos">
-									<li class="d-lg-none dropdown-menu__header">
-										<a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
-										<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo1/apresentacao.html"><strong>Módulo 1</strong><br />Fundamentos de Saúde Digital e Tecnologia da Informação em Saúde</a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo2/apresentacao.html"><strong>Módulo 2</strong><br />Sistemas de informação em saúde e gestão de dados eletrônicos</a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo3/apresentacao.html"><strong>Módulo 3</strong><br />Segurança da informação e proteção de dados pessoais</a>
-									</li>
-
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo4/apresentacao.html"><strong>Módulo 4</strong><br />Inovação em Saúde Digital</a>
-									</li>
-								</ul>
-							</div>
-						</div>
+				</div>
+				<div class="divider">
+					<hr />
+				</div>
+				<div class="sidebar__group">
+					<div class="sidebar__group-item">
+						<span class="text module">Módulo <br class="d-none d-lg-block" /><span>2</span></span>
 					</div>
-					<div class="divider">
-						<hr />
-					</div>
-					<div class="sidebar__group">
-						<div class="sidebar__group-item">
-							<span class="text module">Módulo <br class="d-none d-lg-block" /><span>2</span></span>
-						</div>
-						<div class="sidebar__group-item">
-							<div class="dropend">
-								<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30">
-									<span class="icon material-symbols-rounded" aria-hidden="true">apps</span>
-									<span class="label">Conteúdo</span>
-								</button>
-								<ul class="dropdown-menu">
-									<li class="d-lg-none dropdown-menu__header">
-										<a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
-										<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
-									</li>
-									<li class="dropdown-menu__title">
-										<span class="label">Módulo 2</span>
-										<span class="title">Sistemas de informação em saúde e gestão de dados eletrônicos </span>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../apresentacao.html"><strong>Apresentação do módulo</strong></a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../aula1/topico1.html"><strong>Aula 1: </strong>Sistemas de Informação para o Sistema Único de Saúde (SUS)</a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../aula2/topico1.html"><strong>Aula 2: </strong>Qualidade de dados e informação</a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../aula3/topico1.html"><strong>Aula 3: </strong>Padrões em Informática em Saúde e Interoperabilidade: Aplicações no Contexto do SUS</a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../aula4/topico1.html"><strong>Aula 4: </strong>Intervenções de Saúde Digital: Soluções Digitais</a>
-									</li>
-
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../aula5/topico1.html"><strong>Aula 5: </strong>Monitoramento e Avaliação de Intervenções em Saúde digital</a>
-									</li>
-
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../encerramento.html"><strong>Encerramento do módulo</strong></a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="divider">
-						<hr />
-					</div>
-					<div class="sidebar__group">
-						<div class="sidebar__group-item">
-							<span class="text class">Aula 5</span>
-						</div>
-						<div class="sidebar__group-item">
-							<div class="dropend">
-								<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="200,30">
-									<span class="icon material-symbols-rounded" aria-hidden="true"> format_list_bulleted</span>
-									<span class="label">Tópicos</span>
-								</button>
-								<ul class="dropdown-menu">
-									<li class="d-lg-none dropdown-menu__header">
-										<a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
-										<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
-									</li>
-									<li class="dropdown-menu__title">
-										<span class="label">Aula 5</span>
-										<span class="title">Monitoramento e Avaliação de Intervenções em Saúde digital</span>
-									</li>
-									<li class="dropdown-menu__item">
-										<nav class="topic-list">
-											<a href="topico1.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico concluído" status="visited"> <span class="material-symbols-rounded"></span>Introdução</a>
-
-											<a href="topico2.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico concluído" status="visited"> <span class="material-symbols-rounded"></span>O que é Avaliação? </a>
-
-											<a href="topico3.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico concluído" status="visited"><span class="material-symbols-rounded"></span>Avaliação das fontes e qualidade dos dados</a>
-										</nav>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="divider">
-						<hr />
-					</div>
-					<div class="sidebar__group extra">
-						<div class="sidebar__group-item">
-							<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-bibliografiaMod2">
-								<span class="icon material-symbols-rounded" aria-hidden="true"> menu_book</span>
-								<span class="label">Bibliografia</span>
+					<div class="sidebar__group-item">
+						<div class="dropend">
+							<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown"
+								aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30">
+								<span class="icon material-symbols-rounded" aria-hidden="true">apps</span>
+								<span class="label">Conteúdo</span>
 							</button>
+							<ul class="dropdown-menu">
+								<li class="d-lg-none dropdown-menu__header">
+									<a class="dropdown-menu__back-button" tabindex="0" role="button"><span
+											class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
+									<a class="mobile-toggle-close" tabindex="0" role="button"><span
+											class="icon material-symbols-rounded">read_more</span></a>
+								</li>
+								<li class="dropdown-menu__title">
+									<span class="label">Módulo 2</span>
+									<span class="title">Sistemas de informação em saúde e gestão de dados eletrônicos
+									</span>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../apresentacao.html"><strong>Apresentação do módulo</strong></a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../aula1/topico1.html"><strong>Aula 1: </strong>Sistemas de Informação
+										para o Sistema Único de Saúde (SUS)</a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../aula2/topico1.html"><strong>Aula 2: </strong>Qualidade de dados e
+										informação</a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../aula3/topico1.html"><strong>Aula 3: </strong>Padrões em Informática em
+										Saúde e Interoperabilidade: Aplicações no Contexto do SUS</a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../aula4/topico1.html"><strong>Aula 4: </strong>Intervenções de Saúde
+										Digital: Soluções Digitais</a>
+								</li>
+
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../aula5/topico1.html"><strong>Aula 5: </strong>Monitoramento e Avaliação
+										de Intervenções em Saúde digital</a>
+								</li>
+
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../encerramento.html"><strong>Encerramento do módulo</strong></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="divider">
+					<hr />
+				</div>
+				<div class="sidebar__group">
+					<div class="sidebar__group-item">
+						<span class="text class">Aula 5</span>
+					</div>
+					<div class="sidebar__group-item">
+						<div class="dropend">
+							<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown"
+								aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="200,30">
+								<span class="icon material-symbols-rounded" aria-hidden="true">
+									format_list_bulleted</span>
+								<span class="label">Tópicos</span>
+							</button>
+							<ul class="dropdown-menu">
+								<li class="d-lg-none dropdown-menu__header">
+									<a class="dropdown-menu__back-button" tabindex="0" role="button"><span
+											class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
+									<a class="mobile-toggle-close" tabindex="0" role="button"><span
+											class="icon material-symbols-rounded">read_more</span></a>
+								</li>
+								<li class="dropdown-menu__title">
+									<span class="label">Aula 5</span>
+									<span class="title">Monitoramento e Avaliação de Intervenções em Saúde
+										digital</span>
+								</li>
+								<li class="dropdown-menu__item">
+									<nav class="topic-list">
+										<a href="topico1.html" tabindex="0" role="link" class="topic-list__item"
+											aria-label="Tópico concluído" status="visited"> <span
+												class="material-symbols-rounded"></span>Introdução</a>
+
+										<a href="topico2.html" tabindex="0" role="link" class="topic-list__item"
+											aria-label="Tópico concluído" status="visited"> <span
+												class="material-symbols-rounded"></span>O que é Avaliação? </a>
+
+										<a href="topico3.html" tabindex="0" role="link" class="topic-list__item"
+											aria-label="Tópico concluído" status="visited"><span
+												class="material-symbols-rounded"></span>Avaliação das fontes e qualidade
+											dos dados</a>
+									</nav>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="divider">
+					<hr />
+				</div>
+				<div class="sidebar__group extra">
+					<div class="sidebar__group-item">
+						<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-bibliografiaMod2">
+							<span class="icon material-symbols-rounded" aria-hidden="true"> menu_book</span>
+							<span class="label">Bibliografia</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="content">
+			<div id="page-title">
+				<div class="container">
+					<div class="row align-items-center hstify-content-center justify-content-xxl-start ms-lg-5">
+						<div class="col-12 col-md-10 col-lg-11">
+							<h2 class="title">
+								<span class="label">Módulo 2 | Aula 5</span>
+								<br />
+								Monitoramento e Avaliação de Intervenções em Saúde digital
+							</h2>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="content">
-				<div id="page-title">
-					<div class="container">
-						<div class="row align-items-center hstify-content-center justify-content-xxl-start ms-lg-5">
-							<div class="col-12 col-md-10 col-lg-11">
-								<h2 class="title">
-									<span class="label">Módulo 2 | Aula 5</span>
-									<br />
-									Monitoramento e Avaliação de Intervenções em Saúde digital
-								</h2>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div id="page-content" class="">
-					<!-- Inserir o conteúdo aqui -->
-					<section>
-						<div class="container">
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8 mb-5">
-									<div class="heading__block">
-										<span class="small">Tópico 3</span>
-										<h3 class="heading__title">Avaliação das fontes e qualidade dos dados</h3>
-									</div>
-
-									<p>Além de articular os objetivos de monitorização e avaliação (M&A) e de conceber os planos para a realização das atividades de M&A, outro componente-chave é determinar os requisitos de dados. Os implementadores precisam determinar se o seu projeto produzirá o tipo certo de dados em quantidade e qualidade suficientes para apoiar as alegações articuladas pelo projeto. </p>
-
-									<p>A avaliação de dados digitais ajuda a identificar e mapear lacunas entre o que se pretende medir e a capacidade prática de medir as variáveis que mostrarão se o impacto pretendido está ou não a ocorrer. Assim, ela é importante para sabermos se: Seremos capazes de provar que a nossa intervenção funciona da forma que pensamos que funciona com base nos dados? Estamos coletando os dados corretos para a nossa intervenção? Que medidas podemos tomar para melhorar a qualidade dos nossos dados? Existem oportunidades adicionais para coleta e uso de dados?</p>
-
-									
-									
-								</div>
-							</div>
-
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-									<p>Segundo a OMS (2016), a abordagem de avaliação dos dados digitais pode ser realizada em três etapas:</p>
-
-
-
-							
-									<div class="aba">
-										
-										<div class="tab-content p-0 border-0 bg-transparent" id="pills-tabContent">
-											<!-- Aba 1 -->
-											<div class="tab-pane fade show active" id="pills-tabs-exemplos" role="tabpanel" aria-labelledby="pills-tabs-exemplos-tab">
-												<!-- Abas -->
-												<div class="aba">
-													<ul class="nav nav-pills nav-fill" id="pills-tab" role="tablist">
-														<li class="nav-item" role="presentation">
-															<button class="nav-link active" id="pills-atores-tab" data-bs-toggle="pill" data-bs-target="#pills-atores" type="button" role="tab" aria-controls="pills-atores" aria-selected="true">ETAPA 1</button>
-														</li>
-														<li class="nav-item" role="presentation">
-															<button class="nav-link" id="pills-seguranca-tab" data-bs-toggle="pill" data-bs-target="#pills-seguranca" type="button" role="tab" aria-controls="pills-seguranca" aria-selected="false">ETAPA 2</button>
-														</li>
-														<li class="nav-item" role="presentation">
-															<button class="nav-link" id="pills-processos-tab" data-bs-toggle="pill" data-bs-target="#pills-processos" type="button" role="tab" aria-controls="pills-processos" aria-selected="false">ETAPA 3</button>
-														</li>
-													</ul>
-													<div class="tab-content p-0" id="pills-tabContent">
-														<!-- Aba 1 -->
-														<div class="tab-pane fade show active" id="pills-atores" role="tabpanel" aria-labelledby="pills-atores-tab">
-															<div class="tab-pane-content">
-																<p class="h6">Avaliação do alinhamento dos dados disponíveis com as alegações do programa:</p>
-
-																<p> orienta a equipe na identificação de suas principais alegações sobre a intervenção, listando indicadores e fontes de dados associados e avaliando se as alegações propostas podem ser apoiadas de forma viável pelos dados disponíveis.</p>
-															</div>
-														</div>
-														<!-- Aba 2-->
-														<div class="tab-pane fade" id="pills-seguranca" role="tabpanel" aria-labelledby="pills-seguranca-tab">
-															<div class="tab-pane-content">
-																<p class="h6">Mapeamento dos dados:</p>
-																<p> ajuda a equipe de implementação a desenvolver uma representação visual de como os dados fluem pela organização. Esta ilustração pode ajudar a identificar lacunas e oportunidades na recolha, análise e utilização de dados.</p>
-															</div>
-														</div>
-														<!-- Aba 3 -->
-														<div class="tab-pane fade" id="pills-processos" role="tabpanel" aria-labelledby="pills-processos-tab">
-															<div class="tab-pane-content">
-																<p class="h6">Avaliação dos protocolos de gerenciamento de dados e da qualidade dos dados: </p><p>investiga os detalhes básicos dos processos que podem resultar em boa ou má qualidade dos dados, destacando as melhores práticas em cada um dos cinco estágios dos dados (ou seja, coleta, armazenamento, análise, gerenciamento e uso). A abordagem para avaliar a qualidade e a utilização dos dados foi adaptada do quadro PRISM, que é amplamente aceito e utilizado para avaliar o desempenho do sistema de informação de saúde de rotina.</p>
-															</div>
-														</div>
-													</div>
-												</div>
-												<!-- Fim de Abas -->
-											</div>
-
-											
-
-											<div class="tab-pane-footer">
-												<img src="../../media/templates/tabs-footer.svg" aria-hidden="true" alt="">
-											</div>
-
-										</div>
-										
-									</div>
-								
-
-								</div>
-							</div>
-
-
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-									<p>Principais componentes da abordagem de avaliação da qualidade dos dados</p>
-
-
-									<div class="row justify-content-center">
-													
-										<div class="col-12 col-md-10 col-lg-4 mb-5">
-													<div class="card ">
-
-															<div class="card-header">
-																<span class="">ETAPA 1</span>
-															</div>
-
-															<div class="card-body">
-																<p class="h6">Alinhamento de dados disponíveis com as alegações da intervenção</p>
-																	<!-- Lista Não-Ordenada -->
-																		<div class="list">
-																			<ul class="list-group">
-																				<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" >Identificação das alegações da intervenção </li>
-
-																				<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" >Indicadores </li>
-
-																				<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" >Fonte de dados </li>
-
-																				<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" >Alinhar os indicadores com as fontes de dados</li>
-
-																				<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" >Resumo das recomendações 1.</li>
-
-																			</ul>
-																		</div>
-															</div>
-
-														</div>
-											</div>
-
-											<div class="col-12 col-md-10 col-lg-4 mb-5">
-													<div class="card ">
-
-															<div class="card-header">
-																<span class="">ETAPA 2</span>
-															</div>
-
-															<div class="card-body">
-																<p class="h6">Mapeamento de fonte de dados</p>
-																<!-- Lista Não-Ordenada -->
-																		<div class="list">
-																			<ul class="list-group">
-																				<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" >Compreender como os dados são coletados, compilados, analisados e usados para tomada de decisões</li>
-
-																				<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" >Ilustração visual do fluxo de dados em cada nível do sistema de saúde</li>
-
-																				<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" >Resumo das recomendações 2</li>
-
-																				<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" >Coleção de dados</li>
-
-																				<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" >Armazenamento de dados</li>
-
-																			</ul>
-																		</div>
-															</div>
-
-														</div>
-											</div>
-
-											<div class="col-12 col-md-10 col-lg-4 mb-5">
-													<div class="card ">
-
-															<div class="card-header">
-																<span class="">ETAPA 3</span>
-															</div>
-
-															<div class="card-body">
-																<p class="h6">Protocolo de gerenciamento e qualidade de dados</p>
-																<!-- Lista Não-Ordenada -->
-																		<div class="list">
-																			<ul class="list-group">
-																				
-
-																				<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" >Coleção de dados</li>
-
-																				<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" >Armazenamento de dados</li>
-
-																				<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" >Análise/painel de dados</li>
-
-																			</ul>
-																		</div>
-															</div>
-
-														</div>
-											</div>
-										</div>
-
-								</div>
-							</div>
-
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-
-									<p class="h6">Resumo das recomendações 1:</p><p>  a) Se estiverem disponíveis dados suficientes para apoiar uma ou mais alegações: i) Resuma as afirmações que podem ser feitas, considerando os dados disponíveis; ii) Gere recomendações para coleta de dados para qualquer alegação que não tenha dados para apoiá-la; iii) Identifique quaisquer alegações adicionais que possam ser possíveis, considerando os dados. b) Se não estiverem disponíveis dados suficientes para apoiar pelo menos uma alegação: i) Gere recomendações de dados que devem ser coletados para apoiar as alegações. Recomendar potencial métodos/fontes de coleta de dados que possam facilitar essa coleta de dados; ii) Identifique reivindicações adicionais que possam ser possíveis, considerando os dados. Independentemente dos resultados da Etapa 1, prossiga para a Etapa 2.</p>
-</p>
-
-
-									<p class="h6">Resumo das recomendações 2:</p><p> O Mapa de Dados permite à equipe de M&A delinear uma sequência lógica de passos necessários para melhorar o fluxo de dados em cada nível do sistema de saúde. Contudo, os passos da etapa 2 descrita e representada acima não são absolutos. A geração de recomendações deve ser orientada pelo que é razoável para cada projeto. Algumas perguntas que podem ajudar a orientar esse processo incluem:</p>
-
-									<!-- Lista Ordenada -->
-														<div class="list">
-															<ol class="list-group list-group-numbered"> 
-																<li class="list-group-item aos-init aos-animate" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Existem partes interessadas que atualmente não fazem parte do sistema e que deveriam fazer parte do sistema? </li>
-																<li class="list-group-item aos-init aos-animate" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Existem oportunidades no sistema para instalações/organizações/outras partes interessadas analisarem seus próprios dados?</li>
-																<li class="list-group-item aos-init aos-animate" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Existem lacunas/oportunidades adicionais para a utilização de dados em qualquer nível do sistema de saúde?</li>
-																<li class="list-group-item aos-init aos-animate" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Alguma mudança na frequência de coleta/análise/relatório/uso de dados é recomendada em qualquer nível do sistema de saúde?</li>
-																<li class="list-group-item aos-init aos-animate" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Seriam apropriadas quaisquer alterações no nível de desagregação dos dados para melhorar a utilização dos dados?</li>
-																<li class="list-group-item aos-init aos-animate" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Existem outros desafios pertinentes que ameaçam a qualidade dos dados?</li> 
-																<li class="list-group-item aos-init aos-animate" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Com base nas lacunas e oportunidades identificadas, deverá ser desenvolvido um mapa com oportunidades adicionais para análise, comunicação e utilização de dados, e incluindo alterações recomendadas na frequência de recolha e/ou no nível de desagregação dos dados.</li>
-																</li>
-																
-															</ol>
-														</div>
-
-
-
-
-									<p class="h6">Resumo das recomendações 3: </p><p>Esta secção fornece uma lista de verificação de itens para a equipe de M&A avaliar no âmbito do sistema existente de garantia e gestão da qualidade dos dados, bem como questões relevantes para cada item. Embora as respostas às perguntas ajudem a identificar áreas de melhoria, as recomendações específicas dependerão da garantia da avaliação dos itens mais pertinentes ao projeto e serão moldadas pela experiência da equipe de M&A no assunto. </p>
-
-
-													<!-- Saiba Mais -->
-														<div class="saiba-mais pb-5">
-															<div class="row aos-init aos-animate" data-aos="fade-left" data-aos-easing="ease-out" data-aos-duration="600">
-																<div class="col-12 d-flex justify-content-center">
-																	<button class="saiba-mais fio-button button-md fio-button-secondary collapsed" type="collapsed" data-bs-toggle="collapse" data-bs-target="#saiba-mais1" aria-expanded="false" aria-controls="saiba-mais1"><span class="icone material-symbols-rounded" aria-hidden="true"></span> Você sabia?</button>
-																</div>
-
-																<div class="col-12">
-																	<div class="mt-3 collapse" id="saiba-mais1">
-																		<!-- Lista Não-Ordenada -->
-																		<div class="list">
-																			<ul class="list-group">
-																				<li class="list-group-item aos-init aos-animate" list-style='pages' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Confira a <a href='../../media/modulo2/aula5-doc1.pdf' target='_blank'>LISTA DE VERIFICAÇÃO DE ITENS</a> sugerida no RESUMO DAS RECOMENDAÇÕES 3 (ETAPA 3). </li>
-																			</ul>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-
-									<p>Uma avaliação da qualidade dos dados só pode ajudar a melhorar os processos de dados de intervenção se for acompanhada de ações e avaliações repetidas. Pode ser utilizado em diferentes fases do ciclo de implementação da intervenção para ajudar a planear, melhorar e avaliar os processos de dados. Cada etapa da avaliação produz um “resumo de recomendações”. Depois de concluído, a equipe do projeto deverá discutir esses resumos e definir pontos de ação e responsabilidades específicas. Dependendo da amplitude das lacunas identificadas, os processos de dados do projeto podem ser reavaliados anualmente através da avaliação da qualidade dos dados (OMS, 2016).</p>
-
-								</div>
-							</div>
-
-
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-
-									<h4>Desafios para Monitoramento e Avaliação da Saúde Digital</h4>
-
-									<p>Diante do exposto, podemos a partir do conteúdo acima destacar alguns dos desafios relacionados ao monitoramento e avaliação de tecnologias em saúde digital. Iniciamos ressaltando o caráter dinâmico e rápido inerente ao universo das intervenções em saúde digital, onde frequentemente, o estágio de maturidade pode avançar ou sobrepor, exigindo que os processos de monitoramento e avaliação sejam mais complexos, ágeis e flexíveis, adaptando-se as necessidades das partes interessadas.</p>
-									<p>Ainda na perspectiva das intervenções em saúde digital, deve-se considerar como desafio a institucionalização de processos fortes de monitoramento, desde o início do desenvolvimento da intervenção em saúde digital, de forma a fornecer informações estratégicas e confiáveis para subsidiar os processos avaliativos, reduzindo a tendência de considerar uma intervenção como não eficaz, quando na verdade os achados foram resultantes de processos de monitoramento fracos (OMS, 2016).</p>
-									<p>Já na perspectiva do campo da avaliação, a diversidade terminológica, somada à multiplicidade de propostas metodológicas, teóricas e práticas, bem como a baixa institucionalização de processos de monitoramento e avaliação no âmbito das políticas públicas constituem um desafio contínuo também para as intervenções em saúde digital. Segundo Blondiau, Mettlere Winter (2016) e Costa e Marin (2020) há muitos modelos avaliativos para a saúde digital, no entanto muitas iniciativas limitam-se a desenvolver a proposta metodológica, mas não há evidências de seus usos. Ambos os estudos reiteram a importância da diversidade metodológica, contudo ressaltam também ser importante o uso de tais modelos com vista ao seu amadurecimento.</p>
-									<p>Esses autores destacam também o predomínio de modelos avaliativos complexos, específicos, pouco práticos e não gratuitos. Essa realidade requer esforço para que os modelos ganhem maior praticidade, sem perder a necessária abordagem complexa requerida pela intervenção. Destacam também a necessidade de avançar nos desenhos que realmente possibilitem medir o quanto a intervenção em saúde digital contribui para resolução do problema para o qual foi desenvolvida.</p>
-									<p>Por fim, um desafio tão importante quanto os anteriores é sensibilizar e capacitar gestores e pesquisadores para que possam desenvolver e colocar em uso modelos avaliativos para as intervenções em saúde digital de forma a ampliar a comunidade atuante nesses campos de conhecimento, saúde digital e avaliação. Além disso, um grande desafio é a decisão política de aceitar e incorporar, como problema a ser solucionado, os possíveis resultados negativos de um processo avaliativo.</p>
-
-								</div>
-							</div>
-							
-						</div>
-					</section>
-				</div>
-
-				<!-- Navegação da aula -->
+			<div id="page-content" class="">
+				<!-- Inserir o conteúdo aqui -->
 				<section>
 					<div class="container">
 						<div class="row justify-content-center">
-							<div class="col-12 col-md-10 col-lg-8">
-								<div class="page-nav d-flex justify-content-evenly">
-									<a class="fio-button fio-button-primary" href="topico2.html" rel="prev"><span class="material-symbols-rounded" aria-hidden="true">west</span> Tópico Anterior</a>
-									<a class="fio-button fio-button-primary" href="../encerramento.html" rel="next">Encerramento <span class="material-symbols-rounded" aria-hidden="true">east</span></a>
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+								<div class="heading__block">
+									<span class="small">Tópico 3</span>
+									<h3 class="heading__title">Avaliação das fontes e qualidade dos dados</h3>
+								</div>
+
+								<p>Além de articular os objetivos de monitorização e avaliação (M&A) e de conceber os
+									planos para a realização das atividades de M&A, outro componente-chave é determinar
+									os requisitos de dados. Os implementadores precisam determinar se o seu projeto
+									produzirá o tipo certo de dados em quantidade e qualidade suficientes para apoiar as
+									alegações articuladas pelo projeto. </p>
+
+								<p>A avaliação de dados digitais ajuda a identificar e mapear lacunas entre o que se
+									pretende medir e a capacidade prática de medir as variáveis que mostrarão se o
+									impacto pretendido está ou não a ocorrer. Assim, ela é importante para sabermos se:
+									Seremos capazes de provar que a nossa intervenção funciona da forma que pensamos que
+									funciona com base nos dados? Estamos coletando os dados corretos para a nossa
+									intervenção? Que medidas podemos tomar para melhorar a qualidade dos nossos dados?
+									Existem oportunidades adicionais para coleta e uso de dados?</p>
+
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+								<p>Segundo a OMS (2016), a abordagem de avaliação dos dados digitais pode ser realizada
+									em três etapas:</p>
+
+								<!-- Tabs -->
+								<div class="aba">
+									<div class="tab-content p-0 border-0 bg-transparent" id="pills-tabContent">
+										<!-- Aba 1 -->
+										<div class="tab-pane fade show active" id="pills-tabs-exemplos" role="tabpanel"
+											aria-labelledby="pills-tabs-exemplos-tab">
+											<!-- Abas -->
+											<div class="aba">
+												<ul class="nav nav-pills nav-fill" id="pills-tab" role="tablist">
+													<li class="nav-item" role="presentation">
+														<button class="nav-link active" id="pills-atores-tab"
+															data-bs-toggle="pill" data-bs-target="#pills-atores"
+															type="button" role="tab" aria-controls="pills-atores"
+															aria-selected="true">ETAPA 1</button>
+													</li>
+													<li class="nav-item" role="presentation">
+														<button class="nav-link" id="pills-seguranca-tab"
+															data-bs-toggle="pill" data-bs-target="#pills-seguranca"
+															type="button" role="tab" aria-controls="pills-seguranca"
+															aria-selected="false">ETAPA 2</button>
+													</li>
+													<li class="nav-item" role="presentation">
+														<button class="nav-link" id="pills-processos-tab"
+															data-bs-toggle="pill" data-bs-target="#pills-processos"
+															type="button" role="tab" aria-controls="pills-processos"
+															aria-selected="false">ETAPA 3</button>
+													</li>
+												</ul>
+												<div class="tab-content p-0" id="pills-tabContent">
+													<!-- Aba 1 -->
+													<div class="tab-pane fade show active" id="pills-atores"
+														role="tabpanel" aria-labelledby="pills-atores-tab">
+														<div class="tab-pane-content">
+															<p class="h6">Avaliação do alinhamento dos dados disponíveis
+																com as alegações do programa:</p>
+
+															<p> orienta a equipe na identificação de suas principais
+																alegações sobre a intervenção, listando indicadores e
+																fontes de dados associados e avaliando se as alegações
+																propostas podem ser apoiadas de forma viável pelos dados
+																disponíveis.</p>
+														</div>
+													</div>
+													<!-- Aba 2-->
+													<div class="tab-pane fade" id="pills-seguranca" role="tabpanel"
+														aria-labelledby="pills-seguranca-tab">
+														<div class="tab-pane-content">
+															<p class="h6">Mapeamento dos dados:</p>
+															<p> ajuda a equipe de implementação a desenvolver uma
+																representação visual de como os dados fluem pela
+																organização. Esta ilustração pode ajudar a identificar
+																lacunas e oportunidades na recolha, análise e utilização
+																de dados.</p>
+														</div>
+													</div>
+													<!-- Aba 3 -->
+													<div class="tab-pane fade" id="pills-processos" role="tabpanel"
+														aria-labelledby="pills-processos-tab">
+														<div class="tab-pane-content">
+															<p class="h6">Avaliação dos protocolos de gerenciamento de
+																dados e da qualidade dos dados: </p>
+															<p>investiga os detalhes básicos dos processos que podem
+																resultar em boa ou má qualidade dos dados, destacando as
+																melhores práticas em cada um dos cinco estágios dos
+																dados (ou seja, coleta, armazenamento, análise,
+																gerenciamento e uso). A abordagem para avaliar a
+																qualidade e a utilização dos dados foi adaptada do
+																quadro PRISM, que é amplamente aceito e utilizado para
+																avaliar o desempenho do sistema de informação de saúde
+																de rotina.</p>
+														</div>
+													</div>
+												</div>
+											</div>
+											<!-- Fim de Abas -->
+										</div>
+
+
+
+										<div class="tab-pane-footer">
+											<img src="../../media/templates/tabs-footer.svg" aria-hidden="true" alt="">
+										</div>
+
+									</div>
 								</div>
 							</div>
 						</div>
+
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5 pt-5">
+								<div class="heading__block">
+									<h5 class="heading__title">Principais componentes da abordagem de avaliação da
+										qualidade dos dados</h5>
+								</div>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-4 mb-5">
+								<div class="card ">
+									<div class="card-header">
+										<span class="">ETAPA 1</span>
+									</div>
+
+									<div class="card-body">
+										<p class="h6">Alinhamento de dados disponíveis com as alegações da intervenção
+										</p>
+										<!-- Lista Não-Ordenada -->
+										<div class="list">
+											<ul class="list-group">
+												<li class="list-group-item aos-init aos-animate" list-style="default"
+													data-aos="fade-right" data-aos-easing="ease-out"
+													data-aos-duration="1200">Identificação das alegações da intervenção
+												</li>
+
+												<li class="list-group-item aos-init aos-animate" list-style="default"
+													data-aos="fade-right" data-aos-easing="ease-out"
+													data-aos-duration="1200">Indicadores </li>
+
+												<li class="list-group-item aos-init aos-animate" list-style="default"
+													data-aos="fade-right" data-aos-easing="ease-out"
+													data-aos-duration="1200">Fonte de dados </li>
+
+												<li class="list-group-item aos-init aos-animate" list-style="default"
+													data-aos="fade-right" data-aos-easing="ease-out"
+													data-aos-duration="1200">Alinhar os indicadores com as fontes de
+													dados</li>
+
+												<li class="list-group-item aos-init aos-animate" list-style="default"
+													data-aos="fade-right" data-aos-easing="ease-out"
+													data-aos-duration="1200">Resumo das recomendações 1.</li>
+
+											</ul>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+							<div class="col-12 col-md-10 col-lg-4 mb-5">
+								<div class="card ">
+									<div class="card-header">
+										<span class="">ETAPA 2</span>
+									</div>
+
+									<div class="card-body">
+										<p class="h6">Mapeamento de fonte de dados</p>
+										<!-- Lista Não-Ordenada -->
+										<div class="list">
+											<ul class="list-group">
+												<li class="list-group-item aos-init aos-animate" list-style="default"
+													data-aos="fade-right" data-aos-easing="ease-out"
+													data-aos-duration="1200">Compreender como os dados são coletados,
+													compilados, analisados e usados para tomada de decisões</li>
+
+												<li class="list-group-item aos-init aos-animate" list-style="default"
+													data-aos="fade-right" data-aos-easing="ease-out"
+													data-aos-duration="1200">Ilustração visual do fluxo de dados em cada
+													nível do sistema de saúde</li>
+
+												<li class="list-group-item aos-init aos-animate" list-style="default"
+													data-aos="fade-right" data-aos-easing="ease-out"
+													data-aos-duration="1200">Resumo das recomendações 2</li>
+											</ul>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+							<div class="col-12 col-md-10 col-lg-4 mb-5">
+								<div class="card ">
+									<div class="card-header">
+										<span class="">ETAPA 3</span>
+									</div>
+
+									<div class="card-body">
+										<p class="h6">Protocolo de gerenciamento e qualidade de dados</p>
+										<!-- Lista Não-Ordenada -->
+										<div class="list">
+											<ul class="list-group">
+
+
+												<li class="list-group-item aos-init aos-animate" list-style="default"
+													data-aos="fade-right" data-aos-easing="ease-out"
+													data-aos-duration="1200">Coleção de dados</li>
+
+												<li class="list-group-item aos-init aos-animate" list-style="default"
+													data-aos="fade-right" data-aos-easing="ease-out"
+													data-aos-duration="1200">Armazenamento de dados</li>
+
+												<li class="list-group-item aos-init aos-animate" list-style="default"
+													data-aos="fade-right" data-aos-easing="ease-out"
+													data-aos-duration="1200">Análise/painel de dados</li>
+
+											</ul>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5 pt-5">
+								<div class="heading__block">
+									<h6 class="heading__title">Resumo das recomendações 1:</h6>
+								</div>
+
+								<p> a) Se estiverem disponíveis dados suficientes para apoiar uma ou mais alegações: i)
+									Resuma as afirmações que podem ser feitas, considerando os dados disponíveis; ii)
+									Gere recomendações para coleta de dados para qualquer alegação que não tenha dados
+									para apoiá-la; iii) Identifique quaisquer alegações adicionais que possam ser
+									possíveis, considerando os dados. b) Se não estiverem disponíveis dados suficientes
+									para apoiar pelo menos uma alegação: i) Gere recomendações de dados que devem ser
+									coletados para apoiar as alegações. Recomendar potencial métodos/fontes de coleta de
+									dados que possam facilitar essa coleta de dados; ii) Identifique reivindicações
+									adicionais que possam ser possíveis, considerando os dados. Independentemente dos
+									resultados da Etapa 1, prossiga para a Etapa 2.</p>
+								</p>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5 pt-5">
+								<div class="heading__block">
+									<h6 class="heading__title">Resumo das recomendações 2:</h6>
+								</div>
+
+								<p> O Mapa de Dados permite à equipe de M&A delinear uma sequência lógica de passos
+									necessários para melhorar o fluxo de dados em cada nível do sistema de saúde.
+									Contudo, os passos da etapa 2 descrita e representada acima não são absolutos. A
+									geração de recomendações deve ser orientada pelo que é razoável para cada projeto.
+									Algumas perguntas que podem ajudar a orientar esse processo incluem:</p>
+
+								<!-- Lista Ordenada -->
+								<div class="list">
+									<ol class="list-group list-group-numbered">
+										<li class="list-group-item aos-init aos-animate" data-aos="fade-right"
+											data-aos-easing="ease-out" data-aos-duration="1200">Existem partes
+											interessadas que atualmente não fazem parte do sistema e que deveriam fazer
+											parte do sistema? </li>
+										<li class="list-group-item aos-init aos-animate" data-aos="fade-right"
+											data-aos-easing="ease-out" data-aos-duration="1200">Existem oportunidades no
+											sistema para instalações/organizações/outras partes interessadas analisarem
+											seus próprios dados?</li>
+										<li class="list-group-item aos-init aos-animate" data-aos="fade-right"
+											data-aos-easing="ease-out" data-aos-duration="1200">Existem
+											lacunas/oportunidades adicionais para a utilização de dados em qualquer
+											nível do sistema de saúde?</li>
+										<li class="list-group-item aos-init aos-animate" data-aos="fade-right"
+											data-aos-easing="ease-out" data-aos-duration="1200">Alguma mudança na
+											frequência de coleta/análise/relatório/uso de dados é recomendada em
+											qualquer nível do sistema de saúde?</li>
+										<li class="list-group-item aos-init aos-animate" data-aos="fade-right"
+											data-aos-easing="ease-out" data-aos-duration="1200">Seriam apropriadas
+											quaisquer alterações no nível de desagregação dos dados para melhorar a
+											utilização dos dados?</li>
+										<li class="list-group-item aos-init aos-animate" data-aos="fade-right"
+											data-aos-easing="ease-out" data-aos-duration="1200">Existem outros desafios
+											pertinentes que ameaçam a qualidade dos dados?</li>
+										<li class="list-group-item aos-init aos-animate" data-aos="fade-right"
+											data-aos-easing="ease-out" data-aos-duration="1200">Com base nas lacunas e
+											oportunidades identificadas, deverá ser desenvolvido um mapa com
+											oportunidades adicionais para análise, comunicação e utilização de dados, e
+											incluindo alterações recomendadas na frequência de recolha e/ou no nível de
+											desagregação dos dados.</li>
+										</li>
+
+									</ol>
+								</div>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5 pt-5">
+								<div class="heading__block">
+									<h6 class="heading__title">Resumo das recomendações 3:</h6>
+								</div>
+
+								<p>Esta secção fornece uma lista de verificação de itens para a equipe de M&A avaliar no
+									âmbito do sistema existente de garantia e gestão da qualidade dos dados, bem como
+									questões relevantes para cada item. Embora as respostas às perguntas ajudem a
+									identificar áreas de melhoria, as recomendações específicas dependerão da garantia
+									da avaliação dos itens mais pertinentes ao projeto e serão moldadas pela experiência
+									da equipe de M&A no assunto. </p>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+								<!-- Saiba Mais -->
+								<div class="saiba-mais pb-5">
+									<div class="row aos-init aos-animate" data-aos="fade-left"
+										data-aos-easing="ease-out" data-aos-duration="600">
+										<div class="col-12 d-flex justify-content-center">
+											<button
+												class="saiba-mais fio-button button-md fio-button-secondary collapsed"
+												type="collapsed" data-bs-toggle="collapse" data-bs-target="#saiba-mais1"
+												aria-expanded="false" aria-controls="saiba-mais1"><span
+													class="icone material-symbols-rounded" aria-hidden="true"></span>
+												Você sabia?</button>
+										</div>
+
+										<div class="col-12">
+											<div class="mt-3 collapse" id="saiba-mais1">
+												<!-- Lista Não-Ordenada -->
+												<div class="list">
+													<ul class="list-group">
+														<li class="list-group-item aos-init aos-animate"
+															list-style='pages' data-aos="fade-right"
+															data-aos-easing="ease-out" data-aos-duration="1200">Confira
+															a <a href='../../media/modulo2/aula5-doc1.pdf'
+																target='_blank'>LISTA DE VERIFICAÇÃO DE ITENS</a>
+															sugerida no RESUMO DAS RECOMENDAÇÕES 3 (ETAPA 3). </li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+								<p>Uma avaliação da qualidade dos dados só pode ajudar a melhorar os processos de dados
+									de intervenção se for acompanhada de ações e avaliações repetidas. Pode ser
+									utilizado em diferentes fases do ciclo de implementação da intervenção para ajudar a
+									planear, melhorar e avaliar os processos de dados. Cada etapa da avaliação produz um
+									“resumo de recomendações”. Depois de concluído, a equipe do projeto deverá discutir
+									esses resumos e definir pontos de ação e responsabilidades específicas. Dependendo
+									da amplitude das lacunas identificadas, os processos de dados do projeto podem ser
+									reavaliados anualmente através da avaliação da qualidade dos dados (OMS, 2016).</p>
+							</div>
+						</div>
+
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 pt-5">
+								<div class="heading__block">
+									<h4 class="heading__title">Desafios para Monitoramento e Avaliação da Saúde Digital</h4>
+								</div>
+
+								<p>Diante do exposto, podemos a partir do conteúdo acima destacar alguns dos desafios
+									relacionados ao monitoramento e avaliação de tecnologias em saúde digital. Iniciamos
+									ressaltando o caráter dinâmico e rápido inerente ao universo das intervenções em
+									saúde digital, onde frequentemente, o estágio de maturidade pode avançar ou
+									sobrepor, exigindo que os processos de monitoramento e avaliação sejam mais
+									complexos, ágeis e flexíveis, adaptando-se as necessidades das partes interessadas.
+								</p>
+
+								<p>Ainda na perspectiva das intervenções em saúde digital, deve-se considerar como
+									desafio a institucionalização de processos fortes de monitoramento, desde o início
+									do desenvolvimento da intervenção em saúde digital, de forma a fornecer informações
+									estratégicas e confiáveis para subsidiar os processos avaliativos, reduzindo a
+									tendência de considerar uma intervenção como não eficaz, quando na verdade os
+									achados foram resultantes de processos de monitoramento fracos (OMS, 2016).</p>
+
+								<p>Já na perspectiva do campo da avaliação, a diversidade terminológica, somada à
+									multiplicidade de propostas metodológicas, teóricas e práticas, bem como a baixa
+									institucionalização de processos de monitoramento e avaliação no âmbito das
+									políticas públicas constituem um desafio contínuo também para as intervenções em
+									saúde digital. Segundo Blondiau, Mettlere Winter (2016) e Costa e Marin (2020) há
+									muitos modelos avaliativos para a saúde digital, no entanto muitas iniciativas
+									limitam-se a desenvolver a proposta metodológica, mas não há evidências de seus
+									usos. Ambos os estudos reiteram a importância da diversidade metodológica, contudo
+									ressaltam também ser importante o uso de tais modelos com vista ao seu
+									amadurecimento.</p>
+
+								<p>Esses autores destacam também o predomínio de modelos avaliativos complexos,
+									específicos, pouco práticos e não gratuitos. Essa realidade requer esforço para que
+									os modelos ganhem maior praticidade, sem perder a necessária abordagem complexa
+									requerida pela intervenção. Destacam também a necessidade de avançar nos desenhos
+									que realmente possibilitem medir o quanto a intervenção em saúde digital contribui
+									para resolução do problema para o qual foi desenvolvida.</p>
+
+								<p>Por fim, um desafio tão importante quanto os anteriores é sensibilizar e capacitar
+									gestores e pesquisadores para que possam desenvolver e colocar em uso modelos
+									avaliativos para as intervenções em saúde digital de forma a ampliar a comunidade
+									atuante nesses campos de conhecimento, saúde digital e avaliação. Além disso, um
+									grande desafio é a decisão política de aceitar e incorporar, como problema a ser
+									solucionado, os possíveis resultados negativos de um processo avaliativo.</p>
+							</div>
+						</div>
+
 					</div>
 				</section>
 			</div>
 
-			<footer>
-				<div class="container-fluid">
-					<div class="row justify-content-center align-items-center linha-de-marcas">
-						<div class="col-12 col-md-auto">
-							<ul class="logos">
-								<!-- <li class="realizacao"> -->
-								<li>
-									<img class="img-fluid logo1" src="../../media/logos/logo-icict-vertical.svg" alt="Logo do ICICT" height="" />
-								</li>
-
-								<li>
-									<img class="img-fluid logo2" src="../../media/logos/logo-campus-horizontal.png" alt="Logo do Campus Virtual Fiocruz" height="" />
-								</li>
-
-								<li>
-									<img class="img-fluid logo3" src="../../media/logos/logo-fiocruz-horizontal-black.png" alt="Logo da Fiocruz" height="" />
-								</li>
-							</ul>
-						</div>
-
-						<div class="col-12 col-md-auto">
-							<ul class="logos principais align-self-end">
-								<li>
-									<img class="img-fluid logo4" src="../../media/logos/logo-sus-digital-cor.png" alt="Logo do SUS Digital" height="" />
-								</li>
-
-								<li>
-									<img class="img-fluid logo5 d-none d-md-block" src="../../media/logos/ministerio-saude-gov-federal.png" alt="Logos do SUS, Ministério da Saúde e Governo Federal" height="" />
-								</li>
-
-								<li>
-									<img class="img-fluid logo6 d-block d-md-none" src="../../media/logos/ministerio-saude-gov-federal-mobile.png" alt="Logos do SUS, Ministério da Saúde e Governo Federal" height="" />
-								</li>
-							</ul>
+			<!-- Navegação da aula -->
+			<section>
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-12 col-md-10 col-lg-8">
+							<div class="page-nav d-flex justify-content-evenly">
+								<a class="fio-button fio-button-primary" href="topico2.html" rel="prev"><span
+										class="material-symbols-rounded" aria-hidden="true">west</span> Tópico
+									Anterior</a>
+								<a class="fio-button fio-button-primary" href="../encerramento.html"
+									rel="next">Encerramento <span class="material-symbols-rounded"
+										aria-hidden="true">east</span></a>
+							</div>
 						</div>
 					</div>
 				</div>
-			</footer>
+			</section>
 		</div>
 
-		<!--  Bootstrap JS and Popper -->
-		<script src="../../source/bootstrap-5.1.3/js/bootstrap.bundle.min.js"></script>
+		<footer>
+			<div class="container-fluid">
+				<div class="row justify-content-center align-items-center linha-de-marcas">
+					<div class="col-12 col-md-auto">
+						<ul class="logos">
+							<!-- <li class="realizacao"> -->
+							<li>
+								<img class="img-fluid logo1" src="../../media/logos/logo-icict-vertical.svg"
+									alt="Logo do ICICT" height="" />
+							</li>
 
-		<!-- Sticky Sidebar -->
-		<script type="text/javascript" src="../../assets/js/ResizeSensor.js"></script>
-		<script type="text/javascript" src="../../assets/js/sticky-sidebar.js"></script>
-		<script type="text/javascript" src="../../assets/js/sidebar.js"></script>
+							<li>
+								<img class="img-fluid logo2" src="../../media/logos/logo-campus-horizontal.png"
+									alt="Logo do Campus Virtual Fiocruz" height="" />
+							</li>
 
-		<script type="text/javascript">
-			var sidebar = new StickySidebar('.sidebar', {
-				topSpacing: 0,
-				bottomSpacing: 0,
-				containerSelector: '.main',
-				innerWrapperSelector: '.sidebar__inner',
-				minWidth: 991,
-			});
-		</script>
+							<li>
+								<img class="img-fluid logo3" src="../../media/logos/logo-fiocruz-horizontal-black.png"
+									alt="Logo da Fiocruz" height="" />
+							</li>
+						</ul>
+					</div>
 
-		<script type="text/javascript" src="../../assets/js/scripts.js"></script>
-		<script type="text/javascript" src="../../assets/js/custom-anime.js"></script>
-		<script type="text/javascript" src="../../source/animate/aos/dist/aos.js"></script>
+					<div class="col-12 col-md-auto">
+						<ul class="logos principais align-self-end">
+							<li>
+								<img class="img-fluid logo4" src="../../media/logos/logo-sus-digital-cor.png"
+									alt="Logo do SUS Digital" height="" />
+							</li>
 
-		<!-- Timeline horizontal -->
-		<script src="../../assets/js/timeline-horizontal/util.js"></script>
-		<!-- util functions included in the CodyHouse framework -->
-		<script src="../../assets/js/timeline-horizontal/swipe-content.js"></script>
-		<!-- A Vanilla JavaScript plugin to detect touch interactions -->
-		<script src="../../assets/js/timeline-horizontal/main.js"></script>
-		<!-- Start the Timeline -->
-		<script>
-			document.getElementsByTagName('html')[0].className += ' js';
-		</script>
+							<li>
+								<img class="img-fluid logo5 d-none d-md-block"
+									src="../../media/logos/ministerio-saude-gov-federal.png"
+									alt="Logos do SUS, Ministério da Saúde e Governo Federal" height="" />
+							</li>
 
-		<script>
-			AOS.init();
-		</script>
-	</body>
+							<li>
+								<img class="img-fluid logo6 d-block d-md-none"
+									src="../../media/logos/ministerio-saude-gov-federal-mobile.png"
+									alt="Logos do SUS, Ministério da Saúde e Governo Federal" height="" />
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<!--  Bootstrap JS and Popper -->
+	<script src="../../source/bootstrap-5.1.3/js/bootstrap.bundle.min.js"></script>
+
+	<!-- Sticky Sidebar -->
+	<script type="text/javascript" src="../../assets/js/ResizeSensor.js"></script>
+	<script type="text/javascript" src="../../assets/js/sticky-sidebar.js"></script>
+	<script type="text/javascript" src="../../assets/js/sidebar.js"></script>
+
+	<script type="text/javascript">
+		var sidebar = new StickySidebar('.sidebar', {
+			topSpacing: 0,
+			bottomSpacing: 0,
+			containerSelector: '.main',
+			innerWrapperSelector: '.sidebar__inner',
+			minWidth: 991,
+		});
+	</script>
+
+	<script type="text/javascript" src="../../assets/js/scripts.js"></script>
+	<script type="text/javascript" src="../../assets/js/custom-anime.js"></script>
+	<script type="text/javascript" src="../../source/animate/aos/dist/aos.js"></script>
+
+	<!-- Timeline horizontal -->
+	<script src="../../assets/js/timeline-horizontal/util.js"></script>
+	<!-- util functions included in the CodyHouse framework -->
+	<script src="../../assets/js/timeline-horizontal/swipe-content.js"></script>
+	<!-- A Vanilla JavaScript plugin to detect touch interactions -->
+	<script src="../../assets/js/timeline-horizontal/main.js"></script>
+	<!-- Start the Timeline -->
+	<script>
+		document.getElementsByTagName('html')[0].className += ' js';
+	</script>
+
+	<script>
+		AOS.init();
+	</script>
+</body>
+
 </html>

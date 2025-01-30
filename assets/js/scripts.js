@@ -136,7 +136,7 @@ const modalInfos = {
 						<p class="mb-1">Rosane Mendes</p>
 						<p class="small text-muted"><em>Coordenadora-adjunta e Coordenadora da Plataforma Educare</em></p>
 						
-						<p class="mb-1">Renata Bernardes David<</p>
+						<p class="mb-1">Renata Bernardes David</p>
 						<p class="small text-muted"><em>Coordenadora de produção</em></p>
 
 						<p class="mb-1">Juliana Dutra</p>
@@ -243,8 +243,8 @@ const modalInfos = {
 						<p class="mb-1">Lucas Zinato Carraro</p>
 						<p class="small text-muted"><em>Icict/Fiocruz</em></p>
 
-						<p class="mb-1">Laiza Daniele Nunes de Assumpção </p>
-						<p class="small text-muted"><em>FDiretoria Executiva/Fiocruz</em></p>
+						<p class="mb-1">Laiza Daniele Nunes de Assumpção</p>
+						<p class="small text-muted"><em>Diretoria Executiva/Fiocruz</em></p>
 
 						<p class="mb-1">Angela Cristina Volpini  </p>
 						<p class="small text-muted"><em>Diretoria Executiva/Fiocruz</em></p>
@@ -261,7 +261,7 @@ const modalInfos = {
 						<p class="mb-1"><strong>Módulo 4:</strong></p>
 
 						<p class="mb-1">Jonas Tadeu Cau Sertorio </p>
-						<p class="small text-muted"><em>FDiretoria Executiva/Fiocruz</em></p>
+						<p class="small text-muted"><em>Ministério da Saúde</em></p>
 					</div>
 					
 				</div>

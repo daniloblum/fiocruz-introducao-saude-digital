@@ -1,1138 +1,1794 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<!-- Required meta tags -->
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no" />
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="robots" content="noindex" />
-		<meta name="author" content="Fiocruz, Campus Virtual" />
-		<meta name="description" content="Curso Introdução à Saúde Digital" />
-		<meta name="keywords" content="Fiocruz Curso Introdução à Saúde Digital" />
 
-		<!-- Facebook Open Graph -->
-		<meta property="og:url" content="https://mooc.campusvirtual.fiocruz.br/rea/etica-integridade-pesquisa" />
-		<meta property="og:title" content="Campus Virtual Fiocruz | Curso Introdução à Saúde Digital" />
-		<meta property="og:description" content="Curso Introdução à Saúde Digital" />
-		<meta property="og:image" content="" />
-		<meta property="og:image:width" content="1080" />
-		<meta property="og:image:height" content="1080" />
-		<meta property="og:type" content="website" />
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="robots" content="noindex" />
+	<meta name="author" content="Fiocruz, Campus Virtual" />
+	<meta name="description" content="Curso Introdução à Saúde Digital" />
+	<meta name="keywords" content="Fiocruz Curso Introdução à Saúde Digital" />
 
-		<!-- Twitter Cards -->
-		<meta name="twitter:card" content="summary_large_image" />
-		<meta name="twitter:title" content="Campus Virtual Fiocruz | Curso Introdução à Saúde Digital" />
-		<meta name="twitter:url" content="" />
-		<meta name="twitter:description" content="" />
-		<meta name="twitter:image:src" content="" />
+	<!-- Facebook Open Graph -->
+	<meta property="og:url" content="https://mooc.campusvirtual.fiocruz.br/rea/etica-integridade-pesquisa" />
+	<meta property="og:title" content="Campus Virtual Fiocruz | Curso Introdução à Saúde Digital" />
+	<meta property="og:description" content="Curso Introdução à Saúde Digital" />
+	<meta property="og:image" content="" />
+	<meta property="og:image:width" content="1080" />
+	<meta property="og:image:height" content="1080" />
+	<meta property="og:type" content="website" />
 
-		<!-- Favicons and Touch Icons -->
-		<link rel="apple-touch-icon" sizes="57x57" href="../../media/icons/apple-icon-57x57.png" />
-		<link rel="apple-touch-icon" sizes="60x60" href="../../media/icons/apple-icon-60x60.png" />
-		<link rel="apple-touch-icon" sizes="72x72" href="../../media/icons/apple-icon-72x72.png" />
-		<link rel="apple-touch-icon" sizes="76x76" href="../../media/icons/apple-icon-76x76.png" />
-		<link rel="apple-touch-icon" sizes="114x114" href="../../media/icons/apple-icon-114x114.png" />
-		<link rel="apple-touch-icon" sizes="120x120" href="../../media/icons/apple-icon-120x120.png" />
-		<link rel="apple-touch-icon" sizes="144x144" href="../../media/icons/apple-icon-144x144.png" />
-		<link rel="apple-touch-icon" sizes="152x152" href="../../media/icons/apple-icon-152x152.png" />
-		<link rel="apple-touch-icon" sizes="180x180" href="../../media/icons/apple-icon-180x180.png" />
+	<!-- Twitter Cards -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Campus Virtual Fiocruz | Curso Introdução à Saúde Digital" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:description" content="" />
+	<meta name="twitter:image:src" content="" />
 
-		<link rel="icon" type="image/png" sizes="192x192" href="../../media/icons/android-icon-192x192.png" />
-		<link rel="icon" type="image/png" sizes="32x32" href="../../media/icons/favicon-32x32.png" />
-		<link rel="icon" type="image/png" sizes="96x96" href="../../media/icons/favicon-96x96.png" />
-		<link rel="icon" type="image/png" sizes="16x16" href="../../media/icons/favicon-16x16.png" />
-		<link rel="manifest" href="../media/icons/manifest.json" />
+	<!-- Favicons and Touch Icons -->
+	<link rel="apple-touch-icon" sizes="57x57" href="../../media/icons/apple-icon-57x57.png" />
+	<link rel="apple-touch-icon" sizes="60x60" href="../../media/icons/apple-icon-60x60.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="../../media/icons/apple-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="76x76" href="../../media/icons/apple-icon-76x76.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="../../media/icons/apple-icon-114x114.png" />
+	<link rel="apple-touch-icon" sizes="120x120" href="../../media/icons/apple-icon-120x120.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="../../media/icons/apple-icon-144x144.png" />
+	<link rel="apple-touch-icon" sizes="152x152" href="../../media/icons/apple-icon-152x152.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="../../media/icons/apple-icon-180x180.png" />
 
-		<meta name="msapplication-TileColor" content="#ffffff" />
-		<meta name="msapplication-TileImage" content="../../media/icons/ms-icon-144x144.png" />
-		<!-- <meta name="theme-color" content="#003066" /> -->
-		<meta name="theme-color" content="#001833" />
+	<link rel="icon" type="image/png" sizes="192x192" href="../../media/icons/android-icon-192x192.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="../../media/icons/favicon-32x32.png" />
+	<link rel="icon" type="image/png" sizes="96x96" href="../../media/icons/favicon-96x96.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="../../media/icons/favicon-16x16.png" />
+	<link rel="manifest" href="../media/icons/manifest.json" />
 
-		<title>Curso Introdução à Saúde Digital | Mod 2 | Aula 5</title>
+	<meta name="msapplication-TileColor" content="#ffffff" />
+	<meta name="msapplication-TileImage" content="../../media/icons/ms-icon-144x144.png" />
+	<!-- <meta name="theme-color" content="#003066" /> -->
+	<meta name="theme-color" content="#001833" />
 
-		<!-- Bootstrap CSS 5.1.3 -->
-		<link rel="stylesheet" href="../../source/bootstrap-5.1.3/css/bootstrap.min.css" />
+	<title>Curso Introdução à Saúde Digital | Mod 2 | Aula 5</title>
 
-		<!-- Project CSS -->
-		<link rel="stylesheet" href="../../assets/css/style.css" />
-	</head>
+	<!-- Bootstrap CSS 5.1.3 -->
+	<link rel="stylesheet" href="../../source/bootstrap-5.1.3/css/bootstrap.min.css" />
 
-	<body>
-		<header class="header">
-			<div class="mobile-toggle-open">
-				<a class="mobile-toggle__button" tabindex="0" role="button">
-					<span class="icon material-symbols-rounded">read_more</span>
-				</a>
-			</div>
-			<div class="brand">
-				<img class="img-fluid logo-black" src="../../media/logos/header-fiocruz-campus-virtual.png" alt="Campus Virtual Fiocruz" />
-			</div>
-			<div class="title">
-				<h1>Introdução à Saúde Digital</h1>
-			</div>
-			<ul class="nav nav-pills">
-				<li class="nav-item"><a href="../../index.html" class="nav-link">Início</a></li>
-				<li class="nav-item"><a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#modal-creditos">Créditos</a></li>
-			</ul>
-		</header>
-		<div class="main">
-			<div class="sidebar" role="navigation">
-				<div class="sidebar__inner" style="position: relative">
-					<div class="sidebar__group d-lg-none">
-						<div class="sidebar__group-item">
-							<div class="sidebar__header">
-								<span>Curso</span>
-								<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
-							</div>
+	<!-- Project CSS -->
+	<link rel="stylesheet" href="../../assets/css/style.css" />
+	<link rel="stylesheet" href="img-info1.css" />
+</head>
+
+<body>
+	<header class="header">
+		<div class="mobile-toggle-open">
+			<a class="mobile-toggle__button" tabindex="0" role="button">
+				<span class="icon material-symbols-rounded">read_more</span>
+			</a>
+		</div>
+		<div class="brand">
+			<img class="img-fluid logo-black" src="../../media/logos/header-fiocruz-campus-virtual.png"
+				alt="Campus Virtual Fiocruz" />
+		</div>
+		<div class="title">
+			<h1>Introdução à Saúde Digital</h1>
+		</div>
+		<ul class="nav nav-pills">
+			<li class="nav-item"><a href="../../index.html" class="nav-link">Início</a></li>
+			<li class="nav-item"><a href="#" class="nav-link" data-bs-toggle="modal"
+					data-bs-target="#modal-creditos">Créditos</a></li>
+		</ul>
+	</header>
+	<div class="main">
+		<div class="sidebar" role="navigation">
+			<div class="sidebar__inner" style="position: relative">
+				<div class="sidebar__group d-lg-none">
+					<div class="sidebar__group-item">
+						<div class="sidebar__header">
+							<span>Curso</span>
+							<a class="mobile-toggle-close" tabindex="0" role="button"><span
+									class="icon material-symbols-rounded">read_more</span></a>
 						</div>
-						<div class="sidebar__group-item">
-							<div class="sidebar__title">
-								<h1>Introdução à Saúde Digital</h1>
-							</div>
+					</div>
+					<div class="sidebar__group-item">
+						<div class="sidebar__title">
+							<h1>Introdução à Saúde Digital</h1>
 						</div>
-						<div class="sidebar__group-item">
-							<ul class="nav">
-								<li class="nav-item">
-									<a href="../../index.html" class="nav-link" tabindex="0"><span class="icon material-symbols-rounded" aria-hidden="true">home</span>Início</a>
+					</div>
+					<div class="sidebar__group-item">
+						<ul class="nav">
+							<li class="nav-item">
+								<a href="../../index.html" class="nav-link" tabindex="0"><span
+										class="icon material-symbols-rounded" aria-hidden="true">home</span>Início</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link" tabindex="0" data-bs-toggle="modal"
+									data-bs-target="#modal-creditos"><span class="icon material-symbols-rounded"
+										aria-hidden="true"> format_list_bulleted</span>Créditos</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="sidebar__group">
+					<div class="sidebar__group-item">
+						<div class="dropend">
+							<button id="dropdown-modulos" type="button" class="dropdown-toggle"
+								data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside"
+								data-bs-offset="0,30">
+								<span class="icon material-symbols-rounded" aria-hidden="true">grid_view</span>
+								<span class="label">Módulos</span>
+							</button>
+							<ul class="dropdown-menu" aria-labelledby="dropdown-modulos">
+								<li class="d-lg-none dropdown-menu__header">
+									<a class="dropdown-menu__back-button" tabindex="0" role="button"><span
+											class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
+									<a class="mobile-toggle-close" tabindex="0" role="button"><span
+											class="icon material-symbols-rounded">read_more</span></a>
 								</li>
-								<li class="nav-item">
-									<a href="#" class="nav-link" tabindex="0" data-bs-toggle="modal" data-bs-target="#modal-creditos"><span class="icon material-symbols-rounded" aria-hidden="true"> format_list_bulleted</span>Créditos</a>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../../modulo1/apresentacao.html"><strong>Módulo
+											1</strong><br />Fundamentos de Saúde Digital e Tecnologia da Informação em
+										Saúde</a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../../modulo2/apresentacao.html"><strong>Módulo 2</strong><br />Sistemas
+										de informação em saúde e gestão de dados eletrônicos</a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../../modulo3/apresentacao.html"><strong>Módulo 3</strong><br />Segurança
+										da informação e proteção de dados pessoais</a>
+								</li>
+
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../../modulo4/apresentacao.html"><strong>Módulo 4</strong><br />Inovação
+										em Saúde Digital</a>
 								</li>
 							</ul>
 						</div>
 					</div>
-
-					<div class="sidebar__group">
-						<div class="sidebar__group-item">
-							<div class="dropend">
-								<button id="dropdown-modulos" type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30">
-									<span class="icon material-symbols-rounded" aria-hidden="true">grid_view</span>
-									<span class="label">Módulos</span>
-								</button>
-								<ul class="dropdown-menu" aria-labelledby="dropdown-modulos">
-									<li class="d-lg-none dropdown-menu__header">
-										<a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
-										<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo1/apresentacao.html"><strong>Módulo 1</strong><br />Fundamentos de Saúde Digital e Tecnologia da Informação em Saúde</a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo2/apresentacao.html"><strong>Módulo 2</strong><br />Sistemas de informação em saúde e gestão de dados eletrônicos</a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo3/apresentacao.html"><strong>Módulo 3</strong><br />Segurança da informação e proteção de dados pessoais</a>
-									</li>
-
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo4/apresentacao.html"><strong>Módulo 4</strong><br />Inovação em Saúde Digital</a>
-									</li>
-								</ul>
-							</div>
-						</div>
+				</div>
+				<div class="divider">
+					<hr />
+				</div>
+				<div class="sidebar__group">
+					<div class="sidebar__group-item">
+						<span class="text module">Módulo <br class="d-none d-lg-block" /><span>2</span></span>
 					</div>
-					<div class="divider">
-						<hr />
-					</div>
-					<div class="sidebar__group">
-						<div class="sidebar__group-item">
-							<span class="text module">Módulo <br class="d-none d-lg-block" /><span>2</span></span>
-						</div>
-						<div class="sidebar__group-item">
-							<div class="dropend">
-								<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30">
-									<span class="icon material-symbols-rounded" aria-hidden="true">apps</span>
-									<span class="label">Conteúdo</span>
-								</button>
-								<ul class="dropdown-menu">
-									<li class="d-lg-none dropdown-menu__header">
-										<a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
-										<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
-									</li>
-									<li class="dropdown-menu__title">
-										<span class="label">Módulo 2</span>
-										<span class="title">Sistemas de informação em saúde e gestão de dados eletrônicos </span>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../apresentacao.html"><strong>Apresentação do módulo</strong></a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../aula1/topico1.html"><strong>Aula 1: </strong>Sistemas de Informação para o Sistema Único de Saúde (SUS)</a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../aula2/topico1.html"><strong>Aula 2: </strong>Qualidade de dados e informação</a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../aula3/topico1.html"><strong>Aula 3: </strong>Padrões em Informática em Saúde e Interoperabilidade: Aplicações no Contexto do SUS</a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../aula4/topico1.html"><strong>Aula 4: </strong>Intervenções de Saúde Digital: Soluções Digitais</a>
-									</li>
-
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../aula5/topico1.html"><strong>Aula 5: </strong>Monitoramento e Avaliação de Intervenções em Saúde digital</a>
-									</li>
-
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../encerramento.html"><strong>Encerramento do módulo</strong></a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="divider">
-						<hr />
-					</div>
-					<div class="sidebar__group">
-						<div class="sidebar__group-item">
-							<span class="text class">Aula 5</span>
-						</div>
-						<div class="sidebar__group-item">
-							<div class="dropend">
-								<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="200,30">
-									<span class="icon material-symbols-rounded" aria-hidden="true"> format_list_bulleted</span>
-									<span class="label">Tópicos</span>
-								</button>
-								<ul class="dropdown-menu">
-									<li class="d-lg-none dropdown-menu__header">
-										<a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
-										<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
-									</li>
-									<li class="dropdown-menu__title">
-										<span class="label">Aula 5</span>
-										<span class="title">Monitoramento e Avaliação de Intervenções em Saúde digital</span>
-									</li>
-									<li class="dropdown-menu__item">
-										<nav class="topic-list">
-											<a href="topico1.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico concluído" status="visited"> <span class="material-symbols-rounded"></span>Introdução</a>
-
-											<a href="topico2.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico concluído" status="visited"> <span class="material-symbols-rounded"></span>O que é Avaliação?</a>
-
-											<a href="topico3.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído"><span class="material-symbols-rounded"></span>Avaliação das fontes e qualidade dos dados</a>
-										</nav>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="divider">
-						<hr />
-					</div>
-					<div class="sidebar__group extra">
-						<div class="sidebar__group-item">
-							<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-bibliografiaMod2">
-								<span class="icon material-symbols-rounded" aria-hidden="true"> menu_book</span>
-								<span class="label">Bibliografia</span>
+					<div class="sidebar__group-item">
+						<div class="dropend">
+							<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown"
+								aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30">
+								<span class="icon material-symbols-rounded" aria-hidden="true">apps</span>
+								<span class="label">Conteúdo</span>
 							</button>
+							<ul class="dropdown-menu">
+								<li class="d-lg-none dropdown-menu__header">
+									<a class="dropdown-menu__back-button" tabindex="0" role="button"><span
+											class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
+									<a class="mobile-toggle-close" tabindex="0" role="button"><span
+											class="icon material-symbols-rounded">read_more</span></a>
+								</li>
+								<li class="dropdown-menu__title">
+									<span class="label">Módulo 2</span>
+									<span class="title">Sistemas de informação em saúde e gestão de dados eletrônicos
+									</span>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../apresentacao.html"><strong>Apresentação do módulo</strong></a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../aula1/topico1.html"><strong>Aula 1: </strong>Sistemas de Informação
+										para o Sistema Único de Saúde (SUS)</a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../aula2/topico1.html"><strong>Aula 2: </strong>Qualidade de dados e
+										informação</a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../aula3/topico1.html"><strong>Aula 3: </strong>Padrões em Informática em
+										Saúde e Interoperabilidade: Aplicações no Contexto do SUS</a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../aula4/topico1.html"><strong>Aula 4: </strong>Intervenções de Saúde
+										Digital: Soluções Digitais</a>
+								</li>
+
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../aula5/topico1.html"><strong>Aula 5: </strong>Monitoramento e Avaliação
+										de Intervenções em Saúde digital</a>
+								</li>
+
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../encerramento.html"><strong>Encerramento do módulo</strong></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="divider">
+					<hr />
+				</div>
+				<div class="sidebar__group">
+					<div class="sidebar__group-item">
+						<span class="text class">Aula 5</span>
+					</div>
+					<div class="sidebar__group-item">
+						<div class="dropend">
+							<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown"
+								aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="200,30">
+								<span class="icon material-symbols-rounded" aria-hidden="true">
+									format_list_bulleted</span>
+								<span class="label">Tópicos</span>
+							</button>
+							<ul class="dropdown-menu">
+								<li class="d-lg-none dropdown-menu__header">
+									<a class="dropdown-menu__back-button" tabindex="0" role="button"><span
+											class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
+									<a class="mobile-toggle-close" tabindex="0" role="button"><span
+											class="icon material-symbols-rounded">read_more</span></a>
+								</li>
+								<li class="dropdown-menu__title">
+									<span class="label">Aula 5</span>
+									<span class="title">Monitoramento e Avaliação de Intervenções em Saúde
+										digital</span>
+								</li>
+								<li class="dropdown-menu__item">
+									<nav class="topic-list">
+										<a href="topico1.html" tabindex="0" role="link" class="topic-list__item"
+											aria-label="Tópico concluído" status="visited"> <span
+												class="material-symbols-rounded"></span>Introdução</a>
+
+										<a href="topico2.html" tabindex="0" role="link" class="topic-list__item"
+											aria-label="Tópico concluído" status="visited"> <span
+												class="material-symbols-rounded"></span>O que é Avaliação?</a>
+
+										<a href="topico3.html" tabindex="0" role="link" class="topic-list__item"
+											aria-label="Tópico não concluído"><span
+												class="material-symbols-rounded"></span>Avaliação das fontes e qualidade
+											dos dados</a>
+									</nav>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="divider">
+					<hr />
+				</div>
+				<div class="sidebar__group extra">
+					<div class="sidebar__group-item">
+						<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-bibliografiaMod2">
+							<span class="icon material-symbols-rounded" aria-hidden="true"> menu_book</span>
+							<span class="label">Bibliografia</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="content">
+			<div id="page-title">
+				<div class="container">
+					<div class="row align-items-center hstify-content-center justify-content-xxl-start ms-lg-5">
+						<div class="col-12 col-md-10 col-lg-11">
+							<h2 class="title">
+								<span class="label">Módulo 2 | Aula 5</span>
+								<br />
+								Monitoramento e Avaliação de Intervenções em Saúde digital
+							</h2>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="content">
-				<div id="page-title">
-					<div class="container">
-						<div class="row align-items-center hstify-content-center justify-content-xxl-start ms-lg-5">
-							<div class="col-12 col-md-10 col-lg-11">
-								<h2 class="title">
-									<span class="label">Módulo 2 | Aula 5</span>
-									<br />
-									Monitoramento e Avaliação de Intervenções em Saúde digital
-								</h2>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div id="page-content" class="">
-					<!-- Inserir o conteúdo aqui -->
-					<section>
-						<div class="container">
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8 mb-5">
-									<div class="heading__block">
-										<span class="small">Tópico 2</span>
-										<h3 class="heading__title">O que é Avaliação</h3>
-									</div>
-
-									<p>Segundo a OMS (2013) a avaliação é definida como um processo sistemático e objetivo de uma intervenção em curso ou concluída com o objetivo de determinar o cumprimento dos objetivos, a eficiência, a eficácia, o impacto e a sustentabilidade. Avaliação, no contexto das tecnologias digitais, refere-se às medidas tomadas e análises realizadas para:</p>
-
-									<!-- Lista Não-Ordenada -->
-														<div class="list">
-															<ul class="list-group">
-																
-																<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"> avaliar a interação dos usuários ou de um sistema de saúde com a estratégia de intervenção digital em saúde. </li>
-
-																<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">avaliar mudanças atribuíveis à intervenção digital em saúde.   </li>
-
-																
-
-															</ul>
-														</div>
-									
-								</div>
-							</div>
-
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-4 mb-5">
-
-							<!--Comparação-->
-									<div class="card h-100 ">
-										<div class="card-header">
-											<span class="h6">Monitoramento</span>
-										</div>
-										<div class="card-body">
-											<p>O monitoramento se concentra no acompanhamento sistemático de propriedades que são intrínsecas (internas) à intervenção de saúde digital.
-											</p>
-										</div>
-									</div>
-								</div>
-
-								<div class="col-12 col-md-1 align-self-center mb-5 compare-symbol">
-									<span class="d-block text-center mx-auto">&</span>
-								</div>
-
-								<div class="col-12 col-md-4 mb-5">
-									<div class="card ">
-										<div class="card-header">
-											<span class="h6">Avaliação</span>
-										</div>
-										<div class="card-body">
-											<p>A avaliação concentra-se em propriedades que são extrínsecas (externas). </p>
-										</div>
-									</div>
-								
-							<!--Fim de comparação-->
-								</div>
-							</div>
-
-
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-									<p>Idealmente, a intenção é demonstrar atribuição – isto é, mostrar que as mudanças nestas propriedades extrínsecas ocorreram como resultado da intervenção digital.</p>
-
-									<p>Atribuir mudança à intervenção é um dos desafios mais difíceis e é abordado por uma combinação do método de investigação, da qualidade dos dados utilizados e da adequação da comparação, ou contrafactual. Os planos de avaliação para intervenções de saúde digital devem centrar-se na geração de dados que possam ser utilizados como base para avaliar se as mudanças observadas no comportamento, nos processos ou nos resultados de saúde podem ser atribuídas à intervenção. </p>
-									
-									<p>O quadro a seguir sistematiza os atributos da avaliação para intervenções em saúde digital, com as respectivas definições e perguntas guias.</p>
-								</div>
-							</div>
-
-
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-12 mb-5 pb-5">
-									<figure class="lightbox aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="600">
-										<img class="img-fluid mx-auto d-block mb-3" src="../../media/modulo2/tabela2-aula5.svg" alt="" title="Fonte: Campus Virtual Fiocruz">
-										<figcaption class="figure-caption fonte">World Health Organization, 2016 adaptado (2024).</figcaption>
-									</figure>
-									<span class="d-block text-center"><a class="fio-button fio-button-primary" href="../../media/modulo2/tabela2-aula5.pdf" download target="_blank"><span class="material-symbols-rounded">
-										download</span> Baixe esta tabela em PDF</a></span>
-								</div>
-							</div>
-
-
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-									<p>É importante destacar que os processos de monitoramento e avaliação, ainda que possuam definições próprias, na prática ocorrem de forma complementar. As estratégias de avaliação baseiam-se no monitoramento dos dados e em atividades de implementação para medir e atribuir mudanças no sistema de saúde ou na população que ocorrem como resultado da intervenção. Em geral, espera-se que intervenções adequadamente implantadas e com atividades de monitoramento institucionalizadas possam alcançar os resultados almejados (OMS, 2016).</p> 
-									
-									<p>De certo, o contrário também deve ser considerado frente a tendência de avaliar uma intervenção em saúde digital como não eficaz, ou seja, resultados baseados em contextos com monitoramentos fracos ou ainda inexistentes. Por exemplo, os processos bem instituídos de monitoramento devem assegurar diante de desfechos se a ineficácia de uma intervenção se deve diretamente à intervenção (por exemplo, se não funciona) ou ao resultado da implementação (OMS, 2016).</p>
-								</div>
-							</div>
-
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-									<h4> Como estruturar um processo de monitoramento e avaliação?</h4>
-
-									<p>O guia da OMS propõe uma abordagem em sete etapas para monitorar e avaliar intervenções em saúde digital. </p>
-
-									<!-- Lista Não-Ordenada -->
-														<div class="list">
-															<ol class="list-group list-group-numbered"> 
-																
-																
-																
-																<li class="list-group-item aos-init aos-animate" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"><strong>Passo 1: </strong>Definir o estágio de maturidade, estágio de avaliação e alegações apropriadas</li>
-																<li class="list-group-item aos-init aos-animate" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"><strong>Passo 2: </strong> Desenvolver uma estrutura subjacente ou quadro conceitual</li>
-																<li class="list-group-item aos-init aos-animate" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"><strong>Passo 3:  </strong>Identificar necessidades de evidências e objetivos de avaliação</li>
-																<li class="list-group-item aos-init aos-animate" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"><strong>Passo 4: </strong> Definir o desenho de estudo mais adequado</li>
-																<li class="list-group-item aos-init aos-animate" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"> <strong>Passo 5:  </strong>Determinar quem realizará atividades de monitoramento e avaliação</li>
-																<li class="list-group-item aos-init aos-animate" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"><strong>Passo 6:  </strong>Tempo e recursos</li>
-																<li class="list-group-item aos-init aos-animate" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"><strong>Passo 7:  </strong>Definir um plano de implementação de M&A</li>
-
-															</ul>
-														</div>
-								</div>
-							</div>
-
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-									<p>A seguir você verá uma breve explanação sobre cada etapa.</p>
-								</div>
-							</div>
-
-
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-									<h5>Passo 1: Definir o estágio de maturidade, estágio de avaliação e as alegações apropriadas</h5>
-
-									<p>O primeiro passo para orientar a abordagem apropriada de monitoramento e avaliação para uma intervenção em saúde digital consiste em classificar adequadamente (a) onde a tecnologia se encontra em termos de estágio de maturidade, (b) qual estágio de avaliação corresponde à intervenção e (c) quais as alegações são necessárias ou possíveis.  </p>
-
-									<!-- Accordion -->
-												<div class="accordion accordion-flush" id="accordionExampleA">
-													<div class="accordion-item">
-														<h5 class="accordion-header" id="heading1-item1">
-															<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item1" aria-expanded="true" aria-controls="collapse1-item1">Estágios de maturidade</button>
-														</h5>
-														<div id="collapse1-item1" class="accordion-collapse collapse" aria-labelledby="heading1-item1" data-bs-parent="">
-															<div class="accordion-body">
-																
-																<p>Os estágios de maturidade contemplam desde o <u>pré-protótipo</u>, passando pelo <u>protótipo</u>, <u>piloto</u>, <u>demonstração</u>, <u>expansão e implementações integradas</u> e sustentadas. A intervenção está sendo desenvolvida e avaliada pela primeira vez ou está madura e em fase de expansão?</p>
-															</div>
-														</div>
-													</div>
-
-													<div class="accordion-item">
-														<h5 class="accordion-header" id="heading1-item2">
-															<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item2" aria-expanded="false" aria-controls="collapse1-item2">Fase de avaliação</button>
-														</h5>
-														<div id="collapse1-item2" class="accordion-collapse collapse" aria-labelledby="heading1-item2" data-bs-parent="">
-															<div class="accordion-body">
-																<p>A fase de avaliação está diretamente relacionada ao estágio de maturidade e abrange os atributos de <u>viabilidade</u>, <u>usabilidade</u>, <u>eficácia</u>, <u>efetividade</u> ou <u>avaliação de implementação</u>. A intervenção será avaliada para determinar se o sistema funciona, é eficaz ou pode ser ampliado?</p>
-															</div>
-														</div>
-													</div>
-
-													<div class="accordion-item">
-														<h5 class="accordion-header" id="heading1-item3">
-															<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item3" aria-expanded="false" aria-controls="collapse1-item3">Alegações</button>
-														</h5>
-														<div id="collapse1-item3" class="accordion-collapse collapse" aria-labelledby="heading1-item3" data-bs-parent="">
-															<div class="accordion-body">
-																<p>As alegações são definidas como uma declaração de benefícios previstos da intervenção em saúde digital. Esse aspecto orienta a necessidade de identificar se a intervenção será avaliada <u>com a intenção de melhorar a prestação de uma intervenção com eficácia conhecida</u>, (como uma vacina ou medicamento)? Ou <u>a própria intervenção em saúde digital é nova e a sua capacidade de melhorar os resultados de saúde ainda é desconhecida</u>?</p>
-															</div>
-														</div>
-													</div>
-												</div>
-												<!-- Fim do Accordion -->
-
-												<p>Podem existir cenários em que o objetivo da avaliação seja responder a ambas as questões. Nesse caso, a equipe deverá decidir que questão é prioritária. O esquema abaixo relaciona os estágios de maturidade (a) com os estágios de avaliação (b), bem como as alegações correspondentes ou os objetivos mais amplos para cada estágio (c).</p>
-
-												<p class="h6">Sistematização dos estágios de maturidade com métodos de avaliação e alegação</p>
-
-											</div>
-
-												
-
-									<div class="col-12 col-md-12 mb-5 pb-5">
-									<figure class="lightbox aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="600">
-										<img class="img-fluid mx-auto d-block mb-3" src="../../media/modulo2/tabela3-aula5.svg" alt="" title="Fonte: Campus Virtual Fiocruz">
-										<figcaption class="figure-caption fonte">Fonte: World Health Organization, 2016.</figcaption>
-									</figure>
-									<span class="d-block text-center"><a class="fio-button fio-button-primary" href="../../media/modulo2/tabela3-aula5.pdf" download target="_blank"><span class="material-symbols-rounded">
-										download</span> Baixe esta tabela em PDF</a></span>
-								</div>
-
-								<div class="col-12 col-md-10 col-lg-8">
-
-									<p>A abordagem das alegações também pode ser usada para aprofundar os objetivos do processo de monitoramento e avaliação. Dentre as vantagens do uso dessa abordagem tem-se a otimização dos esforços de monitoramento e avaliação em relação às expectativas das partes interessadas, resultando em achados com maior valor agregado e possibilidade de uso; auxiliar os gestores de projetos na identificação dos principais processos e resultados que precisam de ser monitorados ou avaliados, concentrando custos e esforços nas evidências mais críticas; e orientar a escolha dos indicadores para medir os principais processos e resultados. </p>
-
-									<p>A abordagem das alegações pode ser sistematizada em cinco etapas principais: mapear as partes interessadas; esclarecer as expectativas; articular as afirmações; medir as afirmações e revisar as afirmações considerando as evidências disponíveis.</p>
-
-									<!-- Accordion -->
-												<div class="accordion accordion-flush" id="accordionExampleB">
-													<div class="accordion-item">
-														<h5 class="accordion-header" id="heading1-item1">
-															<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item1" aria-expanded="true" aria-controls="collapse1-item1">Mapear as partes interessadas</button>
-														</h5>
-														<div id="collapse1-item1" class="accordion-collapse collapse" aria-labelledby="heading1-item1" data-bs-parent="">
-															<div class="accordion-body">
-																
-																<p>As partes interessadas são definidas como entidades (indivíduos ou organizações) que têm interesses no sistema ou na intervenção em saúde digital como gestores, financiadores, desenvolvedores, implementadores da intervenção, técnicos, utilizadores, sociedade civil, entre outros, a exemplo de membros das comunidades científicas ou de saúde digital. Considerando que cada parte pode contribuir com recursos ou usos diferentes em um dado contexto, o mesmo pode acontecer com as expectativas quanto à intervenção e sua avaliação. Diante disso, é fundamental no processo avaliativo formalizar o mapeamento das partes interessadas para identificar e priorizar as mais relevantes.</p>
-															</div>
-														</div>
-													</div>
-
-													<div class="accordion-item">
-														<h5 class="accordion-header" id="heading1-item2">
-															<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item2" aria-expanded="false" aria-controls="collapse1-item2">Esclarecer expectativas </button>
-														</h5>
-														<div id="collapse1-item2" class="accordion-collapse collapse" aria-labelledby="heading1-item2" data-bs-parent="">
-															<div class="accordion-body">
-																<p>Consiste em mapear e alinhar antecipadamente as expectativas das partes interessadas, destacando as alegações relevantes e que possibilitam o foco dos processos e a otimização dos recursos. Para tanto, pode-se fazer uso de técnicas como revisão de documentos estratégicos para conhecer os interesses e prioridades das partes envolvidas, discussões em grupos focais ou entrevistas aprofundadas com informantes-chave. As perguntas a seguir podem auxiliar no processo de esclarecimento das expectativas das partes interessadas: 
--Quais são as três principais prioridades da sua organização?
--Quais são as suas principais expectativas em relação a este projeto?
--De que forma este projeto pode agregar valor à missão da sua organização? 
--Qual é o principal resultado que você espera que esta intervenção digital em saúde alcance?</p>
-															</div>
-														</div>
-													</div>
-
-
-													<div class="accordion-item">
-														<h5 class="accordion-header" id="heading1-item3">
-															<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item2" aria-expanded="false" aria-controls="collapse1-item2">Articular as alegações</button>
-														</h5>
-														<div id="collapse1-item3" class="accordion-collapse collapse" aria-labelledby="heading1-item2" data-bs-parent="">
-															<div class="accordion-body">
-																<p>As expectativas delineadas pelas partes interessadas podem então ser articuladas na forma de alegações. Esse processo pode ser trabalhado classificando as três expectativas mais importantes para cada parte interessada. As mesmas devem ser trabalhadas como alegações, redigidas de forma objetiva, podem especificar processos, resultados ou impacto na saúde e ser mensuráveis, ou seja, podem ser elaboradas na forma de objetivos ou indicadores.</p>
-															</div>
-														</div>
-													</div>
-
-
-													<div class="accordion-item">
-														<h5 class="accordion-header" id="heading1-item4">
-															<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item2" aria-expanded="false" aria-controls="collapse1-item2">Medir alegações: </button>
-														</h5>
-														<div id="collapse1-item4" class="accordion-collapse collapse" aria-labelledby="heading1-item2" data-bs-parent="">
-															<div class="accordion-body">
-																<p>As alegações podem ser medidas ou fundamentadas durante as atividades de monitoramento e avaliação e também por meio da documentação de processos, treinamento, desenvolvimento de conteúdo, captação de recursos ou criação de tecnologias/ produtos.</p>
-															</div>
-														</div>
-													</div>
-
-													<div class="accordion-item">
-														<h5 class="accordion-header" id="heading1-item5">
-															<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item3" aria-expanded="false" aria-controls="collapse1-item3">Revisar as alegações considerando as evidências: </button>
-														</h5>
-														<div id="collapse1-item5" class="accordion-collapse collapse" aria-labelledby="heading1-item3" data-bs-parent="">
-															<div class="accordion-body">
-																<p>Uma vez medidas as alegações, é importante revisá-las para que correspondam às evidências. </p>
-															</div>
-														</div>
-													</div>
-												</div>
-												<!-- Fim do Accordion -->
-								</div>
-							</div>
-
-
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-									<h5 class="mb-3">Passo 2: Desenvolver uma estrutura subjacente ou quadro conceitual</h5>
-
-									<p>O segundo passo para estruturação do processo de monitoramento e avaliação recomenda que seja elaborada uma “estrutura conceitual” sobre a intervenção em saúde digital com o objetivo de:</p>
-
-
-									<!-- Lista Ordenada -->
-														<div class="list">
-															<ol class="list-group list-group-numbered" type="a"> 
-																
-																<li class="list-group-item aos-init aos-animate" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">definir e compreender os objetivos da intervenção;</li>
-
-																<li class="list-group-item aos-init aos-animate" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">conceituar a relação entre esses diferentes objetivos;</li>
-
-
-																<li class="list-group-item aos-init aos-animate" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">definir as atividades de apoio do projeto necessárias para atingir suas metas e objetivos; e</li>
-
-																<li class="list-group-item aos-init aos-animate" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">descrever os resultados esperados. </li>
-																
-															</ol>
-														</div>
-													
-							
-										
-
-									<p>Para além dos aspectos estruturais e operacionais, toda intervenção possui uma teoria subjacente, que orienta como a mesma deve operar, elaborada a partir de saberes científicos e práticos dos grupos implicados. Essa estratégia tem sido utilizada amplamente com o propósito de identificar e compreender fatores que podem interferir nos efeitos esperados das intervenções. As estruturas mais utilizadas são: quadro conceitual; quadros de resultados; teoria da mudança; e quadros lógicos.</p>
-
-
-													<div class="card mb-5">
-
-															<div class="card-header">
-																<span class="">Quadro conceitual </span>
-															</div>
-
-															<div class="card-body">
-																<p>(também conhecido como quadro teórico ou causal): consiste em um diagrama que identifica e ilustra as relações entre os fatores (sistêmicos, organizacionais, individuais ou outros) que podem influenciar a operação de uma intervenção e o alcance bem-sucedido dos objetivos da intervenção. Essa estrutura destaca as ligações causais entre um conjunto de conceitos relacionados a um determinado problema de saúde pública, sendo os “conceitos” representados por caixas e incluem todos os fatores relevantes que podem influenciar o funcionamento da intervenção e o alcance dos objetivos. Os processos são delineados por setas, que pretendem implicar causalidade.</p>
-															</div>
-														</div>
-
-
-														<div class="card mb-5">
-
-															<div class="card-header">
-																<span class="">Quadro de resultados:</span>
-															</div>
-
-															<div class="card-body">
-																<p>consiste em uma “representação gráfica de uma estratégia para atingir um objetivo específico que se baseia na lógica de causa e efeito” (24). O principal objetivo deste tipo de quadro é clarificar as relações causais que ligam a obtenção incremental de resultados ao impacto da intervenção.</p>
-															</div>
-														</div>
-
-
-														<div class="card mb-5">
-
-															<div class="card-header">
-																<span class="">Teoria da mudança:</span>
-															</div>
-
-															<div class="card-body">
-																<p>é um modelo causal que liga resultados e atividades para explicar como e por que se prevê que a mudança desejada ocorra. Os quadros conceptuais baseados na teoria da mudança são semelhantes aos modelos lógicos, mas visam proporcionar uma maior compreensão da complexa relação entre as atividades do programa e os resultados esperados.</p>
-															</div>
-														</div>
-
-
-
-														<div class="card mb-5">
-
-															<div class="card-header">
-																<span class="">Quadro lógico/modelo lógico:</span>
-															</div>
-
-															<div class="card-body">
-																<p>é uma ferramenta de gestão e medição que resume o que um projeto pretende fazer e como, quais são os principais pressupostos e como os produtos e resultados serão monitorizados e avaliados. O objetivo de um modelo lógico é esclarecer os objetivos do programa e ajudar na identificação das ligações causais esperadas entre insumos, processos, produtos, resultados e impactos.</p>
-															</div>
-														</div>
-
-
-
-
-
-									<p>É criada uma estrutura lógica para fornecer uma representação gráfica que pode servir como catalisador para o envolvimento e a comunicação com as principais partes interessadas, incluindo os implementadores, num processo iterativo, muitas vezes na sequência de mudanças na concepção ou implementação do programa. Cabe lembrar que o Modelo lógico pode ser desenhado para toda a intervenção ou um de seus componentes.</p>
-
-									<p>Os quadros lógicos ligam os <a class="" tabindex="0" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="" data-bs-html='true' data-bs-content="<p>Os insumos são recursos financeiros, humanos, materiais e intelectuais utilizados para desenvolver e implementar uma intervenção.</p>" data-bs-original-title="Insumos">insumos</a> (recursos do programa) aos <a class="" tabindex="0" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="" data-bs-html='true' data-bs-content="<p>Os processos são as atividades realizadas na execução de uma intervenção.</p>" data-bs-original-title="Processos">processos</a> (atividades realizadas), aos <a class="" tabindex="0" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="" data-bs-html='true' data-bs-content="<p>COs resultados (outputs) são definidos como os produtos/resultados diretos das atividades processuais de uma intervenção. Do ponto de vista da saúde digital, os resultados podem incluir melhorias no desempenho e na adoção pelos utilizadores.</p>" data-bs-original-title="Produtos">produtos</a> (resultados diretos dos processos), aos <a class="" tabindex="0" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="" data-bs-html='true' data-bs-content="<p>Os resultados (outcomes) referem-se às mudanças intermediárias que surgem como resultado de insumos e processos. No âmbito da saúde digital, os resultados podem ser avaliados em três níveis: sistemas de saúde, prestador e cliente.</p>" data-bs-original-title="Resultados">resultados</a> (mudanças intermédias) e aos <a class="" tabindex="0" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="" data-bs-html='true' data-bs-content="<p>Impacto é definido como os efeitos de médio a longo prazo produzidos por uma intervenção. Podem ser positivos e negativos, intencionais e não intencionais.</p>" data-bs-original-title="Impacto">impactos</a>. </p>
-
-									<p>A decisão sobre qual tipo de estrutura é mais relevante ou adequada dependerá das necessidades das principais partes interessadas e do contexto e complexidade do projeto. Ademais, é importante compreender que a adoção de um quadro não é apenas uma técnica para representar uma intervenção, mas sim uma estratégia que encoraja a interação de representações teóricas, de valores e percepções sobre o contexto e promove debates e acordos decisórios importantes sobre a intervenção. </p>
-
-									<p>Diante disso, o uso de uma estrutura conceitual fortalecerá a concepção, a implementação e o monitoramento e avaliação da intervenção em saúde digital, devendo ser desenvolvida através de um processo consultivo e revisto ao longo da vida de sua implementação. </p>
-								</div>
-							</div>
-
-
-
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-									<h5 class="mb-3">Passo 3: Identificar necessidades de evidências e objetivos de avaliação</h5>
-
-									<p>Os objetivos são uma declaração de resultados específicos, mensuráveis, atingíveis, relevantes e com prazo determinado (SMART). E devem ser definidos através de um processo colaborativo com as principais partes interessadas, analisando primeiro os objetivos mais amplos do projeto e os resultados previstos. Os resultados devem ser mensuráveis através de indicadores e devem ser definidos para facilitar a geração de evidências necessárias como base para a tomada de decisões importantes. Finalmente, os objetivos devem estar ligados ao calendário e à fase da avaliação.</p>
-
-									<!-- Olho de texto -->
-									<div class="olho-de-texto my-5">
-										<p>A OMS define um indicador como “um fator ou variável quantitativa ou qualitativa que proporciona um meio simples e viável para medir os resultados, para refletir as mudanças relacionadas com uma intervenção ou para ajudar a avaliar o desempenho de um fator de desenvolvimento”<em>(OMS, 2013)</em>. </p>
-									</div>
-									<!--Fim de Olho de texto -->
-
-									<p>Os indicadores podem ser qualitativos (por exemplo, disponibilidade de uma declaração de missão organizacional clara) ou quantitativos (ou seja, expressos em números ou percentagens). Os critérios SMART abaixo fornecem algumas orientações para a construção de indicadores. </p>
-
-									<!-- Imagem full 
-										<div class="img-full mb-5">
-											<div class="container-fluid px-0">
-												<div class="row p-0 m-0">
-													<div class="col-12 p-0">
-														<img class="img-fluid d-none d-sm-block" src="../../media/modulo2/aula5-info1.svg" alt="" title="Fonte: Nome do autor / Nome do banco de imagens">
-														<img class="img-fluid d-block d-sm-none" src="../../media/modulo2/aula5-info1.svg" alt="" title="Fonte: Nome do autor / Nome do banco de imagens">
-													</div>
-												</div>
-											</div>
-										</div>
-									Fim da imagem full -->
-
-
-
-									<!-- Accordion com imagens-->
-												<div class="row justify-content-center">
-													<div class="col-12">
-														<p class="text-muted text-center mb-5"><span class="material-symbols-rounded" style="transform: rotateX(180deg)">pan_tool_alt</span> <span class="d-none d-lg-inline-block">Clique</span> <span class="d-inline-block d-lg-none">Toque</span> nas imagens para visualizar as informações.</p>
-													</div>
-
-													<div class="col-10 col-md-5 col-lg-4 mb-5">
-														<div class="image-dropdown">
-															<a class="image-button" data-bs-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapse1">
-																<div class="image-button-thumb">
-																	<img class="img-fluid" src="../../media/modulo2/aula5-info1-a.png" alt="">
-																	<span class="pic-behind pic--1"></span>
-																	<span class="pic-behind pic--2"></span>
-																</div>
-																<span class="image-button-label">S = Specific (Específico)</span>
-															</a>
-															<div class="image-content collapse" id="collapse1">
-																<div class="">
-																	<p>É um tipo de estudo observacional no qual grupos de pessoas são seguidos para avaliar a ocorrência, no tempo, de algum agravo à saúde.</p>
-																</div>
-															</div>
-														</div>
-													</div>
-
-													<div class="col-10 col-md-5 col-lg-4 mb-5">
-														<div class="image-dropdown">
-															<a class="image-button" data-bs-toggle="collapse" href="#collapse2" role="button" aria-expanded="false" aria-controls="collapse2">
-																<div class="image-button-thumb">
-																	<img class="img-fluid" src="../../media/modulo2/aula5-info1-b.png" alt="">
-																	<span class="pic-behind pic--1"></span>
-																	<span class="pic-behind pic--2"></span>
-																</div>
-																<span class="image-button-label">M = Measurable (Mensurável)</span>
-															</a>
-															<div class="image-content collapse" id="collapse2">
-																<div class="">
-																	<p>O indicador deve ser quantificável. Evite a utilização de termos subjetivos como “boa qualidade” ou “acessível” na definição do indicador, uma vez que estes podem ser interpretados de forma diferente entre regiões, profissões e indivíduos.</p>
-																</div>
-															</div>
-														</div>
-													</div>
-
-													<div class="col-10 col-md-5 col-lg-4 mb-5">
-														<div class="image-dropdown">
-															<a class="image-button" data-bs-toggle="collapse" href="#collapse3" role="button" aria-expanded="false" aria-controls="collapse2">
-																<div class="image-button-thumb">
-																	<img class="img-fluid" src="../../media/modulo2/aula5-info1-c.png" alt="">
-																	<span class="pic-behind pic--1"></span>
-																	<span class="pic-behind pic--2"></span>
-																</div>
-																<span class="image-button-label">A = Atingível (Attainable)</span>
-															</a>
-															<div class="image-content collapse" id="collapse3">
-																<div class="">
-																	<p>O indicador deve ser atingível com o orçamento, tempo e recursos humanos disponíveis.</p>
-																</div>
-															</div>
-														</div>
-													</div>
-
-
-													<div class="col-10 col-md-5 col-lg-4 mb-5">
-														<div class="image-dropdown">
-															<a class="image-button" data-bs-toggle="collapse" href="#collapse4" role="button" aria-expanded="false" aria-controls="collapse2">
-																<div class="image-button-thumb">
-																	<img class="img-fluid" src="../../media/modulo2/aula5-info1-d.png" alt="">
-																	<span class="pic-behind pic--1"></span>
-																	<span class="pic-behind pic--2"></span>
-																</div>
-																<span class="image-button-label">R = Relevant (Relevante)</span>
-															</a>
-															<div class="image-content collapse" id="collapse4">
-																<div class="">
-																	<p>O indicador deve ser relevante para o contexto e específico para as necessidades do programa ou intervenção que está sendo avaliada.</p>
-																</div>
-															</div>
-														</div>
-													</div>
-
-													<div class="col-10 col-md-5 col-lg-4 mb-5">
-														<div class="image-dropdown">
-															<a class="image-button" data-bs-toggle="collapse" href="#collapse5" role="button" aria-expanded="false" aria-controls="collapse3">
-																<div class="image-button-thumb">
-																	<img class="img-fluid" src="../../media/modulo2/aula5-info1-e.png" alt="">
-																	<span class="pic-behind pic--1"></span>
-																	<span class="pic-behind pic--2"></span>
-																</div>
-																<span class="image-button-label">T = Time-bound (Prazo)</span>
-															</a>
-															<div class="image-content collapse" id="collapse5">
-																<div class="">
-																	<p>O indicador deve ser específico no tempo, com base no calendário do programa de saúde.</p>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-												<!--Fim de Accordion com imagens-->
-
-
-
-									<p>A abordagem para seleção dos indicadores para estruturação do processo de monitoramento e avaliação em saúde digital deve considerar:</p>
-
-														<div class="list">
-															<ul class="list-group">
-																<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" >os objetivos e prioridades da intervenção em saúde digital </li>
-																<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" >as considerações práticas em termos de contexto e disponibilidade de recursos </li>
-																<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" >as alegações mapeadas/elaboradas.  </li>
-
-															</ul>
-														</div>
-
-
-									<p>Ao contrário da maioria das intervenções em saúde que focam nos resultados, na maioria das vezes, uma intervenção digital de saúde serve como complemento ou catalisador de uma intervenção existente que é conhecida por ser eficaz. Nesses casos, onde não é viável medir o impacto, podem ser utilizados indicadores substitutos e indicadores de processo para avaliar a efetividade dessas intervenções. A figura a seguir apresenta uma visão geral sobre a classificação dos indicadores em saúde digital</p>
-
-
-									<p class="h6">Classificação dos indicadores de intervenções em saúde digital.</p>
-
-
-									<!-- Imagem full -->
-										<div class="img-full mb-5">
-											<div class="container-fluid px-0">
-												<div class="row p-0 m-0">
-													<div class="col-12 p-0">
-														<img class="img-fluid d-none d-sm-block" src="../../media/modulo2/aula5-info2.svg" alt="" title="Fonte: Nome do autor / Nome do banco de imagens">
-														<img class="img-fluid d-block d-sm-none" src="../../media/modulo2/aula5-info2.svg" alt="" title="Fonte: Nome do autor / Nome do banco de imagens">
-													</div>
-												</div>
-											</div>
-										</div>
-									<!-- Fim da imagem full -->
-
-									<p>Os processos de análise e medição das intervenções, seja no âmbito do monitoramento ou da avaliação, se utilizam de <a class="" tabindex="0" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="" data-bs-html='true' data-bs-content="<p>Atributo, aspecto ou componente da estrutura, do processo ou resultado utilizado para mensurar o programa ou algum de seus componentes (DONABEDIAN, 2003)</p>" data-bs-original-title="Critérios">critérios</a> e <a class="" tabindex="0" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="" data-bs-html='true' data-bs-content="<p>Fator quantitativo ou qualitativo, empiricamente conectado ao critério, que estabelece um meio simples e confiável de medir a ocorrência de um fenômeno (PATTON MQ, 1990)</p>" data-bs-original-title="Indicadores">indicadores</a> em comparação com <a class="" tabindex="0" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="" data-bs-html='true' data-bs-content="<p>Valor de referência para mensuração de um fenômeno ou objeto, considerado como ideal.</p>" data-bs-original-title="Parâmetros ou padrões">parâmetros ou padrões</a>. Esses quesitos são fundamentais e devem ser definidos com a participação das partes interessadas e/ou elaborados a partir do conhecimento técnico/científico ou ainda por consenso entre especialistas.</p>
-
-
-
-									<p>A matriz de monitoramento inclui critérios e indicadores essenciais relacionados à intervenção, sendo utilizada para o seu acompanhamento sistemático, considerando o planejamento bem como a estrutura conceitual, mas diferenciando-se dessa última, por contemplar apenas os quesitos relevantes para a tomada de decisão. Abrange as dimensões de estrutura, processo e resultado, podendo ou não incluir uma dimensão de custos. As fontes de dados são os registros sistemáticos sobre a intervenção e as informações coletadas são comparadas com o desempenho anterior ou as metas planejadas. </p>
-
-									<p>Já a matriz de julgamento, similar à de monitoramento por incluir critérios, indicadores e padrões, diferencia-se por incluir o mérito. Assim, para cada critério/indicador e padrão, a matriz de julgamento apresenta: pontuação máxima esperada atribuída ao critério/indicador; descrição do valor ou ponto de corte (intervalo aceitável para cada variável estudada; valor observado; valor atribuído e julgamento segundo o valor atribuído).</p>
-
-								</div>
-							</div>
-
-
-
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-									<h5 class="mb-3">Passo 4: Definir o desenho de estudo mais adequado</h5>
-
-									<p>O quarto passo consiste em definir o desenho de estudo mais apropriado para avaliação da intervenção. Como toda avaliação implica um julgamento, cujo desfecho baseia-se numa comparação entre aquilo que se deseja avaliar e uma situação ideal ou equivalente, o desenho da avaliação refere-se à forma através da qual essa comparação será feita. As considerações sobre o desenho do estudo devem ser determinadas pela fase de avaliação em que se enquadra uma determinada intervenção de saúde digital e devem ter em conta as hierarquias de evidências.</p>
-
-									<p>Embora existam diferentes tipos de avaliações, elas podem ser amplamente classificadas em duas categorias: </p>
-
-									<!-- Accordion -->
-												<div class="accordion accordion-flush mb-5" id="accordionExampleC">
-													<div class="accordion-item">
-														<h5 class="accordion-header" id="heading1-item1">
-															<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item1" aria-expanded="true" aria-controls="collapse1-item1">Formativas</button>
-														</h5>
-														<div id="collapse1-item1" class="accordion-collapse collapse" aria-labelledby="heading1-item1" data-bs-parent="">
-															<div class="accordion-body">
-																
-																<p>As avaliações formativas têm por finalidade produzir informações que podem ser utilizadas rapidamente pelos envolvidos na intervenção ainda durante a sua execução e permitem identificar precocemente possíveis problemas e assegurar-se do seu desenvolvimento conforme o planejado. </p>
-																<p>O tipo mais comum de avaliação formativa é a de processo, sendo realizada num momento específico ou em intervalos regulares durante a implementação para medir os resultados atribuídos à conjugação dos insumos e atividades da intervenção. E a avaliação de implementação, ao avaliar a fidelidade da intervenção.</p>
-
-																
-															</div>
-														</div>
-													</div>
-
-													<div class="accordion-item">
-														<h5 class="accordion-header" id="heading1-item2">
-															<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item2" aria-expanded="false" aria-controls="collapse1-item2">Somativas</button>
-														</h5>
-														<div id="collapse1-item2" class="accordion-collapse collapse" aria-labelledby="heading1-item2" data-bs-parent="">
-															<div class="accordion-body">
-																<p>As avaliações somativas são realizadas ao fim de uma intervenção ou de uma de suas fases para determinar até que ponto os resultados previstos foram produzidos, a exemplo das avaliações de resultado e impacto, entre outras. </p>
-															</div>
-														</div>
-													</div>
-
-													
-												</div>
-												<!-- Fim do Accordion -->
-
-									<p>Os estudos adotados pelas pesquisas avaliativas no campo da avaliação em saúde são em sua maioria oriundos de estudos epidemiológicos e têm em comum, a incorporação da estatística e do método experimental das ciências sociais. Considerando os desenhos de estudos sistematizados pela OMS (2016), essa realidade não é muito diferente no âmbito da saúde digital. </p>
-
-								</div>
-
-								<div class="col-12 col-md-12 mb-5 pb-5">
-									<figure class="lightbox aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="600">
-										<img class="img-fluid mx-auto d-block mb-3" src="../../media/modulo2/tabela4-aula5.svg" alt="" title="Fonte: Campus Virtual Fiocruz">
-										<figcaption class="figure-caption fonte">Fonte: adaptado de Last, 1988 (13) e Gordis, 2014 (14) apud WHO, 2016.</figcaption>
-									</figure>
-									<span class="d-block text-center"><a class="fio-button fio-button-primary" href="../../media/modulo2/tabela4-aula5.pdf" download target="_blank"><span class="material-symbols-rounded">
-										download</span> Baixe esta tabela completa em PDF</a></span>
-								</div>
-
-
-								<div class="col-12 col-md-10 col-lg-8">
-
-
-
-									<p>Os estudos descritivos “preocupam-se e são concebidos apenas para descrever a distribuição existente de variáveis, sem levar em conta hipóteses causais ou outras”. Os estudos descritivos visam definir “quem, o quê, quando e onde” os fenômenos são observados. Existem dois tipos principais de estudos descritivos: aqueles que envolvem indivíduos (relatos de séries de casos, estudos transversais e vigilância); e os relativos às populações (estudos ecológicos correlacionais) (Grimes; Schulz, 2002). Ambos os tipos de estudos descritivos podem incluir pesquisas qualitativas (OMS,2016).</p>
-
-									<p>Os estudos analíticos visam quantificar a relação entre a intervenção e o(s) resultado(s) de interesse, geralmente com o objetivo específico de demonstrar uma ligação causal entre os dois. Esses estudos são elaborados para testar hipóteses que geralmente foram geradas a partir de estudos descritivos. Existem duas categorias principais de estudos analíticos: (a) experimentais e (b) observacionais (<a href="" target="_blank">consultar quadro Tipos de desenhos de estudo</a> ).</p>
-
-									
-
-								</div>
-							</div>
-
-
-
-									<!--Comparação-->
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-4 mb-5">
-									<div class="card h-100 ">
-										<div class="card-header">
-											<span class="h6">Estudos experimentais</span>
-										</div>
-										<div class="card-body">
-											<p>Os estudos experimentais visam avaliar os efeitos de um tratamento ou intervenção que foi introduzido intencionalmente sobre um resultado ou resultados de interesse. Exemplos de estudos experimentais incluem ensaios clínicos randomizados (ECR) e estudos quase experimentais.
-											</p>
-										</div>
-									</div>
-								</div>
-
-								<div class="col-12 col-md-1 align-self-center mb-5 compare-symbol">
-									<span class="d-block text-center mx-auto">&</span>
-								</div>
-
-								<div class="col-12 col-md-4 mb-5">
-									<div class="card ">
-										<div class="card-header">
-											<span class="h6">Estudos observacionais</span>
-										</div>
-										<div class="card-body">
-											<p>Os estudos observacionais são estudos não experimentais nos quais “o investigador não intervém, mas simplesmente 'observa' e avalia a força da relação entre uma exposição e uma variável da doença” (SONG; CHUNG, 2010). Os estudos observacionais incluem estudos de coorte, caso-controle e transversais. </p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!--Fim de comparação-->
-
-
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-
-							<p>Considerando o potencial dos desenhos de estudo para eliminar vieses, ou seja, erros que podem levar a resultados ou conclusões equivocadas, podemos classificá-los como: i) excelente: ECRs multicêntricos, ii) bom: ECRs, iii) razoável:  ensaios não randomizados, estudos de coorte, estudos de caso-controle e transversais, e iv) fraco: estudos de caso e relatos de caso.</p>
-
-							<p>Um foco principal nos estudos de avaliação é a determinação de associações válidas entre uma exposição (ou seja, uma intervenção ou tratamento) e um resultado de saúde. Embora não exista um modelo único e melhor para avaliar uma intervenção de saúde digital, a abordagem dos requisitos relativos às necessidades de provas envolverá a consideração do grau de certeza necessário. Para intervenções de saúde digital que tenham uma forte base de evidências subjacentes que tenha estabelecido a eficácia da intervenção em termos de resultados positivos para a saúde (por exemplo, imunização contra o sarampo), pode não ser necessário um ECR para determinar a eficácia da imunização. </p>
-
-							<p>No contexto de muitos programas, a intervenção de interesse pode ser responsável por apenas uma parte da variabilidade observada nos resultados, enquanto os fatores socioeconômicos, a escolha da estratégia de execução, os fatores geográficos e outros fatores contextuais podem ter uma influência substancial. A escolha do desenho do estudo e dos métodos de investigação que o acompanham deve ser definida com base nos objetivos globais da investigação e deve considerar até que ponto os decisores devem estar confiantes de que os efeitos observados podem ser atribuídos à intervenção.</p>
-
-							<!-- Box Cor -->
-									<div class="box-cor aos-init aos-animate mb-5 mt-5" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="600">
-										<div class="box-cor__base">
-											
-											<div class="base-body">
-												
-												<h6>Estudos descritivos:</h6>
-
-												<p> podem ser desenvolvidos como estudos exploratórios, que se baseiam em metodologias de recolha de dados semelhantes, mas que visam gerar hipóteses (36). </p>
-
-												<h6>Estudos analíticos:</h6>
-												 <p> visam quantificar a relação entre a intervenção e o resultado de interesse e incluem estudos experimentais e observacionais. Exploram inferências sobre a intervenção:</p>
-
- 													<!-- Lista Não-Ordenada -->
-														<div class="list">
-															<ul class="list-group">
-																<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" > adequação (as atividades de intervenção atingiram os objetivos esperados?)</li>
-																<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" >plausibilidade (a intervenção teve um efeito acima e além de outras influências externas?) </li>
-																<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" >probabilidade (A intervenção teve efeito (P < x%)?)</li>
-
-															</ul>
-														</div>
-
-											</div>
-											
-										</div>
-									</div>
-
-							<p class="h6">Métodos de avaliação</p>
-
-							<p>Considerando a diversidade metodológica, bem como a necessidade de combinação de métodos e abordagens nos estudos avaliativos, Hartz (1999) destaca o risco da mera justaposição de métodos, abordagens e instrumentos, ressaltando que a escolha dos mesmos deve ser orientada pela integração coerente com as alegações e objetivos dos estudos avaliativos. Nessa parte serão apresentadas:</p>
-
-							</div>
-						</div>
-
-							<div class="row justify-content-center">
-													<div class="col-12 col-md-10 col-lg-8 mb-5">
-														<div class="card">
-
-															<div class="card-header">
-																<span class="">Abordagens qualitativas</span>
-															</div>
-
-															<div class="card-body">
-																<p>As abordagens qualitativas produzem dados em formatos de texto, imagem ou áudio/vídeo a partir dos quais padrões ou temas relacionados com os atributos dos participantes (por exemplo, opiniões, comportamentos) podem ser detectados e analisados utilizando métodos e ferramentas específicos para dados qualitativos.</p>
-															</div>
-
-														</div>
-													</div>
-
-													<div class="col-12 col-md-10 col-lg-8 mb-5">
-														<div class="card">
-
-															<div class="card-header">
-																<span class="">Abordagens quantitativas</span>
-															</div>
-
-															<div class="card-body">
-																<p>As abordagens quantitativas (por exemplo, recolha de dados de inquéritos) produzem dados numéricos que podem ser analisados utilizando métodos estatísticos.</p>
-															</div>
-
-														</div>
-													</div>
-
-													<div class="col-12 col-md-10 col-lg-8 mb-5">
-														<div class="card">
-
-
-															<div class="card-header">
-																<span class="">Métodos mistos</span>
-															</div>
-
-															<div class="card-body">
-																<p>As abordagens de métodos mistos são uma combinação de ambos, envolvendo a recolha de dados qualitativos e quantitativos, quer sequencialmente quer simultaneamente, com a intenção de informar a questão da investigação. </p>
-															</div>
-														</div>
-													</div>
-
-						<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-
-							<p>O quadro a seguir sistematiza as características das abordagens quantitativas e qualitativas. As abordagens de métodos mistos são uma combinação de ambos, envolvendo a recolha de dados qualitativos e quantitativos, quer sequencialmente quer simultaneamente, com a intenção de informar a questão da investigação.</p>
-
-							<p class="h6">Características das abordagens qualitativas e quantitativas.</p>
-
-
-							</div>
-							</div>
-
-
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-12 mb-5 pb-5">
-									<figure class="lightbox aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="600">
-										<img class="img-fluid mx-auto d-block mb-3" src="../../media/modulo2/tabela4-aula5.svg" alt="" title="Fonte: Campus Virtual Fiocruz">
-										<figcaption class="figure-caption fonte">Fonte: adaptado de The Association of Faculties of Medicine of Canada, sem data Creswell, 2003 Biblioteca Universitária Xavier, 2012 Mack et al., 2005 Gilson et al., 2011 (23–26, 42) apud OMS 2016 adaptado</figcaption>
-									</figure>
-									<span class="d-block text-center"><a class="fio-button fio-button-primary" href="../../media/modulo2/tabela5-aula5.pdf" download target="_blank"><span class="material-symbols-rounded">
-										download</span> Baixe esta tabela em PDF</a></span>
-								</div>
-							</div>
-
-
-
-
-
-								</div>
-							</div>
-
-
-
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-									<h5 class="mb-3">Passo 5: Determinar quem realizará atividades de monitoramento e avaliação</h5>
-
-									<p>Para muitas intervenções de saúde digital, o monitoramento será realizado internamente pela equipe de execução e centrar-se-á nas ligações entre insumos, processos e resultados. Em contraste, os esforços de avaliação para determinar o efeito de uma intervenção nos resultados e impacto na saúde podem ser conduzidos por uma organização de investigação externa ao projeto e pelos seus clientes ou beneficiários pretendidos (OMS, 2016).</p>
-								</div>
-							</div>
-
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-									<h5 class="mb-3">Passo 6: Tempo e recursos</h5>
-
-									<p>O passo 6 consiste em definir e projetar em quanto tempo será necessário para realizar atividades de avaliação e que recursos (humanos, financeiros, físicos) estão disponíveis para apoiar atividades de avaliação. O momento da avaliação pode acontecer:</p>
-
-												<div class="list">
-															<ul class="list-group">
-																<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" >no início do projeto (prospectivo)</li>
-																<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" >após o início/introdução do projeto</li>
-																<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" >na conclusão do projeto (retrospectivo)</li>
-
-															</ul>
-														</div>
-								</div>
-							</div>
-
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-									<h5 class="mb-3">Passo 7: Definir um plano de implementação de M&A</h5>
-
-									<p>Uma vez estabelecidos os objetivos do estudo, o quadro conceitual e o desenho do estudo, é necessário desenvolver um plano de implementação para fornecer um roteiro realista do calendário, dos recursos e das atividades necessárias para conceber e implementar atividades de monitoramento e avaliação. Uma característica comum é um quadro que resume as atividades básicas, os recursos, o cronograma do projeto planejado e como ele será monitorado. No mínimo, o plano de implementação de M&A deve incluir o seguinte: </p>
-
-									<div class="list">
-															<ul class="list-group">
-																<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" >uma lista estruturada de atividades e subatividades</li>
-																<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" >os responsáveis designados para atividades</li>
-																<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" >um cronograma e datas previstas</li>
-																<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" >o orçamento e detalhes de outros recursos necessários monitoramento</li>
-															</ul>
-														</div>
-
-									<p>Se a intervenção de saúde digital apoiar uma intervenção de saúde mais ampla, o que é frequentemente o caso, o plano de implementação de monitoramento e avaliação relacionado especificamente com a tecnologia de saúde digital pode ser incorporado no plano de implementação de monitoramento e avaliação para a intervenção ou programa de saúde mais amplo.</p>
-
-
-								</div>
-							</div>
-
-						
-					</section>
-				</div>
-
-				<!-- Navegação da aula -->
+			<div id="page-content" class="">
+				<!-- Inserir o conteúdo aqui -->
 				<section>
 					<div class="container">
 						<div class="row justify-content-center">
-							<div class="col-12 col-md-10 col-lg-8">
-								<div class="page-nav d-flex justify-content-evenly">
-									<a class="fio-button fio-button-primary" href="topico1.html" rel="prev"><span class="material-symbols-rounded" aria-hidden="true">west</span> Tópico Anterior</a>
-									<a class="fio-button fio-button-primary" href="topico3.html" rel="next">Próximo tópico <span class="material-symbols-rounded" aria-hidden="true">east</span></a>
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+								<div class="heading__block">
+									<span class="small">Tópico 2</span>
+									<h3 class="heading__title">O que é Avaliação</h3>
+								</div>
+
+								<p>Segundo a OMS (2013) a avaliação é definida como um processo sistemático e objetivo
+									de uma intervenção em curso ou concluída com o objetivo de determinar o cumprimento
+									dos objetivos, a eficiência, a eficácia, o impacto e a sustentabilidade. Avaliação,
+									no contexto das tecnologias digitais, refere-se às medidas tomadas e análises
+									realizadas para:</p>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5 pb-5">
+								<!-- Lista Não-Ordenada -->
+								<div class="list">
+									<ul class="list-group">
+										<li class="list-group-item aos-init aos-animate" list-style="default"
+											data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">
+											avaliar a interação dos usuários ou de um sistema de saúde com a estratégia
+											de intervenção digital em saúde. </li>
+
+										<li class="list-group-item aos-init aos-animate" list-style="default"
+											data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">
+											avaliar mudanças atribuíveis à intervenção digital em saúde. </li>
+									</ul>
 								</div>
 							</div>
+						</div>
+
+						<!--Diferença-->
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-4 mb-5">
+								<div class="card h-100 ">
+									<div class="card-header">
+										<span class="h6">Monitoramento</span>
+									</div>
+									<div class="card-body">
+										<p>O monitoramento se concentra no acompanhamento sistemático de propriedades
+											que são intrínsecas (internas) à intervenção de saúde digital.</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-12 col-md-1 align-self-center mb-5 compare-symbol different">
+								<span class="d-block text-center mx-auto">&#8800;</span>
+							</div>
+
+							<div class="col-12 col-md-4 mb-5">
+								<div class="card ">
+									<div class="card-header">
+										<span class="h6">Avaliação</span>
+									</div>
+									<div class="card-body">
+										<p>A avaliação concentra-se em propriedades que são extrínsecas (externas). </p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--Fim de Diferença-->
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5 pt-5">
+								<p>Idealmente, a intenção é demonstrar atribuição – isto é, mostrar que as mudanças
+									nestas propriedades extrínsecas ocorreram como resultado da intervenção digital.</p>
+
+								<p>Atribuir mudança à intervenção é um dos desafios mais difíceis e é abordado por uma
+									combinação do método de investigação, da qualidade dos dados utilizados e da
+									adequação da comparação, ou contrafactual. Os planos de avaliação para intervenções
+									de saúde digital devem centrar-se na geração de dados que possam ser utilizados como
+									base para avaliar se as mudanças observadas no comportamento, nos processos ou nos
+									resultados de saúde podem ser atribuídas à intervenção. </p>
+
+								<p>O quadro a seguir sistematiza os atributos da avaliação para intervenções em saúde
+									digital, com as respectivas definições e perguntas guias.</p>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-12 mb-5 pb-5">
+								<figure class="lightbox aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="600">
+									<img class="img-fluid mx-auto d-block mb-3" src="../../media/modulo2/tabela2-aula5.svg" alt="" title="Fonte: Campus Virtual Fiocruz">
+									<figcaption class="figure-caption fonte">World Health Organization, 2016 adaptado (2024).</figcaption>
+								</figure>
+								<span class="d-block text-center"><a class="fio-button fio-button-primary" href="../../media/modulo2/tabela2-aula5.pdf" download target="_blank"><span class="material-symbols-rounded">download</span> Baixe esta tabela em PDF</a></span>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+								<p>É importante destacar que os processos de monitoramento e avaliação, ainda que
+									possuam definições próprias, na prática ocorrem de forma complementar. As
+									estratégias de avaliação baseiam-se no monitoramento dos dados e em atividades de
+									implementação para medir e atribuir mudanças no sistema de saúde ou na população que
+									ocorrem como resultado da intervenção. Em geral, espera-se que intervenções
+									adequadamente implantadas e com atividades de monitoramento institucionalizadas
+									possam alcançar os resultados almejados (OMS, 2016).</p>
+
+								<p>De certo, o contrário também deve ser considerado frente a tendência de avaliar uma
+									intervenção em saúde digital como não eficaz, ou seja, resultados baseados em
+									contextos com monitoramentos fracos ou ainda inexistentes. Por exemplo, os processos
+									bem instituídos de monitoramento devem assegurar diante de desfechos se a ineficácia
+									de uma intervenção se deve diretamente à intervenção (por exemplo, se não funciona)
+									ou ao resultado da implementação (OMS, 2016).</p>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5 pt-5">
+								<div class="heading__block">
+									<h4 class="heading__title">Como estruturar um processo de monitoramento e avaliação?</h4>
+								</div>
+								
+								<p>O guia da OMS propõe uma abordagem em sete etapas para monitorar e avaliar
+									intervenções em saúde digital. </p>
+
+								<!-- Lista Não-Ordenada -->
+								<div class="list">
+									<ol class="list-group list-group-numbered">
+										<li class="list-group-item aos-init aos-animate" data-aos="fade-right"
+											data-aos-easing="ease-out" data-aos-duration="1200"><strong>Passo 1:
+											</strong>Definir o estágio de maturidade, estágio de avaliação e alegações
+											apropriadas</li>
+										<li class="list-group-item aos-init aos-animate" data-aos="fade-right"
+											data-aos-easing="ease-out" data-aos-duration="1200"><strong>Passo 2:
+											</strong> Desenvolver uma estrutura subjacente ou quadro conceitual</li>
+										<li class="list-group-item aos-init aos-animate" data-aos="fade-right"
+											data-aos-easing="ease-out" data-aos-duration="1200"><strong>Passo 3:
+											</strong>Identificar necessidades de evidências e objetivos de avaliação
+										</li>
+										<li class="list-group-item aos-init aos-animate" data-aos="fade-right"
+											data-aos-easing="ease-out" data-aos-duration="1200"><strong>Passo 4:
+											</strong> Definir o desenho de estudo mais adequado</li>
+										<li class="list-group-item aos-init aos-animate" data-aos="fade-right"
+											data-aos-easing="ease-out" data-aos-duration="1200"> <strong>Passo 5:
+											</strong>Determinar quem realizará atividades de monitoramento e avaliação
+										</li>
+										<li class="list-group-item aos-init aos-animate" data-aos="fade-right"
+											data-aos-easing="ease-out" data-aos-duration="1200"><strong>Passo 6:
+											</strong>Tempo e recursos</li>
+										<li class="list-group-item aos-init aos-animate" data-aos="fade-right"
+											data-aos-easing="ease-out" data-aos-duration="1200"><strong>Passo 7:
+											</strong>Definir um plano de implementação de M&A</li>
+
+										</ul>
+								</div>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+								<p>A seguir você verá uma breve explanação sobre cada etapa.</p>
+							</div>
+						</div>
+
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5 pt-5">
+								<div class="heading__block">
+									<h5 class="heading__title">Passo 1: Definir o estágio de maturidade, estágio de avaliação e as alegações
+										apropriadas</h5>
+								</div>
+
+								<p>O primeiro passo para orientar a abordagem apropriada de monitoramento e avaliação
+									para uma intervenção em saúde digital consiste em classificar adequadamente (a) onde
+									a tecnologia se encontra em termos de estágio de maturidade, (b) qual estágio de
+									avaliação corresponde à intervenção e (c) quais as alegações são necessárias ou
+									possíveis. </p>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+								<!-- Accordion -->
+								<div class="accordion accordion-flush" id="accordionExampleA">
+									<div class="accordion-item">
+										<h5 class="accordion-header" id="heading1-item1">
+											<button class="accordion-button collapsed" type="button"
+												data-bs-toggle="collapse" data-bs-target="#collapse1-item1"
+												aria-expanded="true" aria-controls="collapse1-item1">Estágios de
+												maturidade</button>
+										</h5>
+										<div id="collapse1-item1" class="accordion-collapse collapse"
+											aria-labelledby="heading1-item1" data-bs-parent="">
+											<div class="accordion-body">
+
+												<p>Os estágios de maturidade contemplam desde o <u>pré-protótipo</u>,
+													passando pelo <u>protótipo</u>, <u>piloto</u>, <u>demonstração</u>,
+													<u>expansão e implementações integradas</u> e sustentadas. A
+													intervenção está sendo desenvolvida e avaliada pela primeira vez ou
+													está madura e em fase de expansão?</p>
+											</div>
+										</div>
+									</div>
+
+									<div class="accordion-item">
+										<h5 class="accordion-header" id="heading1-item2">
+											<button class="accordion-button collapsed" type="button"
+												data-bs-toggle="collapse" data-bs-target="#collapse1-item2"
+												aria-expanded="false" aria-controls="collapse1-item2">Fase de
+												avaliação</button>
+										</h5>
+										<div id="collapse1-item2" class="accordion-collapse collapse"
+											aria-labelledby="heading1-item2" data-bs-parent="">
+											<div class="accordion-body">
+												<p>A fase de avaliação está diretamente relacionada ao estágio de
+													maturidade e abrange os atributos de <u>viabilidade</u>,
+													<u>usabilidade</u>, <u>eficácia</u>, <u>efetividade</u> ou
+													<u>avaliação de implementação</u>. A intervenção será avaliada para
+													determinar se o sistema funciona, é eficaz ou pode ser ampliado?</p>
+											</div>
+										</div>
+									</div>
+
+									<div class="accordion-item">
+										<h5 class="accordion-header" id="heading1-item3">
+											<button class="accordion-button collapsed" type="button"
+												data-bs-toggle="collapse" data-bs-target="#collapse1-item3"
+												aria-expanded="false" aria-controls="collapse1-item3">Alegações</button>
+										</h5>
+										<div id="collapse1-item3" class="accordion-collapse collapse"
+											aria-labelledby="heading1-item3" data-bs-parent="">
+											<div class="accordion-body">
+												<p>As alegações são definidas como uma declaração de benefícios
+													previstos da intervenção em saúde digital. Esse aspecto orienta a
+													necessidade de identificar se a intervenção será avaliada <u>com a
+														intenção de melhorar a prestação de uma intervenção com eficácia
+														conhecida</u>, (como uma vacina ou medicamento)? Ou <u>a própria
+														intervenção em saúde digital é nova e a sua capacidade de
+														melhorar os resultados de saúde ainda é desconhecida</u>?</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Fim do Accordion -->
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+								<p>Podem existir cenários em que o objetivo da avaliação seja responder a ambas as
+									questões. Nesse caso, a equipe deverá decidir que questão é prioritária. O esquema
+									abaixo relaciona os estágios de maturidade (a) com os estágios de avaliação (b), bem
+									como as alegações correspondentes ou os objetivos mais amplos para cada estágio (c).
+								</p>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 pt-5">
+								<div class="heading__block">
+									<h6 class="heading__title">Sistematização dos estágios de maturidade com métodos de avaliação e
+										alegação</h6>
+								</div>
+							</div>
+
+							<div class="col-12 mb-5">
+
+								<figure class="lightbox aos-init aos-animate" data-aos="fade-up"
+										data-aos-easing="ease-out" data-aos-duration="600">
+										<img class="img-fluid mx-auto d-block mb-3"
+											src="../../media/modulo2/tabela3-aula5.svg" alt=""
+											title="Fonte: Campus Virtual Fiocruz">
+										<figcaption class="figure-caption fonte">Fonte: World Health Organization, 2016.
+										</figcaption>
+									</figure>
+									<span class="d-block text-center"><a class="fio-button fio-button-primary" href="../../media/modulo2/tabela3-aula5.pdf" download target="_blank"><span class="material-symbols-rounded"> download</span> Baixe esta tabela em PDF</a></span>
+							</div>
+						</div>
+
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5 pt-5">
+								<p>A abordagem das alegações também pode ser usada para aprofundar os objetivos do
+									processo de monitoramento e avaliação. Dentre as vantagens do uso dessa abordagem
+									tem-se a otimização dos esforços de monitoramento e avaliação em relação às
+									expectativas das partes interessadas, resultando em achados com maior valor agregado
+									e possibilidade de uso; auxiliar os gestores de projetos na identificação dos
+									principais processos e resultados que precisam de ser monitorados ou avaliados,
+									concentrando custos e esforços nas evidências mais críticas; e orientar a escolha
+									dos indicadores para medir os principais processos e resultados. </p>
+
+								<p>A abordagem das alegações pode ser sistematizada em cinco etapas principais: mapear
+									as partes interessadas; esclarecer as expectativas; articular as afirmações; medir
+									as afirmações e revisar as afirmações considerando as evidências disponíveis.</p>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+								<!-- Accordion -->
+								<div class="accordion accordion-flush" id="accordionExampleB">
+									<div class="accordion-item">
+										<h5 class="accordion-header" id="heading1-item1">
+											<button class="accordion-button collapsed" type="button"
+												data-bs-toggle="collapse" data-bs-target="#collapse1-item1"
+												aria-expanded="true" aria-controls="collapse1-item1">Mapear as partes
+												interessadas</button>
+										</h5>
+										<div id="collapse1-item1" class="accordion-collapse collapse"
+											aria-labelledby="heading1-item1" data-bs-parent="">
+											<div class="accordion-body">
+
+												<p>As partes interessadas são definidas como entidades (indivíduos ou
+													organizações) que têm interesses no sistema ou na intervenção em
+													saúde digital como gestores, financiadores, desenvolvedores,
+													implementadores da intervenção, técnicos, utilizadores, sociedade
+													civil, entre outros, a exemplo de membros das comunidades
+													científicas ou de saúde digital. Considerando que cada parte pode
+													contribuir com recursos ou usos diferentes em um dado contexto, o
+													mesmo pode acontecer com as expectativas quanto à intervenção e sua
+													avaliação. Diante disso, é fundamental no processo avaliativo
+													formalizar o mapeamento das partes interessadas para identificar e
+													priorizar as mais relevantes.</p>
+											</div>
+										</div>
+									</div>
+
+									<div class="accordion-item">
+										<h5 class="accordion-header" id="heading1-item2">
+											<button class="accordion-button collapsed" type="button"
+												data-bs-toggle="collapse" data-bs-target="#collapse1-item2"
+												aria-expanded="false" aria-controls="collapse1-item2">Esclarecer
+												expectativas </button>
+										</h5>
+										<div id="collapse1-item2" class="accordion-collapse collapse"
+											aria-labelledby="heading1-item2" data-bs-parent="">
+											<div class="accordion-body">
+												<p>Consiste em mapear e alinhar antecipadamente as expectativas das
+													partes interessadas, destacando as alegações relevantes e que
+													possibilitam o foco dos processos e a otimização dos recursos. Para
+													tanto, pode-se fazer uso de técnicas como revisão de documentos
+													estratégicos para conhecer os interesses e prioridades das partes
+													envolvidas, discussões em grupos focais ou entrevistas aprofundadas
+													com informantes-chave. As perguntas a seguir podem auxiliar no
+													processo de esclarecimento das expectativas das partes interessadas:</p>
+
+													<!-- Lista Não-Ordenada -->
+													<div class="list">
+														<ul class="list-group">
+															<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Quais são as três principais prioridades da sua organização?</li>
+
+															<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" data-aos-delay="100">Quais são as suas principais expectativas em relação a este projeto?</li>
+
+															<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" data-aos-delay="200">De que forma este projeto pode agregar valor à missão da sua organização?</li>
+
+															<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" data-aos-delay="300">Qual é o principal resultado que você espera que esta intervenção digital em saúde alcance?</li>
+														</ul>
+													</div>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="accordion-item">
+										<h5 class="accordion-header" id="heading1-item3">
+											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item3" aria-expanded="false" aria-controls="collapse1-item3">Articular as alegações</button>
+										</h5>
+										<div id="collapse1-item3" class="accordion-collapse collapse" aria-labelledby="heading1-item3" data-bs-parent="">
+											<div class="accordion-body">
+												<p>As expectativas delineadas pelas partes interessadas podem então ser
+													articuladas na forma de alegações. Esse processo pode ser trabalhado
+													classificando as três expectativas mais importantes para cada parte
+													interessada. As mesmas devem ser trabalhadas como alegações,
+													redigidas de forma objetiva, podem especificar processos, resultados
+													ou impacto na saúde e ser mensuráveis, ou seja, podem ser elaboradas
+													na forma de objetivos ou indicadores.</p>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="accordion-item">
+										<h5 class="accordion-header" id="heading1-item4">
+											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item4" aria-expanded="false" aria-controls="collapse1-item2">Medir alegações</button>
+										</h5>
+										<div id="collapse1-item4" class="accordion-collapse collapse" aria-labelledby="heading1-item4" data-bs-parent="">
+											<div class="accordion-body">
+												<p>As alegações podem ser medidas ou fundamentadas durante as atividades
+													de monitoramento e avaliação e também por meio da documentação de
+													processos, treinamento, desenvolvimento de conteúdo, captação de
+													recursos ou criação de tecnologias/ produtos.</p>
+											</div>
+										</div>
+									</div>
+
+									<div class="accordion-item">
+										<h5 class="accordion-header" id="heading1-item5">
+											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item5" aria-expanded="false" aria-controls="collapse1-item5">Revisar as alegações considerando as evidências</button>
+										</h5>
+										<div id="collapse1-item5" class="accordion-collapse collapse" aria-labelledby="heading1-item5" data-bs-parent="">
+											<div class="accordion-body">
+												<p>Uma vez medidas as alegações, é importante revisá-las para que correspondam às evidências. </p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Fim do Accordion -->
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5 pt-5">
+								<div class="heading__block">
+									<h5 class="heading__title">Passo 2: Desenvolva uma “estrutura conceitual”</h5>
+								</div>
+
+								<p>O segundo passo para estruturação do processo de monitoramento e avaliação recomenda
+									que seja elaborada uma “estrutura conceitual” sobre a intervenção em saúde digital
+									com o objetivo de:</p>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+								<!-- Lista Ordenada -->
+								<div class="list">
+									<ol class="list-group list-group-numbered" type="a">
+
+										<li class="list-group-item aos-init aos-animate" data-aos="fade-right"
+											data-aos-easing="ease-out" data-aos-duration="1200">definir e compreender os
+											objetivos da intervenção;</li>
+
+										<li class="list-group-item aos-init aos-animate" data-aos="fade-right"
+											data-aos-easing="ease-out" data-aos-duration="1200">conceituar a relação
+											entre esses diferentes objetivos;</li>
+
+
+										<li class="list-group-item aos-init aos-animate" data-aos="fade-right"
+											data-aos-easing="ease-out" data-aos-duration="1200">definir as atividades de
+											apoio do projeto necessárias para atingir suas metas e objetivos; e</li>
+
+										<li class="list-group-item aos-init aos-animate" data-aos="fade-right"
+											data-aos-easing="ease-out" data-aos-duration="1200">descrever os resultados
+											esperados. </li>
+
+									</ol>
+								</div>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+								<p>Para além dos aspectos estruturais e operacionais, toda intervenção possui uma teoria
+									subjacente, que orienta como a mesma deve operar, elaborada a partir de saberes
+									científicos e práticos dos grupos implicados. Essa estratégia tem sido utilizada
+									amplamente com o propósito de identificar e compreender fatores que podem interferir
+									nos efeitos esperados das intervenções. As estruturas mais utilizadas são: quadro
+									conceitual; quadros de resultados; teoria da mudança; e quadros lógicos.</p>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5 pt-5">
+								<div class="card mb-5">
+									<div class="card-header">
+										<span class="">Quadro conceitual</span>
+									</div>
+
+									<div class="card-body">
+										<p>(também conhecido como quadro teórico ou causal): consiste em um diagrama que
+											identifica e ilustra as relações entre os fatores (sistêmicos,
+											organizacionais, individuais ou outros) que podem influenciar a operação de
+											uma intervenção e o alcance bem-sucedido dos objetivos da intervenção. Essa
+											estrutura destaca as ligações causais entre um conjunto de conceitos
+											relacionados a um determinado problema de saúde pública, sendo os
+											“conceitos” representados por caixas e incluem todos os fatores relevantes
+											que podem influenciar o funcionamento da intervenção e o alcance dos
+											objetivos. Os processos são delineados por setas, que pretendem implicar
+											causalidade.</p>
+									</div>
+								</div>
+
+
+								<div class="card mb-5">
+									<div class="card-header">
+										<span class="">Quadro de resultados</span>
+									</div>
+
+									<div class="card-body">
+										<p>consiste em uma “representação gráfica de uma estratégia para atingir um
+											objetivo específico que se baseia na lógica de causa e efeito” (24). O
+											principal objetivo deste tipo de quadro é clarificar as relações causais que
+											ligam a obtenção incremental de resultados ao impacto da intervenção.</p>
+									</div>
+								</div>
+
+								<div class="card mb-5">
+									<div class="card-header">
+										<span class="">Teoria da mudança</span>
+									</div>
+
+									<div class="card-body">
+										<p>é um modelo causal que liga resultados e atividades para explicar como e por
+											que se prevê que a mudança desejada ocorra. Os quadros conceptuais baseados
+											na teoria da mudança são semelhantes aos modelos lógicos, mas visam
+											proporcionar uma maior compreensão da complexa relação entre as atividades
+											do programa e os resultados esperados.</p>
+									</div>
+								</div>
+
+								<div class="card mb-5">
+									<div class="card-header">
+										<span class="">Quadro lógico/modelo lógico</span>
+									</div>
+
+									<div class="card-body">
+										<p>é uma ferramenta de gestão e medição que resume o que um projeto pretende
+											fazer e como, quais são os principais pressupostos e como os produtos e
+											resultados serão monitorizados e avaliados. O objetivo de um modelo lógico é
+											esclarecer os objetivos do programa e ajudar na identificação das ligações
+											causais esperadas entre insumos, processos, produtos, resultados e impactos.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+								<p>É criada uma estrutura lógica para fornecer uma representação gráfica que pode servir
+									como catalisador para o envolvimento e a comunicação com as principais partes
+									interessadas, incluindo os implementadores, num processo iterativo, muitas vezes na
+									sequência de mudanças na concepção ou implementação do programa. Cabe lembrar que o
+									Modelo lógico pode ser desenhado para toda a intervenção ou um de seus componentes.
+								</p>
+
+								<p>Os quadros lógicos ligam os <a class="" tabindex="0" role="button"
+										data-bs-toggle="popover" data-bs-trigger="focus" title="" data-bs-html='true'
+										data-bs-content="<p>Os insumos são recursos financeiros, humanos, materiais e intelectuais utilizados para desenvolver e implementar uma intervenção.</p>"
+										data-bs-original-title="Insumos">insumos</a> (recursos do programa) aos <a
+										class="" tabindex="0" role="button" data-bs-toggle="popover"
+										data-bs-trigger="focus" title="" data-bs-html='true'
+										data-bs-content="<p>Os processos são as atividades realizadas na execução de uma intervenção.</p>"
+										data-bs-original-title="Processos">processos</a> (atividades realizadas), aos <a
+										class="" tabindex="0" role="button" data-bs-toggle="popover"
+										data-bs-trigger="focus" title="" data-bs-html='true'
+										data-bs-content="<p>Os resultados (outputs) são definidos como os produtos/resultados diretos das atividades processuais de uma intervenção. Do ponto de vista da saúde digital, os resultados podem incluir melhorias no desempenho e na adoção pelos utilizadores.</p>"
+										data-bs-original-title="Produtos">produtos</a> (resultados diretos dos
+									processos), aos <a class="" tabindex="0" role="button" data-bs-toggle="popover"
+										data-bs-trigger="focus" title="" data-bs-html='true'
+										data-bs-content="<p>Os resultados (outcomes) referem-se às mudanças intermediárias que surgem como resultado de insumos e processos. No âmbito da saúde digital, os resultados podem ser avaliados em três níveis: sistemas de saúde, prestador e cliente.</p>"
+										data-bs-original-title="Resultados">resultados</a> (mudanças intermédias) e aos
+									<a class="" tabindex="0" role="button" data-bs-toggle="popover"
+										data-bs-trigger="focus" title="" data-bs-html='true'
+										data-bs-content="<p>Impacto é definido como os efeitos de médio a longo prazo produzidos por uma intervenção. Podem ser positivos e negativos, intencionais e não intencionais.</p>"
+										data-bs-original-title="Impacto">impactos</a>. </p>
+
+								<p>A decisão sobre qual tipo de estrutura é mais relevante ou adequada dependerá das
+									necessidades das principais partes interessadas e do contexto e complexidade do
+									projeto. Ademais, é importante compreender que a adoção de um quadro não é apenas
+									uma técnica para representar uma intervenção, mas sim uma estratégia que encoraja a
+									interação de representações teóricas, de valores e percepções sobre o contexto e
+									promove debates e acordos decisórios importantes sobre a intervenção. </p>
+
+								<p>Diante disso, o uso de uma estrutura conceitual fortalecerá a concepção, a
+									implementação e o monitoramento e avaliação da intervenção em saúde digital, devendo
+									ser desenvolvida através de um processo consultivo e revisto ao longo da vida de sua
+									implementação. </p>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5 pt-5">
+								<div class="heading__block">
+									<h5 class="heading__title">Passo 3: Identificar necessidades de evidências e objetivos de
+										avaliação</h5>
+								</div>
+
+								<p>Os objetivos são uma declaração de resultados específicos, mensuráveis, atingíveis,
+									relevantes e com prazo determinado (SMART). E devem ser definidos através de um
+									processo colaborativo com as principais partes interessadas, analisando primeiro os
+									objetivos mais amplos do projeto e os resultados previstos. Os resultados devem ser
+									mensuráveis através de indicadores e devem ser definidos para facilitar a geração de
+									evidências necessárias como base para a tomada de decisões importantes. Finalmente,
+									os objetivos devem estar ligados ao calendário e à fase da avaliação.</p>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+								<!-- Olho de texto -->
+								<div class="olho-de-texto my-5">
+									<p>A OMS define um indicador como “um fator ou variável quantitativa ou qualitativa
+										que proporciona um meio simples e viável para medir os resultados, para refletir
+										as mudanças relacionadas com uma intervenção ou para ajudar a avaliar o
+										desempenho de um fator de desenvolvimento” (OMS, 2013). </p>
+								</div>
+								<!--Fim de Olho de texto -->
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+								<p>Os indicadores podem ser qualitativos (por exemplo, disponibilidade de uma declaração
+									de missão organizacional clara) ou quantitativos (ou seja, expressos em números ou
+									percentagens). Os critérios SMART abaixo fornecem algumas orientações para a
+									construção de indicadores. </p>
+							</div>
+						</div>
+
+						<div class="row justify-content-center d-none d-md-flex">
+							<div class="col-12 col-md-10 col-lg-10 mb-5">
+								<p class="text-muted text-center"><span class="material-symbols-rounded" style="transform: rotateX(180deg)">pan_tool_alt</span> <span class="d-none d-lg-inline-block">Clique</span> nos botões para visualizar as informações.</p>
+
+								<div class="info-SVG aos-init mb-3 aos-animate" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="600">
+									<svg id="info-smart" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1280 358.5" aria-labelledby="info-SVG1-title info-SVG1-desc">
+										<title id="info-SVG1-title">critérios SMART</title>
+										<desc id="info-SVG1-desc">Descrição do info</desc>
+									  
+										<g id="bt1" class="popover bt" tabindex="0" role="button" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-content="O indicador deve ser específico sobre o que está sendo medido, de quem os dados serão coletados e quando." data-bs-original-title="Specific (Específico)">
+										  <rect id="bg1" class="st5 bg-button" x="25.4" y="39" width="219" height="219" rx="12" ry="12"/>
+									  
+										  <g id="icon1" class="st4">
+											<path class="st2" d="M164.7,69.6c7.4-5.5,16.5-8.8,26.5-8.8,24.5,0,44.4,19.9,44.4,44.5s-19.9,44.5-44.4,44.5-44.4-19.9-44.4-44.5,3.3-19.1,8.8-26.5l5.5,5.5c-4.2,6-6.6,13.2-6.6,21,0,20.3,16.5,36.7,36.7,36.7s36.7-16.5,36.7-36.7-16.5-36.7-36.7-36.7-15,2.5-21,6.6l-5.5-5.5ZM172.4,105.2c0-2.8.6-5.5,1.8-7.9l-5.7-5.7c-2.4,4-3.8,8.6-3.8,13.6,0,14.6,11.9,26.5,26.4,26.5s26.4-11.9,26.4-26.5-11.9-26.5-26.4-26.5-9.6,1.4-13.6,3.8l5.7,5.7c2.4-1.1,5.1-1.8,7.9-1.8,10.3,0,18.7,8.4,18.7,18.8s-8.4,18.8-18.7,18.8-18.7-8.4-18.7-18.8ZM137.3,60.7l10.5,10.5h5.8l31.3,31.4c-.3.8-.5,1.7-.5,2.6,0,3.7,3,6.7,6.7,6.7s6.7-3,6.7-6.7-3-6.7-6.7-6.7-1.8.2-2.6.5l-31.5-31.5v-5.5l-10.5-10.5v9.3h-9.3Z"/>
+										  </g>
+									  
+										  <g id="S">
+											<g id="S-front">
+											  <rect class="st0" x="34.4" y="122.2" width="185" height="156.2"/>
+											  <path class="st2" d="M127.1,232.8c-5.8,0-11.3-.5-16.7-1.5s-10.4-2.3-15.1-4.1c-4.7-1.7-8.7-3.9-12.1-6.3l7.9-21.9c3.2,2.1,6.7,3.9,10.6,5.5,3.9,1.6,8,2.8,12.3,3.7,4.3.9,8.7,1.3,13.1,1.3,6.7,0,11.4-1,14.1-2.9,2.7-1.9,4.1-4.1,4.1-6.7s-.4-2.9-1.2-4.1c-.8-1.2-2.2-2.2-4.1-3.1-1.9-.9-4.5-1.6-7.6-2.2l-18.1-3.9c-10-2.2-17.4-5.8-22.1-10.9-4.8-5.1-7.2-11.7-7.2-19.8s1.9-13.5,5.8-18.8c3.9-5.3,9.3-9.4,16.2-12.4,6.9-3,14.9-4.5,24-4.5s9.9.5,14.7,1.5c4.7,1,9.1,2.3,13,4.1,4,1.8,7.3,3.9,10.1,6.3l-7.9,20.8c-3.9-3-8.5-5.3-13.7-6.9-5.2-1.6-10.7-2.5-16.6-2.5s-7,.5-9.7,1.4c-2.7.9-4.7,2.2-6.1,3.9-1.4,1.6-2.1,3.5-2.1,5.7s.9,4,2.8,5.5c1.9,1.5,5.1,2.7,9.9,3.6l17.9,3.9c10,2.2,17.4,5.7,22.4,10.7,4.9,5,7.4,11.4,7.4,19.4s-1.9,13.1-5.7,18.4c-3.8,5.3-9.2,9.4-16.1,12.3-6.9,2.9-15,4.4-24.2,4.4Z"/>
+											</g>
+										  </g>
+										</g>
+									  
+										<g id="bt2" class="popover bt" tabindex="0" role="button" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-content="O indicador deve ser quantificável. Evite a utilização de termos subjetivos como “boa qualidade” ou “acessível” na definição do indicador, uma vez que estes podem ser interpretados de forma diferente entre regiões, profissões e indivíduos." data-bs-original-title="Mesureable (Mensurável)">
+										  <rect id="bg2" class="st5 bg-button" x="277.1" y="39" width="219" height="219" rx="12" ry="12"/>
+									  
+										  <g id="icon2" class="st4">
+											<path class="st2" d="M395.1,137c-1.3,0-2.3,1-2.3,2.3v16.2c0,1.3,1,2.3,2.3,2.3h13.8c1.3,0,2.3-1,2.3-2.3v-16.2c0-1.3-1-2.3-2.3-2.3h-13.8ZM406.6,153.2h-9.2v-11.5h9.2v11.5Z"/>
+											<path class="st2" d="M418.1,125.5c-1.3,0-2.3,1-2.3,2.3v27.7c0,1.3,1,2.3,2.3,2.3h13.8c1.3,0,2.3-1,2.3-2.3v-27.7c0-1.3-1-2.3-2.3-2.3h-13.8ZM429.7,153.2h-9.2v-23.1h9.2v23.1Z"/>
+											<path class="st2" d="M441.2,102.4c-1.3,0-2.3,1-2.3,2.3v50.8c0,1.3,1,2.3,2.3,2.3h13.8c1.3,0,2.3-1,2.3-2.3v-50.8c0-1.3-1-2.3-2.3-2.3h-13.8ZM452.7,153.2h-9.2v-46.1h9.2v46.1Z"/>
+											<path class="st2" d="M462,79.3v76.1c0,1.3,1,2.3,2.3,2.3h13.8c1.3,0,2.3-1,2.3-2.3v-76.1c0-1.3-1-2.3-2.3-2.3h-13.8c-1.3,0-2.3,1-2.3,2.3h0ZM466.6,81.6h9.2v71.5h-9.2v-71.5Z"/>
+											<path class="st2" d="M398.3,125.9c-1,.7-1.3,2.2-.5,3.2.5.6,1.2,1,1.9,1s.9-.1,1.3-.4c2.1-1.5,50.4-36.8,69.2-73.3l1,5c.2,1.1,1.2,1.9,2.3,1.9s.3,0,.5,0c1.2-.3,2.1-1.5,1.8-2.7l-2.3-11.5c-.1-.7-.6-1.3-1.2-1.6s-1.3-.4-2-.1l-11.5,4.6c-1.2.5-1.8,1.8-1.3,3s1.8,1.8,3,1.3l5.9-2.3c-18.2,35.7-67.6,71.8-68.1,72.2h0Z"/>
+										  </g>
+									  
+										  <g id="M">
+											<g id="M-front">
+											  <rect class="st0" x="286" y="122.2" width="185" height="156.2"/>
+											  <path class="st2" d="M320.5,231v-108.8h23.6l37.3,67.3h-5.2l37.3-67.3h23v108.8h-25.6v-64.7h3.2l-28.1,48.5h-15.3l-28.4-48.6h3.7v64.8h-25.6Z"/>
+											</g>
+										  </g>
+										</g>
+									  
+										<g id="bt3" class="popover bt" tabindex="0" role="button" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-content="O indicador deve ser atingível com o orçamento, tempo e recursos humanos disponíveis." data-bs-original-title="Attainable (Atingível)">
+										  <rect id="bg3" class="st5 bg-button" x="528.7" y="39" width="219" height="219" rx="12" ry="12"/>
+									  
+										  <path id="icon3" class="st3" d="M663.4,137.5V60.7c0-6.7,5.4-12.1,12.1-12.1h48.5c6.7,0,12.1,5.4,12.1,12.1v76.8h-72.8ZM685.4,107.9l10.1,6.7c1.7,1.1,4,.8,5.3-.8l18.2-21.8c1.4-1.7,1.2-4.3-.5-5.7-1.7-1.4-4.3-1.2-5.7.5l-15.9,19-7.1-4.7c-1.9-1.2-4.4-.7-5.6,1.1-1.2,1.9-.7,4.4,1.1,5.6h0ZM736.2,145.6v4c0,6.7-5.4,12.1-12.1,12.1h-48.5c-6.7,0-12.1-5.4-12.1-12.1v-4h72.8Z"/>
+									  
+										  <g id="A">
+											<g id="A-front">
+											  <rect class="st0" x="537.7" y="122.2" width="185" height="156.2"/>
+											  <path class="st2" d="M568.3,231l50.6-108.8h22.5l50.9,108.8h-28.4l-12.8-29.9,11,8h-63.7l10.8-8-12.8,29.9h-28.1ZM630,151.8l-17.9,42.7-4.3-7.4h44.9l-4.5,7.4-17.9-42.7h-.3Z"/>
+											</g>
+										  </g>
+										</g>
+									  
+										<g id="bt4" class="popover bt" tabindex="0" role="button" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-content="O indicador deve ser relevante para o contexto e específico para as necessidades do programa ou intervenção que está sendo avaliada." data-bs-original-title="Relevant (Relevante)">
+										  <rect id="bg4" class="st5 bg-button" x="780.4" y="39" width="219" height="219" rx="12" ry="12"/>
+									  
+										  <path id="icon4" class="st1" d="M949.9,61.6c12,0,22.8,4.9,30.7,12.7,7.9,7.9,12.7,18.7,12.7,30.7s-4.9,22.8-12.7,30.7c-7.9,7.9-18.7,12.7-30.7,12.7s-11.4-1.1-16.4-3.2c-5.1,2.1-10.6,3.2-16.4,3.2-12,0-22.8-4.9-30.7-12.7-7.9-7.9-12.7-18.7-12.7-30.7s4.9-22.8,12.7-30.7c7.9-7.9,18.7-12.7,30.7-12.7s11.4,1.1,16.4,3.2c5.1-2.1,10.6-3.2,16.4-3.2ZM913.7,94.2l33.5,33.5c2.7-3.6,4.8-7.7,6.1-12.1l-33.5-33.5c-2.7,3.6-4.8,7.6-6.1,12h0ZM943.5,131.9l-31.1-31.1c-.2,1.4-.2,2.8-.2,4.2,0,10.4,4.2,19.9,11.1,26.7,3,3,6.4,5.5,10.3,7.3,3.7-1.8,7.1-4.2,10-7.1h0ZM923.5,78l31.1,31.1c.1-1.3.2-2.7.2-4,0-10.4-4.2-19.9-11.1-26.7-3-3-6.4-5.5-10.3-7.3-3.7,1.8-7,4.1-9.9,7h0Z"/>
+									  
+										  <g id="R">
+											<g id="R-front">
+											  <rect class="st0" x="789.4" y="122.2" width="185" height="156.2"/>
+											  <path class="st2" d="M837.3,231v-108.8h52.5c12.2,0,21.7,3,28.4,9,6.7,6,10,14.4,10,25.1s-1.5,13-4.5,18.1c-3,5-7.4,8.9-13.1,11.7-5.8,2.7-12.7,4.1-20.8,4.1l1.1-2.8h7.6c4.3,0,8.2,1.1,11.6,3.2,3.4,2.1,6.2,5.3,8.5,9.6l17,30.9h-31l-19-34.7c-.8-1.4-1.8-2.6-2.9-3.5-1.1-.9-2.4-1.5-3.7-1.9-1.3-.4-2.9-.5-4.6-.5h-8.5v40.6h-28.4ZM865.7,170.3h18.8c5.5,0,9.6-1.1,12.4-3.2,2.8-2.2,4.2-5.5,4.2-9.9s-1.4-7.9-4.2-10c-2.8-2.2-7-3.2-12.4-3.2h-18.8v26.4Z"/>
+											</g>
+										  </g>
+										</g>
+									  
+										<g id="bt5" class="popover bt" tabindex="0" role="button" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-content="O indicador deve ser específico no tempo, com base no calendário do programa de saúde." data-bs-original-title="Time-bound  (Prazo)">
+										  <rect id="bg5" class="st5 bg-button" x="1032.1" y="39" width="219" height="219" rx="12" ry="12"/>
+									  
+										  <path id="icon5" class="st1" d="M1203.4,113.7c1.3,1.3,1.3,3.5,0,4.8-.7.7-1.5,1-2.4,1s-1.8-.3-2.4-1l-13.7-13.7c-.6-.6-1-1.5-1-2.4v-17.1c0-1.9,1.5-3.4,3.4-3.4s3.4,1.5,3.4,3.4v15.7l12.7,12.7ZM1221.2,136.3s0,0-.1,0c-8.7,8.6-20.6,14-33.8,14s-25.1-5.3-33.8-14c0,0,0,0-.1,0s0,0,0-.1c-8.6-8.7-14-20.6-14-33.8s5.3-25.1,14-33.8c0,0,0,0,0-.1s0,0,.1,0c8.7-8.6,20.6-14,33.8-14s25.1,5.3,33.8,14c0,0,0,0,.1,0s0,0,0,.1c8.6,8.7,14,20.6,14,33.8s-5.3,25.1-14,33.8c0,0,0,0,0,.1ZM1218.6,128.9c5.4-6.3,8.9-14.3,9.6-23.1h-6.7c-1.9,0-3.4-1.5-3.4-3.4s1.5-3.4,3.4-3.4h6.7c-.7-8.8-4.2-16.7-9.6-23.1l-4.7,4.7c-.7.7-1.5,1-2.4,1s-1.8-.3-2.4-1c-1.3-1.3-1.3-3.5,0-4.8l4.7-4.7c-6.3-5.4-14.3-8.9-23.1-9.6v6.7c0,1.9-1.5,3.4-3.4,3.4s-3.4-1.5-3.4-3.4v-6.7c-8.8.7-16.7,4.2-23.1,9.6l4.7,4.7c1.3,1.3,1.3,3.5,0,4.8-.7.7-1.5,1-2.4,1s-1.8-.3-2.4-1l-4.7-4.7c-5.4,6.3-8.9,14.3-9.6,23.1h6.7c1.9,0,3.4,1.5,3.4,3.4s-1.5,3.4-3.4,3.4h-6.7c.7,8.8,4.2,16.7,9.6,23.1l4.7-4.7c1.3-1.3,3.5-1.3,4.8,0,1.3,1.3,1.3,3.5,0,4.8l-4.7,4.7c6.3,5.4,14.3,8.9,23.1,9.6v-6.7c0-1.9,1.5-3.4,3.4-3.4s3.4,1.5,3.4,3.4v6.7c8.8-.7,16.7-4.2,23.1-9.6l-4.7-4.7c-1.3-1.3-1.3-3.5,0-4.8s3.5-1.3,4.8,0l4.7,4.7h0Z"/>
+									  
+										  <g id="T">
+											<g id="T-front">
+											  <rect class="st0" x="1041.1" y="122.2" width="185" height="156.2"/>
+											  <path class="st2" d="M1119.4,231v-85.7h-34.4v-23.1h97.4v23.1h-34.6v85.7h-28.4Z"/>
+											</g>
+										  </g>
+										</g>
+									  
+										<g id="titles">
+										  <g>
+											<rect class="st6" x="25.4" y="278.4" width="219" height="52.2"/>
+											<path class="st5" d="M99.1,295.6c-.8,0-1.5,0-2.2-.2-.7-.1-1.4-.3-1.9-.6-.6-.2-1.1-.5-1.5-.8l1.3-2.5c.4.3.9.6,1.4.8.5.2,1,.4,1.6.5.5.1,1.1.2,1.6.2s1.1,0,1.6-.2c.4-.1.8-.3,1-.6.2-.2.4-.5.4-.9s-.1-.6-.4-.8c-.3-.2-.6-.4-1-.5s-.9-.3-1.4-.4c-.5-.1-1-.3-1.5-.5-.5-.2-1-.4-1.4-.7-.4-.3-.7-.6-1-1-.3-.4-.4-1-.4-1.6,0-1,.3-1.8.8-2.5.5-.7,1.3-1.3,2.2-1.6,1-.4,2.1-.6,3.4-.6s1.8.1,2.7.3c.8.2,1.6.5,2.2.9l-1.2,2.5c-.5-.4-1.1-.6-1.8-.8-.7-.2-1.3-.3-2-.3s-1.2,0-1.6.2c-.4.1-.8.4-1,.6-.2.3-.4.6-.4.9s.1.6.4.8c.2.2.6.4,1,.5.4.1.9.3,1.4.4.5.1,1,.3,1.5.5.5.2.9.4,1.4.7.4.3.7.6,1,1,.3.4.4.9.4,1.5,0,1-.3,1.8-.8,2.5-.5.7-1.3,1.3-2.2,1.7-1,.4-2.1.6-3.4.6Z"/>
+											<path class="st5" d="M106,299.3l2.9-14.6h3l-.4,2.1-.7,3.2-.4,3.2-1.2,6.1h-3.1ZM113.6,295.5c-.9,0-1.6-.2-2.3-.5-.6-.3-1.1-.9-1.5-1.6-.3-.7-.4-1.6-.3-2.7,0-1.3.3-2.4.8-3.3.4-.9,1.1-1.7,1.8-2.2s1.7-.8,2.7-.8,1.6.2,2.3.6,1.3.9,1.7,1.6c.4.7.6,1.6.6,2.6s-.2,1.7-.5,2.5-.7,1.4-1.3,2c-.5.6-1.2,1-1.9,1.3-.7.3-1.5.5-2.3.5ZM113.3,293c.6,0,1.2-.1,1.6-.5.5-.3.8-.7,1.1-1.2s.4-1.1.4-1.9-.2-1.3-.6-1.7c-.4-.4-1-.6-1.8-.6s-1.1.1-1.6.4c-.5.3-.9.7-1.1,1.2s-.4,1.1-.4,1.9.2,1.3.6,1.7c.4.4,1,.6,1.8.6Z"/>
+											<path class="st5" d="M126.3,295.5c-1.1,0-2.1-.2-2.9-.6s-1.5-1-1.9-1.7c-.5-.7-.7-1.6-.7-2.5s.3-2.3.8-3.2,1.3-1.7,2.2-2.2c1-.5,2.1-.8,3.3-.8s2,.2,2.7.6c.8.4,1.3.9,1.8,1.6.4.7.6,1.5.6,2.5s0,.6,0,.8c0,.3,0,.5-.1.8h-8.9l.3-1.8h7.1l-1.3.6c.1-.6,0-1.1-.1-1.5-.2-.4-.5-.7-.8-.9-.4-.2-.9-.3-1.4-.3s-1.3.2-1.7.5-.8.8-1.1,1.3c-.2.6-.4,1.2-.4,1.9s.2,1.4.7,1.8c.5.4,1.2.6,2.1.6s1.1,0,1.6-.3c.5-.2.9-.4,1.3-.7l1.3,2.1c-.6.5-1.3.9-2.1,1.1-.8.2-1.6.4-2.4.4Z"/>
+											<path class="st5" d="M138.8,295.5c-1.1,0-2.1-.2-2.9-.6-.8-.4-1.5-1-1.9-1.7-.5-.7-.7-1.6-.7-2.5s.3-2.3.8-3.2,1.3-1.7,2.3-2.2c1-.5,2.1-.8,3.4-.8s2.1.2,3,.7c.8.5,1.5,1.1,1.9,2l-2.6,1.3c-.2-.5-.5-.9-.9-1.1-.4-.2-.9-.3-1.5-.3s-1.2.1-1.6.4c-.5.3-.9.7-1.1,1.2-.3.5-.4,1.1-.4,1.8s.2,1.3.6,1.8c.4.4,1,.6,1.9.6s1-.1,1.5-.4c.5-.2.8-.6,1.1-1.1l2.3,1.4c-.5.8-1.2,1.4-2.1,1.9-.9.5-1.9.7-3,.7Z"/>
+											<path class="st5" d="M144.8,295.4l2.1-10.8h3.1l-2.1,10.8h-3.1ZM149.1,283.1c-.5,0-1-.2-1.3-.5-.3-.3-.5-.7-.5-1.1s.2-1,.6-1.3c.4-.4.9-.5,1.5-.5s1,.2,1.3.5.5.7.5,1.1-.2,1-.6,1.4c-.4.4-.9.5-1.5.5Z"/>
+											<path class="st5" d="M151.2,287.3l.5-2.4h7.5l-.5,2.4h-7.5ZM151.2,295.4l2.2-11.1c.2-1.2.8-2.1,1.5-2.8.8-.7,1.8-1,3.2-1s1,0,1.4.1.8.2,1.1.5l-1.2,2.2c-.4-.3-.8-.4-1.2-.4s-.9.1-1.1.4c-.3.3-.5.7-.6,1.2l-.2,1-.2,1.3-1.7,8.7h-3.1ZM158.7,295.4l2.1-10.8h3.1l-2.1,10.8h-3.1ZM163,283.1c-.5,0-1-.2-1.3-.5-.3-.3-.5-.7-.5-1.1s.2-1,.6-1.3c.4-.4.9-.5,1.5-.5s1,.2,1.3.5c.3.3.5.7.5,1.1s-.2,1-.6,1.4c-.4.4-.9.5-1.5.5Z"/>
+											<path class="st5" d="M170.4,295.5c-1.1,0-2.1-.2-2.9-.6-.8-.4-1.5-1-1.9-1.7-.5-.7-.7-1.6-.7-2.5s.3-2.3.8-3.2,1.3-1.7,2.3-2.2c1-.5,2.1-.8,3.4-.8s2.1.2,3,.7c.8.5,1.5,1.1,1.9,2l-2.6,1.3c-.2-.5-.5-.9-.9-1.1-.4-.2-.9-.3-1.5-.3s-1.2.1-1.6.4c-.5.3-.9.7-1.1,1.2-.3.5-.4,1.1-.4,1.8s.2,1.3.6,1.8c.4.4,1,.6,1.9.6s1-.1,1.5-.4c.5-.2.8-.6,1.1-1.1l2.3,1.4c-.5.8-1.2,1.4-2.1,1.9-.9.5-1.9.7-3,.7Z"/>
+											<path class="st5" d="M78.2,323.3c-.8-1.2-1.4-2.6-1.9-4.2s-.6-3.3-.6-5.1.2-3.6.6-5.2c.4-1.6,1.1-3,1.9-4.2h3c-.8,1.5-1.5,3-1.8,4.5-.4,1.5-.6,3.1-.6,4.8s.2,3.3.6,4.8c.4,1.5,1,3,1.8,4.5h-3Z"/>
+											<path class="st5" d="M86.3,316.8h7.6v2.6h-10.8v-14h10.6v2.6h-7.4v8.8ZM86.1,311h6.7v2.5h-6.7v-2.5Z"/>
+											<path class="st5" d="M99.8,319.5c-.9,0-1.8-.1-2.6-.3-.8-.2-1.5-.5-2-.8l1-2.2c.5.3,1.1.6,1.8.8.7.2,1.3.3,2,.3s1.2,0,1.5-.3.5-.4.5-.7-.1-.4-.4-.6c-.2-.1-.5-.2-.9-.3-.4,0-.8-.1-1.3-.2-.5,0-.9-.2-1.4-.3-.5-.1-.9-.3-1.3-.5-.4-.2-.7-.5-.9-.9s-.3-.9-.3-1.5.2-1.3.6-1.8c.4-.5,1-.9,1.7-1.2.7-.3,1.6-.4,2.7-.4s1.5,0,2.2.2c.8.2,1.4.4,1.9.7l-1,2.2c-.5-.3-1-.5-1.6-.6-.5-.1-1-.2-1.5-.2s-1.2,0-1.5.3c-.3.2-.5.4-.5.7s.1.5.4.6c.2.1.5.2.9.3s.8.1,1.3.2.9.2,1.4.3c.5.1.9.3,1.3.5.4.2.7.5.9.9.2.4.4.9.4,1.5s-.2,1.3-.6,1.8c-.4.5-1,.9-1.7,1.2-.8.3-1.7.4-2.8.4Z"/>
+											<path class="st5" d="M106.8,323.3v-14.6h3v5.4c0,0,.1,3.2.1,3.2v6.1h-3.1ZM113.2,319.5c-.9,0-1.7-.2-2.4-.6-.7-.4-1.2-1-1.6-1.8s-.6-1.9-.6-3.1.2-2.3.5-3.1c.4-.8.9-1.4,1.6-1.8.7-.4,1.5-.6,2.4-.6s1.9.2,2.7.7,1.4,1.1,1.9,1.9c.5.8.7,1.8.7,2.9s-.2,2.1-.7,2.9c-.5.8-1.1,1.5-1.9,1.9-.8.5-1.7.7-2.7.7ZM112.6,317c.5,0,1-.1,1.4-.4.4-.2.7-.6,1-1,.2-.4.4-1,.4-1.6s-.1-1.2-.4-1.6-.6-.8-1-1-.9-.4-1.4-.4-1,.1-1.4.4-.7.6-1,1c-.2.4-.4,1-.4,1.6s.1,1.1.4,1.6c.2.4.6.8,1,1,.4.2.9.4,1.4.4Z"/>
+											<path class="st5" d="M126,319.5c-1.2,0-2.3-.2-3.2-.7s-1.6-1.1-2.1-2c-.5-.8-.8-1.8-.8-2.9s.2-2,.8-2.9c.5-.8,1.2-1.5,2-2,.9-.5,1.8-.7,2.9-.7s2,.2,2.9.7,1.5,1.1,2,1.9c.5.8.7,1.8.7,3s0,.3,0,.4c0,.2,0,.3,0,.4h-8.7v-1.8h7.1l-1.2.5c0-.6-.1-1-.3-1.5-.2-.4-.5-.7-.9-1-.4-.2-.9-.4-1.4-.4s-1,.1-1.4.4c-.4.2-.7.6-1,1-.2.4-.3.9-.3,1.5v.5c0,.6.1,1.1.4,1.5.3.4.6.8,1.1,1s1,.4,1.7.4,1.1,0,1.5-.3c.4-.2.8-.4,1.2-.8l1.7,1.8c-.5.6-1.1,1-1.9,1.3s-1.6.5-2.6.5Z"/>
+											<path class="st5" d="M138.4,319.5c-1.2,0-2.2-.2-3.1-.7s-1.6-1.1-2.1-2c-.5-.8-.8-1.8-.8-2.9s.3-2,.8-2.9c.5-.8,1.2-1.5,2.1-2,.9-.5,1.9-.7,3.1-.7s2.1.2,3,.7c.8.5,1.5,1.1,1.9,2l-2.4,1.3c-.3-.5-.6-.9-1-1.1-.4-.2-.9-.4-1.4-.4s-1,.1-1.4.4c-.4.2-.8.6-1,1s-.4,1-.4,1.6.1,1.2.4,1.6c.2.4.6.8,1,1,.4.2.9.4,1.4.4s.9-.1,1.4-.4c.4-.2.8-.6,1-1.1l2.4,1.3c-.4.9-1,1.5-1.9,2-.8.5-1.8.7-3,.7Z"/>
+											<path class="st5" d="M144.8,307.2l2.7-2.9h3.4l-3.6,2.9h-2.4ZM145.1,319.4v-10.8h3.1v10.8h-3.1Z"/>
+											<path class="st5" d="M149.8,311.3v-2.4h7.5v2.4h-7.5ZM151.5,319.4v-11c0-1.2.4-2.2,1.1-2.9.7-.7,1.7-1.1,3.1-1.1s.9,0,1.3.1.8.2,1.1.4l-.8,2.3c-.2-.1-.4-.2-.6-.3-.2,0-.4-.1-.7-.1-.5,0-.8.1-1,.4-.2.3-.4.6-.4,1.2v2.3c0,0,0,8.6,0,8.6h-3.1ZM160.6,307.1c-.6,0-1-.2-1.4-.5-.4-.3-.5-.7-.5-1.2s.2-.9.5-1.2c.4-.3.8-.5,1.4-.5s1,.2,1.4.5c.4.3.5.7.5,1.2s-.2,1-.5,1.3c-.4.3-.8.5-1.4.5ZM159,319.4v-10.8h3.1v10.8h-3.1Z"/>
+											<path class="st5" d="M170.2,319.5c-1.2,0-2.2-.2-3.1-.7s-1.6-1.1-2.1-2c-.5-.8-.8-1.8-.8-2.9s.3-2,.8-2.9c.5-.8,1.2-1.5,2.1-2,.9-.5,1.9-.7,3.1-.7s2.1.2,3,.7c.8.5,1.5,1.1,1.9,2l-2.4,1.3c-.3-.5-.6-.9-1-1.1-.4-.2-.9-.4-1.4-.4s-1,.1-1.4.4c-.4.2-.8.6-1,1s-.4,1-.4,1.6.1,1.2.4,1.6c.2.4.6.8,1,1,.4.2.9.4,1.4.4s.9-.1,1.4-.4c.4-.2.8-.6,1-1.1l2.4,1.3c-.4.9-1,1.5-1.9,2-.8.5-1.8.7-3,.7Z"/>
+											<path class="st5" d="M181.8,319.5c-1.1,0-2.2-.2-3.1-.7s-1.6-1.1-2.1-2c-.5-.8-.8-1.8-.8-2.9s.3-2,.8-2.9c.5-.8,1.2-1.5,2.1-2,.9-.5,1.9-.7,3.1-.7s2.1.2,3,.7c.9.5,1.6,1.1,2.1,2,.5.8.8,1.8.8,2.9s-.3,2-.8,2.9c-.5.8-1.2,1.5-2.1,2-.9.5-1.9.7-3,.7ZM181.8,317c.5,0,1-.1,1.4-.4.4-.2.7-.6,1-1,.2-.4.4-1,.4-1.6s-.1-1.2-.4-1.6c-.2-.4-.6-.8-1-1-.4-.2-.9-.4-1.4-.4s-1,.1-1.4.4c-.4.2-.7.6-1,1s-.4,1-.4,1.6.1,1.1.4,1.6c.2.4.6.8,1,1,.4.2.9.4,1.4.4Z"/>
+											<path class="st5" d="M191.5,323.3h-3c.9-1.5,1.5-3,1.9-4.5.4-1.5.6-3.1.6-4.8s-.2-3.3-.6-4.8c-.4-1.5-1-3-1.9-4.5h3c.8,1.2,1.5,2.6,1.9,4.2.4,1.6.6,3.3.6,5.2s-.2,3.6-.6,5.1c-.4,1.6-1.1,3-1.9,4.2Z"/>
+										  </g>
+										  
+										  <g>
+											<rect class="st6" x="277.1" y="278.4" width="219" height="52.2"/>
+											<path class="st5" d="M325.6,295.4l2.8-14h2.6l4,9.9h-1.4s7.8-9.9,7.8-9.9h2.8l-2.8,14h-3l1.9-9.4h.6l-6.2,7.9h-1.4l-3.3-7.9h.6c0,0-1.9,9.4-1.9,9.4h-3Z"/>
+											<path class="st5" d="M350.2,295.5c-1.1,0-2.1-.2-2.9-.6s-1.5-1-1.9-1.7c-.5-.7-.7-1.6-.7-2.5s.3-2.3.8-3.2,1.3-1.7,2.2-2.2c1-.5,2.1-.8,3.3-.8s2,.2,2.7.6c.8.4,1.3.9,1.8,1.6.4.7.6,1.5.6,2.5s0,.6,0,.8c0,.3,0,.5-.1.8h-8.9l.3-1.8h7.1l-1.3.6c.1-.6,0-1.1-.1-1.5-.2-.4-.5-.7-.8-.9-.4-.2-.9-.3-1.4-.3s-1.3.2-1.7.5-.8.8-1.1,1.3c-.2.6-.4,1.2-.4,1.9s.2,1.4.7,1.8c.5.4,1.2.6,2.1.6s1.1,0,1.6-.3c.5-.2.9-.4,1.3-.7l1.3,2.1c-.6.5-1.3.9-2.1,1.1-.8.2-1.6.4-2.4.4Z"/>
+											<path class="st5" d="M360.9,295.5c-.9,0-1.8-.1-2.7-.3-.8-.2-1.5-.5-1.9-.8l1.2-2.3c.5.3,1,.6,1.7.7.7.2,1.4.3,2,.3s1.3,0,1.6-.3c.3-.2.5-.4.5-.8s-.1-.4-.4-.6c-.3-.1-.6-.2-1.1-.3s-.9-.2-1.4-.3c-.5-.1-.9-.3-1.4-.5-.4-.2-.8-.5-1.1-.8-.3-.4-.4-.9-.4-1.5s.2-1.5.7-2.1c.5-.6,1.1-1,1.9-1.3.8-.3,1.8-.4,2.8-.4s1.5,0,2.2.2c.7.2,1.3.4,1.8.7l-1.1,2.3c-.5-.3-1-.5-1.6-.6-.6-.1-1.1-.2-1.6-.2-.7,0-1.3.1-1.6.3-.3.2-.5.5-.5.8s.1.5.4.6c.3.1.6.3,1,.3s.9.2,1.4.3,1,.2,1.4.4c.4.2.8.5,1.1.8.3.4.4.8.4,1.4s-.2,1.5-.7,2.1-1.1,1-1.9,1.3c-.8.3-1.7.4-2.8.4Z"/>
+											<path class="st5" d="M372.2,295.5c-.9,0-1.6-.2-2.3-.6-.6-.4-1.1-.9-1.4-1.7-.3-.7-.3-1.6,0-2.7l1.2-6h3.1l-1.1,5.8c-.2.8,0,1.4.2,1.8.3.4.8.6,1.5.6s1.4-.2,1.9-.7c.5-.5.9-1.1,1.1-2.1l1.1-5.5h3.1l-2.1,10.8h-3l.6-3,.4.9c-.5.8-1.1,1.4-1.9,1.7-.8.4-1.6.6-2.4.6Z"/>
+											<path class="st5" d="M381.4,295.4l2.1-10.8h3l-.6,3.1-.3-.9c.5-.9,1.1-1.5,1.9-1.8.8-.3,1.7-.5,2.8-.5l-.6,2.9c-.1,0-.3,0-.4,0s-.2,0-.4,0c-.9,0-1.7.2-2.2.7s-1,1.2-1.2,2.2l-1,5.2h-3.1Z"/>
+											<path class="st5" d="M395.5,295.5c-1.1,0-2.1-.2-2.9-.6s-1.5-1-1.9-1.7c-.5-.7-.7-1.6-.7-2.5s.3-2.3.8-3.2,1.3-1.7,2.2-2.2c1-.5,2.1-.8,3.3-.8s2,.2,2.7.6c.8.4,1.3.9,1.8,1.6.4.7.6,1.5.6,2.5s0,.6,0,.8c0,.3,0,.5-.1.8h-8.9l.3-1.8h7.1l-1.3.6c.1-.6,0-1.1-.1-1.5-.2-.4-.5-.7-.8-.9-.4-.2-.9-.3-1.4-.3s-1.3.2-1.7.5-.8.8-1.1,1.3c-.2.6-.4,1.2-.4,1.9s.2,1.4.7,1.8c.5.4,1.2.6,2.1.6s1.1,0,1.6-.3c.5-.2.9-.4,1.3-.7l1.3,2.1c-.6.5-1.3.9-2.1,1.1-.8.2-1.6.4-2.4.4Z"/>
+											<path class="st5" d="M407.2,295.5c-.8,0-1.6-.2-2.3-.6-.7-.4-1.3-.9-1.7-1.6-.4-.7-.6-1.6-.6-2.6s.1-1.7.4-2.5c.3-.8.7-1.4,1.3-2s1.2-1,1.9-1.3c.7-.3,1.5-.5,2.3-.5s1.7.2,2.3.5c.6.3,1.1.9,1.4,1.5.3.7.4,1.6.3,2.7,0,1.3-.3,2.4-.8,3.3-.5,1-1.1,1.7-1.8,2.2-.8.5-1.7.8-2.8.8ZM408.2,293c.6,0,1.2-.1,1.6-.5.5-.3.8-.7,1.1-1.2.3-.5.4-1.1.4-1.9s-.2-1.3-.6-1.7c-.4-.4-1-.6-1.8-.6s-1.1.1-1.6.4c-.5.3-.9.7-1.1,1.2s-.4,1.1-.4,1.9.2,1.3.6,1.7c.4.4,1,.6,1.8.6ZM410.3,295.4l.4-2.1.7-3.2.4-3.2.4-2.2h3.1l-2.1,10.8h-3Z"/>
+											<path class="st5" d="M416.2,295.4l3-14.8h3.1l-1.3,6.3-.8,3.1-.5,2.8-.5,2.7h-3ZM423.1,295.5c-.8,0-1.5-.1-2.2-.4-.6-.3-1.1-.7-1.4-1.4-.3-.6-.5-1.4-.5-2.3s.1-1.9.4-2.7c.2-.9.6-1.6,1.1-2.2.5-.6,1-1.1,1.7-1.5.7-.4,1.4-.5,2.3-.5s1.6.2,2.3.6,1.3.9,1.7,1.6c.4.7.6,1.6.6,2.6s-.2,1.7-.5,2.5-.7,1.4-1.3,2c-.5.6-1.2,1-1.9,1.3-.7.3-1.5.5-2.3.5ZM422.7,293c.6,0,1.2-.1,1.6-.5.5-.3.8-.7,1.1-1.2s.4-1.1.4-1.9-.2-1.3-.6-1.7c-.4-.4-1-.6-1.8-.6s-1.1.1-1.6.4c-.5.3-.9.7-1.1,1.2s-.4,1.1-.4,1.9.2,1.3.6,1.7c.4.4,1,.6,1.8.6Z"/>
+											<path class="st5" d="M430,295.4l3-14.8h3.1l-3,14.8h-3.1Z"/>
+											<path class="st5" d="M441.7,295.5c-1.1,0-2.1-.2-2.9-.6s-1.5-1-1.9-1.7c-.5-.7-.7-1.6-.7-2.5s.3-2.3.8-3.2,1.3-1.7,2.2-2.2c1-.5,2.1-.8,3.3-.8s2,.2,2.7.6c.8.4,1.3.9,1.8,1.6.4.7.6,1.5.6,2.5s0,.6,0,.8c0,.3,0,.5-.1.8h-8.9l.3-1.8h7.1l-1.3.6c.1-.6,0-1.1-.1-1.5-.2-.4-.5-.7-.8-.9-.4-.2-.9-.3-1.4-.3s-1.3.2-1.7.5-.8.8-1.1,1.3c-.2.6-.4,1.2-.4,1.9s.2,1.4.7,1.8c.5.4,1.2.6,2.1.6s1.1,0,1.6-.3c.5-.2.9-.4,1.3-.7l1.3,2.1c-.6.5-1.3.9-2.1,1.1-.8.2-1.6.4-2.4.4Z"/>
+											<path class="st5" d="M323.3,323.3c-.8-1.2-1.4-2.6-1.9-4.2s-.6-3.3-.6-5.1.2-3.6.6-5.2c.4-1.6,1.1-3,1.9-4.2h3c-.8,1.5-1.5,3-1.8,4.5-.4,1.5-.6,3.1-.6,4.8s.2,3.3.6,4.8c.4,1.5,1,3,1.8,4.5h-3Z"/>
+											<path class="st5" d="M328.1,319.4v-14h2.7l6,9.9h-1.4l5.9-9.9h2.7v14s-3,0-3,0v-9.3s.5,0,.5,0l-4.7,7.9h-1.5l-4.8-7.9h.7v9.3h-3Z"/>
+											<path class="st5" d="M352.4,319.5c-1.2,0-2.3-.2-3.2-.7s-1.6-1.1-2.1-2c-.5-.8-.8-1.8-.8-2.9s.2-2,.8-2.9c.5-.8,1.2-1.5,2-2,.9-.5,1.8-.7,2.9-.7s2,.2,2.9.7,1.5,1.1,2,1.9c.5.8.7,1.8.7,3s0,.3,0,.4c0,.2,0,.3,0,.4h-8.7v-1.8h7.1l-1.2.5c0-.6-.1-1-.3-1.5-.2-.4-.5-.7-.9-1-.4-.2-.9-.4-1.4-.4s-1,.1-1.4.4c-.4.2-.7.6-1,1-.2.4-.3.9-.3,1.5v.5c0,.6.1,1.1.4,1.5.3.4.6.8,1.1,1s1,.4,1.7.4,1.1,0,1.5-.3c.4-.2.8-.4,1.2-.8l1.7,1.8c-.5.6-1.1,1-1.9,1.3s-1.6.5-2.6.5Z"/>
+											<path class="st5" d="M366.2,308.5c.9,0,1.6.2,2.3.5.7.3,1.2.9,1.6,1.6.4.7.6,1.6.6,2.7v6.2h-3.1v-5.7c0-.9-.2-1.5-.6-1.9-.4-.4-.9-.6-1.6-.6s-.9.1-1.3.3c-.4.2-.7.5-.9,1-.2.4-.3,1-.3,1.6v5.3h-3.1v-10.8h3v3l-.6-.9c.4-.7.9-1.3,1.7-1.7s1.5-.6,2.5-.6Z"/>
+											<path class="st5" d="M377.1,319.5c-.9,0-1.8-.1-2.6-.3-.8-.2-1.5-.5-2-.8l1-2.2c.5.3,1.1.6,1.8.8.7.2,1.3.3,2,.3s1.2,0,1.5-.3.5-.4.5-.7-.1-.4-.4-.6c-.2-.1-.5-.2-.9-.3-.4,0-.8-.1-1.3-.2-.5,0-.9-.2-1.4-.3-.5-.1-.9-.3-1.3-.5-.4-.2-.7-.5-.9-.9s-.3-.9-.3-1.5.2-1.3.6-1.8c.4-.5,1-.9,1.7-1.2.7-.3,1.6-.4,2.7-.4s1.5,0,2.2.2c.8.2,1.4.4,1.9.7l-1,2.2c-.5-.3-1-.5-1.6-.6-.5-.1-1-.2-1.5-.2s-1.2,0-1.5.3c-.3.2-.5.4-.5.7s.1.5.4.6c.2.1.5.2.9.3s.8.1,1.3.2.9.2,1.4.3c.5.1.9.3,1.3.5.4.2.7.5.9.9.2.4.4.9.4,1.5s-.2,1.3-.6,1.8c-.4.5-1,.9-1.7,1.2-.8.3-1.7.4-2.8.4Z"/>
+											<path class="st5" d="M388.6,319.5c-.9,0-1.7-.2-2.4-.5-.7-.3-1.2-.9-1.6-1.6-.4-.7-.6-1.6-.6-2.7v-6.1h3.1v5.6c0,.9.2,1.6.6,2,.4.4.9.6,1.6.6s.9-.1,1.3-.3c.4-.2.7-.5.9-1,.2-.4.3-1,.3-1.6v-5.3h3.1v10.8h-3v-3l.5.9c-.4.7-.9,1.3-1.6,1.7-.7.4-1.5.6-2.3.6Z"/>
+											<path class="st5" d="M397.8,319.4v-10.8h3v3l-.4-.9c.3-.8.8-1.3,1.5-1.7.7-.4,1.6-.6,2.6-.6v2.9c-.1,0-.3,0-.4,0-.1,0-.2,0-.3,0-.9,0-1.5.2-2.1.7-.5.5-.8,1.2-.8,2.3v5.1h-3.1Z"/>
+											<path class="st5" d="M409,319.5c-.8,0-1.6-.1-2.2-.4s-1.1-.7-1.4-1.2c-.3-.5-.5-1-.5-1.7s.2-1.2.5-1.7c.3-.5.8-.9,1.5-1.1.7-.3,1.6-.4,2.7-.4h2.9v1.8h-2.5c-.7,0-1.2.1-1.5.4-.3.2-.4.5-.4.9s.2.7.5,1c.3.2.7.4,1.3.4s1-.1,1.4-.4c.4-.2.7-.6.9-1.1l.5,1.4c-.2.7-.6,1.2-1.2,1.6-.6.4-1.4.5-2.3.5ZM412.3,319.4v-2.1l-.2-.5v-3.8c0-.7-.2-1.2-.6-1.6-.4-.4-1-.6-1.9-.6s-1.1,0-1.7.3c-.6.2-1,.4-1.4.7l-1.1-2.2c.6-.4,1.3-.7,2.1-1,.8-.2,1.7-.3,2.5-.3,1.6,0,2.9.4,3.8,1.2.9.8,1.4,2,1.4,3.6v6.1h-2.9ZM408.5,307.2l2.7-2.9h3.4l-3.6,2.9h-2.4Z"/>
+											<path class="st5" d="M420.7,319.4l-4.5-10.8h3.2l3.8,9.3h-1.6l3.9-9.3h3l-4.5,10.8h-3.2Z"/>
+											<path class="st5" d="M434.8,319.5c-1.2,0-2.3-.2-3.2-.7s-1.6-1.1-2.1-2c-.5-.8-.8-1.8-.8-2.9s.2-2,.8-2.9c.5-.8,1.2-1.5,2-2,.9-.5,1.8-.7,2.9-.7s2,.2,2.9.7,1.5,1.1,2,1.9c.5.8.7,1.8.7,3s0,.3,0,.4c0,.2,0,.3,0,.4h-8.7v-1.8h7.1l-1.2.5c0-.6-.1-1-.3-1.5-.2-.4-.5-.7-.9-1-.4-.2-.9-.4-1.4-.4s-1,.1-1.4.4c-.4.2-.7.6-1,1-.2.4-.3.9-.3,1.5v.5c0,.6.1,1.1.4,1.5.3.4.6.8,1.1,1s1,.4,1.7.4,1.1,0,1.5-.3c.4-.2.8-.4,1.2-.8l1.7,1.8c-.5.6-1.1,1-1.9,1.3s-1.6.5-2.6.5Z"/>
+											<path class="st5" d="M442.1,319.4v-14.8h3.1v14.8h-3.1Z"/>
+											<path class="st5" d="M449.8,323.3h-3c.9-1.5,1.5-3,1.9-4.5.4-1.5.6-3.1.6-4.8s-.2-3.3-.6-4.8c-.4-1.5-1-3-1.9-4.5h3c.8,1.2,1.5,2.6,1.9,4.2.4,1.6.6,3.3.6,5.2s-.2,3.6-.6,5.1c-.4,1.6-1.1,3-1.9,4.2Z"/>
+										  </g>
+									  
+										  <g>
+											<rect class="st6" x="528.7" y="278.4" width="219" height="52.2"/>
+											<path class="st5" d="M581,295.4l9-14h3.2l3.4,14h-3.2l-2.7-12.4h1.3l-7.6,12.4h-3.5ZM584.8,292.4l1.3-2.5h7.2l.4,2.5h-8.9Z"/>
+											<path class="st5" d="M598.2,287.3l.5-2.4h7.5l-.5,2.4h-7.5ZM602.3,295.5c-.8,0-1.4-.2-2-.5s-.9-.8-1.2-1.4-.3-1.3-.1-2.1l1.9-9.4h3.1l-1.9,9.3c0,.5,0,.8.1,1.1.2.3.5.4,1,.4s.4,0,.6-.1c.2,0,.4-.2.6-.3l.5,2.2c-.4.2-.8.4-1.3.5-.5,0-.9.1-1.4.1Z"/>
+											<path class="st5" d="M606.7,287.3l.5-2.4h7.5l-.5,2.4h-7.5ZM610.7,295.5c-.8,0-1.4-.2-2-.5s-.9-.8-1.2-1.4-.3-1.3-.1-2.1l1.9-9.4h3.1l-1.9,9.3c0,.5,0,.8.1,1.1.2.3.5.4,1,.4s.4,0,.6-.1c.2,0,.4-.2.6-.3l.5,2.2c-.4.2-.8.4-1.3.5-.5,0-.9.1-1.4.1Z"/>
+											<path class="st5" d="M619.6,295.5c-.8,0-1.6-.2-2.3-.6-.7-.4-1.3-.9-1.7-1.6-.4-.7-.6-1.6-.6-2.6s.1-1.7.4-2.5c.3-.8.7-1.4,1.3-2s1.2-1,1.9-1.3c.7-.3,1.5-.5,2.3-.5s1.7.2,2.3.5c.6.3,1.1.9,1.4,1.5.3.7.4,1.6.3,2.7,0,1.3-.3,2.4-.8,3.3-.5,1-1.1,1.7-1.8,2.2-.8.5-1.7.8-2.8.8ZM620.5,293c.6,0,1.2-.1,1.6-.5.5-.3.8-.7,1.1-1.2.3-.5.4-1.1.4-1.9s-.2-1.3-.6-1.7c-.4-.4-1-.6-1.8-.6s-1.1.1-1.6.4c-.5.3-.9.7-1.1,1.2s-.4,1.1-.4,1.9.2,1.3.6,1.7c.4.4,1,.6,1.8.6ZM622.7,295.4l.4-2.1.7-3.2.4-3.2.4-2.2h3.1l-2.1,10.8h-3Z"/>
+											<path class="st5" d="M628.5,295.4l2.1-10.8h3.1l-2.1,10.8h-3.1ZM632.7,283.1c-.5,0-1-.2-1.3-.5-.3-.3-.5-.7-.5-1.1s.2-1,.6-1.3c.4-.4.9-.5,1.5-.5s1,.2,1.3.5.5.7.5,1.1-.2,1-.6,1.4c-.4.4-.9.5-1.5.5Z"/>
+											<path class="st5" d="M642.9,284.5c.9,0,1.7.2,2.3.6.6.4,1.1.9,1.4,1.7.3.7.3,1.6,0,2.7l-1.2,6h-3.1l1.2-5.8c.2-.8,0-1.4-.2-1.8-.3-.4-.8-.6-1.6-.6s-1.4.2-2,.7c-.5.5-.9,1.1-1.1,2.1l-1.1,5.5h-3.1l2.1-10.8h3l-.6,3-.4-.9c.5-.8,1.2-1.4,1.9-1.7.8-.4,1.6-.5,2.4-.5Z"/>
+											<path class="st5" d="M653.2,295.5c-.8,0-1.6-.2-2.3-.6-.7-.4-1.3-.9-1.7-1.6-.4-.7-.6-1.6-.6-2.6s.2-1.7.4-2.5c.3-.8.7-1.4,1.3-2s1.2-1,1.9-1.3c.7-.3,1.5-.5,2.3-.5s1.7.2,2.3.5c.6.3,1.1.9,1.4,1.5.3.7.4,1.6.3,2.7,0,1.3-.3,2.4-.8,3.3-.5,1-1.1,1.7-1.8,2.2-.8.5-1.7.8-2.8.8ZM654.2,293c.6,0,1.2-.1,1.6-.5.5-.3.8-.7,1.1-1.2s.4-1.1.4-1.9-.2-1.3-.7-1.7c-.4-.4-1-.6-1.8-.6s-1.1.1-1.6.4c-.5.3-.9.7-1.1,1.2s-.4,1.1-.4,1.9.2,1.3.6,1.7c.4.4,1,.6,1.8.6ZM656.3,295.4l.4-2.1.7-3.2.4-3.2.4-2.2h3.1l-2.1,10.8h-3Z"/>
+											<path class="st5" d="M662.2,295.4l3-14.8h3.1l-1.3,6.3-.8,3.1-.5,2.8-.5,2.7h-3ZM669.1,295.5c-.8,0-1.5-.1-2.2-.4-.6-.3-1.1-.7-1.4-1.4-.3-.6-.5-1.4-.5-2.3s.1-1.9.4-2.7c.2-.9.6-1.6,1.1-2.2.5-.6,1-1.1,1.7-1.5.7-.4,1.4-.5,2.3-.5s1.6.2,2.3.6c.7.4,1.3.9,1.7,1.6.4.7.6,1.6.6,2.6s-.2,1.7-.5,2.5-.7,1.4-1.3,2c-.5.6-1.2,1-1.9,1.3s-1.5.5-2.3.5ZM668.7,293c.6,0,1.2-.1,1.6-.5.5-.3.8-.7,1.1-1.2s.4-1.1.4-1.9-.2-1.3-.6-1.7c-.4-.4-1-.6-1.8-.6s-1.1.1-1.6.4c-.5.3-.9.7-1.1,1.2s-.4,1.1-.4,1.9.2,1.3.6,1.7c.4.4,1,.6,1.8.6Z"/>
+											<path class="st5" d="M676,295.4l3-14.8h3.1l-3,14.8h-3.1Z"/>
+											<path class="st5" d="M687.7,295.5c-1.1,0-2.1-.2-2.9-.6-.8-.4-1.5-1-1.9-1.7-.5-.7-.7-1.6-.7-2.5s.3-2.3.8-3.2,1.3-1.7,2.2-2.2c1-.5,2-.8,3.3-.8s2,.2,2.7.6c.8.4,1.3.9,1.8,1.6.4.7.6,1.5.6,2.5s0,.6,0,.8c0,.3,0,.5-.1.8h-8.9l.3-1.8h7.1l-1.3.6c.1-.6,0-1.1-.1-1.5s-.5-.7-.8-.9c-.4-.2-.9-.3-1.4-.3s-1.3.2-1.7.5c-.5.3-.8.8-1.1,1.3-.2.6-.4,1.2-.4,1.9s.2,1.4.7,1.8c.5.4,1.2.6,2.1.6s1.1,0,1.6-.3c.5-.2.9-.4,1.3-.7l1.3,2.1c-.6.5-1.3.9-2.1,1.1-.8.2-1.6.4-2.4.4Z"/>
+											<path class="st5" d="M588,323.3c-.8-1.2-1.4-2.6-1.9-4.2s-.6-3.3-.6-5.1.2-3.6.6-5.2c.4-1.6,1.1-3,1.9-4.2h3c-.8,1.5-1.5,3-1.8,4.5-.4,1.5-.6,3.1-.6,4.8s.2,3.3.6,4.8c.4,1.5,1,3,1.8,4.5h-3Z"/>
+											<path class="st5" d="M591,319.4l6.2-14h3.2l6.3,14h-3.4l-5.1-12.4h1.3l-5.1,12.4h-3.3ZM594.1,316.4l.9-2.5h7.2l.9,2.5h-8.9Z"/>
+											<path class="st5" d="M606.5,311.3v-2.4h7.5v2.4h-7.5ZM612.2,319.5c-1.3,0-2.3-.3-3-1-.7-.6-1.1-1.6-1.1-2.9v-9.4h3.1v9.4c0,.5.1.8.4,1.1.2.2.6.4,1,.4s.9-.1,1.3-.4l.8,2.2c-.3.2-.7.4-1.1.5-.4.1-.9.2-1.4.2Z"/>
+											<path class="st5" d="M618.1,307.1c-.6,0-1-.2-1.4-.5-.4-.3-.5-.7-.5-1.2s.2-.9.5-1.2c.4-.3.8-.5,1.4-.5s1,.2,1.4.5c.4.3.5.7.5,1.2s-.2,1-.5,1.3c-.4.3-.8.5-1.4.5ZM616.5,319.4v-10.8h3.1v10.8h-3.1Z"/>
+											<path class="st5" d="M629.1,308.5c.9,0,1.6.2,2.3.5.7.3,1.2.9,1.6,1.6.4.7.6,1.6.6,2.7v6.2h-3.1v-5.7c0-.9-.2-1.5-.6-1.9-.4-.4-.9-.6-1.6-.6s-.9.1-1.3.3c-.4.2-.7.5-.9,1-.2.4-.3,1-.3,1.6v5.3h-3.1v-10.8h3v3l-.6-.9c.4-.7.9-1.3,1.7-1.7s1.5-.6,2.5-.6Z"/>
+											<path class="st5" d="M641,318.9c-1,0-1.9-.2-2.7-.6-.8-.4-1.5-1-1.9-1.8-.5-.8-.7-1.7-.7-2.7s.2-2,.7-2.8c.5-.8,1.1-1.4,1.9-1.8.8-.4,1.7-.6,2.7-.6s1.7.2,2.4.5c.7.4,1.2.9,1.6,1.7s.6,1.8.6,2.9-.2,2.2-.6,2.9c-.4.8-.9,1.3-1.6,1.7-.7.4-1.5.6-2.4.6ZM641.5,323.4c-1,0-2-.1-2.9-.4s-1.7-.6-2.3-1.1l1.2-2.2c.5.4,1,.7,1.7.9.7.2,1.4.3,2.1.3,1.1,0,1.9-.2,2.4-.7s.8-1.2.8-2.2v-1.6l.2-2.7v-2.7s0-2.3,0-2.3h3v9c0,2-.5,3.5-1.6,4.4-1,.9-2.5,1.4-4.5,1.4ZM641.6,316.3c.5,0,1-.1,1.5-.3.4-.2.8-.5,1-.9.2-.4.4-.9.4-1.4s-.1-1-.4-1.4c-.2-.4-.6-.7-1-.9-.4-.2-.9-.3-1.5-.3s-1,.1-1.5.3c-.4.2-.8.5-1,.9s-.4.9-.4,1.4.1,1,.4,1.4c.2.4.6.7,1,.9.4.2.9.3,1.5.3Z"/>
+											<path class="st5" d="M650.2,307.2l2.7-2.9h3.4l-3.6,2.9h-2.4ZM650.4,319.4v-10.8h3.1v10.8h-3.1Z"/>
+											<path class="st5" d="M659.4,319.4l-4.5-10.8h3.2l3.8,9.3h-1.6l3.9-9.3h3l-4.5,10.8h-3.2Z"/>
+											<path class="st5" d="M673.5,319.5c-1.2,0-2.3-.2-3.2-.7s-1.6-1.1-2.2-2c-.5-.8-.8-1.8-.8-2.9s.2-2,.8-2.9c.5-.8,1.2-1.5,2.1-2,.9-.5,1.8-.7,2.9-.7s2,.2,2.8.7c.8.4,1.5,1.1,2,1.9.5.8.7,1.8.7,3s0,.3,0,.4c0,.2,0,.3,0,.4h-8.7v-1.8h7.1l-1.2.5c0-.6-.1-1-.3-1.5-.2-.4-.5-.7-.9-1s-.9-.4-1.4-.4-1,.1-1.4.4c-.4.2-.7.6-1,1s-.3.9-.3,1.5v.5c0,.6.1,1.1.4,1.5.3.4.6.8,1.1,1,.5.2,1,.4,1.7.4s1.1,0,1.5-.3c.4-.2.8-.4,1.2-.8l1.7,1.8c-.5.6-1.1,1-1.9,1.3-.7.3-1.6.5-2.6.5Z"/>
+											<path class="st5" d="M680.7,319.4v-14.8h3.1v14.8h-3.1Z"/>
+											<path class="st5" d="M688.5,323.3h-3c.9-1.5,1.5-3,1.9-4.5.4-1.5.6-3.1.6-4.8s-.2-3.3-.6-4.8c-.4-1.5-1-3-1.9-4.5h3c.8,1.2,1.5,2.6,1.9,4.2.4,1.6.6,3.3.6,5.2s-.2,3.6-.6,5.1c-.4,1.6-1.1,3-1.9,4.2Z"/>
+										  </g>
+									  
+										  <g>
+											<rect class="st6" x="780.4" y="278.4" width="219" height="52.2"/>
+											<path class="st5" d="M843.7,295.4l2.8-14h5.7c1.7,0,3.1.4,4,1.1,1,.8,1.4,1.8,1.4,3.2s-.3,2.2-.8,3.1c-.6.9-1.3,1.5-2.4,2-1,.5-2.2.7-3.6.7h-4.6l1.7-1.4-1.1,5.3h-3.3ZM847.9,290.4l-1.1-1.5h4.2c1.1,0,1.9-.2,2.5-.7s.9-1.2.9-2.1-.2-1.2-.7-1.5c-.5-.3-1.1-.5-1.9-.5h-3.9l1.7-1.6-1.6,8ZM852.7,295.4l-2.9-5.1h3.4l2.9,5.1h-3.4Z"/>
+											<path class="st5" d="M863.9,295.5c-1.1,0-2.1-.2-2.9-.6s-1.5-1-1.9-1.7c-.5-.7-.7-1.6-.7-2.5s.3-2.3.8-3.2c.5-.9,1.3-1.7,2.2-2.2,1-.5,2-.8,3.3-.8s2,.2,2.7.6c.8.4,1.3.9,1.8,1.6.4.7.6,1.5.6,2.5s0,.6,0,.8c0,.3,0,.5-.1.8h-8.9l.3-1.8h7.1l-1.3.6c.1-.6,0-1.1-.1-1.5-.2-.4-.5-.7-.8-.9s-.9-.3-1.4-.3-1.3.2-1.7.5-.8.8-1.1,1.3c-.2.6-.4,1.2-.4,1.9s.2,1.4.7,1.8c.5.4,1.2.6,2.1.6s1.1,0,1.6-.3c.5-.2.9-.4,1.3-.7l1.3,2.1c-.6.5-1.3.9-2.1,1.1-.8.2-1.6.4-2.4.4Z"/>
+											<path class="st5" d="M870.8,295.4l3-14.8h3.1l-3,14.8h-3.1Z"/>
+											<path class="st5" d="M882.5,295.5c-1.1,0-2.1-.2-2.9-.6s-1.5-1-1.9-1.7c-.5-.7-.7-1.6-.7-2.5s.3-2.3.8-3.2c.5-.9,1.3-1.7,2.2-2.2,1-.5,2-.8,3.3-.8s2,.2,2.7.6c.8.4,1.3.9,1.8,1.6.4.7.6,1.5.6,2.5s0,.6,0,.8c0,.3,0,.5-.1.8h-8.9l.3-1.8h7.1l-1.3.6c.1-.6,0-1.1-.1-1.5-.2-.4-.5-.7-.8-.9s-.9-.3-1.4-.3-1.3.2-1.7.5-.8.8-1.1,1.3c-.2.6-.4,1.2-.4,1.9s.2,1.4.7,1.8c.5.4,1.2.6,2.1.6s1.1,0,1.6-.3c.5-.2.9-.4,1.3-.7l1.3,2.1c-.6.5-1.3.9-2.1,1.1-.8.2-1.6.4-2.4.4Z"/>
+											<path class="st5" d="M892.1,295.4l-2.4-10.8h3.1l2,9.3h-1.6l5.7-9.3h3.1l-6.7,10.8h-3.2Z"/>
+											<path class="st5" d="M905.7,295.5c-.8,0-1.6-.2-2.3-.6-.7-.4-1.3-.9-1.7-1.6-.4-.7-.6-1.6-.6-2.6s.2-1.7.5-2.5c.3-.8.7-1.4,1.3-2s1.2-1,1.9-1.3c.7-.3,1.5-.5,2.3-.5s1.7.2,2.3.5c.6.3,1.1.9,1.4,1.5.3.7.4,1.6.3,2.7,0,1.3-.3,2.4-.8,3.3-.5,1-1.1,1.7-1.8,2.2-.8.5-1.7.8-2.8.8ZM906.6,293c.6,0,1.2-.1,1.6-.5.5-.3.8-.7,1.1-1.2.3-.5.4-1.1.4-1.9s-.2-1.3-.6-1.7c-.4-.4-1-.6-1.8-.6s-1.1.1-1.6.4c-.5.3-.9.7-1.1,1.2s-.4,1.1-.4,1.9.2,1.3.7,1.7c.4.4,1,.6,1.8.6ZM908.8,295.4l.4-2.1.7-3.2.4-3.2.4-2.2h3.1l-2.1,10.8h-3Z"/>
+											<path class="st5" d="M923,284.5c.9,0,1.7.2,2.3.6.6.4,1.1.9,1.4,1.7.3.7.3,1.6,0,2.7l-1.2,6h-3.1l1.2-5.8c.2-.8,0-1.4-.2-1.8-.3-.4-.8-.6-1.6-.6s-1.4.2-2,.7c-.5.5-.9,1.1-1.1,2.1l-1.1,5.5h-3.1l2.1-10.8h3l-.6,3-.4-.9c.5-.8,1.2-1.4,1.9-1.7.8-.4,1.6-.5,2.4-.5Z"/>
+											<path class="st5" d="M928.7,287.3l.5-2.4h7.5l-.5,2.4h-7.5ZM932.8,295.5c-.8,0-1.4-.2-2-.5s-.9-.8-1.2-1.4-.3-1.3-.1-2.1l1.9-9.4h3.1l-1.9,9.3c0,.5,0,.8.1,1.1.2.3.5.4,1,.4s.4,0,.7-.1c.2,0,.4-.2.6-.3l.5,2.2c-.4.2-.8.4-1.3.5s-.9.1-1.4.1Z"/>
+											<path class="st5" d="M834.5,323.3c-.8-1.2-1.4-2.6-1.8-4.2-.4-1.6-.7-3.3-.7-5.1s.2-3.6.7-5.2c.4-1.6,1-3,1.8-4.2h3c-.8,1.5-1.5,3-1.8,4.5-.4,1.5-.6,3.1-.6,4.8s.2,3.3.6,4.8c.4,1.5,1,3,1.8,4.5h-3Z"/>
+											<path class="st5" d="M839.3,319.4v-14h6.1c1.3,0,2.3.2,3.2.6.9.4,1.6,1,2.1,1.8.5.8.7,1.7.7,2.7s-.2,1.9-.7,2.7c-.5.8-1.2,1.3-2.1,1.7s-2,.6-3.2.6h-4.3l1.4-1.4v5.3h-3.2ZM842.6,314.4l-1.4-1.5h4.1c1,0,1.7-.2,2.2-.6.5-.4.7-1,.7-1.8s-.2-1.4-.7-1.8c-.5-.4-1.2-.6-2.2-.6h-4.1l1.4-1.5v7.9ZM848.2,319.4l-3.5-5.1h3.5l3.5,5.1h-3.5Z"/>
+											<path class="st5" d="M859.1,319.5c-1.2,0-2.3-.2-3.2-.7-.9-.5-1.6-1.1-2.2-2-.5-.8-.8-1.8-.8-2.9s.2-2,.8-2.9c.5-.8,1.2-1.5,2-2,.9-.5,1.8-.7,2.9-.7s2,.2,2.8.7,1.5,1.1,2,1.9c.5.8.7,1.8.7,3s0,.3,0,.4c0,.2,0,.3,0,.4h-8.7v-1.8h7.1l-1.2.5c0-.6-.1-1-.3-1.5-.2-.4-.5-.7-.9-1s-.9-.4-1.4-.4-1,.1-1.4.4-.7.6-.9,1c-.2.4-.3.9-.3,1.5v.5c0,.6.1,1.1.4,1.5.3.4.6.8,1.1,1s1,.4,1.7.4,1.1,0,1.5-.3c.4-.2.8-.4,1.2-.8l1.7,1.8c-.5.6-1.1,1-1.9,1.3s-1.6.5-2.6.5Z"/>
+											<path class="st5" d="M866.4,319.4v-14.8h3.1v14.8h-3.1Z"/>
+											<path class="st5" d="M877.8,319.5c-1.2,0-2.3-.2-3.2-.7s-1.6-1.1-2.1-2c-.5-.8-.8-1.8-.8-2.9s.2-2,.8-2.9c.5-.8,1.2-1.5,2-2,.9-.5,1.8-.7,2.9-.7s2,.2,2.9.7c.8.4,1.5,1.1,2,1.9.5.8.7,1.8.7,3s0,.3,0,.4c0,.2,0,.3,0,.4h-8.7v-1.8h7.1l-1.2.5c0-.6-.1-1-.3-1.5-.2-.4-.5-.7-.9-1-.4-.2-.9-.4-1.4-.4s-1,.1-1.4.4c-.4.2-.7.6-1,1-.2.4-.3.9-.3,1.5v.5c0,.6.1,1.1.4,1.5s.6.8,1.1,1c.5.2,1,.4,1.7.4s1.1,0,1.5-.3c.4-.2.8-.4,1.2-.8l1.7,1.8c-.5.6-1.1,1-1.9,1.3-.7.3-1.6.5-2.6.5Z"/>
+											<path class="st5" d="M887.8,319.4l-4.5-10.8h3.2l3.8,9.3h-1.6l3.9-9.3h3l-4.5,10.8h-3.2Z"/>
+											<path class="st5" d="M899.8,319.5c-.8,0-1.6-.1-2.2-.4-.6-.3-1.1-.7-1.4-1.2s-.5-1-.5-1.7.2-1.2.5-1.7c.3-.5.8-.9,1.5-1.1.7-.3,1.6-.4,2.7-.4h2.9v1.8h-2.5c-.7,0-1.2.1-1.5.4-.3.2-.4.5-.4.9s.2.7.5,1c.3.2.7.4,1.3.4s1-.1,1.4-.4c.4-.2.7-.6.9-1.1l.5,1.4c-.2.7-.6,1.2-1.2,1.6-.6.4-1.4.5-2.3.5ZM903.1,319.4v-2.1l-.2-.5v-3.8c0-.7-.2-1.2-.6-1.6-.4-.4-1-.6-1.9-.6s-1.1,0-1.7.3c-.6.2-1,.4-1.4.7l-1.1-2.2c.6-.4,1.3-.7,2.1-1,.8-.2,1.7-.3,2.5-.3,1.6,0,2.9.4,3.8,1.2.9.8,1.4,2,1.4,3.6v6.1h-2.9Z"/>
+											<path class="st5" d="M915.3,308.5c.9,0,1.6.2,2.3.5.7.3,1.2.9,1.6,1.6.4.7.6,1.6.6,2.7v6.2h-3.1v-5.7c0-.9-.2-1.5-.6-1.9-.4-.4-.9-.6-1.6-.6s-.9.1-1.3.3c-.4.2-.7.5-.9,1-.2.4-.3,1-.3,1.6v5.3h-3.1v-10.8h3v3l-.6-.9c.4-.7.9-1.3,1.7-1.7.7-.4,1.5-.6,2.5-.6Z"/>
+											<path class="st5" d="M921.3,311.3v-2.4h7.5v2.4h-7.5ZM927,319.5c-1.3,0-2.3-.3-3-1-.7-.6-1.1-1.6-1.1-2.9v-9.4h3.1v9.4c0,.5.1.8.4,1.1s.6.4,1,.4.9-.1,1.3-.4l.8,2.2c-.3.2-.7.4-1.2.5-.4.1-.9.2-1.4.2Z"/>
+											<path class="st5" d="M936.3,319.5c-1.2,0-2.3-.2-3.2-.7s-1.6-1.1-2.2-2c-.5-.8-.8-1.8-.8-2.9s.2-2,.8-2.9c.5-.8,1.2-1.5,2.1-2,.9-.5,1.8-.7,2.9-.7s2,.2,2.8.7c.8.4,1.5,1.1,2,1.9.5.8.7,1.8.7,3s0,.3,0,.4c0,.2,0,.3,0,.4h-8.7v-1.8h7.1l-1.2.5c0-.6-.1-1-.3-1.5-.2-.4-.5-.7-.9-1s-.9-.4-1.4-.4-1,.1-1.4.4c-.4.2-.7.6-1,1s-.3.9-.3,1.5v.5c0,.6.1,1.1.4,1.5.3.4.6.8,1.1,1,.5.2,1,.4,1.7.4s1.1,0,1.5-.3c.4-.2.8-.4,1.2-.8l1.7,1.8c-.5.6-1.1,1-1.9,1.3-.7.3-1.6.5-2.6.5Z"/>
+											<path class="st5" d="M945.3,323.3h-3c.9-1.5,1.5-3,1.9-4.5.4-1.5.6-3.1.6-4.8s-.2-3.3-.6-4.8c-.4-1.5-1-3-1.9-4.5h3c.8,1.2,1.5,2.6,1.9,4.2.4,1.6.6,3.3.6,5.2s-.2,3.6-.6,5.1c-.4,1.6-1.1,3-1.9,4.2Z"/>
+										  </g>
+									  
+										  <g>
+											<rect class="st6" x="1036.8" y="278.4" width="219" height="52.2"/>
+											<path class="st5" d="M1085.7,295.4l2.3-11.4h-4.5l.5-2.6h12.2l-.5,2.6h-4.5l-2.3,11.4h-3.2Z"/>
+											<path class="st5" d="M1095,295.4l2.1-10.8h3.1l-2.1,10.8h-3.1ZM1099.2,283.1c-.5,0-1-.2-1.3-.5-.3-.3-.5-.7-.5-1.1s.2-1,.6-1.3c.4-.4.9-.5,1.5-.5s1,.2,1.3.5.5.7.5,1.1-.2,1-.6,1.4c-.4.4-.9.5-1.5.5Z"/>
+											<path class="st5" d="M1116.6,284.5c.9,0,1.7.2,2.3.6.6.4,1.1.9,1.3,1.7.3.7.3,1.6,0,2.7l-1.2,6h-3.1l1.1-5.7c.2-.8.1-1.4-.2-1.8-.3-.4-.8-.6-1.5-.6s-1.3.2-1.8.7-.8,1.1-1,2l-1.1,5.5h-3.1l1.1-5.7c.2-.8.1-1.4-.2-1.8-.3-.4-.8-.6-1.5-.6s-1.3.2-1.8.7c-.5.4-.8,1.1-1,2.1l-1.1,5.5h-3.1l2.1-10.8h3l-.6,2.7-.5-.6c.5-.8,1.1-1.3,1.8-1.7.7-.4,1.5-.6,2.3-.6s1.3.1,1.8.4c.5.2,1,.6,1.3,1.1.3.5.5,1.1.6,1.8l-1.2-.3c.5-.9,1.2-1.7,2-2.2.8-.5,1.8-.7,2.9-.7Z"/>
+											<path class="st5" d="M1127.7,295.5c-1.1,0-2.1-.2-2.9-.6s-1.5-1-1.9-1.7c-.5-.7-.7-1.6-.7-2.5s.3-2.3.8-3.2c.5-.9,1.3-1.7,2.2-2.2,1-.5,2-.8,3.3-.8s2,.2,2.7.6c.8.4,1.3.9,1.8,1.6.4.7.6,1.5.6,2.5s0,.6,0,.8c0,.3,0,.5-.1.8h-8.9l.3-1.8h7.1l-1.3.6c.1-.6,0-1.1-.1-1.5-.2-.4-.5-.7-.8-.9s-.9-.3-1.4-.3-1.3.2-1.7.5-.8.8-1.1,1.3c-.2.6-.4,1.2-.4,1.9s.2,1.4.7,1.8c.5.4,1.2.6,2.1.6s1.1,0,1.6-.3c.5-.2.9-.4,1.3-.7l1.3,2.1c-.6.5-1.3.9-2.1,1.1-.8.2-1.6.4-2.4.4Z"/>
+											<path class="st5" d="M1135.2,291l.5-2.5h5.7l-.5,2.5h-5.7Z"/>
+											<path class="st5" d="M1142.5,295.4l3-14.8h3.1l-1.3,6.3-.8,3.1-.5,2.8-.5,2.7h-3ZM1149.3,295.5c-.8,0-1.5-.1-2.2-.4-.6-.3-1.1-.7-1.4-1.4-.3-.6-.5-1.4-.5-2.3s.1-1.9.4-2.7c.2-.9.6-1.6,1.1-2.2.5-.6,1-1.1,1.7-1.5.7-.4,1.4-.5,2.3-.5s1.6.2,2.3.6c.7.4,1.3.9,1.7,1.6.4.7.6,1.6.6,2.6s-.2,1.7-.5,2.5-.7,1.4-1.3,2c-.5.6-1.2,1-1.9,1.3s-1.5.5-2.3.5ZM1149,293c.6,0,1.2-.1,1.6-.5.5-.3.8-.7,1.1-1.2s.4-1.1.4-1.9-.2-1.3-.6-1.7c-.4-.4-1-.6-1.8-.6s-1.1.1-1.6.4c-.5.3-.9.7-1.1,1.2s-.4,1.1-.4,1.9.2,1.3.6,1.7c.4.4,1,.6,1.8.6Z"/>
+											<path class="st5" d="M1161.9,295.5c-1.1,0-2-.2-2.9-.6s-1.4-1-1.9-1.7c-.4-.7-.7-1.6-.7-2.5s.3-2.3.8-3.2c.6-.9,1.3-1.7,2.3-2.2,1-.5,2.1-.8,3.4-.8s2.1.2,2.9.6c.8.4,1.4,1,1.9,1.7.4.7.7,1.6.7,2.5s-.3,2.3-.8,3.2c-.6.9-1.3,1.7-2.3,2.2-1,.5-2.1.8-3.4.8ZM1162.1,293c.6,0,1.2-.1,1.6-.5.5-.3.8-.7,1.1-1.2.3-.5.4-1.2.4-1.9s-.2-1.3-.6-1.7c-.4-.4-1-.7-1.8-.7s-1.2.1-1.6.4c-.5.3-.8.7-1.1,1.2-.3.5-.4,1.2-.4,1.9s.2,1.3.6,1.8c.4.4,1,.6,1.8.6Z"/>
+											<path class="st5" d="M1173.9,295.5c-.9,0-1.6-.2-2.3-.6-.6-.4-1.1-.9-1.4-1.7-.3-.7-.3-1.6,0-2.7l1.2-6h3.1l-1.1,5.8c-.2.8,0,1.4.2,1.8.3.4.8.6,1.5.6s1.4-.2,2-.7c.5-.5.9-1.1,1-2.1l1.1-5.5h3.1l-2.1,10.8h-3l.6-3,.4.9c-.5.8-1.1,1.4-1.9,1.7-.8.4-1.6.6-2.4.6Z"/>
+											<path class="st5" d="M1191.5,284.5c.9,0,1.7.2,2.3.6.6.4,1.1.9,1.4,1.7.3.7.3,1.6,0,2.7l-1.2,6h-3.1l1.2-5.8c.2-.8,0-1.4-.2-1.8-.3-.4-.8-.6-1.6-.6s-1.4.2-2,.7c-.5.5-.9,1.1-1.1,2.1l-1.1,5.5h-3.1l2.1-10.8h3l-.6,3-.4-.9c.5-.8,1.2-1.4,1.9-1.7.8-.4,1.6-.5,2.4-.5Z"/>
+											<path class="st5" d="M1201.8,295.5c-.8,0-1.6-.2-2.3-.6-.7-.4-1.3-.9-1.7-1.6-.4-.7-.6-1.6-.6-2.6s.1-1.7.5-2.5c.3-.8.7-1.4,1.3-2s1.2-1,1.9-1.3c.7-.3,1.5-.5,2.3-.5s1.6.1,2.2.4c.6.3,1.1.7,1.4,1.4.3.6.5,1.4.5,2.3s-.1,1.9-.3,2.8c-.2.8-.6,1.6-1.1,2.2-.5.6-1,1.1-1.7,1.5-.7.4-1.4.5-2.3.5ZM1202.8,293c.6,0,1.2-.1,1.6-.5.5-.3.8-.7,1.1-1.2.3-.5.4-1.1.4-1.9s-.2-1.3-.6-1.7c-.4-.4-1-.6-1.8-.6s-1.1.1-1.6.4c-.5.3-.9.7-1.1,1.2s-.4,1.1-.4,1.9.2,1.3.7,1.7c.4.4,1,.6,1.8.6ZM1204.9,295.4l.4-2.1.7-3.2.4-3.2,1.3-6.3h3.1l-3,14.8h-3Z"/>
+											<path class="st5" d="M1113.9,323.3c-.8-1.2-1.4-2.6-1.8-4.2-.4-1.6-.7-3.3-.7-5.1s.2-3.6.7-5.2c.4-1.6,1-3,1.8-4.2h3c-.8,1.5-1.5,3-1.8,4.5-.4,1.5-.6,3.1-.6,4.8s.2,3.3.6,4.8c.4,1.5,1,3,1.8,4.5h-3Z"/>
+											<path class="st5" d="M1118.7,319.4v-14h6.1c1.3,0,2.3.2,3.2.6.9.4,1.6,1,2.1,1.8.5.8.7,1.7.7,2.7s-.2,1.9-.7,2.7c-.5.8-1.2,1.3-2.1,1.8-.9.4-2,.6-3.2.6h-4.3l1.4-1.5v5.3h-3.2ZM1122,314.4l-1.4-1.5h4.1c1,0,1.7-.2,2.2-.6.5-.4.7-1,.7-1.8s-.2-1.4-.7-1.8c-.5-.4-1.2-.6-2.2-.6h-4.1l1.4-1.5v7.9Z"/>
+											<path class="st5" d="M1133,319.4v-10.8h3v3l-.4-.9c.3-.8.8-1.3,1.5-1.7.7-.4,1.6-.6,2.6-.6v2.9c-.1,0-.3,0-.4,0-.1,0-.2,0-.3,0-.9,0-1.5.2-2.1.7-.5.5-.8,1.2-.8,2.3v5.1h-3.1Z"/>
+											<path class="st5" d="M1144.1,319.5c-.8,0-1.6-.1-2.2-.4-.6-.3-1.1-.7-1.4-1.2s-.5-1-.5-1.7.2-1.2.5-1.7c.3-.5.8-.9,1.5-1.1.7-.3,1.6-.4,2.7-.4h2.9v1.8h-2.5c-.7,0-1.2.1-1.5.4-.3.2-.4.5-.4.9s.2.7.5,1c.3.2.7.4,1.3.4s1-.1,1.4-.4c.4-.2.7-.6.9-1.1l.5,1.4c-.2.7-.6,1.2-1.2,1.6-.6.4-1.4.5-2.3.5ZM1147.4,319.4v-2.1l-.2-.5v-3.8c0-.7-.2-1.2-.6-1.6-.4-.4-1-.6-1.9-.6s-1.1,0-1.7.3c-.6.2-1,.4-1.4.7l-1.1-2.2c.6-.4,1.3-.7,2.1-1,.8-.2,1.7-.3,2.5-.3,1.6,0,2.9.4,3.8,1.2.9.8,1.4,2,1.4,3.6v6.1h-2.9Z"/>
+											<path class="st5" d="M1152.4,319.4v-1.9l6.4-7.5.5,1h-6.8v-2.4h9.3v1.9l-6.4,7.5-.6-1h7.1v2.4h-9.6Z"/>
+											<path class="st5" d="M1169,319.5c-1.1,0-2.2-.2-3.1-.7s-1.6-1.1-2.1-2c-.5-.8-.8-1.8-.8-2.9s.3-2,.8-2.9c.5-.8,1.2-1.5,2.1-2,.9-.5,1.9-.7,3.1-.7s2.1.2,3,.7c.9.5,1.6,1.1,2.1,2s.8,1.8.8,2.9-.3,2-.8,2.9c-.5.8-1.2,1.5-2.1,2-.9.5-1.9.7-3,.7ZM1169,317c.5,0,1-.1,1.4-.4.4-.2.7-.6,1-1,.2-.4.4-1,.4-1.6s-.1-1.2-.4-1.6c-.2-.4-.6-.8-1-1s-.9-.4-1.4-.4-1,.1-1.4.4c-.4.2-.7.6-1,1s-.4,1-.4,1.6.1,1.1.4,1.6c.2.4.6.8,1,1,.4.2.9.4,1.4.4Z"/>
+											<path class="st5" d="M1178.7,323.3h-3c.9-1.5,1.5-3,1.9-4.5.4-1.5.6-3.1.6-4.8s-.2-3.3-.6-4.8c-.4-1.5-1-3-1.9-4.5h3c.8,1.2,1.5,2.6,1.9,4.2.4,1.6.6,3.3.6,5.2s-.2,3.6-.6,5.1c-.4,1.6-1.1,3-1.9,4.2Z"/>
+										  </g>
+										  
+										</g>
+									  </svg>
+								</div>
+
+								<span class="figure-caption fonte d-block text-center">Fonte: Campus Virtual Fiocruz</span>
+
+								
+							</div>
+						</div>
+
+						<!-- INFO - Versão Mobile -->
+						<div class="row justify-content-center d-md-none pt-5">
+							<div class="col-12 col-md-10 col-lg-10 mb-5">
+
+								<figure class="lightbox aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="600">
+									<img class="img-fluid mx-auto d-block mb-3" src="../../media/modulo2/aula5-info1_v2.png" alt="" title="Fonte: Campus Virtual Fiocruz">
+									<figcaption class="figure-caption fonte">Fonte: Campus Virtual Fiocruz</figcaption>
+								</figure>
+
+								<!-- Accordion -->
+								<div class="accordion accordion-flush aos-init aos-animate" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="800" id="accordion1">
+									<div class="accordion-item">
+										<h5 class="accordion-header" id="heading1-item1">
+											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item1" aria-expanded="true" aria-controls="collapse1-item1">S = <em>Specific</em> (Específico)</button>
+										</h5>
+										<div id="collapse1-item1" class="accordion-collapse collapse" aria-labelledby="heading1-item1" data-bs-parent="">
+											<div class="accordion-body">
+												<p>O indicador deve ser específico sobre o que está sendo medido, de quem os dados serão coletados e quando.</p>
+											</div>
+										</div>
+									</div>
+
+									<div class="accordion-item">
+										<h5 class="accordion-header" id="heading1-item2">
+											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item2" aria-expanded="false" aria-controls="collapse1-item2">M = <em>Mesureable</em> (Mensurável)</button>
+										</h5>
+										<div id="collapse1-item2" class="accordion-collapse collapse" aria-labelledby="heading1-item2" data-bs-parent="">
+											<div class="accordion-body">
+												<p>O indicador deve ser quantificável. Evite a utilização de termos subjetivos como “boa qualidade” ou “acessível” na definição do indicador, uma vez que estes podem ser interpretados de forma diferente entre regiões, profissões e indivíduos.</p>
+											</div>
+										</div>
+									</div>
+
+									<div class="accordion-item">
+										<h5 class="accordion-header" id="heading1-item3">
+											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item3" aria-expanded="false" aria-controls="collapse1-item3">A = <em>Attainable</em> (Atingível)</button>
+										</h5>
+										<div id="collapse1-item3" class="accordion-collapse collapse" aria-labelledby="heading1-item3" data-bs-parent="">
+											<div class="accordion-body">
+												<p>O indicador deve ser atingível com o orçamento, tempo e recursos humanos disponíveis.</p>
+											</div>
+										</div>
+									</div>
+
+									<div class="accordion-item">
+										<h5 class="accordion-header" id="heading1-item4">
+											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item4" aria-expanded="false" aria-controls="collapse1-item4">R = <em>Relevant</em> (Relevante)</button>
+										</h5>
+										<div id="collapse1-item4" class="accordion-collapse collapse" aria-labelledby="heading1-item4" data-bs-parent="">
+											<div class="accordion-body">
+												<p>O indicador deve ser relevante para o contexto e específico para as necessidades do programa ou intervenção que está sendo avaliada.</p>
+											</div>
+										</div>
+									</div>
+
+									<div class="accordion-item">
+										<h5 class="accordion-header" id="heading1-item5">
+											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item5" aria-expanded="false" aria-controls="collapse1-item5">T = <em>Time-bound</em> (Prazo)</button>
+										</h5>
+										<div id="collapse1-item5" class="accordion-collapse collapse" aria-labelledby="heading1-item5" data-bs-parent="">
+											<div class="accordion-body">
+												<p>O indicador deve ser específico no tempo, com base no calendário do programa de saúde.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Fim do Accordion -->
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+								<p>A abordagem para seleção dos indicadores para estruturação do processo de
+									monitoramento e avaliação em saúde digital deve considerar:</p>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+
+								<div class="list">
+									<ul class="list-group">
+										<li class="list-group-item aos-init aos-animate" list-style="default"
+											data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">os
+											objetivos e prioridades da intervenção em saúde digital </li>
+										<li class="list-group-item aos-init aos-animate" list-style="default"
+											data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">as
+											considerações práticas em termos de contexto e disponibilidade de recursos
+										</li>
+										<li class="list-group-item aos-init aos-animate" list-style="default"
+											data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">as
+											alegações mapeadas/elaboradas. </li>
+
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+								<p>Ao contrário da maioria das intervenções em saúde que focam nos resultados, na
+									maioria das vezes, uma intervenção digital de saúde serve como complemento ou
+									catalisador de uma intervenção existente que é conhecida por ser eficaz. Nesses
+									casos, onde não é viável medir o impacto, podem ser utilizados indicadores
+									substitutos e indicadores de processo para avaliar a efetividade dessas
+									intervenções. A figura a seguir apresenta uma visão geral sobre a classificação dos
+									indicadores em saúde digital</p>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5 pt-5">
+								<div class="heading__block">
+									<h6 class="heading__title">Classificação dos indicadores de intervenções em saúde digital</h6>
+								</div>
+
+								<figure class="lightbox aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="600">
+									<img class="img-fluid mx-auto d-block mb-3" src="../../media/modulo2/aula5-info2.svg" alt="" title="Fonte: OMS (2016) adaptado pelo autor 2024">
+									<figcaption class="figure-caption fonte">Fonte: OMS (2016) adaptado pelo autor 2024</figcaption>
+								</figure>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+								<p>Os processos de análise e medição das intervenções, seja no âmbito do monitoramento
+									ou da avaliação, se utilizam de <a class="" tabindex="0" role="button"
+										data-bs-toggle="popover" data-bs-trigger="focus" title="" data-bs-html='true'
+										data-bs-content="<p>Atributo, aspecto ou componente da estrutura, do processo ou resultado utilizado para mensurar o programa ou algum de seus componentes (DONABEDIAN, 2003)</p>"
+										data-bs-original-title="Critérios">critérios</a> e <a class="" tabindex="0"
+										role="button" data-bs-toggle="popover" data-bs-trigger="focus" title=""
+										data-bs-html='true'
+										data-bs-content="<p>Fator quantitativo ou qualitativo, empiricamente conectado ao critério, que estabelece um meio simples e confiável de medir a ocorrência de um fenômeno (PATTON MQ, 1990)</p>"
+										data-bs-original-title="Indicadores">indicadores</a> em comparação com <a
+										class="" tabindex="0" role="button" data-bs-toggle="popover"
+										data-bs-trigger="focus" title="" data-bs-html='true'
+										data-bs-content="<p>Valor de referência para mensuração de um fenômeno ou objeto, considerado como ideal.</p>"
+										data-bs-original-title="Parâmetros ou padrões">parâmetros ou padrões</a>. Esses
+									quesitos são fundamentais e devem ser definidos com a participação das partes
+									interessadas e/ou elaborados a partir do conhecimento técnico/científico ou ainda
+									por consenso entre especialistas.</p>
+
+								<p>A matriz de monitoramento inclui critérios e indicadores essenciais relacionados à
+									intervenção, sendo utilizada para o seu acompanhamento sistemático, considerando o
+									planejamento bem como a estrutura conceitual, mas diferenciando-se dessa última, por
+									contemplar apenas os quesitos relevantes para a tomada de decisão. Abrange as
+									dimensões de estrutura, processo e resultado, podendo ou não incluir uma dimensão de
+									custos. As fontes de dados são os registros sistemáticos sobre a intervenção e as
+									informações coletadas são comparadas com o desempenho anterior ou as metas
+									planejadas. </p>
+
+								<p>Já a matriz de julgamento, similar à de monitoramento por incluir critérios,
+									indicadores e padrões, diferencia-se por incluir o mérito. Assim, para cada
+									critério/indicador e padrão, a matriz de julgamento apresenta: pontuação máxima
+									esperada atribuída ao critério/indicador; descrição do valor ou ponto de corte
+									(intervalo aceitável para cada variável estudada; valor observado; valor atribuído e
+									julgamento segundo o valor atribuído).</p>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5 pt-5">
+								<div class="heading__block">
+									<h5 class="heading__title">Passo 4: Definir o desenho de estudo mais adequado</h5>
+								</div>
+								
+								<p>O quarto passo consiste em definir o desenho de estudo mais apropriado para avaliação
+									da intervenção. Como toda avaliação implica um julgamento, cujo desfecho baseia-se
+									numa comparação entre aquilo que se deseja avaliar e uma situação ideal ou
+									equivalente, o desenho da avaliação refere-se à forma através da qual essa
+									comparação será feita. As considerações sobre o desenho do estudo devem ser
+									determinadas pela fase de avaliação em que se enquadra uma determinada intervenção
+									de saúde digital e devem ter em conta as hierarquias de evidências.</p>
+
+								<p>Embora existam diferentes tipos de avaliações, elas podem ser amplamente
+									classificadas em duas categorias: </p>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+								<!-- Accordion -->
+								<div class="accordion accordion-flush mb-5" id="accordionExampleC">
+									<div class="accordion-item">
+										<h5 class="accordion-header" id="heading1-item1">
+											<button class="accordion-button collapsed" type="button"
+												data-bs-toggle="collapse" data-bs-target="#collapse1-item1"
+												aria-expanded="true" aria-controls="collapse1-item1">Formativas</button>
+										</h5>
+										<div id="collapse1-item1" class="accordion-collapse collapse"
+											aria-labelledby="heading1-item1" data-bs-parent="">
+											<div class="accordion-body">
+
+												<p>As avaliações formativas têm por finalidade produzir informações que
+													podem ser utilizadas rapidamente pelos envolvidos na intervenção
+													ainda durante a sua execução e permitem identificar precocemente
+													possíveis problemas e assegurar-se do seu desenvolvimento conforme o
+													planejado. </p>
+												<p>O tipo mais comum de avaliação formativa é a de processo, sendo
+													realizada num momento específico ou em intervalos regulares durante
+													a implementação para medir os resultados atribuídos à conjugação dos
+													insumos e atividades da intervenção. E a avaliação de implementação,
+													ao avaliar a fidelidade da intervenção.</p>
+
+
+											</div>
+										</div>
+									</div>
+
+									<div class="accordion-item">
+										<h5 class="accordion-header" id="heading1-item2">
+											<button class="accordion-button collapsed" type="button"
+												data-bs-toggle="collapse" data-bs-target="#collapse1-item2"
+												aria-expanded="false" aria-controls="collapse1-item2">Somativas</button>
+										</h5>
+										<div id="collapse1-item2" class="accordion-collapse collapse"
+											aria-labelledby="heading1-item2" data-bs-parent="">
+											<div class="accordion-body">
+												<p>As avaliações somativas são realizadas ao fim de uma intervenção ou
+													de uma de suas fases para determinar até que ponto os resultados
+													previstos foram produzidos, a exemplo das avaliações de resultado e
+													impacto, entre outras. </p>
+											</div>
+										</div>
+									</div>
+
+
+								</div>
+								<!-- Fim do Accordion -->
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+								<p>Os estudos adotados pelas pesquisas avaliativas no campo da avaliação em saúde são em
+									sua maioria oriundos de estudos epidemiológicos e têm em comum, a incorporação da
+									estatística e do método experimental das ciências sociais. Considerando os desenhos
+									de estudos sistematizados pela OMS (2016), essa realidade não é muito diferente no
+									âmbito da saúde digital. </p>
+							</div>
+
+							<div class="col-12 col-md-12 mb-5 pb-5">
+								<figure class="lightbox aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="600">
+									<img class="img-fluid mx-auto d-block mb-3" src="../../media/modulo2/tabela4-aula5.svg" alt="" title="Fonte: Campus Virtual Fiocruz">
+									<figcaption class="figure-caption fonte">Fonte: adaptado de Last, 1988 (13) e Gordis, 2014 (14) apud WHO, 2016.</figcaption>
+								</figure>
+								<span class="d-block text-center"><a class="fio-button fio-button-primary" href="../../media/modulo2/tabela4-aula5.pdf" download target="_blank"><span class="material-symbols-rounded"> download</span> Baixe esta tabela completa em PDF</a></span>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5 pb-5">
+								<p>Os estudos descritivos “preocupam-se e são concebidos apenas para descrever a
+									distribuição existente de variáveis, sem levar em conta hipóteses causais ou
+									outras”. Os estudos descritivos visam definir “quem, o quê, quando e onde” os
+									fenômenos são observados. Existem dois tipos principais de estudos descritivos:
+									aqueles que envolvem indivíduos (relatos de séries de casos, estudos transversais e
+									vigilância); e os relativos às populações (estudos ecológicos correlacionais)
+									(Grimes; Schulz, 2002). Ambos os tipos de estudos descritivos podem incluir
+									pesquisas qualitativas (OMS,2016).</p>
+
+								<p>Os estudos analíticos visam quantificar a relação entre a intervenção e o(s)
+									resultado(s) de interesse, geralmente com o objetivo específico de demonstrar uma
+									ligação causal entre os dois. Esses estudos são elaborados para testar hipóteses que
+									geralmente foram geradas a partir de estudos descritivos. Existem duas categorias
+									principais de estudos analíticos: (a) experimentais e (b) observacionais (<a href="" target="_blank">consultar quadro Tipos de desenhos de estudo</a> ).</p>
+							</div>
+						</div>
+
+						<!--Diferença-->
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-4 mb-5">
+								<div class="card h-100 ">
+									<div class="card-header">
+										<span class="h6">Estudos experimentais</span>
+									</div>
+									<div class="card-body">
+										<p>Os estudos experimentais visam avaliar os efeitos de um tratamento ou
+											intervenção que foi introduzido intencionalmente sobre um resultado ou
+											resultados de interesse. Exemplos de estudos experimentais incluem ensaios
+											clínicos randomizados (ECR) e estudos quase experimentais.
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-12 col-md-1 align-self-center mb-5 compare-symbol different">
+								<span class="d-block text-center mx-auto">&#8800;</span>
+							</div>
+
+							<div class="col-12 col-md-4 mb-5">
+								<div class="card ">
+									<div class="card-header">
+										<span class="h6">Estudos observacionais</span>
+									</div>
+									<div class="card-body">
+										<p>Os estudos observacionais são estudos não experimentais nos quais “o
+											investigador não intervém, mas simplesmente 'observa' e avalia a força da
+											relação entre uma exposição e uma variável da doença” (SONG; CHUNG, 2010).
+											Os estudos observacionais incluem estudos de coorte, caso-controle e
+											transversais. </p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--Fim de Diferença-->
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5 pt-5">
+								<p>Considerando o potencial dos desenhos de estudo para eliminar vieses, ou seja, erros
+									que podem levar a resultados ou conclusões equivocadas, podemos classificá-los como:
+									i) excelente: ECRs multicêntricos, ii) bom: ECRs, iii) razoável: ensaios não
+									randomizados, estudos de coorte, estudos de caso-controle e transversais, e iv)
+									fraco: estudos de caso e relatos de caso.</p>
+
+								<p>Um foco principal nos estudos de avaliação é a determinação de associações válidas
+									entre uma exposição (ou seja, uma intervenção ou tratamento) e um resultado de
+									saúde. Embora não exista um modelo único e melhor para avaliar uma intervenção de
+									saúde digital, a abordagem dos requisitos relativos às necessidades de provas
+									envolverá a consideração do grau de certeza necessário. Para intervenções de saúde
+									digital que tenham uma forte base de evidências subjacentes que tenha estabelecido a
+									eficácia da intervenção em termos de resultados positivos para a saúde (por exemplo,
+									imunização contra o sarampo), pode não ser necessário um ECR para determinar a
+									eficácia da imunização. </p>
+
+								<p>No contexto de muitos programas, a intervenção de interesse pode ser responsável por
+									apenas uma parte da variabilidade observada nos resultados, enquanto os fatores
+									socioeconômicos, a escolha da estratégia de execução, os fatores geográficos e
+									outros fatores contextuais podem ter uma influência substancial. A escolha do
+									desenho do estudo e dos métodos de investigação que o acompanham deve ser definida
+									com base nos objetivos globais da investigação e deve considerar até que ponto os
+									decisores devem estar confiantes de que os efeitos observados podem ser atribuídos à
+									intervenção.</p>
+
+								<!-- Box Cor -->
+								<div class="box-cor aos-init aos-animate mb-5 mt-5" data-aos="fade-right"
+									data-aos-easing="ease-out" data-aos-duration="600">
+									<div class="box-cor__base">
+
+										<div class="base-body">
+
+											<h6>Estudos descritivos:</h6>
+
+											<p> podem ser desenvolvidos como estudos exploratórios, que se baseiam em
+												metodologias de recolha de dados semelhantes, mas que visam gerar
+												hipóteses (36). </p>
+
+											<h6>Estudos analíticos:</h6>
+											<p> visam quantificar a relação entre a intervenção e o resultado de
+												interesse e incluem estudos experimentais e observacionais. Exploram
+												inferências sobre a intervenção:</p>
+
+											<!-- Lista Não-Ordenada -->
+											<div class="list">
+												<ul class="list-group">
+													<li class="list-group-item aos-init aos-animate"
+														list-style="default" data-aos="fade-right"
+														data-aos-easing="ease-out" data-aos-duration="1200"> adequação
+														(as atividades de intervenção atingiram os objetivos esperados?)
+													</li>
+													<li class="list-group-item aos-init aos-animate"
+														list-style="default" data-aos="fade-right"
+														data-aos-easing="ease-out" data-aos-duration="1200">
+														plausibilidade (a intervenção teve um efeito acima e além de
+														outras influências externas?) </li>
+													<li class="list-group-item aos-init aos-animate"
+														list-style="default" data-aos="fade-right"
+														data-aos-easing="ease-out" data-aos-duration="1200">
+														probabilidade (A intervenção teve efeito (P < x%)?)</li>
+
+												</ul>
+											</div>
+
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5 pt-5">
+								<div class="heading__block">
+									<h6 class="heading__title">Métodos de avaliação</h6>
+								</div>
+
+								<p>Considerando a diversidade metodológica, bem como a necessidade de combinação de
+									métodos e abordagens nos estudos avaliativos, Hartz (1999) destaca o risco da mera
+									justaposição de métodos, abordagens e instrumentos, ressaltando que a escolha dos
+									mesmos deve ser orientada pela integração coerente com as alegações e objetivos dos
+									estudos avaliativos. Nessa parte serão apresentadas:</p>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+								<div class="card">
+									<div class="card-header">
+										<span class="">Abordagens qualitativas</span>
+									</div>
+
+									<div class="card-body">
+										<p>As abordagens qualitativas produzem dados em formatos de texto, imagem ou
+											áudio/vídeo a partir dos quais padrões ou temas relacionados com os
+											atributos dos participantes (por exemplo, opiniões, comportamentos) podem
+											ser detectados e analisados utilizando métodos e ferramentas específicos
+											para dados qualitativos.</p>
+									</div>
+
+								</div>
+							</div>
+
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+								<div class="card">
+									<div class="card-header">
+										<span class="">Abordagens quantitativas</span>
+									</div>
+
+									<div class="card-body">
+										<p>As abordagens quantitativas (por exemplo, recolha de dados de inquéritos)
+											produzem dados numéricos que podem ser analisados utilizando métodos
+											estatísticos.</p>
+									</div>
+
+								</div>
+							</div>
+
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+								<div class="card">
+									<div class="card-header">
+										<span class="">Métodos mistos</span>
+									</div>
+
+									<div class="card-body">
+										<p>As abordagens de métodos mistos são uma combinação de ambos, envolvendo a
+											recolha de dados qualitativos e quantitativos, quer sequencialmente quer
+											simultaneamente, com a intenção de informar a questão da investigação. </p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5 pt-5">
+								<p>O quadro a seguir sistematiza as características das abordagens quantitativas e
+									qualitativas. As abordagens de métodos mistos são uma combinação de ambos,
+									envolvendo a recolha de dados qualitativos e quantitativos, quer sequencialmente
+									quer simultaneamente, com a intenção de informar a questão da investigação.</p>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 pt-5">
+								<div class="heading__block">
+									<h6 class="heading__title">Características das abordagens qualitativas e quantitativas</h6>
+								</div>
+							</div>
+
+							<div class="col-12 mb-5 pb-5">
+								<figure class="lightbox aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="600">
+									<img class="img-fluid mx-auto d-block mb-3" src="../../media/modulo2/aula5-tabela5.jpg" alt="" title="Fonte: Campus Virtual Fiocruz">
+									<figcaption class="figure-caption fonte">Fonte: adaptado de The Association of
+										Faculties of Medicine of Canada, sem data Creswell, 2003 Biblioteca
+										Universitária Xavier, 2012 Mack et al., 2005 Gilson et al., 2011 (23–26, 42)
+										apud OMS 2016 adaptado</figcaption>
+								</figure>
+								<span class="d-block text-center"><a class="fio-button fio-button-primary" href="../../media/modulo2/tabela5-aula5.pdf" download target="_blank"><span class="material-symbols-rounded"> download</span> Baixe esta tabela em PDF</a></span>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5 pt-5">
+								<div class="heading__block">
+									<h5 class="heading__title">Passo 5: Determinar quem realizará atividades de monitoramento e avaliação</h5>
+								</div>
+
+								<p>Para muitas intervenções de saúde digital, o monitoramento será realizado internamente
+									pela equipe de execução e centrar-se-á nas ligações entre insumos, processos e
+									resultados. Em contraste, os esforços de avaliação para determinar o efeito de uma
+									intervenção nos resultados e impacto na saúde podem ser conduzidos por uma organização
+									de investigação externa ao projeto e pelos seus clientes ou beneficiários pretendidos
+									(OMS, 2016).</p>
+							</div>
+						</div>
+
+					<div class="row justify-content-center">
+						<div class="col-12 col-md-10 col-lg-8 mb-5 pt-5">
+							<div class="heading__block">
+								<h5 class="heading__title">Passo 6: Tempo e recursos</h5>
+							</div>
+
+							<p>O passo 6 consiste em definir e projetar em quanto tempo será necessário para realizar
+								atividades de avaliação e que recursos (humanos, financeiros, físicos) estão disponíveis
+								para apoiar atividades de avaliação. O momento da avaliação pode acontecer:</p>
+						</div>
+					</div>
+
+					<div class="row justify-content-center">
+						<div class="col-12 col-md-10 col-lg-8 mb-5">
+							<div class="list">
+								<ul class="list-group">
+									<li class="list-group-item aos-init aos-animate" list-style="default"
+										data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">no
+										início do projeto (prospectivo)</li>
+									<li class="list-group-item aos-init aos-animate" list-style="default"
+										data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">após o
+										início/introdução do projeto</li>
+									<li class="list-group-item aos-init aos-animate" list-style="default"
+										data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">na
+										conclusão do projeto (retrospectivo)</li>
+
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="row justify-content-center">
+						<div class="col-12 col-md-10 col-lg-8 mb-5">
+							<p>Em geral as avaliações prospectivas são preferidas (OMS, 2016).</p>
+						</div>
+					</div>
+
+					<div class="row justify-content-center">
+						<div class="col-12 col-md-10 col-lg-8 mb-5 pt-5">
+							<div class="heading__block">
+								<h5 class="heading__title">Passo 7: Definir um plano de implementação de M&A</h5>
+							</div>
+
+							<p>Uma vez estabelecidos os objetivos do estudo, o quadro conceitual e o desenho do estudo,
+								é necessário desenvolver um plano de implementação para fornecer um roteiro realista do
+								calendário, dos recursos e das atividades necessárias para conceber e implementar
+								atividades de monitoramento e avaliação. Uma característica comum é um quadro que resume
+								as atividades básicas, os recursos, o cronograma do projeto planejado e como ele será
+								monitorado. No mínimo, o plano de implementação de M&A deve incluir o seguinte: </p>
+						</div>
+					</div>
+
+					<div class="row justify-content-center">
+						<div class="col-12 col-md-10 col-lg-8 mb-5">
+							<div class="list">
+								<ul class="list-group">
+									<li class="list-group-item aos-init aos-animate" list-style="default"
+										data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">uma
+										lista estruturada de atividades e subatividades</li>
+
+									<li class="list-group-item aos-init aos-animate" list-style="default"
+										data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">os
+										responsáveis designados para atividades</li>
+
+									<li class="list-group-item aos-init aos-animate" list-style="default"
+										data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">um
+										cronograma e datas previstas</li>
+
+									<li class="list-group-item aos-init aos-animate" list-style="default"
+										data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">o
+										orçamento e detalhes de outros recursos necessários</li>
+
+									<li class="list-group-item aos-init aos-animate" list-style="default"
+										data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">monitoramento</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="row justify-content-center">
+						<div class="col-12 col-md-10 col-lg-8">
+							<p>Se a intervenção de saúde digital apoiar uma intervenção de saúde mais ampla, o que é
+								frequentemente o caso, o plano de implementação de monitoramento e avaliação relacionado
+								especificamente com a tecnologia de saúde digital pode ser incorporado no plano de
+								implementação de monitoramento e avaliação para a intervenção ou programa de saúde mais
+								amplo.</p>
 						</div>
 					</div>
 				</section>
 			</div>
 
-			<footer>
-				<div class="container-fluid">
-					<div class="row justify-content-center align-items-center linha-de-marcas">
-						<div class="col-12 col-md-auto">
-							<ul class="logos">
-								<!-- <li class="realizacao"> -->
-								<li>
-									<img class="img-fluid logo1" src="../../media/logos/logo-icict-vertical.svg" alt="Logo do ICICT" height="" />
-								</li>
-
-								<li>
-									<img class="img-fluid logo2" src="../../media/logos/logo-campus-horizontal.png" alt="Logo do Campus Virtual Fiocruz" height="" />
-								</li>
-
-								<li>
-									<img class="img-fluid logo3" src="../../media/logos/logo-fiocruz-horizontal-black.png" alt="Logo da Fiocruz" height="" />
-								</li>
-							</ul>
-						</div>
-
-						<div class="col-12 col-md-auto">
-							<ul class="logos principais align-self-end">
-								<li>
-									<img class="img-fluid logo4" src="../../media/logos/logo-sus-digital-cor.png" alt="Logo do SUS Digital" height="" />
-								</li>
-
-								<li>
-									<img class="img-fluid logo5 d-none d-md-block" src="../../media/logos/ministerio-saude-gov-federal.png" alt="Logos do SUS, Ministério da Saúde e Governo Federal" height="" />
-								</li>
-
-								<li>
-									<img class="img-fluid logo6 d-block d-md-none" src="../../media/logos/ministerio-saude-gov-federal-mobile.png" alt="Logos do SUS, Ministério da Saúde e Governo Federal" height="" />
-								</li>
-							</ul>
+			<!-- Navegação da aula -->
+			<section>
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-12 col-md-10 col-lg-8">
+							<div class="page-nav d-flex justify-content-evenly">
+								<a class="fio-button fio-button-primary" href="topico1.html" rel="prev"><span
+										class="material-symbols-rounded" aria-hidden="true">west</span> Tópico
+									Anterior</a>
+								<a class="fio-button fio-button-primary" href="topico3.html" rel="next">Próximo tópico
+									<span class="material-symbols-rounded" aria-hidden="true">east</span></a>
+							</div>
 						</div>
 					</div>
 				</div>
-			</footer>
+			</section>
 		</div>
 
-		<!--  Bootstrap JS and Popper -->
-		<script src="../../source/bootstrap-5.1.3/js/bootstrap.bundle.min.js"></script>
+		<footer>
+			<div class="container-fluid">
+				<div class="row justify-content-center align-items-center linha-de-marcas">
+					<div class="col-12 col-md-auto">
+						<ul class="logos">
+							<!-- <li class="realizacao"> -->
+							<li>
+								<img class="img-fluid logo1" src="../../media/logos/logo-icict-vertical.svg"
+									alt="Logo do ICICT" height="" />
+							</li>
 
-		<!-- Sticky Sidebar -->
-		<script type="text/javascript" src="../../assets/js/ResizeSensor.js"></script>
-		<script type="text/javascript" src="../../assets/js/sticky-sidebar.js"></script>
-		<script type="text/javascript" src="../../assets/js/sidebar.js"></script>
+							<li>
+								<img class="img-fluid logo2" src="../../media/logos/logo-campus-horizontal.png"
+									alt="Logo do Campus Virtual Fiocruz" height="" />
+							</li>
 
-		<script type="text/javascript">
-			var sidebar = new StickySidebar('.sidebar', {
-				topSpacing: 0,
-				bottomSpacing: 0,
-				containerSelector: '.main',
-				innerWrapperSelector: '.sidebar__inner',
-				minWidth: 991,
-			});
-		</script>
+							<li>
+								<img class="img-fluid logo3" src="../../media/logos/logo-fiocruz-horizontal-black.png"
+									alt="Logo da Fiocruz" height="" />
+							</li>
+						</ul>
+					</div>
 
-		<script type="text/javascript" src="../../assets/js/scripts.js"></script>
-		<script type="text/javascript" src="../../assets/js/custom-anime.js"></script>
-		<script type="text/javascript" src="../../source/animate/aos/dist/aos.js"></script>
+					<div class="col-12 col-md-auto">
+						<ul class="logos principais align-self-end">
+							<li>
+								<img class="img-fluid logo4" src="../../media/logos/logo-sus-digital-cor.png"
+									alt="Logo do SUS Digital" height="" />
+							</li>
 
-		<!-- Timeline horizontal -->
-		<script src="../../assets/js/timeline-horizontal/util.js"></script>
-		<!-- util functions included in the CodyHouse framework -->
-		<script src="../../assets/js/timeline-horizontal/swipe-content.js"></script>
-		<!-- A Vanilla JavaScript plugin to detect touch interactions -->
-		<script src="../../assets/js/timeline-horizontal/main.js"></script>
-		<!-- Start the Timeline -->
-		<script>
-			document.getElementsByTagName('html')[0].className += ' js';
-		</script>
+							<li>
+								<img class="img-fluid logo5 d-none d-md-block"
+									src="../../media/logos/ministerio-saude-gov-federal.png"
+									alt="Logos do SUS, Ministério da Saúde e Governo Federal" height="" />
+							</li>
 
-		<script>
-			AOS.init();
-		</script>
-	</body>
+							<li>
+								<img class="img-fluid logo6 d-block d-md-none"
+									src="../../media/logos/ministerio-saude-gov-federal-mobile.png"
+									alt="Logos do SUS, Ministério da Saúde e Governo Federal" height="" />
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<!--  Bootstrap JS and Popper -->
+	<script src="../../source/bootstrap-5.1.3/js/bootstrap.bundle.min.js"></script>
+
+	<!-- Sticky Sidebar -->
+	<script type="text/javascript" src="../../assets/js/ResizeSensor.js"></script>
+	<script type="text/javascript" src="../../assets/js/sticky-sidebar.js"></script>
+	<script type="text/javascript" src="../../assets/js/sidebar.js"></script>
+
+	<script type="text/javascript">
+		var sidebar = new StickySidebar('.sidebar', {
+			topSpacing: 0,
+			bottomSpacing: 0,
+			containerSelector: '.main',
+			innerWrapperSelector: '.sidebar__inner',
+			minWidth: 991,
+		});
+	</script>
+
+	<script type="text/javascript" src="../../assets/js/scripts.js"></script>
+	<script type="text/javascript" src="../../assets/js/custom-anime.js"></script>
+	<script type="text/javascript" src="../../source/animate/aos/dist/aos.js"></script>
+
+	<!-- Timeline horizontal -->
+	<script src="../../assets/js/timeline-horizontal/util.js"></script>
+	<!-- util functions included in the CodyHouse framework -->
+	<script src="../../assets/js/timeline-horizontal/swipe-content.js"></script>
+	<!-- A Vanilla JavaScript plugin to detect touch interactions -->
+	<script src="../../assets/js/timeline-horizontal/main.js"></script>
+	<!-- Start the Timeline -->
+	<script>
+		document.getElementsByTagName('html')[0].className += ' js';
+	</script>
+
+	<script>
+		AOS.init();
+	</script>
+</body>
+
 </html>

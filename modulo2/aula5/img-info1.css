@@ -1,0 +1,62 @@
+/* INFO SMART (tópico 2) */
+
+.st0 {
+  fill: none;
+}
+
+.st1, .st2, .st3 {
+  fill: #fff;
+}
+
+.st1, .st3, .st4 {
+  opacity: .2;
+}
+
+.st5 {
+  fill: var(--fio-sys-color-accent-medium);
+}
+
+.st3 {
+  fill-rule: evenodd;
+}
+
+.st6 {
+  fill:transparent;
+}
+
+/* Info Popover */
+
+.info-SVG .bt:hover .bg-button {
+  fill:var(--fio-sys-color-accent-light);
+}
+
+.info-SVG .popover {
+  cursor: pointer;
+  /* transition: 0.3s ease-out; */
+  animation: move .75s ease-out infinite alternate;
+}
+.info-SVG .popover:hover {
+  transform: translateY(-5px);
+  filter: drop-shadow(0 4px 4px #ababab);
+}
+
+.info-SVG  .popover:focus {
+animation:none;
+transform: translateY(-5px);
+}
+
+.info-SVG .bt {
+  filter: drop-shadow(8px 8px 8px #d2d2d2);
+}
+
+@keyframes move {
+  from {
+    transform: translateY(0);
+  filter: drop-shadow(0 1px 1px #ababab);
+  }
+
+  to {
+    transform: translateY(-10px);
+  filter: drop-shadow(0 10px 4px #ababab);
+  }
+}

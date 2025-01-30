@@ -1,654 +1,761 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<!-- Required meta tags -->
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no" />
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="robots" content="noindex" />
-		<meta name="author" content="Fiocruz, Campus Virtual" />
-		<meta name="description" content="Curso Introdução à Saúde Digital" />
-		<meta name="keywords" content="Fiocruz Curso Introdução à Saúde Digital" />
 
-		<!-- Facebook Open Graph -->
-		<meta property="og:url" content="https://mooc.campusvirtual.fiocruz.br/rea/etica-integridade-pesquisa" />
-		<meta property="og:title" content="Campus Virtual Fiocruz | Curso Introdução à Saúde Digital" />
-		<meta property="og:description" content="Curso Introdução à Saúde Digital" />
-		<meta property="og:image" content="" />
-		<meta property="og:image:width" content="1080" />
-		<meta property="og:image:height" content="1080" />
-		<meta property="og:type" content="website" />
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="robots" content="noindex" />
+	<meta name="author" content="Fiocruz, Campus Virtual" />
+	<meta name="description" content="Curso Introdução à Saúde Digital" />
+	<meta name="keywords" content="Fiocruz Curso Introdução à Saúde Digital" />
 
-		<!-- Twitter Cards -->
-		<meta name="twitter:card" content="summary_large_image" />
-		<meta name="twitter:title" content="Campus Virtual Fiocruz | Curso Introdução à Saúde Digital" />
-		<meta name="twitter:url" content="" />
-		<meta name="twitter:description" content="" />
-		<meta name="twitter:image:src" content="" />
+	<!-- Facebook Open Graph -->
+	<meta property="og:url" content="https://mooc.campusvirtual.fiocruz.br/rea/etica-integridade-pesquisa" />
+	<meta property="og:title" content="Campus Virtual Fiocruz | Curso Introdução à Saúde Digital" />
+	<meta property="og:description" content="Curso Introdução à Saúde Digital" />
+	<meta property="og:image" content="" />
+	<meta property="og:image:width" content="1080" />
+	<meta property="og:image:height" content="1080" />
+	<meta property="og:type" content="website" />
 
-		<!-- Favicons and Touch Icons -->
-		<link rel="apple-touch-icon" sizes="57x57" href="../../media/icons/apple-icon-57x57.png" />
-		<link rel="apple-touch-icon" sizes="60x60" href="../../media/icons/apple-icon-60x60.png" />
-		<link rel="apple-touch-icon" sizes="72x72" href="../../media/icons/apple-icon-72x72.png" />
-		<link rel="apple-touch-icon" sizes="76x76" href="../../media/icons/apple-icon-76x76.png" />
-		<link rel="apple-touch-icon" sizes="114x114" href="../../media/icons/apple-icon-114x114.png" />
-		<link rel="apple-touch-icon" sizes="120x120" href="../../media/icons/apple-icon-120x120.png" />
-		<link rel="apple-touch-icon" sizes="144x144" href="../../media/icons/apple-icon-144x144.png" />
-		<link rel="apple-touch-icon" sizes="152x152" href="../../media/icons/apple-icon-152x152.png" />
-		<link rel="apple-touch-icon" sizes="180x180" href="../../media/icons/apple-icon-180x180.png" />
+	<!-- Twitter Cards -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Campus Virtual Fiocruz | Curso Introdução à Saúde Digital" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:description" content="" />
+	<meta name="twitter:image:src" content="" />
 
-		<link rel="icon" type="image/png" sizes="192x192" href="../../media/icons/android-icon-192x192.png" />
-		<link rel="icon" type="image/png" sizes="32x32" href="../../media/icons/favicon-32x32.png" />
-		<link rel="icon" type="image/png" sizes="96x96" href="../../media/icons/favicon-96x96.png" />
-		<link rel="icon" type="image/png" sizes="16x16" href="../../media/icons/favicon-16x16.png" />
-		<link rel="manifest" href="../media/icons/manifest.json" />
+	<!-- Favicons and Touch Icons -->
+	<link rel="apple-touch-icon" sizes="57x57" href="../../media/icons/apple-icon-57x57.png" />
+	<link rel="apple-touch-icon" sizes="60x60" href="../../media/icons/apple-icon-60x60.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="../../media/icons/apple-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="76x76" href="../../media/icons/apple-icon-76x76.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="../../media/icons/apple-icon-114x114.png" />
+	<link rel="apple-touch-icon" sizes="120x120" href="../../media/icons/apple-icon-120x120.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="../../media/icons/apple-icon-144x144.png" />
+	<link rel="apple-touch-icon" sizes="152x152" href="../../media/icons/apple-icon-152x152.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="../../media/icons/apple-icon-180x180.png" />
 
-		<meta name="msapplication-TileColor" content="#ffffff" />
-		<meta name="msapplication-TileImage" content="../../media/icons/ms-icon-144x144.png" />
-		<!-- <meta name="theme-color" content="#003066" /> -->
-		<meta name="theme-color" content="#001833" />
+	<link rel="icon" type="image/png" sizes="192x192" href="../../media/icons/android-icon-192x192.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="../../media/icons/favicon-32x32.png" />
+	<link rel="icon" type="image/png" sizes="96x96" href="../../media/icons/favicon-96x96.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="../../media/icons/favicon-16x16.png" />
+	<link rel="manifest" href="../media/icons/manifest.json" />
 
-		<title>Curso Introdução à Saúde Digital | Mod 2 | Aula 5</title>
+	<meta name="msapplication-TileColor" content="#ffffff" />
+	<meta name="msapplication-TileImage" content="../../media/icons/ms-icon-144x144.png" />
+	<!-- <meta name="theme-color" content="#003066" /> -->
+	<meta name="theme-color" content="#001833" />
 
-		<!-- Bootstrap CSS 5.1.3 -->
-		<link rel="stylesheet" href="../../source/bootstrap-5.1.3/css/bootstrap.min.css" />
+	<title>Curso Introdução à Saúde Digital | Mod 2 | Aula 5</title>
 
-		<!-- Project CSS -->
-		<link rel="stylesheet" href="../../assets/css/style.css" />
-	</head>
+	<!-- Bootstrap CSS 5.1.3 -->
+	<link rel="stylesheet" href="../../source/bootstrap-5.1.3/css/bootstrap.min.css" />
 
-	<body>
-		<header class="header">
-			<div class="mobile-toggle-open">
-				<a class="mobile-toggle__button" tabindex="0" role="button">
-					<span class="icon material-symbols-rounded">read_more</span>
-				</a>
-			</div>
-			<div class="brand">
-				<img class="img-fluid logo-black" src="../../media/logos/header-fiocruz-campus-virtual.png" alt="Campus Virtual Fiocruz" />
-			</div>
-			<div class="title">
-				<h1>Introdução à Saúde Digital</h1>
-			</div>
-			<ul class="nav nav-pills">
-				<li class="nav-item"><a href="../../index.html" class="nav-link">Início</a></li>
-				<li class="nav-item"><a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#modal-creditos">Créditos</a></li>
-			</ul>
-		</header>
-		<div class="main">
-			<div class="sidebar" role="navigation">
-				<div class="sidebar__inner" style="position: relative">
-					<div class="sidebar__group d-lg-none">
-						<div class="sidebar__group-item">
-							<div class="sidebar__header">
-								<span>Curso</span>
-								<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
-							</div>
+	<!-- Project CSS -->
+	<link rel="stylesheet" href="../../assets/css/style.css" />
+</head>
+
+<body>
+	<header class="header">
+		<div class="mobile-toggle-open">
+			<a class="mobile-toggle__button" tabindex="0" role="button">
+				<span class="icon material-symbols-rounded">read_more</span>
+			</a>
+		</div>
+		<div class="brand">
+			<img class="img-fluid logo-black" src="../../media/logos/header-fiocruz-campus-virtual.png"
+				alt="Campus Virtual Fiocruz" />
+		</div>
+		<div class="title">
+			<h1>Introdução à Saúde Digital</h1>
+		</div>
+		<ul class="nav nav-pills">
+			<li class="nav-item"><a href="../../index.html" class="nav-link">Início</a></li>
+			<li class="nav-item"><a href="#" class="nav-link" data-bs-toggle="modal"
+					data-bs-target="#modal-creditos">Créditos</a></li>
+		</ul>
+	</header>
+	<div class="main">
+		<div class="sidebar" role="navigation">
+			<div class="sidebar__inner" style="position: relative">
+				<div class="sidebar__group d-lg-none">
+					<div class="sidebar__group-item">
+						<div class="sidebar__header">
+							<span>Curso</span>
+							<a class="mobile-toggle-close" tabindex="0" role="button"><span
+									class="icon material-symbols-rounded">read_more</span></a>
 						</div>
-						<div class="sidebar__group-item">
-							<div class="sidebar__title">
-								<h1>Introdução à Saúde Digital</h1>
-							</div>
+					</div>
+					<div class="sidebar__group-item">
+						<div class="sidebar__title">
+							<h1>Introdução à Saúde Digital</h1>
 						</div>
-						<div class="sidebar__group-item">
-							<ul class="nav">
-								<li class="nav-item">
-									<a href="../../index.html" class="nav-link" tabindex="0"><span class="icon material-symbols-rounded" aria-hidden="true">home</span>Início</a>
+					</div>
+					<div class="sidebar__group-item">
+						<ul class="nav">
+							<li class="nav-item">
+								<a href="../../index.html" class="nav-link" tabindex="0"><span
+										class="icon material-symbols-rounded" aria-hidden="true">home</span>Início</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link" tabindex="0" data-bs-toggle="modal"
+									data-bs-target="#modal-creditos"><span class="icon material-symbols-rounded"
+										aria-hidden="true"> format_list_bulleted</span>Créditos</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="sidebar__group">
+					<div class="sidebar__group-item">
+						<div class="dropend">
+							<button id="dropdown-modulos" type="button" class="dropdown-toggle"
+								data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside"
+								data-bs-offset="0,30">
+								<span class="icon material-symbols-rounded" aria-hidden="true">grid_view</span>
+								<span class="label">Módulos</span>
+							</button>
+							<ul class="dropdown-menu" aria-labelledby="dropdown-modulos">
+								<li class="d-lg-none dropdown-menu__header">
+									<a class="dropdown-menu__back-button" tabindex="0" role="button"><span
+											class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
+									<a class="mobile-toggle-close" tabindex="0" role="button"><span
+											class="icon material-symbols-rounded">read_more</span></a>
 								</li>
-								<li class="nav-item">
-									<a href="#" class="nav-link" tabindex="0" data-bs-toggle="modal" data-bs-target="#modal-creditos"><span class="icon material-symbols-rounded" aria-hidden="true"> format_list_bulleted</span>Créditos</a>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../../modulo1/apresentacao.html"><strong>Módulo
+											1</strong><br />Fundamentos de Saúde Digital e Tecnologia da Informação em
+										Saúde</a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../../modulo2/apresentacao.html"><strong>Módulo 2</strong><br />Sistemas
+										de informação em saúde e gestão de dados eletrônicos</a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../../modulo3/apresentacao.html"><strong>Módulo 3</strong><br />Segurança
+										da informação e proteção de dados pessoais</a>
+								</li>
+
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../../modulo4/apresentacao.html"><strong>Módulo 4</strong><br />Inovação
+										em Saúde Digital</a>
 								</li>
 							</ul>
 						</div>
 					</div>
-
-					<div class="sidebar__group">
-						<div class="sidebar__group-item">
-							<div class="dropend">
-								<button id="dropdown-modulos" type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30">
-									<span class="icon material-symbols-rounded" aria-hidden="true">grid_view</span>
-									<span class="label">Módulos</span>
-								</button>
-								<ul class="dropdown-menu" aria-labelledby="dropdown-modulos">
-									<li class="d-lg-none dropdown-menu__header">
-										<a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
-										<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo1/apresentacao.html"><strong>Módulo 1</strong><br />Fundamentos de Saúde Digital e Tecnologia da Informação em Saúde</a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo2/apresentacao.html"><strong>Módulo 2</strong><br />Sistemas de informação em saúde e gestão de dados eletrônicos</a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo3/apresentacao.html"><strong>Módulo 3</strong><br />Segurança da informação e proteção de dados pessoais</a>
-									</li>
-
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo4/apresentacao.html"><strong>Módulo 4</strong><br />Inovação em Saúde Digital</a>
-									</li>
-								</ul>
-							</div>
-						</div>
+				</div>
+				<div class="divider">
+					<hr />
+				</div>
+				<div class="sidebar__group">
+					<div class="sidebar__group-item">
+						<span class="text module">Módulo <br class="d-none d-lg-block" /><span>2</span></span>
 					</div>
-					<div class="divider">
-						<hr />
-					</div>
-					<div class="sidebar__group">
-						<div class="sidebar__group-item">
-							<span class="text module">Módulo <br class="d-none d-lg-block" /><span>2</span></span>
-						</div>
-						<div class="sidebar__group-item">
-							<div class="dropend">
-								<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30">
-									<span class="icon material-symbols-rounded" aria-hidden="true">apps</span>
-									<span class="label">Conteúdo</span>
-								</button>
-								<ul class="dropdown-menu">
-									<li class="d-lg-none dropdown-menu__header">
-										<a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
-										<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
-									</li>
-									<li class="dropdown-menu__title">
-										<span class="label">Módulo 2</span>
-										<span class="title">Sistemas de informação em saúde e gestão de dados eletrônicos </span>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../apresentacao.html"><strong>Apresentação do módulo</strong></a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../aula1/topico1.html"><strong>Aula 1: </strong>Sistemas de Informação para o Sistema Único de Saúde (SUS)</a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../aula2/topico1.html"><strong>Aula 2: </strong>Qualidade de dados e informação</a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../aula3/topico1.html"><strong>Aula 3: </strong>Padrões em Informática em Saúde e Interoperabilidade: Aplicações no Contexto do SUS</a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../aula4/topico1.html"><strong>Aula 4: </strong>Intervenções de Saúde Digital: Soluções Digitais</a>
-									</li>
-
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../aula5/topico1.html"><strong>Aula 5: </strong>Monitoramento e Avaliação de Intervenções em Saúde digital</a>
-									</li>
-
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../encerramento.html"><strong>Encerramento do módulo</strong></a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="divider">
-						<hr />
-					</div>
-					<div class="sidebar__group">
-						<div class="sidebar__group-item">
-							<span class="text class">Aula 5</span>
-						</div>
-						<div class="sidebar__group-item">
-							<div class="dropend">
-								<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="200,30">
-									<span class="icon material-symbols-rounded" aria-hidden="true"> format_list_bulleted</span>
-									<span class="label">Tópicos</span>
-								</button>
-								<ul class="dropdown-menu">
-									<li class="d-lg-none dropdown-menu__header">
-										<a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
-										<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
-									</li>
-									<li class="dropdown-menu__title">
-										<span class="label">Aula 5</span>
-										<span class="title">Monitoramento e Avaliação de Intervenções em Saúde digital</span>
-									</li>
-									<li class="dropdown-menu__item">
-										<nav class="topic-list">
-											<a href="topico1.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico concluído" status="visited"> <span class="material-symbols-rounded"></span>Introdução</a>
-
-											<a href="topico2.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído"> <span class="material-symbols-rounded"></span>O que é Avaliação?</a>
-
-											<a href="topico3.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído"><span class="material-symbols-rounded"></span>Avaliação das fontes e qualidade dos dados</a>
-										</nav>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="divider">
-						<hr />
-					</div>
-					<div class="sidebar__group extra">
-						<div class="sidebar__group-item">
-							<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-bibliografiaMod2">
-								<span class="icon material-symbols-rounded" aria-hidden="true"> menu_book</span>
-								<span class="label">Bibliografia</span>
+					<div class="sidebar__group-item">
+						<div class="dropend">
+							<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown"
+								aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30">
+								<span class="icon material-symbols-rounded" aria-hidden="true">apps</span>
+								<span class="label">Conteúdo</span>
 							</button>
+							<ul class="dropdown-menu">
+								<li class="d-lg-none dropdown-menu__header">
+									<a class="dropdown-menu__back-button" tabindex="0" role="button"><span
+											class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
+									<a class="mobile-toggle-close" tabindex="0" role="button"><span
+											class="icon material-symbols-rounded">read_more</span></a>
+								</li>
+								<li class="dropdown-menu__title">
+									<span class="label">Módulo 2</span>
+									<span class="title">Sistemas de informação em saúde e gestão de dados eletrônicos
+									</span>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../apresentacao.html"><strong>Apresentação do módulo</strong></a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../aula1/topico1.html"><strong>Aula 1: </strong>Sistemas de Informação
+										para o Sistema Único de Saúde (SUS)</a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../aula2/topico1.html"><strong>Aula 2: </strong>Qualidade de dados e
+										informação</a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../aula3/topico1.html"><strong>Aula 3: </strong>Padrões em Informática em
+										Saúde e Interoperabilidade: Aplicações no Contexto do SUS</a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../aula4/topico1.html"><strong>Aula 4: </strong>Intervenções de Saúde
+										Digital: Soluções Digitais</a>
+								</li>
+
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../aula5/topico1.html"><strong>Aula 5: </strong>Monitoramento e Avaliação
+										de Intervenções em Saúde digital</a>
+								</li>
+
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../encerramento.html"><strong>Encerramento do módulo</strong></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="divider">
+					<hr />
+				</div>
+				<div class="sidebar__group">
+					<div class="sidebar__group-item">
+						<span class="text class">Aula 5</span>
+					</div>
+					<div class="sidebar__group-item">
+						<div class="dropend">
+							<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown"
+								aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="200,30">
+								<span class="icon material-symbols-rounded" aria-hidden="true">
+									format_list_bulleted</span>
+								<span class="label">Tópicos</span>
+							</button>
+							<ul class="dropdown-menu">
+								<li class="d-lg-none dropdown-menu__header">
+									<a class="dropdown-menu__back-button" tabindex="0" role="button"><span
+											class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
+									<a class="mobile-toggle-close" tabindex="0" role="button"><span
+											class="icon material-symbols-rounded">read_more</span></a>
+								</li>
+								<li class="dropdown-menu__title">
+									<span class="label">Aula 5</span>
+									<span class="title">Monitoramento e Avaliação de Intervenções em Saúde
+										digital</span>
+								</li>
+								<li class="dropdown-menu__item">
+									<nav class="topic-list">
+										<a href="topico1.html" tabindex="0" role="link" class="topic-list__item"
+											aria-label="Tópico concluído" status="visited"> <span
+												class="material-symbols-rounded"></span>Introdução</a>
+
+										<a href="topico2.html" tabindex="0" role="link" class="topic-list__item"
+											aria-label="Tópico não concluído"> <span
+												class="material-symbols-rounded"></span>O que é Avaliação?</a>
+
+										<a href="topico3.html" tabindex="0" role="link" class="topic-list__item"
+											aria-label="Tópico não concluído"><span
+												class="material-symbols-rounded"></span>Avaliação das fontes e qualidade
+											dos dados</a>
+									</nav>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="divider">
+					<hr />
+				</div>
+				<div class="sidebar__group extra">
+					<div class="sidebar__group-item">
+						<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-bibliografiaMod2">
+							<span class="icon material-symbols-rounded" aria-hidden="true"> menu_book</span>
+							<span class="label">Bibliografia</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="content">
+			<div id="page-title">
+				<div class="container">
+					<div class="row align-items-center hstify-content-center justify-content-xxl-start ms-lg-5">
+						<div class="col-12 col-md-10 col-lg-11">
+							<h2 class="title">
+								<span class="label">Módulo 2 | Aula 5</span>
+								<br />
+								Monitoramento e Avaliação de Intervenções em Saúde digital
+							</h2>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="content">
-				<div id="page-title">
-					<div class="container">
-						<div class="row align-items-center hstify-content-center justify-content-xxl-start ms-lg-5">
-							<div class="col-12 col-md-10 col-lg-11">
-								<h2 class="title">
-									<span class="label">Módulo 2 | Aula 5</span>
-									<br />
-									Monitoramento e Avaliação de Intervenções em Saúde digital
-								</h2>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div id="page-content" class="">
-					<!-- Inserir o conteúdo aqui -->
-					<section>
-						<div class="container">
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8 mb-5">
-									<div class="heading__block">
-										<span class="small">Tópico 1</span>
-										<h3 class="heading__title">Introdução</h3>
-									</div>
-
-									<p>A Organização Mundial de Saúde define a saúde digital como um campo de conhecimento e prática associado com o desenvolvimento e uso de tecnologias digitais na saúde (OMS, 2021). E a reconhece como uma estratégia potente para acelerar o alcance da cobertura universal de saúde e os Objetivos de Desenvolvimento Sustentável relacionados à saúde até 2030. </p>
-
-									<p>Diversos estudos têm destacado o importante papel da saúde digital nas práticas, produtos, serviços e nos sistemas de saúde. A variedade de maneiras pelas quais as tecnologias digitais podem ser usadas para o apoio às necessidades dos sistemas de saúde é ampla, e essas tecnologias continuam a evoluir devido à dinâmica do mercado e a forma como as pessoas interagem com elas (OMS, 2016).</p>
-
-									<p>Diante da janela de oportunidade que se abre com a transformação digital da saúde, configurando uma estratégia para facilitar e melhorar o acesso e a qualidade dos sistemas de saúde, tão importante quanto a incorporação e sustentação das tecnologias digitais à saúde, é garantir que esforços sejam mobilizados para demonstrar a contribuição dessas intervenções ao longo do tempo. Segundo Celuppi (2021), é preciso ampliar os estudos sobre a implantação de tecnologias digitais e considerar as evidências sobre os impactos dessas intervenções.</p>
-
-									<p>Nesse contexto, a OMS (2018) reconhece ser fundamental fortalecer e apoiar o desenvolvimento de práticas de monitoramento e avaliação em saúde digital com o objetivo de identificar oportunidades de melhoria e priorizar o desenvolvimento, a avaliação, a implementação, a expansão e um maior nível de utilização de seus resultados, tendo como objetivo a promoção da equidade e o acesso universal, incluindo grupos de necessidades especiais que são vulneráveis no contexto da saúde digital. </p>
-
-									<p>Dentre os desafios da saúde digital, o monitoramento e a avaliação das intervenções destacam-se como áreas de contínuo aprendizado. A avaliação é uma atividade antiga e constitui um conceito polissêmico que agrupa realidades múltiplas e diferentes ênfases teórico-metodológicas, não cabendo uma definição universal e absoluta. Assim, é importante que os envolvidos no processo de avaliação explicitem o referencial adotado.</p>
-
-									<p>No campo da avaliação de intervenções em saúde, ainda que não haja um consenso sobre o termo, há uma convergência entre os autores em considerá-la um julgamento acerca de uma intervenção em saúde tendo em vista instrumentalizar o processo de tomada de decisões. </p>
-
-								</div>
-							</div>
-
-					
-
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-
-									<!-- Olho de texto -->
-									<div class="olho-de-texto my-5">
-										<p>Nesse contexto, podemos entender que a avaliação de intervenções em saúde é a coleta sistemática de dados sobre atividades, características e efeitos de programas para uso de interessados, de forma a reduzir incertezas, melhorar a efetividade e tomar decisões com respeito ao que aquele programa está fazendo, quais são seus resultados e como pode ser ajustado <em>(PATTON MQ, 1990)</em>.</p>
-									</div>
-									<!--Fim de Olho de texto -->
-
-									<p></p>
-								</div>
-							</div>
-
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-
-									<p>Quando falamos de avaliação de intervenções em saúde digital, o conceito de avaliação também se apresenta como um campo polissêmico com diversos métodos de avaliação. </p>
-
-
-												<!-- Saiba Mais -->
-														<div class="saiba-mais pb-5">
-															<div class="row aos-init aos-animate" data-aos="fade-left" data-aos-easing="ease-out" data-aos-duration="600">
-																<div class="col-12 d-flex justify-content-center">
-																	<button class="saiba-mais fio-button button-md fio-button-secondary collapsed" type="collapsed" data-bs-toggle="collapse" data-bs-target="#saiba-mais1" aria-expanded="false" aria-controls="saiba-mais1"><span class="icone material-symbols-rounded" aria-hidden="true"></span> Você sabia?</button>
-																</div>
-
-																<div class="col-12">
-																	<div class="mt-3 collapse" id="saiba-mais1">
-																		<!-- Lista Não-Ordenada -->
-																		<div class="list">
-																			<ul class="list-group">
-																				<li class="list-group-item aos-init aos-animate" list-style='pages' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Acesse o guia da OMS e saiba mais sobre o monitoramento e avaliação em tecnologias digitais em saúde.  <a href='https://iris.who.int/bitstream/handle/10665/252183/9789241511766-eng.pdf;jsessionid=B7457633E61BAB49A91CF9939267525B?sequence=1' target='_blank'>Clique aqui</a></li>
-																			</ul>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-
-								</div>
-							</div>
-
-
-
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-
-									<p>Embora haja um consenso sobre a importância e necessidade de processos de monitoramento e avaliação aplicados às tecnologias digitais em saúde, bem como sobre um referencial comum para condução e fortalecimento desses processos para geração de evidências que subsidiem a tomada de decisão, observa-se que essas práticas ainda são poucos adotadas. </p>
-
-									<p>Outrossim, as intervenções de saúde digital, em geral, são dinâmicas, evoluindo através de vários estágios de <a class="" tabindex="0" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="" data-bs-html='true' data-bs-content="<p>Maturidade significa que o processo é bem compreendido, documentado, aplicado constantemente na organização, além de monitorado e melhorado com regularidade.</p><p>Assim, na medida em que as tecnologias digitais são concebidas, passam por um ciclo de vida de maturidade da intervenção, contemplando desde a fase de protótipo até o processo de implementação da intervenção em saúde digital em maior escala. Ao longo desse ciclo, é importante que sejam institucionalizados processos simultâneos e/ou concomitantes de monitoramento e avaliação (OMS, 2016).</p>" data-bs-original-title="Maturidade">maturidade</a> durante os quais as necessidades de monitoramento e avaliação da intervenção mudam rapidamente. </p>
-
-									<p>De acordo com a OMS (2016), maturidade está atrelada à ideia de amadurecimento, transmitindo a noção de transição de um estágio inicial para outro avançado, podendo ser necessário passar por vários estágios intermediários até se atingir a maturidade efetiva. </p>
-
-									<p>Maturidade significa que o processo é bem compreendido, documentado, aplicado constantemente na organização, além de monitorado e melhorado com regularidade. </p>
-
-									<p>Assim, na medida em que as tecnologias digitais são concebidas, passam por um ciclo de vida de maturidade da intervenção, contemplando desde a fase de protótipo até o processo de implementação da intervenção em saúde digital em maior escala. Ao longo desse ciclo, é importante que sejam institucionalizados processos simultâneos e/ou concomitantes de monitoramento e avaliação (OMS, 2016).</p>
-
-									<p>Diante desse cenário, a OMS elaborou o guia de monitoramento e avaliação de tecnologias digitais em saúde, sistematizando métodos e técnicas de variadas origens acadêmicas e produção interdisciplinar.</p>
-
-									<p>À medida que a intervenção amadurece, o foco dos processos de monitoramento e avaliação podem mudar. A figura a seguir demostra o ciclo de vida de maturidade que, segundo a OMS (2016), orienta que as intervenções digitais sejam monitoradas quanto aos atributos de funcionalidade, estabilidade, fidelidade e qualidade.  E avaliadas quanto aos atributos de usabilidade, viabilidade, eficácia, efetividade, evolução financeira e econômica e à pesquisa de implementação. </p>
-
-								
-
-											<!-- Texto à direita com Imagem  -->
-														<div class="row justify-content-center d-lg-block">
-															<!-- Imagem -->
-																<div class="col-md-4 col-lg-4 float-lg-start me-lg-4 px-0 order-1 order-lg-2">
-																		<figure>
-																				<img class="img-fluid mx-auto d-block mb-3" src="../../media/modulo2/aula5-img1.jpg" alt="Imagem aleatória de exmplo" title="Fonte: unsplash.com">
-																				
-																				<figcaption class="figure-caption fonte">Fonte: Brasil (2022) adaptado a partir da World Health Organization, 2016.</figcaption>
-																		</figure>
-																</div>
-																	
-															<!-- Texto -->
-																    <div class="order-2 order-lg-1">
-																		<p>Veja que no Ciclo de vida de maturidade da intervenção exemplificado, o monitoramento simultâneo (azul/superior) e atividades de avaliação (vermelho/inferior) e seus respectivos atributos, ocorrem à medida que uma intervenção amadurece ao longo do tempo (da esquerda para a direita).</p>
-																	</div>
-															</div>
-											<!-- Fim de texto e imagem à direita-->
-
-
-										<p>A seguir, você verá uma visão geral sobre os principais fundamentos no campo do monitoramento e avaliação para intervenções em saúde digital e a proposta da OMS para estruturar um plano de monitoramento e avaliação, considerando as diretrizes do guia para Monitoramento e Avaliação de Intervenções em Saúde Digital. Mas, antes de avançar é importante alinhar a compreensão sobre intervenção, conjunto de meios (físicos, humanos, financeiros, simbólicos) organizados em um contexto específico, em um dado momento, para produzir bens ou serviços com o objetivo de modificar uma situação problemática (Contandriopoulos et al., 2000). Uma intervenção parte de uma situação problema e é descrita por cinco componentes: objetivos, recursos, serviços, bens ou atividades, efeitos e contexto, podendo constituir desde uma técnica até uma política.</p>
-
-										<p>As intervenções em saúde digital abrangem o uso da tecnologia de informação e comunicação (TIC) no apoio à Saúde e às áreas relacionadas à Saúde, incluindo as tecnologias móveis e e-Saúde.</p>
-										
-										<p>Outra distinção necessária de se fazer é relativa aos conceitos de monitoramento e avaliação, embora na prática, ambos podem ocorrer de forma complementar.</p>
-
-
-								</div>
-							</div>
-
-
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-
-									<h4> O que é monitoramento? </h4>
-
-									<p>O monitoramento é definido como o processo contínuo de coleta e análise de dados para comparar o quão bem uma intervenção está sendo implementada em relação aos resultados esperados (OMS, 2013). </p>
-
-								</div>
-							</div>
-
-
-						
-						</div>
-
-
-						<div class="container-fluid px-0">
-							<div class="destaque-parallax my-0">
-								<div class="custom-shape-divider-top-1720289331">
-									<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-										<path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
-									</svg>
-								</div>
-
-								<div class="container">
-									<div class="row justify-content-center">
-										<div class="col-12 col-md-10 col-lg-8">
-											<p>No contexto de intervenções digitais, “monitoramento” e “monitoramento de processos” são usados indistintamente para se referir à coleta, revisão e análise rotineira de dados, gerados por sistemas digitais ou coletados propositalmente, que medem a implementação, fidelidade e progresso no sentido de alcançar os objetivos da intervenção. Em geral, as atividades de monitoramento buscam verificar se a intervenção está funcionando como planejado. As atividades de monitoramento podem medir mudanças no desempenho ao longo do tempo, cada vez mais em tempo real, permitindo que sejam feitas correções de rumo para melhorar a fidelidade da implementação.</p>
-										</div>
-									</div>
-								</div>
-
-								<div class="custom-shape-divider-bottom-1720289984">
-									<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-										<path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
-									</svg>
-								</div>
-							</div>
-						</div>
-					</section>
-
-					<section>
-
-						<div class="container">
-
-
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-
-									Os planos de monitoramento de intervenções de saúde digital devem centrar-se na geração de dados para responder às questões abaixo, onde “sistema” é definido de forma ampla como a intervenção que combina o software tecnológico, hardware e fluxos de trabalho de utilizadores. No quadro abaixo, você pode verificar os atributos adotados pelo guia da OMS para monitoramento de intervenções em saúde digital, com as respectivas definições, perguntas guias e observações relativas ao processo de monitoramento.
-
-
-								</div>
-							</div>
-
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-
-									<p class="h6">Atributos de monitoramento de uma intervenção digital, segundo a OMS (2016)</p>
-
-								</div>
-
-								<div class="col-12 col-md-12 mb-5 pb-5">
-									<figure class="lightbox aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="600">
-										<img class="img-fluid mx-auto d-block mb-3" src="../../media/modulo2/tabela1-aula5.svg" alt="" title="Fonte: Campus Virtual Fiocruz">
-										<figcaption class="figure-caption fonte">Fonte: Campus Virtual Fiocruz</figcaption>
-									</figure>
-									<span class="d-block text-center"><a class="fio-button fio-button-primary" href="../../media/modulo2/tabela1-aula5.pdf" download target="_blank"><span class="material-symbols-rounded">
-										download</span> Baixe esta tabela em PDF</a></span>
-
-									<!-- <span class="d-block text-center"><a class="p-2" href='../../media/modulo2/aula4-img4.jpg' download><span class="material-symbols-rounded">
-										download</span> Baixe esta tabela em PDF</a></span> -->
-								</div>
-
-
-
-									<!--div class="table-responsive">
-															<table class="table table-bordered">
-																<thead>
-																	<tr>
-																		<th class="text-center" colspan="4">Atributos de monitoramento de uma intervenção digital, segundo a OMS (2016)</th>
-																	</tr>
-																	<tr class="text-center">
-																		<th>ESTAGIO DE MATURIDADE</th>
-																		<th>ATRIBUTOS </th>
-																		<th>AVALIAÇÃO</th>
-																		<th>PERGUNTA</th>
-																	</tr>
-																</thead>
-					
-																<tbody>
-																	<tr class="text-center">
-																		<td><strong>Pré-protótipo:</strong> Esta etapa inclui a construção de hipóteses, necessidades/ avaliação de contexto e teste de usabilidade/viabilidade e estabilidade técnica. </td>
-																		<td>Visibilidade</td>
-																		<td>Avaliar se o sistema de saúde digital funciona conforme pretendido num determinado contexto. </td>
-																		<td>O sistema de saúde digital funciona como pretendido?</td>
-																	</tr>
-					
-																	<tr class="text-center">
-																		<td><strong>Protótipo:</strong> Durante esta fase, projetos focados no usuário são criados e testados, e funcionalidade, estabilidade técnica e usabilidade são testadas em um processo iterativo. Maneiras de melhorar o sistema são examinadas para aumentar a relevância. </td>
-																		<td>Usabilidade</td>
-																		<td>Avalie se o sistema de saúde digital pode ser usado conforme pretendido pelos usuários. </td>
-																		<td>O sistema de saúde pode ser usado pelos usuários finais e se adequa ao seu fluxo de trabalho?</td>
-																	</tr>
-
-																	<tr class="text-center">
-																		<td><strong>Piloto:</strong> Esta fase examina se a intervenção digital em saúde pode produzir o efeito desejado sob circunstâncias controladas. O projeto piloto geralmente é uma implantação única.</td>
-																		<td>Eficácia</td>
-																		<td>Avaliar se a intervenção digital em saúde pode alcançar os resultados pretendidos num ambiente de investigação (controlado).</td>
-																		<td>Pode funcionar? Qual é o efeito preciso que esta estratégia pode ter no meu resultado, sob condições ideais de entrega e aceitação?</td>
-																	</tr>
-
-																	<tr class="text-center">
-																		<td><strong>Demonstração: </strong> Nesta fase, a intervenção já não ocorre em condições controladas, mas ainda é limitada em termos de população/geografia (geralmente restrita a uma determinada região ou sub-região).</td>
-																		<td>Efetividade</td>
-																		<td>Avaliar se a intervenção de saúde digital pode alcançar os resultados pretendidos num ambiente sem investigação (não controlado).</td>
-																		<td>Disponibilização: Os serviços estão disponíveis? Qual é o efeito da intervenção nas mudanças na prestação de serviços? Utilização: Os serviços estão sendo usados? Cobertura: O sistema de saúde digital aumentou a cobertura da intervenção de saúde? A população-alvo está sendo alcançada?</td>
-																	</tr>
-
-																	<tr class="text-center">
-																		<td><strong>Programa integrado e sustentado:</strong> Os esforços nesta fase centram-se na determinação dos componentes necessários de um ambiente favorável que apoiará o impacto da intervenção em grande escala (ou seja, políticas, financiamento e recursos humanos, </td>
-																		<td>Custo</td>
-																		<td>Avalia a relação dos custos com os serviços prestados e se os serviços foram oferecidos. </td>
-																		<td>A intervenção de saúde digital reduziu os custos associados à prestação dos serviços de saúde? A intervenção em saúde digital introduziu custos proporcionais aos benefícios oferecidos?</td>
-																	</tr>
-																</tbody>
-															</table>
-														</div-->
-
-								</div>
-							</div>
-
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-
-
-									<p>É importante identificar e distinguir quais as interações-chave do sistema que devem ser classificadas como entradas, saídas ou resultados, de forma a orientar a equipe de gestão na seleção e acompanhamento dos indicadores a serem incluídos nas atividades de monitoramento. Além disso, deve ser realizado monitoramento adicional para garantir que a própria aplicação de saúde digital, os sistemas de apoio e os utilizadores cumpram os padrões especificados e estejam verdadeiramente prontos para implantação e utilização sustentada.</p>
-
-								</div>
-							</div>
-
-							
-
-									<!--Diferença-->
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-4 mb-5">
-									<div class="card h-100 ">
-										<div class="card-header">
-											<span class="h6">Monitoramento eficaz</span>
-										</div>
-										<div class="card-body">
-											<p>O monitoramento eficaz implica a recolha de dados em vários momentos ao longo do ciclo de vida de uma intervenção e, idealmente, é utilizado para informar decisões sobre como otimizar o conteúdo e a implementação do sistema. Sendo um processo interativo, o monitoramento visa levar a ajustes nas atividades de intervenção, a fim de manter ou melhorar a qualidade e a consistência da implantação (OMS, 2016).
-											</p></div>
-										</div>
-									</div>
-
-									<div class="col-12 col-md-1 align-self-center mb-5 compare-symbol different">
-										<span class="d-block text-center mx-auto">&#8800;</span>
-									</div>
-
-									<div class="col-12 col-md-4 mb-5">
-										<div class="card ">
-											<div class="card-header">
-												<span class="h6">Monitoramento com falhas</span>
-											</div>
-											<div class="card-body">
-												<p>A falha no monitoramento da intervenção em saúde digital pode levar ao seu fracasso. Por exemplo, se a intervenção depende do envio e recebimento bem-sucedido de mensagens SMS, mas as equipes de implementação não monitoram regularmente as taxas de falha de SMS no servidor, elas não descobririam que os usuários não receberam mensagens até as pesquisas finais. Isto resultaria em oportunidades perdidas para fazer correções imediatas no sistema e evitar o fracasso da intervenção.</p>
-											<p></p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!--Fim de Diferença-->
-
-								
-
-
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-
-
-									<p>Para a estruturação de um plano de monitoramento é importante considerar quem é o principal utilizador da intervenção e o tipo de interação. Os utilizadores com interações primárias utilizam diretamente a tecnologia para prestar o serviço, já os secundários se beneficiam da tecnologia. Em geral, os planos de monitoramento abordam os utilizadores com interações primárias. </p>
-
-									<p>Outro aspecto importante a considerar na estruturação do plano de monitoramento é o estágio de maturidade em que a intervenção se encontra. </p>
-
-									<p>Em geral, as intervenções em estágios iniciais de maturidade direcionam os esforços de monitoramento para garantir os atributos de estabilidade e funcionalidade. Já os projetos em fases mais avançadas focam nos atributos de fidelidade e qualidade. Contudo, deve-se considerar também um estágio de maturidade intermediário, onde será necessário ampliar os atributos a serem monitorados. Para cada atributo faz-se importante estabelecer o que monitorar, como monitorar, quem irá monitorar, quando monitorar, como usar os resultados do monitoramento e como monitorar de forma diferente por estágio de maturidade.</p>
-
-								</div>
-								</div>
-
-
-
-						
-					</section>
-				</div>
-
-				<!-- Navegação da aula -->
+			<div id="page-content" class="">
+				<!-- Inserir o conteúdo aqui -->
 				<section>
 					<div class="container">
 						<div class="row justify-content-center">
-							<div class="col-12 col-md-10 col-lg-8">
-								<div class="page-nav d-flex justify-content-evenly">
-									<a class="fio-button fio-button-primary" href="topico2.html" rel="next">Próximo tópico <span class="material-symbols-rounded" aria-hidden="true">east</span></a>
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+								<div class="heading__block">
+									<span class="small">Tópico 1</span>
+									<h3 class="heading__title">Introdução</h3>
+								</div>
+
+								<p>A Organização Mundial de Saúde define a saúde digital como um campo de conhecimento e
+									prática associado com o desenvolvimento e uso de tecnologias digitais na saúde (OMS,
+									2021). E a reconhece como uma estratégia potente para acelerar o alcance da
+									cobertura universal de saúde e os Objetivos de Desenvolvimento Sustentável
+									relacionados à saúde até 2030. </p>
+
+								<p>Diversos estudos têm destacado o importante papel da saúde digital nas práticas,
+									produtos, serviços e nos sistemas de saúde. A variedade de maneiras pelas quais as
+									tecnologias digitais podem ser usadas para o apoio às necessidades dos sistemas de
+									saúde é ampla, e essas tecnologias continuam a evoluir devido à dinâmica do mercado
+									e a forma como as pessoas interagem com elas (OMS, 2016).</p>
+
+								<p>Diante da janela de oportunidade que se abre com a transformação digital da saúde,
+									configurando uma estratégia para facilitar e melhorar o acesso e a qualidade dos
+									sistemas de saúde, tão importante quanto a incorporação e sustentação das
+									tecnologias digitais à saúde, é garantir que esforços sejam mobilizados para
+									demonstrar a contribuição dessas intervenções ao longo do tempo. Segundo Celuppi
+									(2021), é preciso ampliar os estudos sobre a implantação de tecnologias digitais e
+									considerar as evidências sobre os impactos dessas intervenções.</p>
+
+								<p>Nesse contexto, a OMS (2018) reconhece ser fundamental fortalecer e apoiar o
+									desenvolvimento de práticas de monitoramento e avaliação em saúde digital com o
+									objetivo de identificar oportunidades de melhoria e priorizar o desenvolvimento, a
+									avaliação, a implementação, a expansão e um maior nível de utilização de seus
+									resultados, tendo como objetivo a promoção da equidade e o acesso universal,
+									incluindo grupos de necessidades especiais que são vulneráveis no contexto da saúde
+									digital. </p>
+
+								<p>Dentre os desafios da saúde digital, o monitoramento e a avaliação das intervenções
+									destacam-se como áreas de contínuo aprendizado. A avaliação é uma atividade antiga e
+									constitui um conceito polissêmico que agrupa realidades múltiplas e diferentes
+									ênfases teórico-metodológicas, não cabendo uma definição universal e absoluta.
+									Assim, é importante que os envolvidos no processo de avaliação explicitem o
+									referencial adotado.</p>
+
+								<p>No campo da avaliação de intervenções em saúde, ainda que não haja um consenso sobre
+									o termo, há uma convergência entre os autores em considerá-la um julgamento acerca
+									de uma intervenção em saúde tendo em vista instrumentalizar o processo de tomada de
+									decisões. </p>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+								<!-- Olho de texto -->
+								<div class="olho-de-texto my-5">
+									<p>Nesse contexto, podemos entender que a avaliação de intervenções em saúde é a
+										coleta sistemática de dados sobre atividades, características e efeitos de
+										programas para uso de interessados, de forma a reduzir incertezas, melhorar a
+										efetividade e tomar decisões com respeito ao que aquele programa está fazendo,
+										quais são seus resultados e como pode ser ajustado (PATTON MQ, 1990).</p>
+								</div>
+								<!--Fim de Olho de texto -->
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+								<p>Quando falamos de avaliação de intervenções em saúde digital, o conceito de avaliação
+									também se apresenta como um campo polissêmico com diversos métodos de avaliação.</p>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+								<!-- Saiba Mais -->
+								<div class="saiba-mais pb-5">
+									<div class="row aos-init aos-animate" data-aos="fade-left"
+										data-aos-easing="ease-out" data-aos-duration="600">
+										<div class="col-12 d-flex justify-content-center">
+											<button
+												class="saiba-mais fio-button button-md fio-button-secondary collapsed"
+												type="collapsed" data-bs-toggle="collapse" data-bs-target="#saiba-mais1"
+												aria-expanded="false" aria-controls="saiba-mais1"><span
+													class="icone material-symbols-rounded" aria-hidden="true"></span>
+												Você sabia?</button>
+										</div>
+
+										<div class="col-12">
+											<div class="mt-3 collapse" id="saiba-mais1">
+												<!-- Lista Não-Ordenada -->
+												<div class="list">
+													<ul class="list-group">
+														<li class="list-group-item aos-init aos-animate"
+															list-style='pages' data-aos="fade-right"
+															data-aos-easing="ease-out" data-aos-duration="1200">Acesse o
+															guia da OMS e saiba mais sobre o monitoramento e avaliação
+															em tecnologias digitais em saúde. <a
+																href='https://iris.who.int/bitstream/handle/10665/252183/9789241511766-eng.pdf;jsessionid=B7457633E61BAB49A91CF9939267525B?sequence=1'
+																target='_blank'>Clique aqui</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+								<p>Embora haja um consenso sobre a importância e necessidade de processos de
+									monitoramento e avaliação aplicados às tecnologias digitais em saúde, bem como sobre
+									um referencial comum para condução e fortalecimento desses processos para geração de
+									evidências que subsidiem a tomada de decisão, observa-se que essas práticas ainda
+									são poucos adotadas. </p>
+
+								<p>Outrossim, as intervenções de saúde digital, em geral, são dinâmicas, evoluindo
+									através de vários estágios de <a class="" tabindex="0" role="button"
+										data-bs-toggle="popover" data-bs-trigger="focus" title="" data-bs-html='true'
+										data-bs-content="<p>Maturidade significa que o processo é bem compreendido, documentado, aplicado constantemente na organização, além de monitorado e melhorado com regularidade.</p><p>Assim, na medida em que as tecnologias digitais são concebidas, passam por um ciclo de vida de maturidade da intervenção, contemplando desde a fase de protótipo até o processo de implementação da intervenção em saúde digital em maior escala. Ao longo desse ciclo, é importante que sejam institucionalizados processos simultâneos e/ou concomitantes de monitoramento e avaliação (OMS, 2016).</p>"
+										data-bs-original-title="Maturidade">maturidade</a> durante os quais as
+									necessidades de monitoramento e avaliação da intervenção mudam rapidamente. </p>
+
+								<p>De acordo com a OMS (2016), maturidade está atrelada à ideia de amadurecimento,
+									transmitindo a noção de transição de um estágio inicial para outro avançado, podendo
+									ser necessário passar por vários estágios intermediários até se atingir a maturidade
+									efetiva. </p>
+
+								<p>Maturidade significa que o processo é bem compreendido, documentado, aplicado
+									constantemente na organização, além de monitorado e melhorado com regularidade. </p>
+
+								<p>Assim, na medida em que as tecnologias digitais são concebidas, passam por um ciclo
+									de vida de maturidade da intervenção, contemplando desde a fase de protótipo até o
+									processo de implementação da intervenção em saúde digital em maior escala. Ao longo
+									desse ciclo, é importante que sejam institucionalizados processos simultâneos e/ou
+									concomitantes de monitoramento e avaliação (OMS, 2016).</p>
+
+								<p>Diante desse cenário, a OMS elaborou o guia de monitoramento e avaliação de
+									tecnologias digitais em saúde, sistematizando métodos e técnicas de variadas origens
+									acadêmicas e produção interdisciplinar.</p>
+
+								<p>À medida que a intervenção amadurece, o foco dos processos de monitoramento e
+									avaliação podem mudar. A figura a seguir demostra o ciclo de vida de maturidade que,
+									segundo a OMS (2016), orienta que as intervenções digitais sejam monitoradas quanto
+									aos atributos de funcionalidade, estabilidade, fidelidade e qualidade. E avaliadas
+									quanto aos atributos de usabilidade, viabilidade, eficácia, efetividade, evolução
+									financeira e econômica e à pesquisa de implementação. </p>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+								<!-- Texto à direita com Imagem  -->
+								<div class="row justify-content-center d-lg-block">
+									<!-- Imagem -->
+									<div class="col-md-4 col-lg-4 float-lg-start me-lg-4 px-0 order-1 order-lg-2">
+										<figure class="lightbox aos-init aos-animate" data-aos="fade-up"
+											data-aos-easing="ease-out" data-aos-duration="600">
+											<img class="img-fluid mx-auto d-block mb-3"
+												src="../../media/modulo2/aula5-img1.jpg"
+												alt="Imagem aleatória de exmplo" title="Fonte: unsplash.com">
+
+											<figcaption class="figure-caption fonte">Fonte: Brasil (2022) adaptado a
+												partir da World Health Organization, 2016.</figcaption>
+										</figure>
+									</div>
+
+									<!-- Texto -->
+									<div class="order-2 order-lg-1">
+										<p>Veja que no Ciclo de vida de maturidade da intervenção exemplificado, o
+											monitoramento simultâneo (azul/superior) e atividades de avaliação
+											(vermelho/inferior) e seus respectivos atributos, ocorrem à medida que uma
+											intervenção amadurece ao longo do tempo (da esquerda para a direita).</p>
+									</div>
+								</div>
+								<!-- Fim de texto e imagem à direita-->
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+								<p>A seguir, você verá uma visão geral sobre os principais fundamentos no campo do
+									monitoramento e avaliação para intervenções em saúde digital e a proposta da OMS
+									para estruturar um plano de monitoramento e avaliação, considerando as diretrizes do
+									guia para Monitoramento e Avaliação de Intervenções em Saúde Digital. Mas, antes de
+									avançar é importante alinhar a compreensão sobre intervenção, conjunto de meios
+									(físicos, humanos, financeiros, simbólicos) organizados em um contexto específico,
+									em um dado momento, para produzir bens ou serviços com o objetivo de modificar uma
+									situação problemática (Contandriopoulos et al., 2000). Uma intervenção parte de uma
+									situação problema e é descrita por cinco componentes: objetivos, recursos, serviços,
+									bens ou atividades, efeitos e contexto, podendo constituir desde uma técnica até uma
+									política.</p>
+
+								<p>As intervenções em saúde digital abrangem o uso da tecnologia de informação e
+									comunicação (TIC) no apoio à Saúde e às áreas relacionadas à Saúde, incluindo as
+									tecnologias móveis e e-Saúde.</p>
+
+								<p>Outra distinção necessária de se fazer é relativa aos conceitos de monitoramento e
+									avaliação, embora na prática, ambos podem ocorrer de forma complementar.</p>
+							</div>
+						</div>
+
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5 pt-5">
+								<div class="heading__block">
+									<h4 class="heading__title"> O que é monitoramento?</h4>
+								</div>
+
+								<p>O monitoramento é definido como o processo contínuo de coleta e análise de dados para
+									comparar o quão bem uma intervenção está sendo implementada em relação aos
+									resultados esperados (OMS, 2013). </p>
+							</div>
+						</div>
 					</div>
+
+					<div class="container-fluid px-0">
+						<div class="destaque-parallax my-0">
+							<div class="custom-shape-divider-top-1720289331">
+								<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+									preserveAspectRatio="none">
+									<path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+								</svg>
+							</div>
+
+							<div class="container">
+								<div class="row justify-content-center">
+									<div class="col-12 col-md-10 col-lg-8">
+										<p>No contexto de intervenções digitais, “monitoramento” e “monitoramento de
+											processos” são usados indistintamente para se referir à coleta, revisão e
+											análise rotineira de dados, gerados por sistemas digitais ou coletados
+											propositalmente, que medem a implementação, fidelidade e progresso no
+											sentido de alcançar os objetivos da intervenção. Em geral, as atividades de
+											monitoramento buscam verificar se a intervenção está funcionando como
+											planejado. As atividades de monitoramento podem medir mudanças no desempenho
+											ao longo do tempo, cada vez mais em tempo real, permitindo que sejam feitas
+											correções de rumo para melhorar a fidelidade da implementação.</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="custom-shape-divider-bottom-1720289984">
+								<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+									preserveAspectRatio="none">
+									<path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+								</svg>
+							</div>
+						</div>
+					</div>
+
+					<div class="container">
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+								<p>Os planos de monitoramento de intervenções de saúde digital devem centrar-se na
+									geração
+									de dados para responder às questões abaixo, onde “sistema” é definido de forma ampla
+									como a intervenção que combina o software tecnológico, hardware e fluxos de trabalho
+									de
+									utilizadores. No quadro abaixo, você pode verificar os atributos adotados pelo guia
+									da
+									OMS para monitoramento de intervenções em saúde digital, com as respectivas
+									definições,
+									perguntas guias e observações relativas ao processo de monitoramento.</p>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 pt-5">
+								<div class="heading__block">
+									<h6 class="heading__title"> Atributos de monitoramento de uma intervenção digital, segundo a OMS
+										(2016)</h6>
+								</div>
+							</div>
+
+							<div class="col-12 col-md-12 mb-5 pb-5">
+								<figure class="lightbox aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="600">
+									<img class="img-fluid mx-auto d-block mb-3" src="../../media/modulo2/tabela1-aula5.svg" alt="" title="Fonte: World Health Organization, 2016 adaptado (2024).">
+									<figcaption class="figure-caption fonte">Fonte: World Health Organization, 2016 adaptado (2024).</figcaption>
+								</figure>
+								<span class="d-block text-center"><a class="fio-button fio-button-primary" href="../../media/modulo2/tabela1-aula5.pdf" download target="_blank"><span class="material-symbols-rounded">download</span> Baixe esta tabela em PDF</a></span>
+
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5 pb-5">
+								<p>É importante identificar e distinguir quais as interações-chave do sistema que devem ser
+									classificadas como entradas, saídas ou resultados, de forma a orientar a equipe de
+									gestão na seleção e acompanhamento dos indicadores a serem incluídos nas atividades de
+									monitoramento. Além disso, deve ser realizado monitoramento adicional para garantir que
+									a própria aplicação de saúde digital, os sistemas de apoio e os utilizadores cumpram os
+									padrões especificados e estejam verdadeiramente prontos para implantação e utilização
+									sustentada.</p>
+							</div>
+						</div>
+
+						<!--Diferença-->
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-4 mb-5">
+								<div class="card h-100 ">
+									<div class="card-header">
+										<span class="h6">Monitoramento eficaz</span>
+									</div>
+									<div class="card-body">
+										<p>O monitoramento eficaz implica a recolha de dados em vários momentos ao longo do
+											ciclo de vida de uma intervenção e, idealmente, é utilizado para informar
+											decisões sobre como otimizar o conteúdo e a implementação do sistema. Sendo um
+											processo interativo, o monitoramento visa levar a ajustes nas atividades de
+											intervenção, a fim de manter ou melhorar a qualidade e a consistência da
+											implantação (OMS, 2016).
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-12 col-md-1 align-self-center mb-5 compare-symbol different">
+								<span class="d-block text-center mx-auto">&#8800;</span>
+							</div>
+
+							<div class="col-12 col-md-4 mb-5">
+								<div class="card ">
+									<div class="card-header">
+										<span class="h6">Monitoramento com falhas</span>
+									</div>
+									<div class="card-body">
+										<p>A falha no monitoramento da intervenção em saúde digital pode levar ao seu
+											fracasso. Por exemplo, se a intervenção depende do envio e recebimento
+											bem-sucedido de mensagens SMS, mas as equipes de implementação não monitoram
+											regularmente as taxas de falha de SMS no servidor, elas não descobririam que os
+											usuários não receberam mensagens até as pesquisas finais. Isto resultaria em
+											oportunidades perdidas para fazer correções imediatas no sistema e evitar o
+											fracasso da intervenção.</p>
+										<p></p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--Fim de Diferença-->
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 pt-5">
+								<p>Para a estruturação de um plano de monitoramento é importante considerar quem é o
+									principal utilizador da intervenção e o tipo de interação. Os utilizadores com
+									interações primárias utilizam diretamente a tecnologia para prestar o serviço, já os
+									secundários se beneficiam da tecnologia. Em geral, os planos de monitoramento abordam os
+									utilizadores com interações primárias. </p>
+
+								<p>Outro aspecto importante a considerar na estruturação do plano de monitoramento é o
+									estágio de maturidade em que a intervenção se encontra. </p>
+
+								<p>Em geral, as intervenções em estágios iniciais de maturidade direcionam os esforços de
+									monitoramento para garantir os atributos de estabilidade e funcionalidade. Já os
+									projetos em fases mais avançadas focam nos atributos de fidelidade e qualidade. Contudo,
+									deve-se considerar também um estágio de maturidade intermediário, onde será necessário
+									ampliar os atributos a serem monitorados. Para cada atributo faz-se importante
+									estabelecer o que monitorar, como monitorar, quem irá monitorar, quando monitorar, como
+									usar os resultados do monitoramento e como monitorar de forma diferente por estágio de
+									maturidade.</p>
+							</div>
+						</div>
 				</section>
 			</div>
 
-			<footer>
-				<div class="container-fluid">
-					<div class="row justify-content-center align-items-center linha-de-marcas">
-						<div class="col-12 col-md-auto">
-							<ul class="logos">
-								<!-- <li class="realizacao"> -->
-								<li>
-									<img class="img-fluid logo1" src="../../media/logos/logo-icict-vertical.svg" alt="Logo do ICICT" height="" />
-								</li>
-
-								<li>
-									<img class="img-fluid logo2" src="../../media/logos/logo-campus-horizontal.png" alt="Logo do Campus Virtual Fiocruz" height="" />
-								</li>
-
-								<li>
-									<img class="img-fluid logo3" src="../../media/logos/logo-fiocruz-horizontal-black.png" alt="Logo da Fiocruz" height="" />
-								</li>
-							</ul>
-						</div>
-
-						<div class="col-12 col-md-auto">
-							<ul class="logos principais align-self-end">
-								<li>
-									<img class="img-fluid logo4" src="../../media/logos/logo-sus-digital-cor.png" alt="Logo do SUS Digital" height="" />
-								</li>
-
-								<li>
-									<img class="img-fluid logo5 d-none d-md-block" src="../../media/logos/ministerio-saude-gov-federal.png" alt="Logos do SUS, Ministério da Saúde e Governo Federal" height="" />
-								</li>
-
-								<li>
-									<img class="img-fluid logo6 d-block d-md-none" src="../../media/logos/ministerio-saude-gov-federal-mobile.png" alt="Logos do SUS, Ministério da Saúde e Governo Federal" height="" />
-								</li>
-							</ul>
+			<!-- Navegação da aula -->
+			<section>
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-12 col-md-10 col-lg-8">
+							<div class="page-nav d-flex justify-content-evenly">
+								<a class="fio-button fio-button-primary" href="topico2.html" rel="next">Próximo tópico
+									<span class="material-symbols-rounded" aria-hidden="true">east</span></a>
+							</div>
 						</div>
 					</div>
 				</div>
-			</footer>
+			</section>
 		</div>
 
-		<!--  Bootstrap JS and Popper -->
-		<script src="../../source/bootstrap-5.1.3/js/bootstrap.bundle.min.js"></script>
+		<footer>
+			<div class="container-fluid">
+				<div class="row justify-content-center align-items-center linha-de-marcas">
+					<div class="col-12 col-md-auto">
+						<ul class="logos">
+							<!-- <li class="realizacao"> -->
+							<li>
+								<img class="img-fluid logo1" src="../../media/logos/logo-icict-vertical.svg"
+									alt="Logo do ICICT" height="" />
+							</li>
 
-		<!-- Sticky Sidebar -->
-		<script type="text/javascript" src="../../assets/js/ResizeSensor.js"></script>
-		<script type="text/javascript" src="../../assets/js/sticky-sidebar.js"></script>
-		<script type="text/javascript" src="../../assets/js/sidebar.js"></script>
+							<li>
+								<img class="img-fluid logo2" src="../../media/logos/logo-campus-horizontal.png"
+									alt="Logo do Campus Virtual Fiocruz" height="" />
+							</li>
 
-		<script type="text/javascript">
-			var sidebar = new StickySidebar('.sidebar', {
-				topSpacing: 0,
-				bottomSpacing: 0,
-				containerSelector: '.main',
-				innerWrapperSelector: '.sidebar__inner',
-				minWidth: 991,
-			});
-		</script>
+							<li>
+								<img class="img-fluid logo3" src="../../media/logos/logo-fiocruz-horizontal-black.png"
+									alt="Logo da Fiocruz" height="" />
+							</li>
+						</ul>
+					</div>
 
-		<script type="text/javascript" src="../../assets/js/scripts.js"></script>
-		<script type="text/javascript" src="../../assets/js/custom-anime.js"></script>
-		<script type="text/javascript" src="../../source/animate/aos/dist/aos.js"></script>
+					<div class="col-12 col-md-auto">
+						<ul class="logos principais align-self-end">
+							<li>
+								<img class="img-fluid logo4" src="../../media/logos/logo-sus-digital-cor.png"
+									alt="Logo do SUS Digital" height="" />
+							</li>
 
-		<!-- Timeline horizontal -->
-		<script src="../../assets/js/timeline-horizontal/util.js"></script>
-		<!-- util functions included in the CodyHouse framework -->
-		<script src="../../assets/js/timeline-horizontal/swipe-content.js"></script>
-		<!-- A Vanilla JavaScript plugin to detect touch interactions -->
-		<script src="../../assets/js/timeline-horizontal/main.js"></script>
-		<!-- Start the Timeline -->
-		<script>
-			document.getElementsByTagName('html')[0].className += ' js';
-		</script>
+							<li>
+								<img class="img-fluid logo5 d-none d-md-block"
+									src="../../media/logos/ministerio-saude-gov-federal.png"
+									alt="Logos do SUS, Ministério da Saúde e Governo Federal" height="" />
+							</li>
 
-		<script>
-			AOS.init();
-		</script>
-	</body>
+							<li>
+								<img class="img-fluid logo6 d-block d-md-none"
+									src="../../media/logos/ministerio-saude-gov-federal-mobile.png"
+									alt="Logos do SUS, Ministério da Saúde e Governo Federal" height="" />
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<!--  Bootstrap JS and Popper -->
+	<script src="../../source/bootstrap-5.1.3/js/bootstrap.bundle.min.js"></script>
+
+	<!-- Sticky Sidebar -->
+	<script type="text/javascript" src="../../assets/js/ResizeSensor.js"></script>
+	<script type="text/javascript" src="../../assets/js/sticky-sidebar.js"></script>
+	<script type="text/javascript" src="../../assets/js/sidebar.js"></script>
+
+	<script type="text/javascript">
+		var sidebar = new StickySidebar('.sidebar', {
+			topSpacing: 0,
+			bottomSpacing: 0,
+			containerSelector: '.main',
+			innerWrapperSelector: '.sidebar__inner',
+			minWidth: 991,
+		});
+	</script>
+
+	<script type="text/javascript" src="../../assets/js/scripts.js"></script>
+	<script type="text/javascript" src="../../assets/js/custom-anime.js"></script>
+	<script type="text/javascript" src="../../source/animate/aos/dist/aos.js"></script>
+
+	<!-- Timeline horizontal -->
+	<script src="../../assets/js/timeline-horizontal/util.js"></script>
+	<!-- util functions included in the CodyHouse framework -->
+	<script src="../../assets/js/timeline-horizontal/swipe-content.js"></script>
+	<!-- A Vanilla JavaScript plugin to detect touch interactions -->
+	<script src="../../assets/js/timeline-horizontal/main.js"></script>
+	<!-- Start the Timeline -->
+	<script>
+		document.getElementsByTagName('html')[0].className += ' js';
+	</script>
+
+	<script>
+		AOS.init();
+	</script>
+</body>
+
 </html>
