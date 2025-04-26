@@ -221,7 +221,7 @@
 .sidebar .sidebar__group .sidebar__group-item button ~ .dropdown-menu .dropdown-menu__title .title {
 	color: var(--_color-accent);
 	display: block;
-	font-family: var(--fio-ref-typography-family-primary);
+	font-family: var(--fio-sys-typography-family-primary-bold);
 	font-size: var(--fio-sys-typography-size-1);
 	font-weight: 700;
 	line-height: var(--fio-sys-typography-height-125);
@@ -230,7 +230,7 @@
 .sidebar .sidebar__group .sidebar__group-item button ~ .dropdown-menu .dropdown-menu__title .label {
 	color: var(--_color-font);
 	display: block;
-	font-family: var(--fio-ref-typography-family-primary);
+	font-family: var(--fio-sys-typography-family-primary-regular);
 	font-size: var(--fio-sys-typography-size--1);
 	font-weight: 300;
 }
@@ -241,7 +241,7 @@
 	border: 1px solid var(--fio-sys-color-primary-light);
 	color: var(--_color-font);
 	display: block;
-	font-family: var(--fio-ref-typography-family-primary);
+	font-family: var(--fio-sys-typography-family-primary-regular);
 	font-size: var(--fio-sys-typography-size--1);
 	line-height: var(--fio-sys-typography-height-125);
 	padding: 16px;
@@ -511,7 +511,6 @@
 	}
 
 	.sidebar .sidebar__group .sidebar__group-item button ~ .dropdown-menu .dropdown-menu__title .title {
-		font-family: var(--fio-ref-typography-family-primary);
 		font-size: var(--fio-sys-typography-size-1);
 		line-height: var(--fio-sys-typography-height-125);
 		color: var(--_color-font);
@@ -528,7 +527,7 @@
 		border: none !important;
 		color: var(--_color-font);
 		display: block;
-		font-family: var(--fio-ref-typography-family-primary);
+		font-family: var(--fio-sys-typography-family-primary-regular);
 		font-size: var(--fio-sys-typography-size--1);
 		line-height: var(--fio-sys-typography-height-125);
 		padding: 16px;

@@ -149,9 +149,9 @@
 
 	/* Opacity */
 	--fio-sys-size-opacity-xs: 0%;
-	--fio-sys-size-opacity-sm: var(--fio-ref-size-opacity-16) %;
-	--fio-sys-size-opacity-md: var(--fio-ref-size-opacity-32) %;
-	--fio-sys-size-opacity-lg: var(--fio-ref-size-opacity-64) %;
+	--fio-sys-size-opacity-sm: 16%;
+	--fio-sys-size-opacity-md: 32%;
+	--fio-sys-size-opacity-lg: 64%;
 	--fio-sys-size-opacity-full: 100%;
 
 	/* Shadow */
