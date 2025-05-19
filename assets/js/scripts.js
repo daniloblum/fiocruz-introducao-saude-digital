@@ -147,6 +147,9 @@ const modalInfos = {
 					
 						<p class="mb-1">Roberta Saboya</p>
 						<p class="small text-muted"><em>Designer Educacional</em></p>
+
+						<p class="mb-1">Pilar Tavares Veras Florentino</p>
+						<p class="small text-muted"><em>Consultora técnico-pedagógico</em></p>
 					
 						<span class="h6 mb-3 d-block">Design de Interface</span>
 						
