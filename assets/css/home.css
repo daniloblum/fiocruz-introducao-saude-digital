@@ -250,6 +250,30 @@ section {
 	margin-bottom: var(--fio-sys-size-vertical-lg);
 }
 
+#organization .heading__block .heading__title {
+	text-transform: none;
+	color:#fff;
+}
+
+#organization .heading__block::after {
+	content: '';
+    display: block;
+    position: relative;
+    background-color:#fff;
+    width: 140px;
+    height: 2px;
+    margin-top: 20px;
+    left: calc(50% - 65px);
+}
+
+#organization h6 {
+	color:#fff;
+}
+
+#organization h6 span {
+	    font-family: var(--fio-sys-typography-family-primary-regular);
+}
+
 #course-program {
 	background-image: linear-gradient(90deg, rgba(133, 116, 245, 0.3) 0, rgba(64, 112, 237, 0.3) 30%, rgba(140, 240, 247, 0.3) 100%);
 	padding: var(--fio-sys-size-vertical-xxl) 0;
